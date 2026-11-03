@@ -1,0 +1,9 @@
+{
+  "scope": "Assisted restoration after actual two-board power cycle; no autonomous boot claim",
+  "profile": 41,
+  "minimum_consecutive_valid_frames_per_mode": 24,
+  "source_and_model_sha_required": true,
+  "required_stop_smoke_frames": 30,
+  "required_new_boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "flash_written": false
+}

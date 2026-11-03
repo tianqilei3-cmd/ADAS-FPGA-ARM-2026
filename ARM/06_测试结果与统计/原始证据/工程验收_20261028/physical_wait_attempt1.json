@@ -1,0 +1,6 @@
+{
+  "status": "NOT_PERFORMED",
+  "reason": "No actual physical key epoch observed within initial wait window",
+  "raw_result": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_083930_UTC\\summary.json",
+  "not_a_measured_accuracy_failure": true
+}

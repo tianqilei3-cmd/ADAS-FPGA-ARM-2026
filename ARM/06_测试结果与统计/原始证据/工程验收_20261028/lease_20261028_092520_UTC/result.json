@@ -1,0 +1,2791 @@
+{
+  "scope": "FPGA-only synthetic bench, not model inference",
+  "trials": [
+    {
+      "age_units": 0,
+      "expected_remaining_ms": 500,
+      "first_timeout_ms": 511.56393500059494,
+      "initial_ack_ms": 11.443433999374975,
+      "passed": true,
+      "initial": {
+        "command": 19,
+        "sent": true,
+        "acknowledged": true,
+        "tx_started_monotonic": 17076.767379164,
+        "ack_observed_monotonic": 17076.778634475,
+        "reply_hex": "55 13 68 55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+        "reply_reads": [
+          {
+            "observed_monotonic": 17076.772025079,
+            "hex": "55 13 68"
+          },
+          {
+            "observed_monotonic": 17076.778634475,
+            "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+          }
+        ],
+        "reply_commands": [
+          19,
+          132
+        ],
+        "unexpected_before_tx_hex": "",
+        "invalid_reply_bytes": 0,
+        "partial_reply_hex": "",
+        "reason": "confirmed",
+        "exchange_ms": 11.394725999707589,
+        "feedback": {
+          "version": 3,
+          "camera_id": 0,
+          "frame_id": 62338,
+          "epoch": 115,
+          "scene": 1,
+          "action": 2,
+          "alarm_code": 0,
+          "decision_valid": true,
+          "link_timeout": false,
+          "seen_extended": true,
+          "reject_reason": 0,
+          "build_tag": 41,
+          "capabilities": 127
+        },
+        "feedback_query_unexpected_before_tx_hex": ""
+      },
+      "observations": [
+        {
+          "elapsed_ms": 13.80532799885259,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.778822015,
+            "ack_observed_monotonic": 17076.781040994,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.781040994,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2805199987487867
+          }
+        },
+        {
+          "elapsed_ms": 34.780923000653274,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.791309022,
+            "ack_observed_monotonic": 17076.802009296,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.802009296,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 10.764440001366893
+          }
+        },
+        {
+          "elapsed_ms": 47.26093000135734,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.812253117,
+            "ack_observed_monotonic": 17076.814455179,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.814455179,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2886859987920616
+          }
+        },
+        {
+          "elapsed_ms": 64.81589000031818,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.824770749,
+            "ack_observed_monotonic": 17076.83203143,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.83203143,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 7.332430999667849
+          }
+        },
+        {
+          "elapsed_ms": 77.37639699917054,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.842344375,
+            "ack_observed_monotonic": 17076.844578812,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.844578812,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.316394999070326
+          }
+        },
+        {
+          "elapsed_ms": 89.8441540011845,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.854880382,
+            "ack_observed_monotonic": 17076.857065528,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.857065528,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.253978997032391
+          }
+        },
+        {
+          "elapsed_ms": 102.30841199881979,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.867349015,
+            "ack_observed_monotonic": 17076.869533577,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.869533577,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2504789994854946
+          }
+        },
+        {
+          "elapsed_ms": 114.7149200005515,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.879810064,
+            "ack_observed_monotonic": 17076.881940377,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.881940377,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.196812998590758
+          }
+        },
+        {
+          "elapsed_ms": 127.20688600165886,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.892214822,
+            "ack_observed_monotonic": 17076.894437593,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.894437593,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2869370004627854
+          }
+        },
+        {
+          "elapsed_ms": 139.70760200027144,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.904710288,
+            "ack_observed_monotonic": 17076.906935392,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.906935392,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.291020002303412
+          }
+        },
+        {
+          "elapsed_ms": 152.17302599921823,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.917209837,
+            "ack_observed_monotonic": 17076.919402566,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.919402566,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2571869994862936
+          }
+        },
+        {
+          "elapsed_ms": 168.2407910011534,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.929674678,
+            "ack_observed_monotonic": 17076.935460707,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.935460707,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 5.855737003003014
+          }
+        },
+        {
+          "elapsed_ms": 180.741506999766,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.945722319,
+            "ack_observed_monotonic": 17076.947944506,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.947944506,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.3047280010359827
+          }
+        },
+        {
+          "elapsed_ms": 193.3168889991066,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.958243742,
+            "ack_observed_monotonic": 17076.960532721,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.960532721,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.3633529999642633
+          }
+        },
+        {
+          "elapsed_ms": 205.839479000133,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.970820874,
+            "ack_observed_monotonic": 17076.973064645,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.973064645,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.312311997229699
+          }
+        },
+        {
+          "elapsed_ms": 218.36352800164605,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.983339381,
+            "ack_observed_monotonic": 17076.985558944,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.985558944,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.3166869978012983
+          }
+        },
+        {
+          "elapsed_ms": 230.83391099862638,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17076.995866347,
+            "ack_observed_monotonic": 17076.998064326,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17076.998064326,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2621450007136445
+          }
+        },
+        {
+          "elapsed_ms": 251.7307560010522,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.00845952,
+            "ack_observed_monotonic": 17077.018895838,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.018895838,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 10.54219200159423
+          }
+        },
+        {
+          "elapsed_ms": 264.196179999999,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.029214033,
+            "ack_observed_monotonic": 17077.031415512,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.031415512,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.273228001286043
+          }
+        },
+        {
+          "elapsed_ms": 276.7216870015545,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.041707165,
+            "ack_observed_monotonic": 17077.043940727,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.043940727,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.3053119984979276
+          }
+        },
+        {
+          "elapsed_ms": 291.4057989983121,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.054221006,
+            "ack_observed_monotonic": 17077.058633881,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.058633881,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 4.475874000490876
+          }
+        },
+        {
+          "elapsed_ms": 308.2216820002941,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.068874201,
+            "ack_observed_monotonic": 17077.075390556,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.075390556,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.634479002968874
+          }
+        },
+        {
+          "elapsed_ms": 320.67981499858433,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.085693293,
+            "ack_observed_monotonic": 17077.087911397,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.087911397,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2802280000178143
+          }
+        },
+        {
+          "elapsed_ms": 333.21990500189713,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.098181759,
+            "ack_observed_monotonic": 17077.100436904,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.100436904,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.328061000298476
+          }
+        },
+        {
+          "elapsed_ms": 345.64508000039496,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.110714849,
+            "ack_observed_monotonic": 17077.112874329,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.112874329,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2245209984248504
+          }
+        },
+        {
+          "elapsed_ms": 361.39580700182705,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.123146732,
+            "ack_observed_monotonic": 17077.128630305,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.128630305,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 5.543948002014076
+          }
+        },
+        {
+          "elapsed_ms": 378.1693989985797,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.138868001,
+            "ack_observed_monotonic": 17077.145388439,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.145388439,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.589854001504136
+          }
+        },
+        {
+          "elapsed_ms": 394.7426179984177,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.155641009,
+            "ack_observed_monotonic": 17077.161973325,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.161973325,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.395024000084959
+          }
+        },
+        {
+          "elapsed_ms": 411.48966800028575,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.17224427,
+            "ack_observed_monotonic": 17077.178720667,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.178720667,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.538812998769572
+          }
+        },
+        {
+          "elapsed_ms": 428.11305400027777,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.188990737,
+            "ack_observed_monotonic": 17077.195345219,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.195345219,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.416898002498783
+          }
+        },
+        {
+          "elapsed_ms": 444.7399390010105,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.205612956,
+            "ack_observed_monotonic": 17077.211971812,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.211971812,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.419813998945756
+          }
+        },
+        {
+          "elapsed_ms": 461.4899059997697,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.222241299,
+            "ack_observed_monotonic": 17077.228720905,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.228720905,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.54260499868542
+          }
+        },
+        {
+          "elapsed_ms": 478.16258300008485,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.238993891,
+            "ack_observed_monotonic": 17077.245383373,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.245383373,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.458315001509618
+          }
+        },
+        {
+          "elapsed_ms": 494.73580199992284,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.255668901,
+            "ack_observed_monotonic": 17077.261970592,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.261970592,
+                "hex": "55 84 0c 03 00 82 f3 73 01 02 00 05 00 29 7f 80"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.36148199919262
+          }
+        },
+        {
+          "elapsed_ms": 511.56393500059494,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62338,
+            "epoch": 115,
+            "scene": 1,
+            "action": 1,
+            "alarm_code": 4,
+            "decision_valid": false,
+            "link_timeout": true,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.272237162,
+            "ack_observed_monotonic": 17077.278761684,
+            "reply_hex": "55 84 0c 03 00 82 f3 73 01 01 04 06 00 29 7f 84",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.278761684,
+                "hex": "55 84 0c 03 00 82 f3 73 01 01 04 06 00 29 7f 84"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.6082289995392784
+          }
+        }
+      ],
+      "persistent": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 62338,
+        "epoch": 115,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 4,
+        "decision_valid": false,
+        "link_timeout": true,
+        "seen_extended": true,
+        "reject_reason": 0,
+        "build_tag": 41,
+        "capabilities": 127
+      }
+    },
+    {
+      "age_units": 40,
+      "expected_remaining_ms": 300,
+      "first_timeout_ms": 309.80483399980585,
+      "initial_ack_ms": 13.29170800090651,
+      "passed": true,
+      "initial": {
+        "command": 19,
+        "sent": true,
+        "acknowledged": true,
+        "tx_started_monotonic": 17077.385681594,
+        "ack_observed_monotonic": 17077.398750471,
+        "reply_hex": "55 13 68 55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+        "reply_reads": [
+          {
+            "observed_monotonic": 17077.392108409,
+            "hex": "55 13 68"
+          },
+          {
+            "observed_monotonic": 17077.398750471,
+            "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+          }
+        ],
+        "reply_commands": [
+          19,
+          132
+        ],
+        "unexpected_before_tx_hex": "",
+        "invalid_reply_bytes": 0,
+        "partial_reply_hex": "",
+        "reason": "confirmed",
+        "exchange_ms": 13.244166999356821,
+        "feedback": {
+          "version": 3,
+          "camera_id": 0,
+          "frame_id": 62339,
+          "epoch": 115,
+          "scene": 1,
+          "action": 2,
+          "alarm_code": 0,
+          "decision_valid": true,
+          "link_timeout": false,
+          "seen_extended": true,
+          "reject_reason": 0,
+          "build_tag": 41,
+          "capabilities": 127
+        },
+        "feedback_query_unexpected_before_tx_hex": ""
+      },
+      "observations": [
+        {
+          "elapsed_ms": 19.84568800253328,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.398970677,
+            "ack_observed_monotonic": 17077.405350826,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.405350826,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.465022997872438
+          }
+        },
+        {
+          "elapsed_ms": 36.437865001062164,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.415617104,
+            "ack_observed_monotonic": 17077.421971002,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.421971002,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.414272997062653
+          }
+        },
+        {
+          "elapsed_ms": 53.18345799969393,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.432239906,
+            "ack_observed_monotonic": 17077.438718053,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.438718053,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.539105001138523
+          }
+        },
+        {
+          "elapsed_ms": 69.85700900258962,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.448984915,
+            "ack_observed_monotonic": 17077.455382855,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.455382855,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.463271998654818
+          }
+        },
+        {
+          "elapsed_ms": 86.44714500042028,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.46565905,
+            "ack_observed_monotonic": 17077.471975907,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.471975907,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.382188999850769
+          }
+        },
+        {
+          "elapsed_ms": 103.21636200023931,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.482249477,
+            "ack_observed_monotonic": 17077.488743666,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.488743666,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.560104997333838
+          }
+        },
+        {
+          "elapsed_ms": 119.8172889999114,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.499021319,
+            "ack_observed_monotonic": 17077.505346343,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.505346343,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.38889800029574
+          }
+        },
+        {
+          "elapsed_ms": 136.43542399950093,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.515619329,
+            "ack_observed_monotonic": 17077.521969145,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.521969145,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.411065001884708
+          }
+        },
+        {
+          "elapsed_ms": 153.1821829994442,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.532234548,
+            "ack_observed_monotonic": 17077.53871882,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.53871882,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.542896997416392
+          }
+        },
+        {
+          "elapsed_ms": 169.80906800017692,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.54898189,
+            "ack_observed_monotonic": 17077.555341914,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.555341914,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.421273003070382
+          }
+        },
+        {
+          "elapsed_ms": 186.59899400154245,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.565609067,
+            "ack_observed_monotonic": 17077.572123964,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.572123964,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.582270998478634
+          }
+        },
+        {
+          "elapsed_ms": 203.22296200174605,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.582403076,
+            "ack_observed_monotonic": 17077.58871585,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.58871585,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.401730999641586
+          }
+        },
+        {
+          "elapsed_ms": 227.68773200004944,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.599034044,
+            "ack_observed_monotonic": 17077.605352651,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.605352651,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 14.141617000859696
+          }
+        },
+        {
+          "elapsed_ms": 243.3165430011286,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.623597105,
+            "ack_observed_monotonic": 17077.62881993,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.62881993,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 5.303907997586066
+          }
+        },
+        {
+          "elapsed_ms": 259.80605500080856,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.639121208,
+            "ack_observed_monotonic": 17077.645340942,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.645340942,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.280399997194763
+          }
+        },
+        {
+          "elapsed_ms": 276.4253560017096,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.655606345,
+            "ack_observed_monotonic": 17077.661963452,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.661963452,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.4145649994316045
+          }
+        },
+        {
+          "elapsed_ms": 293.2301569999254,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.672227105,
+            "ack_observed_monotonic": 17077.678755127,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.678755127,
+                "hex": "55 84 0c 03 00 83 f3 73 01 02 00 05 00 29 7f 81"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.59685500068008
+          }
+        },
+        {
+          "elapsed_ms": 309.80483399980585,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62339,
+            "epoch": 115,
+            "scene": 1,
+            "action": 1,
+            "alarm_code": 4,
+            "decision_valid": false,
+            "link_timeout": true,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.689035697,
+            "ack_observed_monotonic": 17077.695340596,
+            "reply_hex": "55 84 0c 03 00 83 f3 73 01 01 04 06 00 29 7f 85",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.695340596,
+                "hex": "55 84 0c 03 00 83 f3 73 01 01 04 06 00 29 7f 85"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.363522999890847
+          }
+        }
+      ],
+      "persistent": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 62339,
+        "epoch": 115,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 4,
+        "decision_valid": false,
+        "link_timeout": true,
+        "seen_extended": true,
+        "reject_reason": 0,
+        "build_tag": 41,
+        "capabilities": 127
+      }
+    },
+    {
+      "age_units": 80,
+      "expected_remaining_ms": 100,
+      "first_timeout_ms": 119.9322040010884,
+      "initial_ack_ms": 13.333123999473173,
+      "passed": true,
+      "initial": {
+        "command": 19,
+        "sent": true,
+        "acknowledged": true,
+        "tx_started_monotonic": 17077.80223659,
+        "ack_observed_monotonic": 17077.815379841,
+        "reply_hex": "55 13 68 55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+        "reply_reads": [
+          {
+            "observed_monotonic": 17077.808719404,
+            "hex": "55 13 68"
+          },
+          {
+            "observed_monotonic": 17077.815379841,
+            "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+          }
+        ],
+        "reply_commands": [
+          19,
+          132
+        ],
+        "unexpected_before_tx_hex": "",
+        "invalid_reply_bytes": 0,
+        "partial_reply_hex": "",
+        "reason": "confirmed",
+        "exchange_ms": 13.287041001603939,
+        "feedback": {
+          "version": 3,
+          "camera_id": 0,
+          "frame_id": 62340,
+          "epoch": 115,
+          "scene": 1,
+          "action": 2,
+          "alarm_code": 0,
+          "decision_valid": true,
+          "link_timeout": false,
+          "seen_extended": true,
+          "reject_reason": 0,
+          "build_tag": 41,
+          "capabilities": 127
+        },
+        "feedback_query_unexpected_before_tx_hex": ""
+      },
+      "observations": [
+        {
+          "elapsed_ms": 19.869604002451524,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.815567673,
+            "ack_observed_monotonic": 17077.821965904,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.821965904,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.454813999880571
+          }
+        },
+        {
+          "elapsed_ms": 32.267071001115255,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.832201266,
+            "ack_observed_monotonic": 17077.834363371,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.834363371,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2204369997780304
+          }
+        },
+        {
+          "elapsed_ms": 49.87569700097083,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.844622066,
+            "ack_observed_monotonic": 17077.851965872,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.851965872,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 7.405637999909231
+          }
+        },
+        {
+          "elapsed_ms": 62.360371000977466,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.862196567,
+            "ack_observed_monotonic": 17077.864427796,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.864427796,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.3114370014809538
+          }
+        },
+        {
+          "elapsed_ms": 74.84912899963092,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.874716532,
+            "ack_observed_monotonic": 17077.87693172,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.87693172,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2822710016043857
+          }
+        },
+        {
+          "elapsed_ms": 87.2713870012376,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.887200332,
+            "ack_observed_monotonic": 17077.889360686,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.889360686,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 2.2227699992072303
+          }
+        },
+        {
+          "elapsed_ms": 103.31202700035647,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 2,
+            "alarm_code": 0,
+            "decision_valid": true,
+            "link_timeout": false,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.899624048,
+            "ack_observed_monotonic": 17077.905398702,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.905398702,
+                "hex": "55 84 0c 03 00 84 f3 73 01 02 00 05 00 29 7f 82"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 5.837361997691914
+          }
+        },
+        {
+          "elapsed_ms": 119.9322040010884,
+          "feedback": {
+            "version": 3,
+            "camera_id": 0,
+            "frame_id": 62340,
+            "epoch": 115,
+            "scene": 1,
+            "action": 1,
+            "alarm_code": 4,
+            "decision_valid": false,
+            "link_timeout": true,
+            "seen_extended": true,
+            "reject_reason": 0,
+            "build_tag": 41,
+            "capabilities": 127
+          },
+          "transaction": {
+            "command": 4,
+            "sent": true,
+            "acknowledged": true,
+            "tx_started_monotonic": 17077.915639022,
+            "ack_observed_monotonic": 17077.922018587,
+            "reply_hex": "55 84 0c 03 00 84 f3 73 01 01 04 06 00 29 7f 86",
+            "reply_reads": [
+              {
+                "observed_monotonic": 17077.922018587,
+                "hex": "55 84 0c 03 00 84 f3 73 01 01 04 06 00 29 7f 86"
+              }
+            ],
+            "reply_commands": [
+              132
+            ],
+            "unexpected_before_tx_hex": "",
+            "invalid_reply_bytes": 0,
+            "partial_reply_hex": "",
+            "reason": "confirmed",
+            "exchange_ms": 6.4428559999214485
+          }
+        }
+      ],
+      "persistent": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 62340,
+        "epoch": 115,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 4,
+        "decision_valid": false,
+        "link_timeout": true,
+        "seen_extended": true,
+        "reject_reason": 0,
+        "build_tag": 41,
+        "capabilities": 127
+      }
+    }
+  ],
+  "replay": {
+    "passed": true,
+    "transaction": {
+      "command": 19,
+      "sent": true,
+      "acknowledged": false,
+      "tx_started_monotonic": 17078.024697121,
+      "ack_observed_monotonic": null,
+      "reply_hex": "55 13 68 55 84 0c 03 00 84 f3 73 01 01 07 06 03 29 7f 8c",
+      "reply_reads": [
+        {
+          "observed_monotonic": 17078.032003594,
+          "hex": "55 13 68"
+        },
+        {
+          "observed_monotonic": 17078.038618823,
+          "hex": "55 84 0c 03 00 84 f3 73 01 01 07 06 03 29 7f 8c"
+        }
+      ],
+      "reply_commands": [
+        19,
+        132
+      ],
+      "unexpected_before_tx_hex": "",
+      "invalid_reply_bytes": 0,
+      "partial_reply_hex": "",
+      "reason": "feedback_rejected_or_identity_mismatch",
+      "exchange_ms": 14.049451001483249,
+      "feedback": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 62340,
+        "epoch": 115,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 7,
+        "decision_valid": false,
+        "link_timeout": true,
+        "seen_extended": true,
+        "reject_reason": 3,
+        "build_tag": 41,
+        "capabilities": 127
+      },
+      "feedback_query_unexpected_before_tx_hex": ""
+    },
+    "feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 62340,
+      "epoch": 115,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 7,
+      "decision_valid": false,
+      "link_timeout": true,
+      "seen_extended": true,
+      "reject_reason": 3,
+      "build_tag": 41,
+      "capabilities": 127
+    }
+  },
+  "expired": {
+    "passed": true,
+    "transaction": {
+      "command": 19,
+      "sent": true,
+      "acknowledged": false,
+      "tx_started_monotonic": 17078.045660173,
+      "ack_observed_monotonic": null,
+      "reply_hex": "55 13 68 55 84 0c 03 00 84 f3 73 01 01 06 06 02 29 7f 8a",
+      "reply_reads": [
+        {
+          "observed_monotonic": 17078.052002405,
+          "hex": "55 13 68"
+        },
+        {
+          "observed_monotonic": 17078.058615593,
+          "hex": "55 84 0c 03 00 84 f3 73 01 01 06 06 02 29 7f 8a"
+        }
+      ],
+      "reply_commands": [
+        19,
+        132
+      ],
+      "unexpected_before_tx_hex": "",
+      "invalid_reply_bytes": 0,
+      "partial_reply_hex": "",
+      "reason": "feedback_rejected_or_identity_mismatch",
+      "exchange_ms": 13.082585999654839,
+      "feedback": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 62340,
+        "epoch": 115,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 6,
+        "decision_valid": false,
+        "link_timeout": true,
+        "seen_extended": true,
+        "reject_reason": 2,
+        "build_tag": 41,
+        "capabilities": 127
+      },
+      "feedback_query_unexpected_before_tx_hex": ""
+    },
+    "feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 62340,
+      "epoch": 115,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 6,
+      "decision_valid": false,
+      "link_timeout": true,
+      "seen_extended": true,
+      "reject_reason": 2,
+      "build_tag": 41,
+      "capabilities": 127
+    }
+  },
+  "passed": true,
+  "final_park": {
+    "command": 20,
+    "sent": true,
+    "acknowledged": true,
+    "tx_started_monotonic": 17078.06553532,
+    "ack_observed_monotonic": 17078.072020759,
+    "reply_hex": "55 14 69",
+    "reply_reads": [
+      {
+        "observed_monotonic": 17078.072020759,
+        "hex": "55 14 69"
+      }
+    ],
+    "reply_commands": [
+      20
+    ],
+    "unexpected_before_tx_hex": "",
+    "invalid_reply_bytes": 0,
+    "partial_reply_hex": "",
+    "reason": "confirmed",
+    "exchange_ms": 6.544645999383647
+  }
+}

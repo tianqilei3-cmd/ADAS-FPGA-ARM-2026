@@ -1,0 +1,11 @@
+{
+  "stage": "after_sram_before_GUI",
+  "passed": false,
+  "source_and_model_hash_checks_finished_before_link_preflight": true,
+  "error": "No24consecutive fresh valid frames at full_raw",
+  "attempt": 1,
+  "prior_session_status_not_reused": true,
+  "GUI_started": false,
+  "software_park_finally_attempted_by_launcher": true,
+  "observed_unix": 1793180279.195182
+}

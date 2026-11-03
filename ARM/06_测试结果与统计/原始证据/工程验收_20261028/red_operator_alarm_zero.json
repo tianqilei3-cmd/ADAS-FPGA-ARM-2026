@@ -1,0 +1,7 @@
+{
+  "user_answer": "0",
+  "interpreted_as": "ALARM 0",
+  "current_scene_was_wrong": true,
+  "counted_as_pass": false,
+  "reason": "boundary/right scene; red physical test not sampled"
+}

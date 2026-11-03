@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "original": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0004.jsonl",
+      "archive": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0004.jsonl.gz",
+      "original_bytes": 67113500,
+      "compressed_bytes": 11360963,
+      "original_sha256": "b6dd2218bb2932860d70e534faffec15ab3f12726f9883cd27d4fac670ae0af0",
+      "decompressed_sha256_verified": true
+    },
+    {
+      "original": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0005.jsonl",
+      "archive": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0005.jsonl.gz",
+      "original_bytes": 67111058,
+      "compressed_bytes": 11374173,
+      "original_sha256": "4a2bea17168f6e4ebecac86e050b5e514306c8ac1541f155c3d3d4d243baaddd",
+      "decompressed_sha256_verified": true
+    },
+    {
+      "original": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0006.jsonl",
+      "archive": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0006.jsonl.gz",
+      "original_bytes": 67118451,
+      "compressed_bytes": 11367869,
+      "original_sha256": "ccc181dc83eec8a4e5bc9efaea913a635df18e8e1f029be0e832179ee1a71928",
+      "decompressed_sha256_verified": true
+    },
+    {
+      "original": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0007.jsonl",
+      "archive": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0007.jsonl.gz",
+      "original_bytes": 67123189,
+      "compressed_bytes": 11356011,
+      "original_sha256": "9921e7346f549a2a42bc81efc88919736849c51638ec49e3c3cc754151114f30",
+      "decompressed_sha256_verified": true
+    }
+  ],
+  "free_before": 605179904,
+  "free_after": 826884096,
+  "active_log_untouched": true,
+  "models_and_source_untouched": true
+}

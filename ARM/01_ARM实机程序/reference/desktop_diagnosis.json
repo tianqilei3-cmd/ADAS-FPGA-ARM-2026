@@ -1,0 +1,36 @@
+{
+  "verified": true,
+  "files": 64,
+  "models": 15,
+  "manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+  "runtime": "/home/orangepi/adas2026/signal_recovered_20261028",
+  "time": "2026-11-01T11:53:10.644846+00:00",
+  "dependencies": {
+    "ready": true,
+    "versions": {
+      "cv2": "4.11.0",
+      "numpy": "1.26.4",
+      "onnxruntime": "1.23.2",
+      "rknnlite_imported": true
+    },
+    "error": null
+  },
+  "running": [],
+  "disk_free_MiB": 688.8,
+  "display_available": true,
+  "devices": {
+    "/dev/video0": {
+      "exists": true,
+      "readable_writable": true
+    },
+    "/dev/ttyUSB0": {
+      "exists": true,
+      "readable_writable": true
+    }
+  },
+  "expected_fpga_profile": 41,
+  "functional_test_performed": false,
+  "note": "仅诊断文件、依赖和设备可访问性；没有占用摄像头或UART，没有验证本次灯色/按键/视频源。",
+  "runtime_imported_without_yolo_or_torch": true,
+  "live_demo_started": false
+}

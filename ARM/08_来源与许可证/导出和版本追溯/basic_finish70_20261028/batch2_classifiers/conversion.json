@@ -1,0 +1,23 @@
+{
+  "records": [
+    {
+      "name": "color_guard",
+      "path": "/home/orangepi/adas2026/batch2_classifiers_20261028/color_guard_batch2_fp.rknn",
+      "sha256": "83fef24d4776d8fceeb4cbd15576b5bdf131e463e15ba410f9b7781aaf87282c",
+      "source_onnx_sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5",
+      "seconds": 6.464961679012049,
+      "batch": 2
+    },
+    {
+      "name": "lamp_types",
+      "path": "/home/orangepi/adas2026/batch2_classifiers_20261028/lamp_types_batch2_fp.rknn",
+      "sha256": "2749808a815839656270de190e22694b41d3b194a1751e41809ff0a7921f7742",
+      "source_onnx_sha256": "de39d4af833fcceb8284f8f6dd9488b11b46becc40db51626701ee99a180a5cd",
+      "seconds": 7.70739831199171,
+      "batch": 2
+    }
+  ],
+  "new_weights": false,
+  "quantized": false,
+  "adopted": false
+}

@@ -1,0 +1,239 @@
+{
+  "state": "exported_pending_native_parity_and_timing",
+  "config": {
+    "sources": {
+      "road": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\weights\\best.pt",
+        "sha256": "a9af921e423563bcd8c61246eed8bb991784cda091c0da761a57b8b282104ad1"
+      },
+      "locator": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\s2tld_official_tiles_stage2\\weights\\deployment_best.pt",
+        "sha256": "7f9527c605df7fe8594e6e986e1015fe5e8b11977757006c322f2c9692ea5a81"
+      },
+      "color_guard": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\signal_emission_guard_20261017_172936_118725\\weights\\best.pt",
+        "sha256": "4c51451b57ac5177525d1b4a1053e440885f4bc6fa431349246ed370862c6a3b"
+      },
+      "attributes": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\signal_attributes_consensus_20fc4d9bebcd\\weights\\best.pt",
+        "sha256": "b55b10e57cef0b2e090932824d2733da499d13956621175325f41115cc99a1ad"
+      },
+      "nav_card": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\navigation_card_af981433c999\\weights\\best.pt",
+        "sha256": "713f936d9d1f37fff76a3618210efc7b3457bd3a66d53abc9a319bc95291364c"
+      }
+    },
+    "exporter_sha256": "3f3bef8357721d5ab13f58334eb813bf621775e3271a5b99874a57448bdabde4",
+    "opset": 17,
+    "detector_sizes": {
+      "road": 640,
+      "locator": 640,
+      "nav_card": 512
+    },
+    "classifier_size": 128,
+    "detector_rect": {
+      "road": false,
+      "locator": false,
+      "nav_card": true
+    },
+    "nav_dynamic_spatial": true,
+    "detector_box_tolerance_pixels": 0.02,
+    "detector_score_tolerance": 0.0001,
+    "classifier_logit_tolerance": 0.001
+  },
+  "models": {
+    "road": {
+      "source": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\weights\\best.pt",
+        "sha256": "a9af921e423563bcd8c61246eed8bb991784cda091c0da761a57b8b282104ad1"
+      },
+      "onnx": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\navigation_runtime_20261019\\exports\\780f699d83e9\\road.onnx",
+      "onnx_sha256": "6f83b49947095f32f4ea1eeca4666075876dbc37683fcf188d787da654ee641f",
+      "names": {
+        "0": "traffic_light",
+        "1": "vehicle",
+        "2": "two_wheeler",
+        "3": "person"
+      },
+      "input_size": 640,
+      "raw_tensor_export_parity": [
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ],
+          "box_max": 0.00048828125,
+          "score_max": 1.300477947552281e-07
+        }
+      ]
+    },
+    "locator": {
+      "source": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\s2tld_official_tiles_stage2\\weights\\deployment_best.pt",
+        "sha256": "7f9527c605df7fe8594e6e986e1015fe5e8b11977757006c322f2c9692ea5a81"
+      },
+      "onnx": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\navigation_runtime_20261019\\exports\\780f699d83e9\\locator.onnx",
+      "onnx_sha256": "29f2f56b14256835dccf0fe5c0d626fbbcf4d9508032a1473ff9c6dcdedf7876",
+      "names": {
+        "0": "red",
+        "1": "yellow",
+        "2": "green",
+        "3": "off"
+      },
+      "input_size": 640,
+      "raw_tensor_export_parity": [
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            640,
+            640
+          ],
+          "box_max": 0.0062255859375,
+          "score_max": 3.688037395477295e-07
+        }
+      ]
+    },
+    "color_guard": {
+      "source": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\signal_emission_guard_20261017_172936_118725\\weights\\best.pt",
+        "sha256": "4c51451b57ac5177525d1b4a1053e440885f4bc6fa431349246ed370862c6a3b"
+      },
+      "onnx": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\navigation_runtime_20261019\\exports\\780f699d83e9\\color_guard.onnx",
+      "onnx_sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5",
+      "names": null,
+      "input_size": 128,
+      "raw_tensor_export_parity": [
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 7.152557373046875e-07
+        },
+        {
+          "batch": 2,
+          "shape": [
+            2,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 1.3113021850585938e-06
+        },
+        {
+          "batch": 8,
+          "shape": [
+            8,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 2.086162567138672e-06
+        }
+      ]
+    },
+    "attributes": {
+      "source": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\signal_attributes_consensus_20fc4d9bebcd\\weights\\best.pt",
+        "sha256": "b55b10e57cef0b2e090932824d2733da499d13956621175325f41115cc99a1ad"
+      },
+      "onnx": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\navigation_runtime_20261019\\exports\\780f699d83e9\\attributes.onnx",
+      "onnx_sha256": "99b7ad53982b44b9dd3319a8f14c22aa773bb3c47ab79f8bc4b49d4c598f1943",
+      "names": null,
+      "input_size": 128,
+      "raw_tensor_export_parity": [
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 3.814697265625e-06
+        },
+        {
+          "batch": 2,
+          "shape": [
+            2,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 2.86102294921875e-06
+        },
+        {
+          "batch": 8,
+          "shape": [
+            8,
+            3,
+            128,
+            128
+          ],
+          "logit_max": 5.9604644775390625e-06
+        }
+      ]
+    },
+    "nav_card": {
+      "source": {
+        "path": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\navigation_card_af981433c999\\weights\\best.pt",
+        "sha256": "713f936d9d1f37fff76a3618210efc7b3457bd3a66d53abc9a319bc95291364c"
+      },
+      "onnx": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\navigation_runtime_20261019\\exports\\780f699d83e9\\nav_card.onnx",
+      "onnx_sha256": "1d385745069d9af70d35bf977aa05adbaad51bc01b61f7f9e6b8331eda1f5e50",
+      "names": {
+        "0": "primary_instruction_card",
+        "1": "junction_instruction_header"
+      },
+      "input_size": 512,
+      "raw_tensor_export_parity": [
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            512,
+            512
+          ],
+          "box_max": 0.0003814697265625,
+          "score_max": 1.1811425792984664e-07
+        },
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            288,
+            512
+          ],
+          "box_max": 0.000335693359375,
+          "score_max": 1.1930751497857273e-07
+        },
+        {
+          "batch": 1,
+          "shape": [
+            1,
+            3,
+            512,
+            384
+          ],
+          "box_max": 0.00030517578125,
+          "score_max": 1.0857911547645926e-07
+        }
+      ]
+    }
+  },
+  "source_weights_changed": false,
+  "training_started": false,
+  "hardware_accessed": false,
+  "onnx_version": "1.23.2",
+  "torch_version": "2.5.0+cpu"
+}

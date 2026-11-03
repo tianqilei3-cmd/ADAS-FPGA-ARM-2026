@@ -1,0 +1,434 @@
+{
+  "profile": 40,
+  "supported_profiles": [
+    40,
+    41
+  ],
+  "full_resolution_requires_profile": 41,
+  "files": [
+    {
+      "path": "ack_protocol.py",
+      "sha256": "49e2e6714dc85e60ea1e458a55580a0682b68c14a179e1f2063c996c0c481f6a",
+      "bytes": 3955
+    },
+    {
+      "path": "arm_scene_a04.py",
+      "sha256": "913551931a407997ccbd0a03d04fefb1473d278356026f81783fa8c66fd93904",
+      "bytes": 3749
+    },
+    {
+      "path": "basic70_wire.py",
+      "sha256": "e86c85833c173ff81c8c88aba7c16c1d076d52c99307340a2b37e77f8c0cab12",
+      "bytes": 5110
+    },
+    {
+      "path": "batched_signal_attributes.py",
+      "sha256": "da387b1c3ba92f94d0950126db0bde4f2fd57103c3cdcef25170153cdf0bd5d0",
+      "bytes": 2575
+    },
+    {
+      "path": "boundary_cpu_worker.py",
+      "sha256": "f1e106742fda9bbbe0321662c99704cd2a369abf850b1d548f58bdc6a8448a5e",
+      "bytes": 2841
+    },
+    {
+      "path": "boundary_policy.py",
+      "sha256": "9082072f69eed9b22a1b54b492daf7f7e4cbd80f31ce513473adfec1696f1b8a",
+      "bytes": 3557
+    },
+    {
+      "path": "boundary_runtime.py",
+      "sha256": "414fbe1f1c448cbdfbccc920044253f774ef6010021586f8488d70d516131c04",
+      "bytes": 2127
+    },
+    {
+      "path": "boundary_softmax.py",
+      "sha256": "e4fc5695901d9725cfafbe2a408696c32e74b3ad2f5215b1485912259833e941",
+      "bytes": 537
+    },
+    {
+      "path": "capture_quality.py",
+      "sha256": "e7745c57992c0760f740fdf619c18ae518a76b349172a8a7f2aa0cc9f1eca9ef",
+      "bytes": 2674
+    },
+    {
+      "path": "compact_boundary_post.py",
+      "sha256": "63d7429183a9fd93f697f909980694a76ebaffabb73fee9bc967059c24637817",
+      "bytes": 6029
+    },
+    {
+      "path": "competition_scene_logic.py",
+      "sha256": "4b0573cc97f20f9b4ebd3cb1bcb326dfcb0c5f10008ee34c6cd70746293e5d2b",
+      "bytes": 9136
+    },
+    {
+      "path": "content_guard.py",
+      "sha256": "35b70dee26e0953d7c0c13c0593e0be60c3cf3569dc13bdeec0ec2a1981ee346",
+      "bytes": 800
+    },
+    {
+      "path": "current_lamp_housing.py",
+      "sha256": "016f97da70a8c2f2b4185b5b7e3f1af0ff638f117a8e9e9f4ae708a6e79126e3",
+      "bytes": 4909
+    },
+    {
+      "path": "fast_types.py",
+      "sha256": "aa5cfda97c17fb92791d1e765a06baf4e3b2995cacea168c511ba09beeeb2af7",
+      "bytes": 1222
+    },
+    {
+      "path": "geometry_cpu_worker.py",
+      "sha256": "f1b086d1527372712f48b5c6ee979429cab84a33a76de6abc09bac4837d6cd27",
+      "bytes": 2372
+    },
+    {
+      "path": "geometry_lamp_proposals.py",
+      "sha256": "2ca4009d9eac8de4f379f47f5b51b2cdf03f31a028f220c13afec12fff6f98cf",
+      "bytes": 9709
+    },
+    {
+      "path": "head_continuity.py",
+      "sha256": "786d39368676ec444536c9e2676abe740f70d76a11f478b3c85d1804a945765f",
+      "bytes": 6420
+    },
+    {
+      "path": "immutable_identity.py",
+      "sha256": "7af8a188aabcbbbf3bf0d2ec21c1c38ad42dcacee64dd222949f775da4425563",
+      "bytes": 1170
+    },
+    {
+      "path": "lamp_attrs_portable.py",
+      "sha256": "ab917b34f8cca3ca0f4dc0b413a0a6ac310d98f8d5248a1a7f6e3150a58d61b2",
+      "bytes": 4007
+    },
+    {
+      "path": "lamp_attrs_preprocess.py",
+      "sha256": "1fcea12fdfcef87407de5bf7da9c797f633e302f97f0906798aef1154ac28694",
+      "bytes": 3834
+    },
+    {
+      "path": "lamp_cpu_worker.py",
+      "sha256": "0943f246cafbf9fc1b50a5b17bdb6c0b0e6dcf2b3127065b3cbe5163a30ee27f",
+      "bytes": 3602
+    },
+    {
+      "path": "lane_boundary_instances.py",
+      "sha256": "b9663f4f5b814bc16566228c4e7045de2b570800aff885ff9183bc2260375798",
+      "bytes": 11962
+    },
+    {
+      "path": "lane_boundary_instances_v2.py",
+      "sha256": "890bc76d2461c24f5e8e96b5cb0ead6c3b8e6c1f98b05d0bb46cc96f068587d1",
+      "bytes": 6554
+    },
+    {
+      "path": "lane_boundary_postprocess.py",
+      "sha256": "68f985ff40f56fdf2c0ab18da9917ad5278110c9085242601ac9f1b5bd5bd91a",
+      "bytes": 2896
+    },
+    {
+      "path": "lane_boundary_segments_v3.py",
+      "sha256": "4ec6a63b815bd9bf900ef0903b6b2b0c361eb4329ee99ce62ec5ccc027c4a5b2",
+      "bytes": 5609
+    },
+    {
+      "path": "lane_boundary_wide_recovery.py",
+      "sha256": "09fb7b0f7cac76a09e655d3237fec598b77724c8a8dc71c85f7f761b2e52672f",
+      "bytes": 10472
+    },
+    {
+      "path": "lane_observed_dashed_geometry.py",
+      "sha256": "a5400359d706c9292a2828969e68dbe1eb559d89cb62311ba8a65163441b1cb1",
+      "bytes": 10730
+    },
+    {
+      "path": "lane_observed_yellow_geometry.py",
+      "sha256": "9c4137b919597071f8cd7ae028d263f6eaa177871351be4be9028fd693a6a9c9",
+      "bytes": 7393
+    },
+    {
+      "path": "lane_observed_yellow_pairs.py",
+      "sha256": "2a9856754e797a222470f563fcb9fcefbe2cffc60e20f2c97b1f9ebe25d695a3",
+      "bytes": 8480
+    },
+    {
+      "path": "lane_support.py",
+      "sha256": "35b6fc88a436892e17ba011d99af7566a5b305432ac6c78ab07d447a41c66ed0",
+      "bytes": 5376
+    },
+    {
+      "path": "latest_live_capture_20261027.py",
+      "sha256": "4d42c5daf386c7ea28c3edb6dfcb135d5e24c2294dc35ba30ead97274e08f3c1",
+      "bytes": 10688
+    },
+    {
+      "path": "light_metadata.json",
+      "sha256": "1334335f8c8492b6b07e8a2ed4e99ac8f03d4f91f29a5f87dccb545e46e4882e",
+      "bytes": 1440
+    },
+    {
+      "path": "light_pipeline.py",
+      "sha256": "01731383c7e0a92e1906a0900a928fec240b9ee41292c53170d39fc1a2c8389a",
+      "bytes": 2851
+    },
+    {
+      "path": "light_roi_common.py",
+      "sha256": "23bfdeaed62ade34cba442460b4cf50afeeef85200a27ff54152f31b19ce4eea",
+      "bytes": 3478
+    },
+    {
+      "path": "npu_signal_attributes.py",
+      "sha256": "6c3c3ea477b5708d0b6375d2014aa80cb3f4e3903eb46bbaa9458216bfdc7387",
+      "bytes": 2393
+    },
+    {
+      "path": "physical_keys.py",
+      "sha256": "63ed9688f50c00f6ab892cf2f705b8fabaedccbe87eb0b6472249a1b37960955",
+      "bytes": 2056
+    },
+    {
+      "path": "preparation.json",
+      "sha256": "fc0aed22522fc11164fff45a2fab38cc5f2dc2ec62154d96f5a645d5d236975e",
+      "bytes": 228
+    },
+    {
+      "path": "road_hazard_guard.py",
+      "sha256": "a8d3efcbf3202ccfbe5fada8b6ed77e145f87dba43d5d162fcdedbf146aa9740",
+      "bytes": 10920
+    },
+    {
+      "path": "row_boundary_post.py",
+      "sha256": "698a1b7c5d72edb76627a5081cd020ee759868af9afca2146e7dc459506f14aa",
+      "bytes": 3962
+    },
+    {
+      "path": "run_lane_demo.py",
+      "sha256": "5e3a28faf384cd801ccdb6ee17d3dff6c0b3a103b94dd20174c407b08f7e5e1d",
+      "bytes": 45
+    },
+    {
+      "path": "run_unified_demo.py",
+      "sha256": "1f6babd687f4aff0d505fbc455562eb4d8a10bb0c161910d4a0df06fc0c5a1b4",
+      "bytes": 23935
+    },
+    {
+      "path": "signal_engine.py",
+      "sha256": "ebad97278819b60f14fcf7b6a9e496a3054032aa37d92ad868b339af108d0198",
+      "bytes": 15700
+    },
+    {
+      "path": "signal_s3_policy.py",
+      "sha256": "3621113c83f679ceedfc8d8bb157b35ba9904601c477193ad2540e9095c99094",
+      "bytes": 21829
+    },
+    {
+      "path": "transport_age_guard.py",
+      "sha256": "83ccfdd30f3d89c065405300c9cb66dfb0b943fac726a46598213e550c420d51",
+      "bytes": 839
+    },
+    {
+      "path": "uart_basic70_confirmed.py",
+      "sha256": "a70dfc8c8d4e66c41c3365e23047cac8f0d686ffa4a529a98840449df51d84f4",
+      "bytes": 5913
+    },
+    {
+      "path": "uart_confirmed.py",
+      "sha256": "fb2b41a781682552103a6af7d2da5c26a55dc9043ee8a33081759327a84654d8",
+      "bytes": 4297
+    },
+    {
+      "path": "uart_v2.py",
+      "sha256": "a94668cdcb5664013126bee0399814f71a56e90d2858b3b201c088c52883f476",
+      "bytes": 2126
+    },
+    {
+      "path": "unified_policy.py",
+      "sha256": "0780994e85a7ca372a8c7b3eaa8b25e27291fe5a73f747185c6576c010c9698c",
+      "bytes": 2792
+    },
+    {
+      "path": "verify_boundary_cpu.py",
+      "sha256": "a131e6db926c761754dedf0e8f08da6b68978a94b65df3872651faef448aae64",
+      "bytes": 1369
+    },
+    {
+      "path": "verify_boundary_softmax.py",
+      "sha256": "454d19055b7c77e1800f85cb4a068d613e487c0332faf501c7c1609a5e8d38af",
+      "bytes": 2255
+    },
+    {
+      "path": "verify_capture_quality.py",
+      "sha256": "0fff9039c9f0800326cc37b493189cde3415c7978fbd5b06a1b702a3e15d422a",
+      "bytes": 1526
+    },
+    {
+      "path": "verify_compact_boundary.py",
+      "sha256": "062bec2a8fc866a39b570736a215aa9c8dcfd0b2d8cd2f7ae13cb1a25739b9b3",
+      "bytes": 2918
+    },
+    {
+      "path": "verify_current_housing.py",
+      "sha256": "278faf2a4e1b0c74cb1983da08762b301801e694447cd46b6ca42d16abfd68a7",
+      "bytes": 1486
+    },
+    {
+      "path": "verify_geometry_proposals.py",
+      "sha256": "68ad6f3cf732dcd179048c4e74546c463aff84cb4707743a683aea4f32cabed9",
+      "bytes": 2712
+    },
+    {
+      "path": "verify_geometry_worker.py",
+      "sha256": "95b576d07b5e2009288689ccb38adc47ad907c9694e9769dae6040e47a27f644",
+      "bytes": 1358
+    },
+    {
+      "path": "verify_immutable_identity.py",
+      "sha256": "f633ed0b30d225c34c3379af632bcf68c09c8f2ef51ed97138f475e9f90db9f7",
+      "bytes": 2440
+    },
+    {
+      "path": "verify_lamp_cpu_protocol.py",
+      "sha256": "c06588b847b46a69470f57dcac24257ee494d395642027934c70c20f30051fa8",
+      "bytes": 1021
+    },
+    {
+      "path": "verify_lane_keys.py",
+      "sha256": "482ec90ab7df2246d4049a9ea80e1054305b63e88141c302bb7e036e1b97239b",
+      "bytes": 5136
+    },
+    {
+      "path": "verify_patch_quality.py",
+      "sha256": "6a5d1dcac3782bd02b23a7afc258a0014a2c6443e05f9092809e3753235d6256",
+      "bytes": 1074
+    },
+    {
+      "path": "verify_row_boundary.py",
+      "sha256": "51d9c8a33053e375e467536906f5a9b85c35d1ffde27c816a9ac93f165c47e87",
+      "bytes": 2423
+    },
+    {
+      "path": "verify_sparse_road.py",
+      "sha256": "01b5de1aea56af894666ada720bac16a8cf91767cf80b2a2c91150b0fc889068",
+      "bytes": 1799
+    },
+    {
+      "path": "verify_transport_age.py",
+      "sha256": "f7efb2513255f2abaa17466c0129ba9711ff2c615faa7ba1d228112bf84c6a19",
+      "bytes": 1248
+    },
+    {
+      "path": "verify_unified_policy.py",
+      "sha256": "5df8cec94b36186eaa53955abb55ecb15c6933f9117209c315348a4a886eff0c",
+      "bytes": 5047
+    },
+    {
+      "path": "vision_common.py",
+      "sha256": "337031ef3e50abd7130ec65cc6f7c2c32e86322551c114c2f3fc8bfa29489486",
+      "bytes": 8308
+    }
+  ],
+  "models": [
+    {
+      "path": "models/boundary_fp.rknn",
+      "source": "/home/orangepi/adas2026/lane_boundary_fp_20261027/boundary_fp.rknn",
+      "sha256": "f06c1c572746eb4bdc2cd250f60db94befc407e409c422e1a34a05abb467313e"
+    },
+    {
+      "path": "models/road_rect_fp.rknn",
+      "source": "/home/orangepi/adas2026/signal_rect_models_20261027/road_rect_fp.rknn",
+      "sha256": "2db828d4bd489873a84be52cf6dd93f04750c96b6fc084bcfe45802a439344b0"
+    },
+    {
+      "path": "models/lamp_attributes.onnx",
+      "source": "/home/orangepi/adas2026/lamp_attrs_20261024/models/lamp_attributes.onnx",
+      "sha256": "973ab188ba6ea5b377959b57d292e3e306f6806c2067f507e3c0b6275aa23873"
+    },
+    {
+      "path": "models/color_guard_fp.rknn",
+      "source": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/color_guard_fp.rknn",
+      "sha256": "b3bf458b23eb8b0d0db43761a7ae8eccff7a59d1e361657320b0d4391834fe65"
+    },
+    {
+      "path": "models/lamp_types_fp.rknn",
+      "source": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/lamp_types_fp.rknn",
+      "sha256": "bf2660a3aa1ae21014e8ff0047e7bc9735a2bf8eb062d5e21ebbf6c3657f0bae"
+    },
+    {
+      "path": "models/lamp_rect_fp_heads.rknn",
+      "source": "/home/orangepi/adas2026/signal_lamp_int8_heads_20261027/lamp_rect_fp_heads.rknn",
+      "sha256": "d899336585315e7a7019e9d8880333c1c4f006a759e8cd391de74900f01dd694"
+    },
+    {
+      "path": "models/lamp_aligned_fp_heads.rknn",
+      "source": "/home/orangepi/adas2026/lamp_capture_aligned_20261028/lamp_aligned_fp_heads.rknn",
+      "sha256": "bc84fd31dcccf697e2d1aa591c7c4c768f6613f07f66cf92f7e9bee5f54f8ed2"
+    },
+    {
+      "path": "models/road_heads_fp.rknn",
+      "source": "/home/orangepi/adas2026/road_sparse_heads_20261028/road_heads_fp.rknn",
+      "sha256": "48b42c24319da47124e1f2899c84ada45bf2db0ceb3acae2efc82a2b326d5efd"
+    },
+    {
+      "path": "models/road_int8_heads.rknn",
+      "source": "/home/orangepi/adas2026/road_int8_20261028/road_int8_heads.rknn",
+      "sha256": "b38383d6755acd05a743c628c58d222e5434ee0a178ad13bae93c74ad7a43bc2"
+    },
+    {
+      "path": "models/color_guard.onnx",
+      "source": "/home/orangepi/adas2026/screen_demo_a02_20261024/models/color_guard.onnx",
+      "sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5"
+    },
+    {
+      "path": "models/lamp_types_whole.onnx",
+      "source": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/lamp_types.onnx",
+      "sha256": "de39d4af833fcceb8284f8f6dd9488b11b46becc40db51626701ee99a180a5cd"
+    },
+    {
+      "path": "models/color_guard_batch3_fp.rknn",
+      "source": "/home/orangepi/adas2026/batched_classifiers_20261028/color_guard_batch3_fp.rknn",
+      "sha256": "a2ff9fe9b4ba7aa6ee43e24599f0e00f24c10ee77f730c04fe43c995e8f8c719"
+    },
+    {
+      "path": "models/lamp_types_batch3_fp.rknn",
+      "source": "/home/orangepi/adas2026/batched_classifiers_20261028/lamp_types_batch3_fp.rknn",
+      "sha256": "206ad6945ffdc17ca91a2b2716a67655148c0af80cffa006dfa023ff30fe34b5"
+    },
+    {
+      "path": "models/color_guard_batch2_fp.rknn",
+      "source": "/home/orangepi/adas2026/batch2_classifiers_20261028/color_guard_batch2_fp.rknn",
+      "sha256": "83fef24d4776d8fceeb4cbd15576b5bdf131e463e15ba410f9b7781aaf87282c"
+    },
+    {
+      "path": "models/lamp_types_batch2_fp.rknn",
+      "source": "/home/orangepi/adas2026/batch2_classifiers_20261028/lamp_types_batch2_fp.rknn",
+      "sha256": "2749808a815839656270de190e22694b41d3b194a1751e41809ff0a7921f7742"
+    }
+  ],
+  "new_weights": true,
+  "accepted": false,
+  "default_lamp_profile": "retained",
+  "default_road_profile": "decoded",
+  "candidate_profiles_are_not_automatically_adopted": true,
+  "scope": "Physical key/test driver controlled virtual signal/lane/risk; no physical calibration claim",
+  "TTL_ms": 500,
+  "key_epoch_required": true,
+  "recovery": "Discard stale capture; park before source recovery; preserve hazard tracks",
+  "memory": "One NPU owner; one latest capture; one bounded shared CPU worker; one evidence thread/job",
+  "checks": [
+    "verify_lane_keys.py",
+    "verify_compact_boundary.py",
+    "verify_capture_quality.py",
+    "verify_row_boundary.py",
+    "verify_boundary_softmax.py",
+    "verify_boundary_cpu.py",
+    "verify_unified_policy.py",
+    "verify_sparse_road.py",
+    "verify_lamp_cpu_protocol.py",
+    "verify_transport_age.py",
+    "verify_current_housing.py",
+    "verify_geometry_proposals.py",
+    "verify_patch_quality.py",
+    "verify_geometry_worker.py",
+    "verify_immutable_identity.py"
+  ]
+}

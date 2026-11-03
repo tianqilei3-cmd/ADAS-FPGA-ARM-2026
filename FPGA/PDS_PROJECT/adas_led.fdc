@@ -1,0 +1,12 @@
+### ADAS LED outputs for Pango 50K / MES50HP.
+### B2/A2 are already used by ddr_pll_lock/ddr_init_done in ddr_test.fdc.
+### A3 is the only onboard LED pin confirmed unused by the inherited top-level.
+
+define_attribute {p:adas_led_scene} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:adas_led_scene} {PAP_IO_LOC} {A3}
+define_attribute {p:adas_led_scene} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:adas_led_scene} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:adas_led_scene} {PAP_IO_DRIVE} {8}
+define_attribute {p:adas_led_scene} {PAP_IO_NONE} {TRUE}
+define_attribute {p:adas_led_scene} {PAP_IO_SLEW} {FAST}
+

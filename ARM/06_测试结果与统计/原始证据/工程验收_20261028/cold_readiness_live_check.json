@@ -1,0 +1,16 @@
+{
+  "boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "uptime_seconds": 94.56,
+  "status_age": 187.3762185573578,
+  "runtime_owners": [],
+  "devices": [
+    "/dev/ttyUSB0"
+  ],
+  "video": [
+    "/dev/video-enc0",
+    "/dev/video-dec0",
+    "/dev/video1",
+    "/dev/video0"
+  ],
+  "desktop": null
+}

@@ -1,0 +1,19 @@
+{
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_seg_f721cc098f9b\\weights\\best.pt",
+  "weights_sha256": "3e868134bbf94281381fbad0497236ba493b522f08dfeef0b21a74bf4e111fac",
+  "size": [
+    512,
+    288
+  ],
+  "names": [
+    "background",
+    "solid_boundary",
+    "dashed_boundary"
+  ],
+  "onnx_sha256": "0a73e2dc27d3a96c8dcff5bb47f8bec4a6ef56b225d21f6e4c72ee2b99d01583",
+  "archive": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261027\\lane_keys\\model\\inputs.tar.gz",
+  "archive_sha256": "ef1c9711677ed81e48e94a164a681102606886c7b9e09dcc663d8b16f9df88c2",
+  "new_training": false,
+  "physical_lane_association_verified": false,
+  "accepted": false
+}

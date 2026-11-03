@@ -1,0 +1,46 @@
+{
+  "time_unix": 1793176911.285973,
+  "rows": 120,
+  "unique_images": 66,
+  "negotiated": {
+    "event": "opened",
+    "source": "/dev/video0",
+    "requested": {
+      "width": 1280,
+      "height": 720,
+      "fps": 10,
+      "fourcc": "YUYV"
+    },
+    "actual": {
+      "width": 1280.0,
+      "height": 720.0,
+      "fps": 10.0,
+      "fourcc": 1448695129
+    },
+    "set_property_accepted": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "driver_buffer_bound_not_proven": true,
+    "raw_YUYV_ROI": true,
+    "capture_roi": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "timestamp_clock": "userspace_decode_completion_not_sensor_timestamp"
+  },
+  "current_status_age_seconds": 1.1232714653015137,
+  "matched_feedback": 120,
+  "status_acks": 120,
+  "mean_decoded_age_ms": 300.84688459160134,
+  "max_decoded_age_ms": 440.7810699995025,
+  "unsafe_stale_or_changed_key_grants": [],
+  "xrandr_returncode": 0,
+  "xrandr_output": "Screen 0: minimum 320 x 200, current 1920 x 1080, maximum 16384 x 16384\nHDMI-1 connected 1920x1080+0+0 (normal left inverted right x axis y axis) 0mm x 0mm\n   1920x1080     60.00*+ 144.00   120.00   100.00   119.88    60.00    50.00    59.94  \n   1920x1080i    60.00    50.00    59.94  \n   1680x1050     59.88  \n   1600x900      60.00  \n   1280x1024     75.02    60.02  \n   1440x900      59.90  \n   1280x960      60.00  \n   1366x768      59.96  \n   1280x800      59.91  \n   1152x864      75.00  \n   1280x720     120.00   119.88    60.00    60.00    50.00    59.94  \n   1024x768      75.03    70.07    60.00  \n   832x624       74.55  \n   800x600       72.19    75.00    60.32    56.25  \n   720x576       50.00  \n   720x480       60.00    59.94  \n   640x480       75.00    72.81    66.67    60.00    59.94    59.94  \n   720x400       70.08  \n",
+  "scope": "Host decoded age and logged feedback; not exposure-to-screen end-to-end latency"
+}

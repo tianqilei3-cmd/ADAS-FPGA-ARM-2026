@@ -1,0 +1,12 @@
+{
+  "profile": 41,
+  "warm_only": true,
+  "cold_power_cycle": false,
+  "warm_requires_new_pid_same_boot": true,
+  "input_requires_consecutive_valid_frames_per_mode": 24,
+  "fault_scope": "SIGTERM of owned capture child, with current confirmed green before injection",
+  "timeout_lease_ms": 500,
+  "explicit_new_intent_required_after_capture_recovery": true,
+  "physical_key_results_are_separate": true,
+  "final_driver": "signal_stop"
+}

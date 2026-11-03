@@ -1,0 +1,17 @@
+{
+  "source": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\weights\\best.pt",
+  "source_sha256": "a9af921e423563bcd8c61246eed8bb991784cda091c0da761a57b8b282104ad1",
+  "onnx_sha256": "eeaf7c3f3698436ff533ecfcfe9c3dceb245701e00bb1f283d26609f3eeed9e9",
+  "input_shape": [
+    1,
+    3,
+    384,
+    640
+  ],
+  "quantized": false,
+  "new_weights": false,
+  "archive": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\road_sparse_heads\\inputs.tar.gz",
+  "archive_sha256": "c9510ff7824d029858032e346074c1692636c1741fb4c399efa086a6b821c9e8",
+  "samples": 32,
+  "adopted": false
+}

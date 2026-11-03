@@ -1,0 +1,88 @@
+{
+  "time_unix": 1793538940.1437712,
+  "video_nodes": [
+    {
+      "path": "/dev/video1",
+      "name": "USB3.0 MS2130: USB3.0 MS2130",
+      "driver": "/sys/bus/usb/drivers/uvcvideo"
+    },
+    {
+      "path": "/dev/video0",
+      "name": "USB3.0 MS2130: USB3.0 MS2130",
+      "driver": "/sys/bus/usb/drivers/uvcvideo"
+    }
+  ],
+  "running": [
+    {
+      "pid": 7886,
+      "script": "/home/orangepi/adas2026/local_file_demo_20261101/run_unified_demo.py",
+      "own_runtime": false
+    }
+  ],
+  "free_MiB": 594.5859375,
+  "usb": "Bus 006 Device 026: ID 345f:2130 MACROSILICON USB3.0 MS2130\nBus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 008 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 007 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\nBus 002 Device 015: ID 363c:ff99 AUSDOM G03 Pro 8K Dongle\nBus 002 Device 016: ID 10c4:ea60 Silicon Labs CP210x UART Bridge\nBus 002 Device 014: ID 046d:c341 Logitech, Inc. Logitech Mechanical keyboard\nBus 002 Device 013: ID 35d6:2510 Bridgesil USB2.1 Hub\nBus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub\nBus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\n",
+  "kernel": [
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.1: Product: Logitech Mechanical keyboard",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.1: Manufacturer: Logitech Mechanical keyboard",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.1: SerialNumber: KG511U00000A",
+    "[Sun Nov  1 12:59:00 2026] input: Logitech Mechanical keyboard Logitech Mechanical keyboard as /devices/platform/fd880000.usb/usb2/2-1/2-1.1/2-1.1:1.0/0003:046D:C341.0009/input/input18",
+    "[Sun Nov  1 12:59:00 2026] uvcvideo: Found UVC 1.00 device USB3.0 MS2130 (345f:2130)",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:046D:C341.0009: input,hidraw0: USB HID v1.11 Keyboard [Logitech Mechanical keyboard Logitech Mechanical keyboard] on usb-fd880000.usb-1.1/input0",
+    "[Sun Nov  1 12:59:00 2026] input: Logitech Mechanical keyboard Logitech Mechanical keyboard Keyboard as /devices/platform/fd880000.usb/usb2/2-1/2-1.1/2-1.1:1.1/0003:046D:C341.000A/input/input19",
+    "[Sun Nov  1 12:59:00 2026] input: Logitech Mechanical keyboard Logitech Mechanical keyboard Consumer Control as /devices/platform/fd880000.usb/usb2/2-1/2-1.1/2-1.1:1.1/0003:046D:C341.000A/input/input20",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:046D:C341.000A: input,hidraw1: USB HID v1.11 Keyboard [Logitech Mechanical keyboard Logitech Mechanical keyboard] on usb-fd880000.usb-1.1/input1",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:046D:C341.000B: hiddev96,hidraw2: USB HID v1.11 Device [Logitech Mechanical keyboard Logitech Mechanical keyboard] on usb-fd880000.usb-1.1/input2",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:345F:2130.000C: hiddev97,hidraw3: USB HID v1.10 Device [MACROSILICON USB3.0 MS2130] on usb-xhci-hcd.4.auto-1/input4",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.3: new high-speed USB device number 15 using ehci-platform",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.3: New USB device found, idVendor=363c, idProduct=ff99, bcdDevice= 2.20",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.3: Product: G03 Pro 8K Dongle",
+    "[Sun Nov  1 12:59:00 2026] usb 2-1.3: Manufacturer: AUSDOM",
+    "[Sun Nov  1 12:59:00 2026] input: AUSDOM G03 Pro 8K Dongle as /devices/platform/fd880000.usb/usb2/2-1/2-1.3/2-1.3:1.0/0003:363C:FF99.000D/input/input21",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:363C:FF99.000D: input,hidraw4: USB HID v1.10 Mouse [AUSDOM G03 Pro 8K Dongle] on usb-fd880000.usb-1.3/input0",
+    "[Sun Nov  1 12:59:00 2026] input: AUSDOM G03 Pro 8K Dongle Mouse as /devices/platform/fd880000.usb/usb2/2-1/2-1.3/2-1.3:1.1/0003:363C:FF99.000E/input/input22",
+    "[Sun Nov  1 12:59:00 2026] input: AUSDOM G03 Pro 8K Dongle Keyboard as /devices/platform/fd880000.usb/usb2/2-1/2-1.3/2-1.3:1.1/0003:363C:FF99.000E/input/input23",
+    "[Sun Nov  1 12:59:00 2026] input: AUSDOM G03 Pro 8K Dongle Consumer Control as /devices/platform/fd880000.usb/usb2/2-1/2-1.3/2-1.3:1.1/0003:363C:FF99.000E/input/input24",
+    "[Sun Nov  1 12:59:00 2026] input: AUSDOM G03 Pro 8K Dongle as /devices/platform/fd880000.usb/usb2/2-1/2-1.3/2-1.3:1.1/0003:363C:FF99.000E/input/input25",
+    "[Sun Nov  1 12:59:00 2026] hid-generic 0003:363C:FF99.000E: input,hiddev98,hidraw5: USB HID v1.10 Mouse [AUSDOM G03 Pro 8K Dongle] on usb-fd880000.usb-1.3/input1",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: new full-speed USB device number 16 using ehci-platform",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: New USB device found, idVendor=10c4, idProduct=ea60, bcdDevice= 1.00",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: Product: CP2102 USB to UART Bridge Controller",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: Manufacturer: Silicon Labs",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: SerialNumber: 0001",
+    "[Sun Nov  1 12:59:07 2026] usb 2-1.2: cp210x converter now attached to ttyUSB0"
+  ],
+  "local_demo_state": {
+    "state": "running",
+    "frames": 3261,
+    "updated_unix": 1793538940.3418245,
+    "key_state": 16,
+    "decision": {
+      "simulation_only": true,
+      "hardware_command": null,
+      "hardware_command_sent": false,
+      "physical_lane_association_verified": false,
+      "action": "STOP",
+      "alarm": false,
+      "decision_valid": false,
+      "reason": "round_or_unknown_direction_requires_approach_association",
+      "green_confirmations": 0,
+      "scope": "PC virtual scenario only; physical road association is unverified",
+      "controls": {
+        "mode": "signal",
+        "lane_id": "straight_virtual_lane",
+        "movement": "straight",
+        "requested_motion": "go",
+        "requested_turn": "none",
+        "forced": false
+      },
+      "own_lane_light_valid": false,
+      "motor_command_sent": false,
+      "source": "current_pixels_and_key_simulated_lane",
+      "selected_state": "unknown",
+      "hardware_motion_control_connected": false
+    },
+    "uart_confirmed": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "state": "running",
+  "frames": 1122,
+  "key_state": 6,
+  "key_sequence": 97,
+  "controls": {
+    "mode": "boundary",
+    "lane_id": "right_virtual_lane",
+    "movement": "right",
+    "requested_motion": "stop",
+    "requested_turn": "right",
+    "forced": false
+  },
+  "decision": {
+    "simulation_only": true,
+    "hardware_command": null,
+    "hardware_command_sent": false,
+    "physical_lane_association_verified": false,
+    "action": "STOP",
+    "alarm": false,
+    "decision_valid": true,
+    "reason": "hazard:stop_key",
+    "green_confirmations": 0,
+    "scope": "PC virtual scenario only; physical road association is unverified",
+    "controls": {
+      "mode": "boundary",
+      "lane_id": "right_virtual_lane",
+      "movement": "right",
+      "requested_motion": "stop",
+      "requested_turn": "right",
+      "forced": false
+    },
+    "hardware_motion_control_connected": false
+  },
+  "signal_state": "unknown",
+  "UART": true,
+  "feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 57101,
+    "epoch": 97,
+    "scene": 2,
+    "action": 1,
+    "alarm_code": 0,
+    "decision_valid": true,
+    "link_timeout": false,
+    "seen_extended": true,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  },
+  "status_age": 0.006298065185546875,
+  "preview": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_085453/latest_preview.jpg",
+  "observer": {
+    "case": "red_stop",
+    "phase": "waiting_for_key",
+    "rows": 0,
+    "physical_epoch": null,
+    "updated_unix": 1793178056.4274125,
+    "observer_read_only": true
+  }
+}

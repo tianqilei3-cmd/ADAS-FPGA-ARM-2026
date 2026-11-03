@@ -1,0 +1,45 @@
+{
+  "name": "official_lamp_stage2_selected_last",
+  "model_prefix": "lights_stage2",
+  "names": [
+    "red",
+    "yellow",
+    "green",
+    "off"
+  ],
+  "source_checkpoint": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\s2tld_official_tiles_stage2\\weights\\deployment_best.pt",
+  "source_sha256": "7f9527c605df7fe8594e6e986e1015fe5e8b11977757006c322f2c9692ea5a81",
+  "onnx_sha256": "bfb1c11cca89608982503716da7e12b84a65d974441aa949028be1d67535a9e1",
+  "selection_report": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\s2tld_official_tiles_stage2\\report\\deployment.json",
+  "selected_candidate": "last",
+  "target": "rk3566",
+  "image_size": 640,
+  "batch": 1,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_det": 300,
+  "road_top_ratio": 0.6,
+  "tiled": true,
+  "tile_merge_iou": 0.5,
+  "tile_version": "horizontal_half_width_overlap_v1",
+  "development_images": 52,
+  "official_source_frames": 12,
+  "calibration_images": 128,
+  "source_validation_classes_covered": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "official_validation_label_counts": {
+    "red": 16,
+    "green": 20,
+    "yellow": 1
+  },
+  "scope": "Conversion parity. Color detections do not establish lane-light association or permission to move.",
+  "calibration_source_counts": {
+    "official_training_tiles": 32,
+    "s2tld": 96
+  },
+  "calibration_selection": "Unique training images, at least32 target-domain tiles and four-color coverage, seed42; no validation images"
+}

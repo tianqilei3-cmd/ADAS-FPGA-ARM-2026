@@ -1,0 +1,10 @@
+{
+  "path": "/home/orangepi/adas2026/road_int8_20261028/road_int8_heads.rknn",
+  "sha256": "b38383d6755acd05a743c628c58d222e5434ee0a178ad13bae93c74ad7a43bc2",
+  "bytes": 4268304,
+  "seconds": 214.45336524600862,
+  "quantized": true,
+  "calibration_samples": 128,
+  "new_weights": false,
+  "adopted": false
+}

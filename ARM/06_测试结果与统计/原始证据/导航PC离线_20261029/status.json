@@ -1,0 +1,111 @@
+{
+  "state": "completed",
+  "task": "navigation",
+  "pid": 27212,
+  "started": "2026-10-29T09:57:19.180419+08:00",
+  "board_access": false,
+  "adopted": false,
+  "updates": 624,
+  "completed_epochs": 8,
+  "batches_per_epoch": 78,
+  "trainable_parameters": 1738566,
+  "elapsed_seconds": 230.46799999999985,
+  "metrics": {
+    "metrics/precision(B)": 0.97258,
+    "metrics/recall(B)": 0.98863,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.73,
+    "val/box_loss": 0.8235,
+    "val/cls_loss": 0.44477,
+    "val/dfl_loss": 1.00858
+  },
+  "memory": {
+    "time": "2026-10-29T10:01:08",
+    "physical_free_GB": 13.895,
+    "commit_free_GB": 13.193,
+    "commit_limit_GB": 31.615,
+    "process_private_GB": 1.059,
+    "process_RAM_GB": 0.699
+  },
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\training\\weights\\last.pt",
+  "weights_sha256": "80a61a852113ecf2cbf28dac2a7d41c85b7f7f6eb3926489faa6aaa1a3a465ae",
+  "comparison": {
+    "task": "navigation",
+    "baseline": {
+      "clean": {
+        "truth": 4,
+        "predictions": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 3,
+        "primary_instruction_card_predictions": 3,
+        "primary_instruction_card_tp": 3,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "capture_hard": {
+        "truth": 4,
+        "predictions": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 3,
+        "primary_instruction_card_predictions": 3,
+        "primary_instruction_card_tp": 3,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "candidate": {
+      "clean": {
+        "truth": 4,
+        "predictions": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 3,
+        "primary_instruction_card_predictions": 3,
+        "primary_instruction_card_tp": 3,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "capture_hard": {
+        "truth": 4,
+        "predictions": 4,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 3,
+        "primary_instruction_card_predictions": 3,
+        "primary_instruction_card_tp": 3,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "clean_precision_recall_not_regressed": true,
+    "stress_f1_not_regressed": true,
+    "red_as_green_not_increased": true,
+    "targeted_benefit": false,
+    "offline_gate_passed": false,
+    "hardware_acceptance": false,
+    "deployed": false,
+    "action": "Keep stable model; candidate did not clear all offline gates"
+  }
+}

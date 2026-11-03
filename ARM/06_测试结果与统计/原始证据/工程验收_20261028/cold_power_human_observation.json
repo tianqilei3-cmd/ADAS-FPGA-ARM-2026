@@ -1,0 +1,8 @@
+{
+  "user_answer": "香橙派和FPGA都已断电再上电",
+  "previous_boot_id": "8ef6af96-06a8-4703-a14c-05a1ac8afbf6",
+  "new_boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "boot_id_change_verified": true,
+  "FPGA_power_cycle_source": "human confirmation; no electrical rail measurement",
+  "scope": "Assisted cold restore; no unattended boot claim"
+}

@@ -1,0 +1,237 @@
+{
+  "case": {
+    "id": "green_go",
+    "kind": "signal",
+    "clip": "113421",
+    "start": 180,
+    "end": 261,
+    "intent": "signal",
+    "arm": "GO",
+    "fpga_action": 2,
+    "alarm": 0,
+    "light": "green",
+    "line": null,
+    "frames": 90
+  },
+  "required_frames": 90,
+  "minimum_ratio": 0.7,
+  "desired_state": 16,
+  "expected_previous_states": [
+    0
+  ],
+  "initial": {
+    "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016",
+    "status": {
+      "state": "running",
+      "frames": 41331,
+      "updated_unix": 1793176770.9866025,
+      "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016",
+      "detections_path": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0009.jsonl",
+      "key_sequence": 81,
+      "key_state": 64,
+      "controls": {
+        "mode": "signal",
+        "lane_id": "straight_virtual_lane",
+        "movement": "straight",
+        "requested_motion": "stop",
+        "requested_turn": "none",
+        "forced": false
+      },
+      "decision": {
+        "simulation_only": true,
+        "hardware_command": null,
+        "hardware_command_sent": false,
+        "physical_lane_association_verified": false,
+        "action": "STOP",
+        "alarm": false,
+        "decision_valid": true,
+        "reason": "hazard:stop_key",
+        "green_confirmations": 0,
+        "scope": "PC virtual scenario only; physical road association is unverified",
+        "controls": {
+          "mode": "signal",
+          "lane_id": "straight_virtual_lane",
+          "movement": "straight",
+          "requested_motion": "stop",
+          "requested_turn": "none",
+          "forced": false
+        },
+        "own_lane_light_valid": true,
+        "motor_command_sent": false,
+        "source": "current_pixels_and_key_simulated_lane",
+        "selected_state": "green",
+        "hardware_motion_control_connected": false
+      },
+      "signal_selection": {
+        "camera_id": "capture:/dev/video0:host-session",
+        "frame_id": 52455,
+        "captured_ms": 14319756.69634,
+        "image_identity": "11d9bfdbeac81b7c870c3e7af8bc9526e846d051adb4cb82f492a4e1767013b9",
+        "automatic_head_location": true,
+        "selected_valid": true,
+        "selection_origin": "current_filled_round_emitters_frontal_group_and_traffic_context",
+        "selected_state": "green",
+        "simulation_association_valid": true,
+        "physical_lane_association_verified": false,
+        "association_scope": "experimental_round_group_and_forward_traffic_for_virtual_straight",
+        "lane_id": "straight_virtual_lane",
+        "movement": "straight",
+        "reason": "current_round_group_virtual_straight_hypothesis",
+        "head_id": "capture:/dev/video0:host-session:current_group:3806",
+        "vehicle_candidates": 2,
+        "matching_arrow_candidates": 0,
+        "duplicate_count": 0,
+        "round_supplement_used": true,
+        "round_evidence": [
+          {
+            "box": [
+              722,
+              356,
+              780,
+              379
+            ],
+            "color": "green",
+            "shape_supported": true,
+            "valid": true,
+            "reason": "one_current_filled_round_color_component",
+            "center": [
+              765.7985074626865,
+              366.5820895522388
+            ],
+            "radius": 6.600535869598389,
+            "area": 134,
+            "circularity": 0.8899313255758197,
+            "disk_fill": 0.846004502336308
+          },
+          {
+            "box": [
+              584,
+              359,
+              642,
+              382
+            ],
+            "color": "green",
+            "shape_supported": true,
+            "valid": true,
+            "reason": "one_current_filled_round_color_component",
+            "center": [
+              628.049645390071,
+              369.82978723404256
+            ],
+            "radius": 6.837127208709717,
+            "area": 141,
+            "circularity": 0.877481822341452,
+            "disk_fill": 0.8337140921374686
+          }
+        ],
+        "round_reason": "current_round_group_virtual_straight_hypothesis",
+        "box": [
+          584.0,
+          356.0,
+          780.0,
+          382.0
+        ],
+        "member_boxes": [
+          [
+            722.0,
+            356.0,
+            780.0,
+            379.0
+          ],
+          [
+            584.0,
+            359.0,
+            642.0,
+            382.0
+          ]
+        ],
+        "group_member_count": 2,
+        "forward_traffic_anchor": {
+          "class_id": 1,
+          "name": "vehicle",
+          "confidence": 0.8738517761230469,
+          "box": [
+            578.7869873046875,
+            506.748779296875,
+            677.5045166015625,
+            591.775146484375
+          ]
+        },
+        "prior_policy_head_id": "capture:/dev/video0:host-session:round_group:10604",
+        "continuity_corroborated": true,
+        "continuity_motion": [],
+        "continuity_maximum_gap_ms": 500.0,
+        "continuity_scope": "identity_only_all_lights_and_colors_from_current_frame"
+      },
+      "boundaries": null,
+      "feedback": {
+        "version": 3,
+        "camera_id": 0,
+        "frame_id": 52455,
+        "epoch": 81,
+        "scene": 1,
+        "action": 1,
+        "alarm_code": 0,
+        "decision_valid": true,
+        "link_timeout": false,
+        "seen_extended": true,
+        "reject_reason": 0,
+        "build_tag": 41,
+        "capabilities": 127
+      },
+      "uart_confirmed": true,
+      "age_ms": 278.83233899956394,
+      "capture_pid": 39924,
+      "capture_recoveries": 0,
+      "lamp_profile": "capture_ft",
+      "road_profile": "int8",
+      "classifiers": "batch2",
+      "errors": [
+        {
+          "time_unix": 1793167304.169971,
+          "phase": "key_before_tx",
+          "error": "OSError('FPGA key query failed: ')"
+        }
+      ]
+    }
+  },
+  "actual_PC_fixture": {
+    "pid": 3428,
+    "video": "D:\\BaiduNetdiskDownload\\\u7d2b\u5149\u540c\u521b\u676f\u8d5b\u9898\u4e09\u53c2\u8003\u7d20\u6750\\video_20260929_113421.mp4",
+    "source_fps": 30.0,
+    "external_display": "\\\\.\\DISPLAY2",
+    "x": 2560,
+    "y": 0,
+    "width": 1920,
+    "height": 1080,
+    "frequency": 60,
+    "original_mode": {
+      "device": "\\\\.\\DISPLAY2",
+      "x": 2560,
+      "y": 0,
+      "width": 1920,
+      "height": 1080,
+      "frequency": 60
+    },
+    "display_mode_reconfigured": false,
+    "frames": 347400,
+    "loops": 4288,
+    "state": "playing",
+    "start_frame": 180,
+    "end_frame_exclusive": 261,
+    "display_sleep_inhibited_while_playing": true,
+    "source_frame": 251,
+    "observed_display_mode": {
+      "width": 1920,
+      "height": 1080,
+      "frequency": 60
+    },
+    "updated_unix": 1793176767.4358134
+  },
+  "collector_read_only": true,
+  "requires_new_physical_key_epoch": true,
+  "physical_lane_association_verified": false,
+  "wait_key_seconds": 300,
+  "sample_timeout_seconds": 60,
+  "scope": "Physical key state and pixel/ARM/FPGA feedback; LED/buzzer observation remains manual"
+}

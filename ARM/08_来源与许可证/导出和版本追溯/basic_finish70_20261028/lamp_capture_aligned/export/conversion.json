@@ -1,0 +1,8 @@
+{
+  "path": "/home/orangepi/adas2026/lamp_capture_aligned_20261028/lamp_aligned_fp_heads.rknn",
+  "sha256": "bc84fd31dcccf697e2d1aa591c7c4c768f6613f07f66cf92f7e9bee5f54f8ed2",
+  "bytes": 7177331,
+  "seconds": 11.858248536998872,
+  "quantized": false,
+  "adopted": false
+}

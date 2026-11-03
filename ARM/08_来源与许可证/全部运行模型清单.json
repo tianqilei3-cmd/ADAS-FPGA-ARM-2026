@@ -1,0 +1,122 @@
+[
+  {
+    "file": "models/boundary_fp.rknn",
+    "role": "boundary场景",
+    "purpose": "512×288类型边界网络",
+    "bytes": 3153335,
+    "sha256": "f06c1c572746eb4bdc2cd250f60db94befc407e409c422e1a34a05abb467313e",
+    "original_board_path": "/home/orangepi/adas2026/lane_boundary_fp_20261027/boundary_fp.rknn"
+  },
+  {
+    "file": "models/road_rect_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 7213365,
+    "sha256": "2db828d4bd489873a84be52cf6dd93f04750c96b6fc084bcfe45802a439344b0",
+    "original_board_path": "/home/orangepi/adas2026/signal_rect_models_20261027/road_rect_fp.rknn"
+  },
+  {
+    "file": "models/lamp_attributes.onnx",
+    "role": "当前signal按候选需要加载",
+    "purpose": "CPU ONNX类型/方向/残差路径",
+    "bytes": 8867553,
+    "sha256": "973ab188ba6ea5b377959b57d292e3e306f6806c2067f507e3c0b6275aa23873",
+    "original_board_path": "/home/orangepi/adas2026/lamp_attrs_20261024/models/lamp_attributes.onnx"
+  },
+  {
+    "file": "models/color_guard_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 3320623,
+    "sha256": "b3bf458b23eb8b0d0db43761a7ae8eccff7a59d1e361657320b0d4391834fe65",
+    "original_board_path": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/color_guard_fp.rknn"
+  },
+  {
+    "file": "models/lamp_types_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 4083536,
+    "sha256": "bf2660a3aa1ae21014e8ff0047e7bc9735a2bf8eb062d5e21ebbf6c3657f0bae",
+    "original_board_path": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/lamp_types_fp.rknn"
+  },
+  {
+    "file": "models/lamp_rect_fp_heads.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 7177331,
+    "sha256": "d899336585315e7a7019e9d8880333c1c4f006a759e8cd391de74900f01dd694",
+    "original_board_path": "/home/orangepi/adas2026/signal_lamp_int8_heads_20261027/lamp_rect_fp_heads.rknn"
+  },
+  {
+    "file": "models/lamp_aligned_fp_heads.rknn",
+    "role": "当前signal场景",
+    "purpose": "256×640灯色矩形检测器",
+    "bytes": 7177331,
+    "sha256": "bc84fd31dcccf697e2d1aa591c7c4c768f6613f07f66cf92f7e9bee5f54f8ed2",
+    "original_board_path": "/home/orangepi/adas2026/lamp_capture_aligned_20261028/lamp_aligned_fp_heads.rknn"
+  },
+  {
+    "file": "models/road_heads_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 7330933,
+    "sha256": "48b42c24319da47124e1f2899c84ada45bf2db0ceb3acae2efc82a2b326d5efd",
+    "original_board_path": "/home/orangepi/adas2026/road_sparse_heads_20261028/road_heads_fp.rknn"
+  },
+  {
+    "file": "models/road_int8_heads.rknn",
+    "role": "当前全场景",
+    "purpose": "384×640道路四分类INT8裸头",
+    "bytes": 4268304,
+    "sha256": "b38383d6755acd05a743c628c58d222e5434ee0a178ad13bae93c74ad7a43bc2",
+    "original_board_path": "/home/orangepi/adas2026/road_int8_20261028/road_int8_heads.rknn"
+  },
+  {
+    "file": "models/color_guard.onnx",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 5794713,
+    "sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5",
+    "original_board_path": "/home/orangepi/adas2026/screen_demo_a02_20261024/models/color_guard.onnx"
+  },
+  {
+    "file": "models/lamp_types_whole.onnx",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 7188441,
+    "sha256": "de39d4af833fcceb8284f8f6dd9488b11b46becc40db51626701ee99a180a5cd",
+    "original_board_path": "/home/orangepi/adas2026/signal_classifiers_npu_20261027/lamp_types.onnx"
+  },
+  {
+    "file": "models/color_guard_batch3_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 3427951,
+    "sha256": "a2ff9fe9b4ba7aa6ee43e24599f0e00f24c10ee77f730c04fe43c995e8f8c719",
+    "original_board_path": "/home/orangepi/adas2026/batched_classifiers_20261028/color_guard_batch3_fp.rknn"
+  },
+  {
+    "file": "models/lamp_types_batch3_fp.rknn",
+    "role": "保留兼容参数分支",
+    "purpose": "非默认分支模型，随完整源码一并保留",
+    "bytes": 4210960,
+    "sha256": "206ad6945ffdc17ca91a2b2716a67655148c0af80cffa006dfa023ff30fe34b5",
+    "original_board_path": "/home/orangepi/adas2026/batched_classifiers_20261028/lamp_types_batch3_fp.rknn"
+  },
+  {
+    "file": "models/color_guard_batch2_fp.rknn",
+    "role": "当前signal场景",
+    "purpose": "颜色/发光门控batch2",
+    "bytes": 3382895,
+    "sha256": "83fef24d4776d8fceeb4cbd15576b5bdf131e463e15ba410f9b7781aaf87282c",
+    "original_board_path": "/home/orangepi/adas2026/batch2_classifiers_20261028/color_guard_batch2_fp.rknn"
+  },
+  {
+    "file": "models/lamp_types_batch2_fp.rknn",
+    "role": "当前signal场景",
+    "purpose": "整灯灯型batch2",
+    "bytes": 4160528,
+    "sha256": "2749808a815839656270de190e22694b41d3b194a1751e41809ff0a7921f7742",
+    "original_board_path": "/home/orangepi/adas2026/batch2_classifiers_20261028/lamp_types_batch2_fp.rknn"
+  }
+]

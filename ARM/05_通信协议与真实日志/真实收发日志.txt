@@ -1,0 +1,10 @@
+# 2026-11-01 HDMI实时实机记录摘录
+# 时钟为香橙派 time.monotonic 秒；不是北京时间或传感器时间。
+# 原始JSON和SHA可追溯；没有用脚本构造的测试包代替实测。
+# sequence=406 / source_mode=live_capture
+TX t=6968.441806774  55 13 10 03 00 6f 13 02 61 01 08 00 00 00 02 00 07 48 01 bb
+RX t=6968.446524138  55 13 68
+RX t=6968.448900319  55 84 0c 03 00 6f 13 07 02 01 01 05 00 29 7f 22
+# 0x84状态由0x13 ACK之后的0x04查询取得；查询写出时刻未单独记录，不伪造其时间。
+# decoded_feedback={"version": 3, "camera_id": 0, "frame_id": 4975, "epoch": 7, "scene": 2, "action": 1, "alarm_code": 1, "decision_valid": true, "link_timeout": false, "seen_extended": true, "reject_reason": 0, "build_tag": 41, "capabilities": 127}
+# acknowledged=True

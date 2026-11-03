@@ -1,0 +1,18 @@
+{
+  "initial": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\s2tld_official_tiles_stage2\\weights\\deployment_best.pt",
+  "initial_sha256": "7f9527c605df7fe8594e6e986e1015fe5e8b11977757006c322f2c9692ea5a81",
+  "shape": [
+    256,
+    640
+  ],
+  "epochs": 12,
+  "batch": 4,
+  "nbs": 4,
+  "freeze": 10,
+  "threads": 4,
+  "workers": 0,
+  "cache": false,
+  "checkpoint_selection": "Fixed last epoch12",
+  "dataset_sha256": "d425a45d000e5b314570ee8b2653853f79832259102fb1b9bfb9068b80a112d7",
+  "automatic_deployment": false
+}

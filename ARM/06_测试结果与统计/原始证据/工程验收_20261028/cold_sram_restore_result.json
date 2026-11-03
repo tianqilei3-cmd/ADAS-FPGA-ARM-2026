@@ -1,0 +1,21 @@
+{
+  "restored_profile": 41,
+  "sha256": "84b4c9fd406f27e21aacd5959509004993b22e1d801c9e4f29f9db09e4ee6f06",
+  "flash_written": false,
+  "stop_feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 0,
+    "epoch": 0,
+    "scene": 0,
+    "action": 1,
+    "alarm_code": 0,
+    "decision_valid": false,
+    "link_timeout": false,
+    "seen_extended": false,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  },
+  "input_recovery_proven": false
+}

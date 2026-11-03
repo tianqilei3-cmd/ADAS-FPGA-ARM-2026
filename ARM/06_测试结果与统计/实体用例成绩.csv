@@ -1,0 +1,7 @@
+﻿case,frames,successes,ratio,unsafe_frames,observations_sha256,path,criterion
+实体KEY6绿行,90,65,0.7222222222222222,0,be7f868e5b3a6ff98190ad4cfe9d3720d4d0d7b72f5f944f4061d0bbd740c2b8,06_测试结果与统计/原始证据/实体按键_20261028/20261028_084737_UTC/observations.jsonl,all checks per frame; first transition/failures retained
+实体KEY6停车,90,90,1.0,0,134aa1756226792b3b9b259edc7c5a9de03bd76fa3d4e6f1e87dff2e2d2402b2,06_测试结果与统计/原始证据/实体按键_20261028/20261028_085102_UTC/observations.jsonl,all checks per frame; first transition/failures retained
+实体KEY6红停,90,89,0.9888888888888889,0,a5f5b204c0454eb6a64fd6d4d5daff132bcab5d2f1c112f8f32c371cbddcbcaa,06_测试结果与统计/原始证据/实体按键_20261028/20261028_085727_UTC/observations.jsonl,all checks per frame; first transition/failures retained
+实体KEY7强行红灯报警,90,88,0.9777777777777777,0,34ebafc735635cadfe05e2b6078a0a13490d09bd642f1989a6df1a5adb311f3a,06_测试结果与统计/原始证据/实体按键_20261028/20261028_090840_UTC/observations.jsonl,all checks per frame; first transition/failures retained
+实体KEY6停车清除报警,90,89,0.9888888888888889,0,730530d5450c49ba70eb2b395414f4e06b00674669668b42841b685cebe1a07f,06_测试结果与统计/原始证据/实体按键_20261028/20261028_091018_UTC/observations.jsonl,all checks per frame; first transition/failures retained
+辅助冷恢复后实体KEY6绿行,90,66,0.7333333333333333,0,7a994fa546774c2b1199e7cf84cee16fbfa6c82e606057187f6a2410142bcc19,06_测试结果与统计/原始证据/实体按键_20261028/20261028_094032_UTC/observations.jsonl,all checks per frame; first transition/failures retained

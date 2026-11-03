@@ -1,0 +1,4 @@
+[2026.10.28 17:33:35] : cfg_connect succeed, 4.1
+[2026.10.28 17:33:36] : cfg_scan_chain succeed, 1.0
+[2026.10.28 17:33:38] : cfg_read_device_property succeed, 1.0
+[2026.10.28 17:33:39] : cfg_disconnect succeed, 0.0

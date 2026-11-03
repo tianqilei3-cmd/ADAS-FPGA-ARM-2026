@@ -1,0 +1,57 @@
+{
+  "pid": 4075,
+  "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_093848",
+  "boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "state": "running",
+  "controls": {
+    "mode": "signal",
+    "lane_id": "straight_virtual_lane",
+    "movement": "straight",
+    "requested_motion": "stop",
+    "requested_turn": "none",
+    "forced": false
+  },
+  "decision": {
+    "simulation_only": true,
+    "hardware_command": null,
+    "hardware_command_sent": false,
+    "physical_lane_association_verified": false,
+    "action": "STOP",
+    "alarm": false,
+    "decision_valid": true,
+    "reason": "hazard:stop_key",
+    "green_confirmations": 0,
+    "scope": "PC virtual scenario only; physical road association is unverified",
+    "controls": {
+      "mode": "signal",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "requested_motion": "stop",
+      "requested_turn": "none",
+      "forced": false
+    },
+    "own_lane_light_valid": false,
+    "motor_command_sent": false,
+    "source": "current_pixels_and_key_simulated_lane",
+    "selected_state": "unknown",
+    "hardware_motion_control_connected": false
+  },
+  "feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 1341,
+    "epoch": 9,
+    "scene": 1,
+    "action": 1,
+    "alarm_code": 0,
+    "decision_valid": true,
+    "link_timeout": false,
+    "seen_extended": true,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  },
+  "UART": true,
+  "age_seconds": 0.07201862335205078,
+  "free_bytes": 615735296
+}

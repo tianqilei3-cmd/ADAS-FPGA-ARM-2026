@@ -1,0 +1,107 @@
+{
+  "scope": "Engineering acceptance of actual0x29 baseline; each future firmware gets separate cohort",
+  "FPGA_profile": 41,
+  "ARM_manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+  "bitstream_sha256": "84b4c9fd406f27e21aacd5959509004993b22e1d801c9e4f29f9db09e4ee6f06",
+  "bitstream_identity_proof": "Host bit hash plus existing SRAM program log and current FPGA version feedback; not cryptographic device readback",
+  "functional_rule": {
+    "frames_per_case": 90,
+    "minimum_ratio": 0.7,
+    "maximum_unsafe_events": 0,
+    "actual_physical_source_required": true,
+    "official_unified_70percent_threshold": false
+  },
+  "engineering_rule": "All mandatory engineering gates must pass. Timing failures cannot be averaged away with passed functional cases.",
+  "gates": [
+    {
+      "id": "E01",
+      "name": "Source/models/version freeze",
+      "status": "PASS"
+    },
+    {
+      "id": "E02",
+      "name": "Physical video and displayed output",
+      "status": "PASS_INPUT_AND_HUMAN_SCREEN_CHECK",
+      "manual_screen_confirmed": true
+    },
+    {
+      "id": "E03",
+      "name": "Physical KEY6 green drive",
+      "status": "PASS_INTERNAL_FUNCTIONAL_GATE",
+      "evidence": "physical_green_result.json"
+    },
+    {
+      "id": "E04",
+      "name": "Physical KEY6 stop",
+      "status": "PASS",
+      "evidence": "physical_stop_result.json"
+    },
+    {
+      "id": "E05",
+      "name": "Physical red stop",
+      "status": "PASS_INTERNAL_FUNCTIONAL_GATE",
+      "evidence": "physical_red_result.json"
+    },
+    {
+      "id": "E06",
+      "name": "Physical KEY7 forced-red alarm",
+      "status": "PASS_INTERNAL_FUNCTIONAL_GATE",
+      "evidence": "physical_forced_red_result.json"
+    },
+    {
+      "id": "E07",
+      "name": "Fault/lease protection and reconnect",
+      "status": "PARTIAL_PASS_SOFTWARE_RECOVERY_AND_HW_LEASE",
+      "prior_same_version_evidence": true,
+      "evidence": [
+        "runs\\engineering_acceptance_20261028\\20261028_083842_UTC\\recovery_20261028_091325_UTC\\summary.json",
+        "runs\\engineering_acceptance_20261028\\20261028_083842_UTC\\lease_20261028_092520_UTC\\result.json"
+      ],
+      "current_batch_physical_USB_replug_tested": false,
+      "prior_same_version_physical_replug_evidence": true
+    },
+    {
+      "id": "E08",
+      "name": "Warm recovery/cold power bootstrap",
+      "status": "PASS_WARM_AND_ASSISTED_COLD_RESTORE",
+      "evidence": [
+        "cold_boot_comparison.json",
+        "cold_input_preflight_attempt2.json",
+        "cold_park_smoke_result.json",
+        "cold_physical_green_result.json"
+      ],
+      "cold_power_cycle_tested": true,
+      "unattended_boot_implemented": false,
+      "manual_source_restart_needed": true,
+      "initial_failed_preflight_retained": true
+    },
+    {
+      "id": "E09",
+      "name": "FPGA full timing constraints",
+      "status": "FAIL",
+      "reason": "Current0x29 violates setup/hold/removal; offline0x2d fixes pixel setup only"
+    },
+    {
+      "id": "E10",
+      "name": "Image-link bandwidth and full end-to-end latency",
+      "status": "PENDING"
+    }
+  ],
+  "overall_passed": false,
+  "prechecks": {
+    "source_models_verified": true,
+    "input_rows": 120,
+    "unique_images": 66,
+    "feedback_matches": 120,
+    "status_acks": 120,
+    "max_decoded_age_ms": 440.7810699995025,
+    "JTAG": true,
+    "display_OS_mode": "1920x1080@60",
+    "manual_display_confirmed": true
+  },
+  "alarm_clear_after_force": {
+    "status": "PASS",
+    "rule_file": "alarm_clear_rule_v1.json",
+    "evidence": "physical_alarm_clear_result.json"
+  }
+}

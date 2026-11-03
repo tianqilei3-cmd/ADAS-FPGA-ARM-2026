@@ -1,0 +1,196 @@
+[Info] [2026-10-28 17:33:29] /***************************Start jtagserver***************************/
+[Info] [2026-10-28 17:33:29] Path: C:/pango/PDS_2022.2-SP6.4/bin
+[Info] [2026-10-28 17:33:29] Version: 146967
+[Debug] [2026-10-28 17:33:32] Add a new user_thread, socket descriptor is 948 user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:33:32] After adding, map size is : 1
+[Debug] [2026-10-28 17:33:32] Add a new user_thread, socket descriptor is 1032 user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:33:32] After adding, map size is : 2
+[Debug] [2026-10-28 17:33:32] Add a new user_thread, socket descriptor is 1012 user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:33:32] After adding, map size is : 3
+[Debug] [2026-10-28 17:33:32] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:33:32] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:33:32] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:33:32] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:33:32] _total_bytes_size : 160
+[Debug] [2026-10-28 17:33:32] Remove the header data from the client, index : 0connection error happens : 1
+[Debug] [2026-10-28 17:33:32] connection state changes : 6 , socket description 948
+[Warn] [2026-10-28 17:33:32] socket state is ListeningState
+[Debug] [2026-10-28 17:33:32] connection state changes : 0 , socket description 948
+[Warn] [2026-10-28 17:33:32] socket state is UnconnectedState
+[Debug] [2026-10-28 17:33:32] socket descriptor 948is about to delete
+[Debug] [2026-10-28 17:33:32] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:33:32] _total_bytes_size : 96
+[Debug] [2026-10-28 17:33:32] cmd id :40010cmd name : get_cable_paras
+[Debug] [2026-10-28 17:33:35] cmd operation get_cable_paras releases locker
+[Debug] [2026-10-28 17:33:35] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:33:35] _total_bytes_size : 101
+[Debug] [2026-10-28 17:33:35] cmd id :20001cmd name : Open config cable
+[Debug] [2026-10-28 17:33:36] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:33:36] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:36] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:36] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:36] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:36] cmd operation Open config cable releases locker
+[Debug] [2026-10-28 17:33:37] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:33:37] _total_bytes_size : 13d
+[Debug] [2026-10-28 17:33:37] cmd id :4e26cmd name : Get device id
+[Debug] [2026-10-28 17:33:37] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:33:37] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:37] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:37] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:37] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:33:37] cmd operation Get device id releases locker
+[Debug] [2026-10-28 17:33:39] connection error happens : 1
+[Debug] [2026-10-28 17:33:39] connection error happens : 1connection error happens : 1
+[Debug] [2026-10-28 17:33:39] connection state changes : 6 , socket description 408
+[Warn] [2026-10-28 17:33:39] socket state is ListeningState
+[Debug] [2026-10-28 17:33:39] connection state changes : 0 , socket description 408
+[Warn] [2026-10-28 17:33:39] socket state is UnconnectedState
+[Debug] [2026-10-28 17:33:39] socket descriptor 408is about to delete
+[Debug] [2026-10-28 17:33:39] connection state changes : 6 , socket description 3f4
+[Warn] [2026-10-28 17:33:39] socket state is ListeningState
+[Debug] [2026-10-28 17:33:39] connection state changes : 0 , socket description 3f4
+[Warn] [2026-10-28 17:33:39] socket state is UnconnectedState
+[Debug] [2026-10-28 17:33:39] socket descriptor 3f4is about to delete
+[Debug] [2026-10-28 17:35:34] Add a new user_thread, socket descriptor is 440 user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:34] After adding, map size is : 1
+[Debug] [2026-10-28 17:35:34] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:34] connection error happens : 1
+[Debug] [2026-10-28 17:35:34] connection state changes : 6 , socket description 440
+[Warn] [2026-10-28 17:35:34] socket state is ListeningState
+[Debug] [2026-10-28 17:35:34] connection state changes : 0 , socket description 440
+[Warn] [2026-10-28 17:35:34] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:34] socket descriptor 440is about to delete
+[Debug] [2026-10-28 17:35:35] Add a new user_thread, socket descriptor is 43c user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:35] After adding, map size is : 1
+[Debug] [2026-10-28 17:35:35] Add a new user_thread, socket descriptor is 4dc user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:35] After adding, map size is : 2
+[Debug] [2026-10-28 17:35:35] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:35] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:35] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:35] _total_bytes_size : a0
+[Debug] [2026-10-28 17:35:35] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:35] _total_bytes_size : 60
+[Debug] [2026-10-28 17:35:35] cmd id :9c4acmd name : get_cable_paras
+[Debug] [2026-10-28 17:35:38] cmd operation get_cable_paras releases locker
+[Debug] [2026-10-28 17:35:39] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:39] _total_bytes_size : 65
+[Debug] [2026-10-28 17:35:39] cmd id :4e21cmd name : Open config cable
+[Debug] [2026-10-28 17:35:39] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:39] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:39] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:39] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:39] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:39] cmd operation Open config cable releases locker
+[Debug] [2026-10-28 17:35:40] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:40] _total_bytes_size : 13d
+[Debug] [2026-10-28 17:35:40] cmd id :4e26cmd name : Get device id
+[Debug] [2026-10-28 17:35:40] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:40] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:40] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:40] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:40] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:41] cmd operation Get device id releases locker
+[Debug] [2026-10-28 17:35:42] connection error happens : 1
+[Debug] [2026-10-28 17:35:42] connection error happens : 1
+[Debug] [2026-10-28 17:35:42] connection state changes : 6 , socket description 43c
+[Warn] [2026-10-28 17:35:42] socket state is ListeningState
+[Debug] [2026-10-28 17:35:42] connection state changes : 0 , socket description 43c
+[Warn] [2026-10-28 17:35:42] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:42] connection state changes : 6 , socket description 4dc
+[Warn] [2026-10-28 17:35:42] socket state is ListeningState
+[Debug] [2026-10-28 17:35:42] connection state changes : 0 , socket description 4dc
+[Debug] [2026-10-28 17:35:42] connection state changes : 0 , socket description 4dcsocket descriptor 43cis about to delete
+[Warn] [2026-10-28 17:35:42] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:42] socket descriptor 4dcis about to delete
+[Debug] [2026-10-28 17:35:42] Add a new user_thread, socket descriptor is 43c user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:42] After adding, map size is : 1
+[Debug] [2026-10-28 17:35:42] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:42] connection error happens : 1
+[Debug] [2026-10-28 17:35:42] connection state changes : 6 , socket description 43c
+[Warn] [2026-10-28 17:35:42] socket state is ListeningState
+[Debug] [2026-10-28 17:35:42] connection state changes : 0 , socket description 43c
+[Warn] [2026-10-28 17:35:42] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:42] socket descriptor 43cis about to delete
+[Debug] [2026-10-28 17:35:44] Add a new user_thread, socket descriptor is 438 user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:44] After adding, map size is : 1
+[Debug] [2026-10-28 17:35:44] Add a new user_thread, socket descriptor is 3bc user_thread id is 0000000000001100
+[Debug] [2026-10-28 17:35:44] After adding, map size is : 2
+[Debug] [2026-10-28 17:35:44] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:44] IP address of connecting client is : ::ffff:127.0.0.1
+[Debug] [2026-10-28 17:35:44] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:44] _total_bytes_size : a0
+[Debug] [2026-10-28 17:35:44] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:44] _total_bytes_size : 60
+[Debug] [2026-10-28 17:35:44] cmd id :9c4acmd name : get_cable_paras
+[Debug] [2026-10-28 17:35:46] cmd operation get_cable_paras releases locker
+[Debug] [2026-10-28 17:35:47] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:47] _total_bytes_size : 65
+[Debug] [2026-10-28 17:35:47] cmd id :4e21cmd name : Open config cable
+[Debug] [2026-10-28 17:35:47] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:47] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:47] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:47] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:47] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:48] cmd operation Open config cable releases locker
+[Debug] [2026-10-28 17:35:49] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:49] _total_bytes_size : 13d
+[Debug] [2026-10-28 17:35:49] cmd id :4e26cmd name : Get device id
+[Debug] [2026-10-28 17:35:49] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:49] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:49] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:49] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:49] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:49] cmd operation Get device id releases locker
+[Debug] [2026-10-28 17:35:51] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:51] _total_bytes_size : 23a
+[Debug] [2026-10-28 17:35:51] cmd id :4e22cmd name : Program
+[Debug] [2026-10-28 17:35:51] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:51] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:51] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:51] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:51] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:51] begin to read back config registerregAddr is 4
+[Debug] [2026-10-28 17:35:51] progress bar is 6
+[Debug] [2026-10-28 17:35:51] progress bar is 10
+[Debug] [2026-10-28 17:35:51] progress bar is 15
+[Debug] [2026-10-28 17:35:51] progress bar is 20
+[Debug] [2026-10-28 17:35:51] progress bar is 25
+[Debug] [2026-10-28 17:35:51] progress bar is 30
+[Debug] [2026-10-28 17:35:51] progress bar is 35
+[Debug] [2026-10-28 17:35:52] progress bar is 40
+[Debug] [2026-10-28 17:35:52] progress bar is 45
+[Debug] [2026-10-28 17:35:52] progress bar is 50
+[Debug] [2026-10-28 17:35:52] progress bar is 55
+[Debug] [2026-10-28 17:35:52] progress bar is 60
+[Debug] [2026-10-28 17:35:52] progress bar is 65
+[Debug] [2026-10-28 17:35:52] progress bar is 70
+[Debug] [2026-10-28 17:35:52] progress bar is 75
+[Debug] [2026-10-28 17:35:52] progress bar is 80
+[Debug] [2026-10-28 17:35:52] progress bar is 85
+[Debug] [2026-10-28 17:35:52] progress bar is 90
+[Debug] [2026-10-28 17:35:53] progress bar is 95
+[Debug] [2026-10-28 17:35:53] progress bar is 100
+[Debug] [2026-10-28 17:35:53] the value in the status register is :2096288
+[Debug] [2026-10-28 17:35:53] cmd operation Program releases locker
+[Debug] [2026-10-28 17:35:54] Remove the header data from the client, index : 0
+[Debug] [2026-10-28 17:35:54] _total_bytes_size : 577
+[Debug] [2026-10-28 17:35:54] cmd id :20005cmd name : Read status
+[Debug] [2026-10-28 17:35:54] the idcode from the scanning is: 0x10521899
+[Debug] [2026-10-28 17:35:54] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:54] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:54] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:54] the idcode from the scanning is: 0x0
+[Debug] [2026-10-28 17:35:55] cmd operation Read status releases locker
+[Debug] [2026-10-28 17:35:56] connection error happens : 1
+[Debug] [2026-10-28 17:35:56] connection error happens : 1connection error happens : 1
+[Debug] [2026-10-28 17:35:56] connection state changes : 6 , socket description 438
+[Warn] [2026-10-28 17:35:56] socket state is ListeningState
+[Debug] [2026-10-28 17:35:56] socket state is ListeningStateconnection state changes : 6 , socket description 3bc
+[Debug] [2026-10-28 17:35:56] connection state changes : 0 , socket description 438
+[Warn] [2026-10-28 17:35:56] socket state is ListeningState
+[Warn] [2026-10-28 17:35:56] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:56] 
+[Warn] [2026-10-28 17:35:56] socket state is UnconnectedState
+[Debug] [2026-10-28 17:35:56] 
+[Debug] [2026-10-28 17:35:56] socket descriptor 3bcis about to delete

@@ -1,0 +1,6796 @@
+{
+  "scope": "Existing held video/source val roles; repeated development, not independent road accuracy",
+  "totals": {
+    "retained": {
+      "images": 104,
+      "truth": 200,
+      "predictions": 155,
+      "matched": 145,
+      "unmatched": 10,
+      "matched_color_correct": 144
+    },
+    "trained": {
+      "images": 104,
+      "truth": 200,
+      "predictions": 164,
+      "matched": 148,
+      "unmatched": 16,
+      "matched_color_correct": 147
+    }
+  },
+  "records": [
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0095_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0096_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.33284512162208557,
+              "box": [
+                388.49822998046875,
+                147.02212524414062,
+                402.24481201171875,
+                160.07748413085938
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 1,
+            "unmatched": 2,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6702921986579895,
+              "box": [
+                388.5316162109375,
+                147.14756774902344,
+                401.63525390625,
+                160.42347717285156
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.3234215974807739,
+              "box": [
+                96.89057159423828,
+                199.79470825195312,
+                107.93282318115234,
+                220.09466552734375
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.2680841386318207,
+              "box": [
+                96.73118591308594,
+                199.825927734375,
+                110.02882385253906,
+                220.77130126953125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0097_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0098_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 2,
+            "unmatched": 1,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.33028608560562134,
+              "box": [
+                373.63922119140625,
+                161.44863891601562,
+                406.76116943359375,
+                174.85025024414062
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.2890714108943939,
+              "box": [
+                374.1854248046875,
+                161.27047729492188,
+                396.21923828125,
+                174.37380981445312
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.2822589874267578,
+              "box": [
+                310.8561706542969,
+                157.49993896484375,
+                345.2613220214844,
+                171.5274658203125
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 2,
+            "unmatched": 1,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7047404050827026,
+              "box": [
+                375.0620422363281,
+                161.42611694335938,
+                388.7088928222656,
+                174.14584350585938
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5809652805328369,
+              "box": [
+                374.08734130859375,
+                161.90121459960938,
+                403.83624267578125,
+                174.35623168945312
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5085426568984985,
+              "box": [
+                310.032958984375,
+                157.58267211914062,
+                343.29931640625,
+                171.64938354492188
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0099_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.4172390103340149,
+              "box": [
+                309.75323486328125,
+                163.57769775390625,
+                323.65545654296875,
+                177.2545166015625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7923738956451416,
+              "box": [
+                307.85308837890625,
+                163.33087158203125,
+                324.60693359375,
+                177.2952880859375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0100_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.660724937915802,
+              "box": [
+                363.1268310546875,
+                152.54531860351562,
+                388.41485595703125,
+                165.86468505859375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0101_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8253390789031982,
+              "box": [
+                390.28277587890625,
+                122.1802978515625,
+                439.17303466796875,
+                141.99514770507812
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7125599980354309,
+              "box": [
+                301.546875,
+                115.15225219726562,
+                346.749267578125,
+                133.19869995117188
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8186244964599609,
+              "box": [
+                301.5751647949219,
+                115.55029296875,
+                346.7367248535156,
+                133.06100463867188
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.761749804019928,
+              "box": [
+                390.56842041015625,
+                122.45966339111328,
+                439.29632568359375,
+                141.345703125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0102_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0103_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0104_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0105_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0106_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0107_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0108_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0109_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0110_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0111_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0112_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0113_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0114_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0115_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0116_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0117_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0118_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0119_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.4737758934497833,
+              "box": [
+                59.9443359375,
+                195.87368774414062,
+                70.10850524902344,
+                217.19955444335938
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0120_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0121_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0122_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6997485756874084,
+              "box": [
+                232.71725463867188,
+                140.34063720703125,
+                265.2590637207031,
+                155.77362060546875
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6552610397338867,
+              "box": [
+                175.45803833007812,
+                139.6562957763672,
+                207.69241333007812,
+                154.1494598388672
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7225683331489563,
+              "box": [
+                232.66168212890625,
+                140.86785888671875,
+                264.25677490234375,
+                155.3087158203125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7217655181884766,
+              "box": [
+                175.64935302734375,
+                139.8832550048828,
+                206.64801025390625,
+                153.9628143310547
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0123_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8030919432640076,
+              "box": [
+                104.02317810058594,
+                140.48648071289062,
+                138.27818298339844,
+                155.51907348632812
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7748112082481384,
+              "box": [
+                166.31581115722656,
+                142.81130981445312,
+                201.48451232910156,
+                158.27828979492188
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.861438512802124,
+              "box": [
+                166.51998901367188,
+                143.6571502685547,
+                199.40255737304688,
+                158.2908477783203
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8100672960281372,
+              "box": [
+                103.96022033691406,
+                141.0341796875,
+                137.4511260986328,
+                155.2171630859375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0124_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6752126216888428,
+              "box": [
+                33.3143310546875,
+                129.42047119140625,
+                69.21646881103516,
+                146.08609008789062
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.592772364616394,
+              "box": [
+                98.46615600585938,
+                131.67257690429688,
+                135.5426483154297,
+                149.60708618164062
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.43334636092185974,
+              "box": [
+                169.54989624023438,
+                196.20361328125,
+                179.66873168945312,
+                218.3662109375
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8222846388816833,
+              "box": [
+                99.70635986328125,
+                132.65737915039062,
+                134.81724548339844,
+                148.95346069335938
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8017271161079407,
+              "box": [
+                33.53050994873047,
+                130.12701416015625,
+                68.27115631103516,
+                145.88626098632812
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7949204444885254,
+              "box": [
+                169.45079040527344,
+                196.13137817382812,
+                180.0673370361328,
+                217.82357788085938
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0125_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6286149621009827,
+              "box": [
+                88.25650024414062,
+                182.13351440429688,
+                98.703857421875,
+                204.22274780273438
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.4768877923488617,
+              "box": [
+                13.086822509765625,
+                115.18008422851562,
+                50.21095275878906,
+                132.0442352294922
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7950274348258972,
+              "box": [
+                87.77057647705078,
+                182.23495483398438,
+                99.73055267333984,
+                204.26333618164062
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0126_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.527747392654419,
+              "box": [
+                69.71954345703125,
+                187.1984100341797,
+                80.04060363769531,
+                208.36949157714844
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0127_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0128_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0129_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0130_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0131_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0132_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0133_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0134_0.png",
+      "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113539.mp4",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 0,
+            "predictions": 2,
+            "matched": 0,
+            "unmatched": 2,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.4299791157245636,
+              "box": [
+                32.2947998046875,
+                204.56341552734375,
+                42.17045593261719,
+                227.585693359375
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.40968769788742065,
+              "box": [
+                486.25946044921875,
+                116.60267639160156,
+                534.4212646484375,
+                141.22898864746094
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0135_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 0,
+            "unmatched": 2,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6020767092704773,
+              "box": [
+                289.5285339355469,
+                81.79903411865234,
+                295.5291442871094,
+                93.76239776611328
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.27754145860671997,
+              "box": [
+                193.47048950195312,
+                87.70602416992188,
+                199.07986450195312,
+                101.40029907226562
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 1,
+            "unmatched": 2,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6664798259735107,
+              "box": [
+                289.6533203125,
+                81.80912780761719,
+                295.835693359375,
+                93.64067077636719
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6412620544433594,
+              "box": [
+                193.39700317382812,
+                87.1654052734375,
+                199.60916137695312,
+                101.43643188476562
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.3559092879295349,
+              "box": [
+                326.7689514160156,
+                78.75244140625,
+                332.2668151855469,
+                90.45294189453125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0136_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7038048505783081,
+              "box": [
+                477.41473388671875,
+                67.07841491699219,
+                485.0660400390625,
+                85.38716125488281
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7791505455970764,
+              "box": [
+                477.3365478515625,
+                67.13114929199219,
+                485.4425048828125,
+                85.80717468261719
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0137_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8659289479255676,
+              "box": [
+                456.8999328613281,
+                28.768150329589844,
+                466.8840026855469,
+                51.34099578857422
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8471558690071106,
+              "box": [
+                456.86151123046875,
+                29.245330810546875,
+                466.98809814453125,
+                50.63072967529297
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0138_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0139_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6661741137504578,
+              "box": [
+                349.240234375,
+                69.53550720214844,
+                356.557861328125,
+                86.510009765625
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.27208781242370605,
+              "box": [
+                372.63885498046875,
+                68.5067138671875,
+                380.51104736328125,
+                86.02984619140625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7073197960853577,
+              "box": [
+                349.47198486328125,
+                69.53359985351562,
+                356.60882568359375,
+                86.4127197265625
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.4012903571128845,
+              "box": [
+                372.95025634765625,
+                68.40679931640625,
+                380.46258544921875,
+                85.73286437988281
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0140_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.8854467272758484,
+              "box": [
+                177.24539184570312,
+                42.7574462890625,
+                185.44570922851562,
+                63.014556884765625
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8399113416671753,
+              "box": [
+                409.90191650390625,
+                52.104339599609375,
+                418.24969482421875,
+                72.03720092773438
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7964988350868225,
+              "box": [
+                160.28720092773438,
+                45.13092041015625,
+                168.23822021484375,
+                64.13687133789062
+              ]
+            },
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.504187285900116,
+              "box": [
+                432.6451721191406,
+                51.75849151611328,
+                440.8397521972656,
+                70.82383728027344
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8447977900505066,
+              "box": [
+                409.92822265625,
+                51.84593200683594,
+                418.4334716796875,
+                71.70027160644531
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7968649864196777,
+              "box": [
+                160.44769287109375,
+                44.7677116394043,
+                168.506591796875,
+                63.838130950927734
+              ]
+            },
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.6930587291717529,
+              "box": [
+                177.34100341796875,
+                42.77392578125,
+                185.70587158203125,
+                62.565650939941406
+              ]
+            },
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.41224023699760437,
+              "box": [
+                432.91888427734375,
+                51.472740173339844,
+                441.30609130859375,
+                70.42276763916016
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0141_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7620570063591003,
+              "box": [
+                377.9281921386719,
+                62.39691925048828,
+                384.5881652832031,
+                78.69762420654297
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.26028385758399963,
+              "box": [
+                291.5380859375,
+                61.91119384765625,
+                298.13568115234375,
+                77.52278137207031
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 3,
+            "matched": 2,
+            "unmatched": 1,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7355919480323792,
+              "box": [
+                378.1246643066406,
+                62.387733459472656,
+                384.7986755371094,
+                78.49571990966797
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5380367040634155,
+              "box": [
+                176.09678649902344,
+                140.27789306640625,
+                187.9138641357422,
+                165.7738037109375
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.3107236623764038,
+              "box": [
+                291.59442138671875,
+                61.979469299316406,
+                298.43658447265625,
+                77.81497955322266
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0142_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8649408221244812,
+              "box": [
+                292.216796875,
+                35.920291900634766,
+                302.3385009765625,
+                60.762943267822266
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.860641598701477,
+              "box": [
+                355.767578125,
+                34.164695739746094,
+                365.6820068359375,
+                58.87346649169922
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8517969846725464,
+              "box": [
+                389.25518798828125,
+                32.86541748046875,
+                399.66741943359375,
+                58.03187561035156
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8449209928512573,
+              "box": [
+                330.14349365234375,
+                34.528350830078125,
+                340.24859619140625,
+                59.55364227294922
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6563226580619812,
+              "box": [
+                245.1884765625,
+                38.131832122802734,
+                255.73760986328125,
+                63.51646041870117
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8628420233726501,
+              "box": [
+                355.6805419921875,
+                34.66816711425781,
+                365.749755859375,
+                58.19010925292969
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8312579393386841,
+              "box": [
+                292.46258544921875,
+                36.286102294921875,
+                302.3941650390625,
+                60.42961120605469
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.814223051071167,
+              "box": [
+                389.36151123046875,
+                33.4317626953125,
+                399.71490478515625,
+                57.3907470703125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7575890421867371,
+              "box": [
+                330.35382080078125,
+                35.45906066894531,
+                340.32977294921875,
+                58.8253173828125
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7327682375907898,
+              "box": [
+                245.18377685546875,
+                38.51807403564453,
+                255.6871337890625,
+                63.01753234863281
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0143_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 3,
+            "matched": 2,
+            "unmatched": 1,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8462063670158386,
+              "box": [
+                416.6145935058594,
+                38.067626953125,
+                427.9743347167969,
+                64.80108642578125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7867956757545471,
+              "box": [
+                125.63500213623047,
+                36.19985580444336,
+                136.01922607421875,
+                60.66385269165039
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.40963083505630493,
+              "box": [
+                361.6680908203125,
+                93.53515625,
+                367.5576171875,
+                104.12628173828125
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 3,
+            "matched": 2,
+            "unmatched": 1,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8169758915901184,
+              "box": [
+                416.4396057128906,
+                38.491798400878906,
+                427.9607238769531,
+                64.24726867675781
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7985301613807678,
+              "box": [
+                126.11260986328125,
+                36.746063232421875,
+                136.02243041992188,
+                59.9361572265625
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.2689843475818634,
+              "box": [
+                361.93072509765625,
+                92.83920288085938,
+                367.79248046875,
+                103.93093872070312
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0144_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8105090260505676,
+              "box": [
+                385.21435546875,
+                68.48396301269531,
+                391.33935546875,
+                82.49732971191406
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8104124069213867,
+              "box": [
+                433.0142517089844,
+                67.087890625,
+                438.8439025878906,
+                82.01644897460938
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8639713525772095,
+              "box": [
+                385.2781677246094,
+                68.13844299316406,
+                391.5857238769531,
+                82.21697998046875
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6988982558250427,
+              "box": [
+                433.13812255859375,
+                67.14816284179688,
+                439.28289794921875,
+                81.89610290527344
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0145_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6755865216255188,
+              "box": [
+                337.90838623046875,
+                74.52316284179688,
+                343.85760498046875,
+                87.1214599609375
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8331840634346008,
+              "box": [
+                337.94061279296875,
+                74.48760986328125,
+                344.13360595703125,
+                87.2117919921875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0146_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.832514226436615,
+              "box": [
+                301.926025390625,
+                5.126529693603516,
+                316.4559326171875,
+                40.87431335449219
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8194148540496826,
+              "box": [
+                419.23553466796875,
+                2.9304733276367188,
+                435.36175537109375,
+                38.69468688964844
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8751387000083923,
+              "box": [
+                419.0798645019531,
+                3.94873046875,
+                435.4363708496094,
+                38.221961975097656
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8563680648803711,
+              "box": [
+                301.9073181152344,
+                6.311470031738281,
+                316.2454528808594,
+                41.06162643432617
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0147_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8046857118606567,
+              "box": [
+                449.86279296875,
+                28.98958396911621,
+                459.78875732421875,
+                53.73242950439453
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7448691129684448,
+              "box": [
+                222.42127990722656,
+                36.806236267089844,
+                232.5360565185547,
+                61.013999938964844
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7287462949752808,
+              "box": [
+                212.15142822265625,
+                37.334442138671875,
+                222.15625,
+                61.532920837402344
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6569297313690186,
+              "box": [
+                459.8402404785156,
+                28.830419540405273,
+                469.6943054199219,
+                53.40821075439453
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7978057265281677,
+              "box": [
+                450.03912353515625,
+                29.468006134033203,
+                459.925537109375,
+                52.926876068115234
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.745857834815979,
+              "box": [
+                221.93551635742188,
+                36.67884063720703,
+                232.84237670898438,
+                60.48413848876953
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6813479065895081,
+              "box": [
+                459.7557373046875,
+                29.441471099853516,
+                469.7869873046875,
+                52.79066848754883
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6040939688682556,
+              "box": [
+                212.07958984375,
+                37.68263244628906,
+                222.34490966796875,
+                60.94707489013672
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0148_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.3892761468887329,
+              "box": [
+                263.351318359375,
+                67.79988098144531,
+                270.14105224609375,
+                83.44328308105469
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5210261344909668,
+              "box": [
+                263.39691162109375,
+                67.1175765991211,
+                270.74346923828125,
+                83.33501434326172
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.28198957443237305,
+              "box": [
+                452.5443115234375,
+                61.96818542480469,
+                460.2716064453125,
+                78.55509948730469
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0149_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8299552798271179,
+              "box": [
+                377.6111755371094,
+                81.86058044433594,
+                383.3155822753906,
+                96.14546203613281
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7309084534645081,
+              "box": [
+                377.5978088378906,
+                81.44529724121094,
+                383.5793762207031,
+                96.06916809082031
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0150_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.9289534687995911,
+              "box": [
+                246.101318359375,
+                80.96473693847656,
+                268.7208251953125,
+                133.9390869140625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.9393325448036194,
+              "box": [
+                245.09500122070312,
+                81.37503051757812,
+                268.0660705566406,
+                134.83331298828125
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0151_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8106605410575867,
+              "box": [
+                312.09857177734375,
+                175.87081909179688,
+                322.66497802734375,
+                200.79519653320312
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7706998586654663,
+              "box": [
+                264.3092041015625,
+                178.13694763183594,
+                274.2257080078125,
+                202.4564666748047
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.799881637096405,
+              "box": [
+                311.760986328125,
+                175.95071411132812,
+                322.74560546875,
+                200.45932006835938
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7818132042884827,
+              "box": [
+                264.24591064453125,
+                178.63108825683594,
+                274.15826416015625,
+                201.74549865722656
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7640482783317566,
+              "box": [
+                180.43667602539062,
+                182.5008544921875,
+                190.95895385742188,
+                207.0693359375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0152_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8391917943954468,
+              "box": [
+                317.6289367675781,
+                217.2547607421875,
+                325.2426452636719,
+                234.9122314453125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7992472052574158,
+              "box": [
+                344.7567443847656,
+                216.41844177246094,
+                352.1764221191406,
+                232.8500213623047
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8543292880058289,
+              "box": [
+                344.7813415527344,
+                215.77001953125,
+                352.3459777832031,
+                232.7103271484375
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8344206809997559,
+              "box": [
+                317.8717041015625,
+                216.9685821533203,
+                325.706298828125,
+                234.6785125732422
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0153_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8648829460144043,
+              "box": [
+                400.56756591796875,
+                182.57882690429688,
+                411.81829833984375,
+                208.82662963867188
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.838837742805481,
+              "box": [
+                247.03375244140625,
+                185.92579650878906,
+                258.3939208984375,
+                212.23265075683594
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8562512397766113,
+              "box": [
+                400.33880615234375,
+                183.082763671875,
+                411.89215087890625,
+                208.48419189453125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8300934433937073,
+              "box": [
+                247.07809448242188,
+                186.56021118164062,
+                258.1058044433594,
+                211.92892456054688
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0154_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8855727314949036,
+              "box": [
+                410.567138671875,
+                153.5040283203125,
+                423.6124267578125,
+                187.61566162109375
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8323677778244019,
+              "box": [
+                425.9491271972656,
+                153.010009765625,
+                440.0690612792969,
+                186.68881225585938
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8201141953468323,
+              "box": [
+                186.60635375976562,
+                158.2449493408203,
+                199.85916137695312,
+                191.7990264892578
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7521835565567017,
+              "box": [
+                170.8782501220703,
+                158.84890747070312,
+                183.0437469482422,
+                191.74465942382812
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.9134768843650818,
+              "box": [
+                409.92724609375,
+                153.58822631835938,
+                423.322998046875,
+                187.51382446289062
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8996379971504211,
+              "box": [
+                185.935302734375,
+                159.462646484375,
+                199.75936889648438,
+                191.25823974609375
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8871617913246155,
+              "box": [
+                170.79525756835938,
+                158.85098266601562,
+                182.66348266601562,
+                192.262451171875
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8505966663360596,
+              "box": [
+                425.1791687011719,
+                153.36233520507812,
+                439.7687072753906,
+                186.42947387695312
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0155_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.903157114982605,
+              "box": [
+                291.58502197265625,
+                22.966896057128906,
+                321.40875244140625,
+                91.298095703125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8862416744232178,
+              "box": [
+                195.96017456054688,
+                30.712505340576172,
+                224.67074584960938,
+                97.75840759277344
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.9668112993240356,
+              "box": [
+                194.71676635742188,
+                31.297962188720703,
+                222.90481567382812,
+                98.69825744628906
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.952276349067688,
+              "box": [
+                290.7516784667969,
+                23.678543090820312,
+                319.5757141113281,
+                91.68113708496094
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0156_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7637650966644287,
+              "box": [
+                262.24395751953125,
+                173.92042541503906,
+                272.85321044921875,
+                199.4918975830078
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6843073964118958,
+              "box": [
+                303.0469970703125,
+                209.1383514404297,
+                309.8209228515625,
+                224.6965789794922
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5684683322906494,
+              "box": [
+                434.655517578125,
+                208.48980712890625,
+                441.4674072265625,
+                224.51885986328125
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 3,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8300493359565735,
+              "box": [
+                302.88323974609375,
+                208.97451782226562,
+                310.73309326171875,
+                224.8203125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8156592845916748,
+              "box": [
+                262.01409912109375,
+                174.64974975585938,
+                272.79254150390625,
+                199.09457397460938
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6977197527885437,
+              "box": [
+                434.5908203125,
+                208.32046508789062,
+                441.80352783203125,
+                224.68399047851562
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0157_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7906356453895569,
+              "box": [
+                303.60943603515625,
+                41.393760681152344,
+                310.97161865234375,
+                61.636375427246094
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.45890966057777405,
+              "box": [
+                324.8450927734375,
+                41.102081298828125,
+                332.7689208984375,
+                61.73248291015625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8223046660423279,
+              "box": [
+                304.17462158203125,
+                41.56487274169922,
+                311.3641357421875,
+                61.098960876464844
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5833338499069214,
+              "box": [
+                325.2069396972656,
+                40.69136428833008,
+                332.7828674316406,
+                61.3850212097168
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0158_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 1,
+              "name": "yellow",
+              "confidence": 0.7938324213027954,
+              "box": [
+                361.7025146484375,
+                44.66023254394531,
+                368.52685546875,
+                62.849884033203125
+              ]
+            },
+            {
+              "class_id": 1,
+              "name": "yellow",
+              "confidence": 0.7302905917167664,
+              "box": [
+                251.25296020507812,
+                38.620635986328125,
+                258.6795349121094,
+                56.18885040283203
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 1,
+              "name": "yellow",
+              "confidence": 0.9023527503013611,
+              "box": [
+                361.9736328125,
+                44.44727325439453,
+                368.779296875,
+                62.521514892578125
+              ]
+            },
+            {
+              "class_id": 1,
+              "name": "yellow",
+              "confidence": 0.879671573638916,
+              "box": [
+                251.42520141601562,
+                38.93919372558594,
+                258.7673645019531,
+                56.10979461669922
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0159_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.817927360534668,
+              "box": [
+                179.6328582763672,
+                12.57181167602539,
+                189.71311950683594,
+                40.18718719482422
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7461154460906982,
+              "box": [
+                355.3067626953125,
+                12.429581642150879,
+                366.776611328125,
+                39.08686828613281
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8932433128356934,
+              "box": [
+                179.99002075195312,
+                13.340232849121094,
+                189.48931884765625,
+                39.79753875732422
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8307057023048401,
+              "box": [
+                355.77374267578125,
+                13.193755149841309,
+                366.93243408203125,
+                38.99095916748047
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0160_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8241291642189026,
+              "box": [
+                391.13787841796875,
+                16.194190979003906,
+                401.26861572265625,
+                41.316368103027344
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5004571080207825,
+              "box": [
+                208.76565551757812,
+                0.310394287109375,
+                219.81948852539062,
+                22.04267120361328
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8790902495384216,
+              "box": [
+                208.6826629638672,
+                0.0,
+                220.1975860595703,
+                21.224075317382812
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7698687314987183,
+              "box": [
+                391.08544921875,
+                16.250205993652344,
+                401.2867431640625,
+                40.48712921142578
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0161_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7710036635398865,
+              "box": [
+                313.5662841796875,
+                0.4455394744873047,
+                325.6397705078125,
+                22.95363998413086
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.825023353099823,
+              "box": [
+                313.864501953125,
+                0.5258541107177734,
+                325.62567138671875,
+                23.381729125976562
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0162_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.812255322933197,
+              "box": [
+                177.54852294921875,
+                14.783214569091797,
+                188.04840087890625,
+                41.891448974609375
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7689858078956604,
+              "box": [
+                339.2117614746094,
+                11.446553230285645,
+                349.0574035644531,
+                35.09671401977539
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8348883986473083,
+              "box": [
+                177.59646606445312,
+                15.518546104431152,
+                187.93716430664062,
+                41.28607177734375
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8020570278167725,
+              "box": [
+                339.1136474609375,
+                11.61081314086914,
+                348.84375,
+                34.408058166503906
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0163_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.38743332028388977,
+              "box": [
+                314.5146179199219,
+                238.15771484375,
+                322.3694763183594,
+                256.0
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6940963268280029,
+              "box": [
+                314.59674072265625,
+                238.38140869140625,
+                322.43890380859375,
+                256.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0164_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.759725034236908,
+              "box": [
+                351.9559020996094,
+                34.24817657470703,
+                358.6036682128906,
+                52.115135192871094
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6994620561599731,
+              "box": [
+                359.37725830078125,
+                34.69622039794922,
+                366.13507080078125,
+                52.16304016113281
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.40774041414260864,
+              "box": [
+                222.960693359375,
+                20.278602600097656,
+                229.79302978515625,
+                38.63437271118164
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.2716078758239746,
+              "box": [
+                233.35467529296875,
+                22.70343017578125,
+                240.96844482421875,
+                39.02751922607422
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8030576109886169,
+              "box": [
+                352.0770263671875,
+                33.66729736328125,
+                359.25,
+                51.85137939453125
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7635378837585449,
+              "box": [
+                223.1486358642578,
+                19.48229217529297,
+                230.1573944091797,
+                38.93889236450195
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7042951583862305,
+              "box": [
+                358.9961242675781,
+                34.6063346862793,
+                366.2443542480469,
+                52.136661529541016
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5261932611465454,
+              "box": [
+                233.1993865966797,
+                20.2457275390625,
+                241.04298400878906,
+                38.872764587402344
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0165_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8427408337593079,
+              "box": [
+                205.4443359375,
+                17.49761199951172,
+                215.8360595703125,
+                42.34623718261719
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8423722982406616,
+              "box": [
+                341.8924560546875,
+                11.987286567687988,
+                351.804931640625,
+                35.26231002807617
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.847976803779602,
+              "box": [
+                205.59872436523438,
+                17.897106170654297,
+                215.68777465820312,
+                41.33919906616211
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8437711000442505,
+              "box": [
+                342.0899353027344,
+                12.007164001464844,
+                351.7776794433594,
+                34.18903350830078
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0166_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.828025758266449,
+              "box": [
+                337.6768798828125,
+                18.392803192138672,
+                346.84619140625,
+                40.1195182800293
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7529951333999634,
+              "box": [
+                323.87896728515625,
+                18.585391998291016,
+                333.28216552734375,
+                40.36544418334961
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.336024671792984,
+              "box": [
+                131.6807861328125,
+                34.61511993408203,
+                139.84762573242188,
+                54.640281677246094
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8075919151306152,
+              "box": [
+                337.3287353515625,
+                17.823936462402344,
+                346.830078125,
+                39.163963317871094
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.711974561214447,
+              "box": [
+                323.777099609375,
+                18.570114135742188,
+                333.43255615234375,
+                39.91209411621094
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5089063048362732,
+              "box": [
+                131.67562866210938,
+                34.509742736816406,
+                140.00225830078125,
+                54.521751403808594
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0167_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.866367518901825,
+              "box": [
+                184.13381958007812,
+                33.02686309814453,
+                191.82913208007812,
+                51.558998107910156
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8402527570724487,
+              "box": [
+                440.0372314453125,
+                28.614599227905273,
+                447.525146484375,
+                47.14031219482422
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.514726459980011,
+              "box": [
+                459.4834289550781,
+                28.037109375,
+                466.8902282714844,
+                46.66914367675781
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.41887572407722473,
+              "box": [
+                204.52383422851562,
+                32.21223831176758,
+                212.38113403320312,
+                50.49807357788086
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8785272836685181,
+              "box": [
+                184.36602783203125,
+                32.53668975830078,
+                192.18084716796875,
+                50.96057891845703
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8574320077896118,
+              "box": [
+                440.05743408203125,
+                28.344615936279297,
+                447.86004638671875,
+                47.288516998291016
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5535477995872498,
+              "box": [
+                459.5289306640625,
+                27.906118392944336,
+                466.94268798828125,
+                46.58020782470703
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5433593988418579,
+              "box": [
+                204.6585693359375,
+                31.908971786499023,
+                212.48248291015625,
+                50.018455505371094
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0168_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8217191100120544,
+              "box": [
+                177.629150390625,
+                14.599297523498535,
+                188.021240234375,
+                41.646461486816406
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8075512051582336,
+              "box": [
+                339.0958251953125,
+                11.456954956054688,
+                348.878662109375,
+                35.109622955322266
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8534514307975769,
+              "box": [
+                177.725830078125,
+                15.119136810302734,
+                187.8583984375,
+                40.893062591552734
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8420885801315308,
+              "box": [
+                339.03045654296875,
+                11.627303123474121,
+                348.71160888671875,
+                34.41609191894531
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0169_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8236842751502991,
+              "box": [
+                177.6229248046875,
+                14.911796569824219,
+                187.8455810546875,
+                41.68511199951172
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7987868785858154,
+              "box": [
+                339.21258544921875,
+                11.428864479064941,
+                348.81671142578125,
+                34.875213623046875
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8565570116043091,
+              "box": [
+                177.7170867919922,
+                15.315128326416016,
+                187.75291442871094,
+                40.905982971191406
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8255799412727356,
+              "box": [
+                339.08404541015625,
+                11.522616386413574,
+                348.71014404296875,
+                34.23234176635742
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0170_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7359412312507629,
+              "box": [
+                336.1485595703125,
+                57.717315673828125,
+                341.14337158203125,
+                69.51264953613281
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.61980801820755,
+              "box": [
+                336.1945495605469,
+                57.887779235839844,
+                341.0774230957031,
+                69.5662841796875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0171_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7715494632720947,
+              "box": [
+                337.4664611816406,
+                17.50048065185547,
+                344.9549865722656,
+                34.66823959350586
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.570964515209198,
+              "box": [
+                347.0224609375,
+                16.919300079345703,
+                354.5498046875,
+                34.349586486816406
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7797222137451172,
+              "box": [
+                337.59466552734375,
+                16.628406524658203,
+                345.36090087890625,
+                34.47180938720703
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5903715491294861,
+              "box": [
+                347.1125793457031,
+                16.39621353149414,
+                354.9925231933594,
+                34.35699462890625
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0172_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8030597567558289,
+              "box": [
+                315.881591796875,
+                1.7365093231201172,
+                327.8719482421875,
+                27.867095947265625
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.4069976508617401,
+              "box": [
+                363.34613037109375,
+                1.9591617584228516,
+                374.25384521484375,
+                25.598072052001953
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8773048520088196,
+              "box": [
+                316.24444580078125,
+                2.6799068450927734,
+                327.61553955078125,
+                27.864925384521484
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6234647035598755,
+              "box": [
+                363.53302001953125,
+                2.6083011627197266,
+                374.38836669921875,
+                26.043188095092773
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0173_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8744062781333923,
+              "box": [
+                140.85858154296875,
+                15.98686695098877,
+                151.15069580078125,
+                41.398494720458984
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8616605997085571,
+              "box": [
+                337.296142578125,
+                5.850820541381836,
+                347.90966796875,
+                31.847265243530273
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.9177343845367432,
+              "box": [
+                141.07272338867188,
+                16.51776885986328,
+                151.06259155273438,
+                40.63880157470703
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8187020421028137,
+              "box": [
+                337.6986083984375,
+                6.919136047363281,
+                348.0323486328125,
+                31.77355194091797
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0174_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8748332262039185,
+              "box": [
+                230.49295043945312,
+                49.04862976074219,
+                237.96963500976562,
+                66.9835205078125
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.4843865931034088,
+              "box": [
+                364.2349853515625,
+                38.262908935546875,
+                372.51806640625,
+                57.261741638183594
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8582329154014587,
+              "box": [
+                230.79226684570312,
+                48.72175598144531,
+                238.49319458007812,
+                66.27934265136719
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6244386434555054,
+              "box": [
+                364.0914306640625,
+                38.02809524536133,
+                372.7220458984375,
+                57.26900863647461
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0175_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.4834875166416168,
+              "box": [
+                288.28240966796875,
+                33.632469177246094,
+                296.9713134765625,
+                43.74620819091797
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.25119665265083313,
+              "box": [
+                394.95526123046875,
+                27.838729858398438,
+                403.57171630859375,
+                43.55042266845703
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0176_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 1,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.330864816904068,
+              "box": [
+                386.80072021484375,
+                84.89633178710938,
+                390.58026123046875,
+                96.35983276367188
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0177_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8229818344116211,
+              "box": [
+                297.4823913574219,
+                64.58628845214844,
+                302.6886901855469,
+                76.31253051757812
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.773644745349884,
+              "box": [
+                304.7461853027344,
+                64.52718353271484,
+                309.4627380371094,
+                76.45427703857422
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8473244905471802,
+              "box": [
+                297.4410400390625,
+                64.7535629272461,
+                302.79986572265625,
+                76.06217193603516
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6738077998161316,
+              "box": [
+                304.472900390625,
+                64.90065002441406,
+                309.4610595703125,
+                76.52314758300781
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0178_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8360574245452881,
+              "box": [
+                289.2582702636719,
+                38.80771255493164,
+                296.7742614746094,
+                56.45271682739258
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.4798358976840973,
+              "box": [
+                315.42205810546875,
+                37.500030517578125,
+                323.545166015625,
+                55.7603759765625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7903859615325928,
+              "box": [
+                289.3974609375,
+                38.738502502441406,
+                296.908203125,
+                56.18043518066406
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.38272911310195923,
+              "box": [
+                315.5712890625,
+                37.56645965576172,
+                323.477294921875,
+                55.555511474609375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0179_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8728591799736023,
+              "box": [
+                333.10693359375,
+                24.444162368774414,
+                342.4000244140625,
+                47.15270233154297
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8270999193191528,
+              "box": [
+                216.94015502929688,
+                30.93992805480957,
+                226.15420532226562,
+                53.708526611328125
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8406078219413757,
+              "box": [
+                333.0326232910156,
+                24.39235496520996,
+                342.4602355957031,
+                46.79686737060547
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7949367165565491,
+              "box": [
+                216.942626953125,
+                30.874298095703125,
+                226.08029174804688,
+                52.965965270996094
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0180_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8583300709724426,
+              "box": [
+                377.54376220703125,
+                14.161323547363281,
+                387.21441650390625,
+                38.077083587646484
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8167821764945984,
+              "box": [
+                452.2950439453125,
+                12.537334442138672,
+                462.4747314453125,
+                36.20195007324219
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8641825318336487,
+              "box": [
+                377.64642333984375,
+                14.374648094177246,
+                387.28497314453125,
+                37.292991638183594
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.831021785736084,
+              "box": [
+                452.2049865722656,
+                12.495075225830078,
+                462.3737487792969,
+                35.785465240478516
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0181_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8235097527503967,
+              "box": [
+                329.8369445800781,
+                69.8204574584961,
+                334.3589782714844,
+                80.20279693603516
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7469967603683472,
+              "box": [
+                283.18646240234375,
+                71.80387878417969,
+                287.56121826171875,
+                81.51130676269531
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.626220703125,
+              "box": [
+                329.97467041015625,
+                69.93118286132812,
+                334.14581298828125,
+                80.25477600097656
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5848008990287781,
+              "box": [
+                283.4102783203125,
+                72.27594757080078,
+                287.54315185546875,
+                81.5876235961914
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0182_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8007490038871765,
+              "box": [
+                121.08126831054688,
+                67.45071411132812,
+                125.7010498046875,
+                79.00279235839844
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6548590064048767,
+              "box": [
+                121.18565368652344,
+                67.10552978515625,
+                126.15965270996094,
+                79.29611206054688
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0183_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8590484261512756,
+              "box": [
+                326.0755615234375,
+                14.287899017333984,
+                335.352294921875,
+                37.820980072021484
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8590234518051147,
+              "box": [
+                182.00942993164062,
+                28.33318328857422,
+                190.6168212890625,
+                50.15612030029297
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.9075101017951965,
+              "box": [
+                182.2786407470703,
+                28.3201904296875,
+                191.0271759033203,
+                49.342552185058594
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8665227890014648,
+              "box": [
+                326.19952392578125,
+                14.450783729553223,
+                335.6424560546875,
+                37.524864196777344
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0184_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8305537700653076,
+              "box": [
+                246.26092529296875,
+                44.08684539794922,
+                253.55087280273438,
+                62.600189208984375
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8216206431388855,
+              "box": [
+                361.66119384765625,
+                54.449981689453125,
+                367.37982177734375,
+                68.45138549804688
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8201519250869751,
+              "box": [
+                233.7548828125,
+                44.07524108886719,
+                241.02154541015625,
+                62.79917907714844
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 4,
+            "matched": 4,
+            "unmatched": 0,
+            "matched_color_correct": 4
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.919980525970459,
+              "box": [
+                246.52749633789062,
+                43.916831970214844,
+                253.95510864257812,
+                62.370216369628906
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8270418047904968,
+              "box": [
+                233.90614318847656,
+                43.906341552734375,
+                241.19850158691406,
+                62.432830810546875
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7875678539276123,
+              "box": [
+                361.52215576171875,
+                54.37799072265625,
+                367.40167236328125,
+                68.37089538574219
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5399408340454102,
+              "box": [
+                355.1093444824219,
+                54.83685302734375,
+                360.1495666503906,
+                67.93504333496094
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0185_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8334850072860718,
+              "box": [
+                393.669921875,
+                35.66240692138672,
+                399.48992919921875,
+                50.69548797607422
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8285020589828491,
+              "box": [
+                354.3909606933594,
+                38.15045166015625,
+                360.5799255371094,
+                53.5272216796875
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8225601315498352,
+              "box": [
+                327.7110595703125,
+                39.993385314941406,
+                333.8673095703125,
+                55.26293182373047
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8033438324928284,
+              "box": [
+                378.572265625,
+                36.34513854980469,
+                384.5108642578125,
+                52.03144836425781
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6646507978439331,
+              "box": [
+                414.30364990234375,
+                34.801307678222656,
+                420.45941162109375,
+                50.98176574707031
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8294336795806885,
+              "box": [
+                354.68035888671875,
+                37.79770278930664,
+                360.90399169921875,
+                53.397708892822266
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.79514080286026,
+              "box": [
+                327.84185791015625,
+                39.718292236328125,
+                334.47198486328125,
+                55.267578125
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7893776297569275,
+              "box": [
+                393.9019775390625,
+                35.249759674072266,
+                400.036376953125,
+                51.093509674072266
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7468279004096985,
+              "box": [
+                414.29486083984375,
+                34.01261901855469,
+                420.60711669921875,
+                50.81111145019531
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6779916286468506,
+              "box": [
+                378.64422607421875,
+                35.854007720947266,
+                384.91107177734375,
+                52.12942886352539
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0186_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8622070550918579,
+              "box": [
+                415.934326171875,
+                34.3466796875,
+                422.3209228515625,
+                50.34900665283203
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7420599460601807,
+              "box": [
+                395.1260986328125,
+                35.64208984375,
+                400.71466064453125,
+                50.5540771484375
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7173058986663818,
+              "box": [
+                379.2304382324219,
+                36.25642395019531,
+                385.0920104980469,
+                51.5225830078125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7084119319915771,
+              "box": [
+                355.4142150878906,
+                37.11382293701172,
+                361.8986511230469,
+                53.399139404296875
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.5845078825950623,
+              "box": [
+                327.74072265625,
+                39.781532287597656,
+                334.22607421875,
+                55.636024475097656
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8850764632225037,
+              "box": [
+                415.97247314453125,
+                33.97985076904297,
+                422.75433349609375,
+                49.75682067871094
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7635785341262817,
+              "box": [
+                395.31695556640625,
+                35.22687530517578,
+                401.37396240234375,
+                50.63634490966797
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7605655193328857,
+              "box": [
+                327.8578186035156,
+                39.632568359375,
+                334.8086242675781,
+                55.5025634765625
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7414995431900024,
+              "box": [
+                379.3166809082031,
+                35.802879333496094,
+                385.5069274902344,
+                51.647560119628906
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6942206025123596,
+              "box": [
+                355.54400634765625,
+                36.99785232543945,
+                361.92633056640625,
+                53.253292083740234
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0187_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 0,
+            "unmatched": 2,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.4219587445259094,
+              "box": [
+                321.88092041015625,
+                37.24967956542969,
+                328.6156005859375,
+                54.14093017578125
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.2880525588989258,
+              "box": [
+                407.53436279296875,
+                50.72473907470703,
+                412.93450927734375,
+                63.58209228515625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.7830111384391785,
+              "box": [
+                321.939697265625,
+                37.276649475097656,
+                328.684326171875,
+                54.26677703857422
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0188_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5572287440299988,
+              "box": [
+                266.34576416015625,
+                72.09782409667969,
+                271.00787353515625,
+                83.70112609863281
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 1,
+            "matched": 0,
+            "unmatched": 1,
+            "matched_color_correct": 0
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.4567619562149048,
+              "box": [
+                266.4117431640625,
+                72.6240234375,
+                271.0699462890625,
+                83.36294555664062
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0189_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7584888935089111,
+              "box": [
+                307.0885925292969,
+                53.4193115234375,
+                312.3811950683594,
+                66.04827880859375
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.6811690926551819,
+              "box": [
+                307.33367919921875,
+                53.58209228515625,
+                312.40399169921875,
+                66.06234741210938
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0190_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8637173771858215,
+              "box": [
+                416.08233642578125,
+                34.604156494140625,
+                422.25970458984375,
+                50.181304931640625
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7590849995613098,
+              "box": [
+                395.12152099609375,
+                35.56201934814453,
+                400.6478271484375,
+                50.520973205566406
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7425817847251892,
+              "box": [
+                327.9360656738281,
+                39.82054901123047,
+                334.1377258300781,
+                55.047569274902344
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7284523248672485,
+              "box": [
+                379.22955322265625,
+                36.060569763183594,
+                385.09942626953125,
+                51.52899932861328
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.675938606262207,
+              "box": [
+                355.4732360839844,
+                37.2420654296875,
+                361.8325500488281,
+                53.49357604980469
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8651073575019836,
+              "box": [
+                416.0679931640625,
+                34.254905700683594,
+                422.58837890625,
+                49.656455993652344
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7911838889122009,
+              "box": [
+                395.3332824707031,
+                35.07286071777344,
+                401.2875061035156,
+                50.565155029296875
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7578933835029602,
+              "box": [
+                328.026123046875,
+                39.48411560058594,
+                334.57275390625,
+                55.29866027832031
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7543821930885315,
+              "box": [
+                379.33331298828125,
+                35.590721130371094,
+                385.52203369140625,
+                51.628211975097656
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6752702593803406,
+              "box": [
+                355.59521484375,
+                37.08208465576172,
+                361.874267578125,
+                53.32964324951172
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0191_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 0,
+            "matched": 0,
+            "unmatched": 0,
+            "matched_color_correct": 0
+          },
+          "predictions": []
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0192_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8459458351135254,
+              "box": [
+                289.1246643066406,
+                62.43556213378906,
+                293.5510559082031,
+                73.42247009277344
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8666871786117554,
+              "box": [
+                288.99664306640625,
+                62.66482925415039,
+                293.43145751953125,
+                73.47039794921875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0193_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8522444367408752,
+              "box": [
+                352.2088623046875,
+                36.49728775024414,
+                359.01470947265625,
+                52.58047103881836
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8485723733901978,
+              "box": [
+                377.69659423828125,
+                34.56956481933594,
+                383.92938232421875,
+                50.872314453125
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8284523487091064,
+              "box": [
+                415.7320861816406,
+                32.9471321105957,
+                422.6499328613281,
+                50.275264739990234
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8079584240913391,
+              "box": [
+                393.999755859375,
+                33.51507568359375,
+                400.00164794921875,
+                49.28184509277344
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5708975791931152,
+              "box": [
+                323.5191345214844,
+                38.356204986572266,
+                330.6059265136719,
+                54.79280471801758
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 5,
+            "predictions": 5,
+            "matched": 5,
+            "unmatched": 0,
+            "matched_color_correct": 5
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8799723386764526,
+              "box": [
+                394.18182373046875,
+                33.07506561279297,
+                400.81805419921875,
+                48.747169494628906
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8537158966064453,
+              "box": [
+                352.32818603515625,
+                35.940704345703125,
+                359.53973388671875,
+                52.77677917480469
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.8074918389320374,
+              "box": [
+                415.94635009765625,
+                32.549713134765625,
+                423.41412353515625,
+                49.83573913574219
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7918370962142944,
+              "box": [
+                377.79119873046875,
+                33.951236724853516,
+                384.34197998046875,
+                50.37697219848633
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5418547987937927,
+              "box": [
+                323.64166259765625,
+                38.28313446044922,
+                330.80413818359375,
+                54.459556579589844
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0194_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7773988246917725,
+              "box": [
+                248.7091827392578,
+                60.86225891113281,
+                254.03895568847656,
+                74.08451843261719
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.7315151691436768,
+              "box": [
+                377.69427490234375,
+                46.8730354309082,
+                383.82745361328125,
+                60.379085540771484
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8058897256851196,
+              "box": [
+                248.65496826171875,
+                60.64895248413086,
+                254.05917358398438,
+                73.8388671875
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6594198346138,
+              "box": [
+                378.01953125,
+                47.193214416503906,
+                383.74493408203125,
+                60.185768127441406
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0195_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 5,
+            "matched": 4,
+            "unmatched": 1,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.786959707736969,
+              "box": [
+                168.2218017578125,
+                42.64160919189453,
+                176.14666748046875,
+                61.84142303466797
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.600524365901947,
+              "box": [
+                304.34820556640625,
+                29.456653594970703,
+                311.41314697265625,
+                47.729740142822266
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.5724995732307434,
+              "box": [
+                315.2217102050781,
+                28.422414779663086,
+                323.4475402832031,
+                47.60041046142578
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.3578689992427826,
+              "box": [
+                160.3269805908203,
+                43.321563720703125,
+                166.8289337158203,
+                62.55509948730469
+              ]
+            },
+            {
+              "class_id": 3,
+              "name": "off",
+              "confidence": 0.3227084279060364,
+              "box": [
+                160.08511352539062,
+                43.387046813964844,
+                167.2650146484375,
+                62.08796691894531
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 4,
+            "predictions": 3,
+            "matched": 3,
+            "unmatched": 0,
+            "matched_color_correct": 3
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8028317093849182,
+              "box": [
+                167.98446655273438,
+                42.364540100097656,
+                176.54641723632812,
+                61.851646423339844
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.6428806781768799,
+              "box": [
+                315.40216064453125,
+                28.67119598388672,
+                323.6124267578125,
+                47.131736755371094
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.40626585483551025,
+              "box": [
+                304.2581787109375,
+                29.315773010253906,
+                311.8426513671875,
+                47.99986267089844
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0196_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7756167054176331,
+              "box": [
+                322.5262756347656,
+                80.80455017089844,
+                326.2887878417969,
+                89.79573059082031
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.47267070412635803,
+              "box": [
+                314.42291259765625,
+                81.65669250488281,
+                317.65972900390625,
+                89.650634765625
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 1,
+            "unmatched": 1,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7247063517570496,
+              "box": [
+                322.5762939453125,
+                81.08084106445312,
+                326.0286865234375,
+                89.90190124511719
+              ]
+            },
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.3294467628002167,
+              "box": [
+                314.1258850097656,
+                81.74639892578125,
+                317.1985168457031,
+                89.91244506835938
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0197_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8339529633522034,
+              "box": [
+                231.66773986816406,
+                41.845054626464844,
+                239.2865753173828,
+                59.67662048339844
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8285836577415466,
+              "box": [
+                353.33587646484375,
+                31.262285232543945,
+                360.64630126953125,
+                48.47282409667969
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 2,
+            "matched": 2,
+            "unmatched": 0,
+            "matched_color_correct": 2
+          },
+          "predictions": [
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8427573442459106,
+              "box": [
+                231.96673583984375,
+                41.614952087402344,
+                239.59228515625,
+                58.90204620361328
+              ]
+            },
+            {
+              "class_id": 2,
+              "name": "green",
+              "confidence": 0.8270664811134338,
+              "box": [
+                353.3770446777344,
+                30.85134506225586,
+                360.9815979003906,
+                48.17937088012695
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\dataset\\images\\val\\0198_0.png",
+      "video": "",
+      "comparison": [
+        {
+          "model": "retained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.7992990016937256,
+              "box": [
+                230.9131317138672,
+                1.0782203674316406,
+                241.45091247558594,
+                23.406980514526367
+              ]
+            }
+          ]
+        },
+        {
+          "model": "trained",
+          "counts": {
+            "images": 1,
+            "truth": 2,
+            "predictions": 1,
+            "matched": 1,
+            "unmatched": 0,
+            "matched_color_correct": 1
+          },
+          "predictions": [
+            {
+              "class_id": 0,
+              "name": "red",
+              "confidence": 0.819770097732544,
+              "box": [
+                230.9288330078125,
+                1.1309165954589844,
+                241.46270751953125,
+                23.1003360748291
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "adopted": false
+}

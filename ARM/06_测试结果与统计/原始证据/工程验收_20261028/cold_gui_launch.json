@@ -1,0 +1,26 @@
+{
+  "pid": 4075,
+  "command": [
+    "python3",
+    "/home/orangepi/adas2026/signal_recovered_20261028/run_unified_demo.py",
+    "--duration",
+    "21600",
+    "--capture-mode",
+    "720",
+    "--lamp-profile",
+    "capture_ft",
+    "--road-profile",
+    "int8",
+    "--classifiers",
+    "batch2",
+    "--video-layout",
+    "full",
+    "--windowed",
+    "--housing-refinement",
+    "--proposal-mode",
+    "geometry",
+    "--capture-fps",
+    "10"
+  ],
+  "log": "/home/orangepi/adas2026/signal_recovered_20261028/launch_20261028_093847.log"
+}

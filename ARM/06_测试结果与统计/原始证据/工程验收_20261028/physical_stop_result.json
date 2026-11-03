@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "frames": 90,
+  "successes": 90,
+  "physical_epoch": 85,
+  "evidence": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_085102_UTC",
+  "observations_sha256": "134aa1756226792b3b9b259edc7c5a9de03bd76fa3d4e6f1e87dff2e2d2402b2",
+  "human_observation": {
+    "answer": "已按，STOP、UART和LED4都正常",
+    "screen_STOP_confirmed": true,
+    "UART_confirmed": true,
+    "LED4_on_confirmed": true
+  }
+}

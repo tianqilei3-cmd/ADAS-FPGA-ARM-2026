@@ -1,0 +1,9 @@
+{
+  "path": "/home/orangepi/adas2026/lane_boundary_fp_20261027/boundary_fp.rknn",
+  "sha256": "f06c1c572746eb4bdc2cd250f60db94befc407e409c422e1a34a05abb467313e",
+  "bytes": 3153335,
+  "seconds": 9.924976787995547,
+  "quantization": false,
+  "new_training": false,
+  "accepted": false
+}

@@ -1,0 +1,11 @@
+{
+  "previous_boot_id": "8ef6af96-06a8-4703-a14c-05a1ac8afbf6",
+  "new_boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "boot_id_changed": true,
+  "previous_boot_evidence": "after_functional_and_recovery.json",
+  "current_boot_evidence": "cold_park_smoke_result.json",
+  "human_evidence": "cold_power_human_observation.json",
+  "naming_note": "before_cold_power.json was read after the user had already power cycled; its embedded previous-session status was stale and was not accepted as live proof",
+  "assisted_cold_restore_passed": true,
+  "unattended_boot_proven": false
+}

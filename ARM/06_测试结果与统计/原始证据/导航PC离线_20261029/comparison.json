@@ -1,0 +1,79 @@
+{
+  "task": "navigation",
+  "baseline": {
+    "clean": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "capture_hard": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "candidate": {
+    "clean": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "capture_hard": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "clean_precision_recall_not_regressed": true,
+  "stress_f1_not_regressed": true,
+  "red_as_green_not_increased": true,
+  "targeted_benefit": false,
+  "offline_gate_passed": false,
+  "hardware_acceptance": false,
+  "deployed": false,
+  "action": "Keep stable model; candidate did not clear all offline gates"
+}

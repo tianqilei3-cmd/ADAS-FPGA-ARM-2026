@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "archive": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_delivery_20261101\\runtime_from_board.tar.gz",
+  "bytes": 66685481,
+  "sha256": "984403da49294607a6597c6edeeeae43288e2844347fa66d4fa174128a11c359",
+  "files": 81,
+  "models": 15,
+  "board_archive_file_created": false,
+  "board_runtime_changed": false,
+  "created": "2026-11-01T19:59:27.625674+08:00"
+}

@@ -1,0 +1,465 @@
+{
+  "config": {
+    "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\training\\weights\\last.pt",
+    "weights_sha256": "80a61a852113ecf2cbf28dac2a7d41c85b7f7f6eb3926489faa6aaa1a3a465ae",
+    "shape": [
+      288,
+      512
+    ],
+    "confidence": 0.25,
+    "nms_iou": 0.5,
+    "match_iou": 0.5,
+    "dataset_sha256": "38bba9ceb04b800d2e1388f460963bd7a54e1044d717ce42cfdd6b7a1b79e97a",
+    "code_sha256": "839f7dadf300ce8cc91887561dbc18bce8cb2982c577a7106515cd85f742abb2"
+  },
+  "totals": {
+    "clean": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "capture_hard": {
+      "truth": 4,
+      "predictions": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "primary_instruction_card_truth": 3,
+      "primary_instruction_card_predictions": 3,
+      "primary_instruction_card_tp": 3,
+      "junction_instruction_header_truth": 1,
+      "junction_instruction_header_predictions": 1,
+      "junction_instruction_header_tp": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "observations": [
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0020_clean.png",
+      "view": "clean",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            84.99999840000001,
+            177.0000012,
+            302.9999952,
+            302.00000040000003
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.9698057174682617,
+          "box": [
+            80.52294158935547,
+            176.3109588623047,
+            304.55316162109375,
+            301.232421875
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 63.00000000010186
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0020_clean.png",
+      "view": "capture_hard",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            84.99999840000001,
+            177.0000012,
+            302.9999952,
+            302.00000040000003
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.9699950218200684,
+          "box": [
+            80.44953155517578,
+            175.85247802734375,
+            304.7962341308594,
+            301.0777282714844
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 61.99999999989814
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0061_clean.png",
+      "view": "clean",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            62.499998399999996,
+            170.99999909999997,
+            286.4999952,
+            298.0000017
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.975050687789917,
+          "box": [
+            55.45761489868164,
+            171.70533752441406,
+            284.42919921875,
+            298.93194580078125
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 63.00000000010186
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0061_clean.png",
+      "view": "capture_hard",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            62.499998399999996,
+            170.99999909999997,
+            286.4999952,
+            298.0000017
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.977516770362854,
+          "box": [
+            55.15742111206055,
+            171.2787628173828,
+            284.71856689453125,
+            299.1980285644531
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0082_clean.png",
+      "view": "clean",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            41.0000016,
+            316.99999890000004,
+            146.4999984,
+            388.9999971
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.6658423542976379,
+          "box": [
+            38.5470085144043,
+            319.3350524902344,
+            147.28515625,
+            398.38421630859375
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0082_clean.png",
+      "view": "capture_hard",
+      "truth": [
+        {
+          "class_id": 0,
+          "box": [
+            41.0000016,
+            316.99999890000004,
+            146.4999984,
+            388.9999971
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "primary_instruction_card",
+          "confidence": 0.681101381778717,
+          "box": [
+            39.28707504272461,
+            320.1064453125,
+            147.10789489746094,
+            397.91448974609375
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 1,
+        "primary_instruction_card_predictions": 1,
+        "primary_instruction_card_tp": 1,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0123_clean.png",
+      "view": "clean",
+      "truth": [
+        {
+          "class_id": 1,
+          "box": [
+            65.0000016,
+            307.0000008,
+            174.99999839999998,
+            329.0000004
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "junction_instruction_header",
+          "confidence": 0.7715358138084412,
+          "box": [
+            67.59809875488281,
+            303.4112243652344,
+            179.5153045654297,
+            330.72247314453125
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0123_clean.png",
+      "view": "capture_hard",
+      "truth": [
+        {
+          "class_id": 1,
+          "box": [
+            65.0000016,
+            307.0000008,
+            174.99999839999998,
+            329.0000004
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "junction_instruction_header",
+          "confidence": 0.786467969417572,
+          "box": [
+            68.16627502441406,
+            303.3326721191406,
+            178.63168334960938,
+            330.9931640625
+          ]
+        }
+      ],
+      "counts": {
+        "truth": 1,
+        "predictions": 1,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 1,
+        "junction_instruction_header_predictions": 1,
+        "junction_instruction_header_tp": 1
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0160_clean.png",
+      "view": "clean",
+      "truth": [],
+      "predictions": [],
+      "counts": {
+        "truth": 0,
+        "predictions": 0,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 45.99999999982174
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0160_clean.png",
+      "view": "capture_hard",
+      "truth": [],
+      "predictions": [],
+      "counts": {
+        "truth": 0,
+        "predictions": 0,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0161_clean.png",
+      "view": "clean",
+      "truth": [],
+      "predictions": [],
+      "counts": {
+        "truth": 0,
+        "predictions": 0,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 47.000000000025466
+    },
+    {
+      "image": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\arm_signal_navigation_20261029\\navigation\\dataset\\images\\val\\0161_clean.png",
+      "view": "capture_hard",
+      "truth": [],
+      "predictions": [],
+      "counts": {
+        "truth": 0,
+        "predictions": 0,
+        "fp": 0,
+        "fn": 0,
+        "primary_instruction_card_truth": 0,
+        "primary_instruction_card_predictions": 0,
+        "primary_instruction_card_tp": 0,
+        "junction_instruction_header_truth": 0,
+        "junction_instruction_header_predictions": 0,
+        "junction_instruction_header_tp": 0
+      },
+      "processing_ms": 61.99999999989814
+    }
+  ],
+  "independent_test": false,
+  "scope": "Previously observed temporal/source VAL. Stress views are correlated synthetic quality transforms, not new scenes or closed-loop hardware results."
+}

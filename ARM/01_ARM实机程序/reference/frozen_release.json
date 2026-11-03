@@ -1,0 +1,84 @@
+{
+  "frozen_china": "2026-10-28T08:57:22.658644+08:00",
+  "scope": "Controlled virtual straight lane; three real-input signal cases. Lane integration not accepted.",
+  "core_signal_cases_passed": true,
+  "accepted_whole_system": false,
+  "source_audit_passed": true,
+  "trial": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\acceptance\\20261028_005259_UTC",
+  "source_manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+  "firmware_profile": 41,
+  "bitstream_sha256": "84b4c9fd406f27e21aacd5959509004993b22e1d801c9e4f29f9db09e4ee6f06",
+  "config": {
+    "capture_mode": "720",
+    "capture_fps": 10,
+    "lamp_profile": "capture_ft",
+    "road_profile": "int8",
+    "classifiers": "batch2",
+    "video_layout": "full",
+    "windowed": true,
+    "housing_refinement": true,
+    "proposal_mode": "geometry"
+  },
+  "results": [
+    {
+      "case": "red_stop",
+      "passed": true,
+      "successes": 90,
+      "frames": 90,
+      "unsafe_events": []
+    },
+    {
+      "case": "forced_red",
+      "passed": true,
+      "successes": 89,
+      "frames": 90,
+      "unsafe_events": []
+    },
+    {
+      "case": "green_go",
+      "passed": true,
+      "successes": 64,
+      "frames": 90,
+      "unsafe_events": []
+    }
+  ],
+  "capture_recovery_accepted": true,
+  "soak_accepted": true,
+  "capture_recovery_evidence": "runs\\basic_finish70_20261028\\capture_recovery\\20261028_005711_UTC",
+  "soak_evidence": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\soak\\20261028_005808_UTC",
+  "soak_summary": {
+    "accepted": true,
+    "elapsed_seconds": 1816.6399999999994,
+    "observations": 106,
+    "tree_rss_growth_mib": 19.62109375,
+    "scope": "30minute controlled green-source HDMI/ARM/UART run; not general-road accuracy or physical key manual confirmation",
+    "frame_audit": {
+      "frames": 7124,
+      "grant_frames": 5485,
+      "confirmed_frames": 7103,
+      "green_closed_loop_successes": 5484,
+      "green_closed_loop_ratio": 0.7697922515440764,
+      "unsafe": [],
+      "mean_age_ms": 297.690310178024,
+      "max_age_ms": 572.9476229753345,
+      "decision_reasons": {
+        "confirmed_green_in_virtual_direction_scenario": 5484,
+        "confirming_current_green": 1324,
+        "round_or_unknown_direction_requires_approach_association": 289,
+        "expired_before_display": 17,
+        "driver_key_unconfirmed_or_changed": 10
+      },
+      "capture_recovery_counts": [
+        0
+      ],
+      "session": "/home/orangepi/adas2026/unified_20261028/results/20261028_005822"
+    }
+  },
+  "isolated_restore_accepted": true,
+  "restore_validation_evidence": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\restore_validation\\20261028_013021_UTC",
+  "link_preflight_accepted": true,
+  "cold_power_cycle_tested": false,
+  "restart_stability_accepted": false,
+  "restart_issue": "After isolated restore smoke succeeded, subsequent raw capture restart became black/frozen. A real Windows refresh change30to60 was observed; same0x29 SRAM reload did not restore reliably. Preserved successful30minute evidence does not prove reliable restart.",
+  "next_phase_candidate_profile": 42
+}

@@ -1,0 +1,8 @@
+flowchart LR
+  PC[电脑官方视频] -->|HDMI| V[FPGA视频输入输出]
+  V -->|HDMI| CAP[MS2130]
+  CAP -->|USB3 UVC| ARM[Orange Pi 3B NPU和CPU]
+  ARM -->|本机HDMI| SCREEN[独立显示器]
+  ARM -->|USB UART 上下文与检测框| FPGA[FPGA场景控制与保护]
+  FPGA -->|按键和带身份的实际状态| ARM
+  FPGA --> LED[停车或报警综合指示]

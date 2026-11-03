@@ -1,0 +1,169 @@
+{
+  "source": "HDMI恢复_20261101/steady_check.json",
+  "sequence": 406,
+  "identity": {
+    "camera_id": "capture:/dev/video0:host-session",
+    "frame_id": 4975,
+    "captured_ms": 6968095.472264,
+    "image_identity": "f95100cdd4ccab7ccbc52cdf042d97b3ae8dc3e521daf52d85b35f4fa512e344"
+  },
+  "source_mode": "live_capture",
+  "key_snapshot": {
+    "state": 4,
+    "sequence": 7,
+    "scene_index": 1,
+    "supported": true,
+    "controls": {
+      "mode": "boundary",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "requested_motion": "stop",
+      "requested_turn": "none",
+      "forced": false
+    },
+    "source": "physical_keys",
+    "query": {
+      "command": 3,
+      "sent": true,
+      "acknowledged": true,
+      "tx_started_monotonic": 6968.439749964,
+      "ack_observed_monotonic": 6968.441165115,
+      "reply_hex": "55 03 02 04 07 65",
+      "reply_reads": [
+        {
+          "observed_monotonic": 6968.441165115,
+          "hex": "55 03 02 04 07 65"
+        }
+      ],
+      "reply_commands": [
+        3
+      ],
+      "unexpected_before_tx_hex": "",
+      "invalid_reply_bytes": 0,
+      "partial_reply_hex": "",
+      "reason": "confirmed",
+      "exchange_ms": 1.520732999779284
+    },
+    "changed": false,
+    "board_reset_observed": false,
+    "revision": 1
+  },
+  "context": {
+    "camera_id": 0,
+    "scene": 2,
+    "valid_flags": 97,
+    "risk_flags": 8,
+    "light_state": 0,
+    "navigation": 0,
+    "control_flags": 0,
+    "movement": 2,
+    "boundary": 0,
+    "epoch": 7,
+    "age_units": 72,
+    "arm_action": 1
+  },
+  "receipt": {
+    "status_packet_sent": true,
+    "status_tx_at": 6968.441806774,
+    "status_acknowledged": true,
+    "status_ack_observed_at": 6968.448900319,
+    "boxes_expected": 1,
+    "boxes_attempted": 1,
+    "boxes_acknowledged": 1,
+    "packets_written": 2,
+    "all_acknowledged": true,
+    "transactions": [
+      {
+        "command": 19,
+        "sent": true,
+        "acknowledged": true,
+        "tx_started_monotonic": 6968.441806774,
+        "ack_observed_monotonic": 6968.448900319,
+        "reply_hex": "55 13 68 55 84 0c 03 00 6f 13 07 02 01 01 05 00 29 7f 22",
+        "reply_reads": [
+          {
+            "observed_monotonic": 6968.446524138,
+            "hex": "55 13 68"
+          },
+          {
+            "observed_monotonic": 6968.448900319,
+            "hex": "55 84 0c 03 00 6f 13 07 02 01 01 05 00 29 7f 22"
+          }
+        ],
+        "reply_commands": [
+          19,
+          132
+        ],
+        "unexpected_before_tx_hex": "",
+        "invalid_reply_bytes": 0,
+        "partial_reply_hex": "",
+        "reason": "confirmed",
+        "exchange_ms": 7.284584999979415,
+        "transport_age_guard": {
+          "image_age_before_write_ms": 346.2683030002154,
+          "transport_margin_ms": 10.0,
+          "encoded_age_units": 72,
+          "grant_suppressed_for_transport_budget": false
+        },
+        "wire_hex": "55 13 10 03 00 6f 13 02 61 01 08 00 00 00 02 00 07 48 01 bb",
+        "feedback": {
+          "version": 3,
+          "camera_id": 0,
+          "frame_id": 4975,
+          "epoch": 7,
+          "scene": 2,
+          "action": 1,
+          "alarm_code": 1,
+          "decision_valid": true,
+          "link_timeout": false,
+          "seen_extended": true,
+          "reject_reason": 0,
+          "build_tag": 41,
+          "capabilities": 127
+        },
+        "feedback_query_unexpected_before_tx_hex": ""
+      },
+      {
+        "command": 18,
+        "sent": true,
+        "acknowledged": true,
+        "tx_started_monotonic": 6968.449156108,
+        "ack_observed_monotonic": 6968.456432234,
+        "reply_hex": "55 12 67",
+        "reply_reads": [
+          {
+            "observed_monotonic": 6968.456432234,
+            "hex": "55 12 67"
+          }
+        ],
+        "reply_commands": [
+          18
+        ],
+        "unexpected_before_tx_hex": "",
+        "invalid_reply_bytes": 0,
+        "partial_reply_hex": "",
+        "reason": "confirmed",
+        "exchange_ms": 7.376167000074929
+      }
+    ],
+    "reply_hex": "55 13 68 55 84 0c 03 00 6f 13 07 02 01 01 05 00 29 7f 22 55 12 67",
+    "failure_reason": null,
+    "reopen_required": false,
+    "link_state": "confirmed"
+  },
+  "feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 4975,
+    "epoch": 7,
+    "scene": 2,
+    "action": 1,
+    "alarm_code": 1,
+    "decision_valid": true,
+    "link_timeout": false,
+    "seen_extended": true,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  }
+}

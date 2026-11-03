@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "D:\\工程验收记录_2026-10-28.md",
+      "bytes": 6193,
+      "sha256": "5cf43a8ba015a7acd73d7b3b8b27d937f1684f44028e403827b0ab52a5d4941b"
+    },
+    {
+      "path": "D:\\发给队友_工程验收结果与FPGA待办_2026-10-28.md",
+      "bytes": 2543,
+      "sha256": "e4e7fed4fd58b1a2ba45442d191a6c31f384cec15afb061639ab9287d84da4c3"
+    }
+  ],
+  "whole_engineering_passed": false,
+  "models_changed": false
+}

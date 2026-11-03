@@ -1,0 +1,32 @@
+{
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\trial\\weights\\last.pt",
+  "weights_sha256": "8838410563c74e6cf07c9fc931a49230f6fe9fe5bce85e11672f743435fdd5ca",
+  "onnx_sha256": "300b3c28a616e416773bcd8e6a8a381265604ddef1af6b99f5024f2de6ce6c67",
+  "archive": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\export\\inputs.tar.gz",
+  "archive_sha256": "b79193c2b298dfe92c093f81f769d94968890486a63bdaac0ca87475b890dc06",
+  "shape": [
+    256,
+    640
+  ],
+  "quantization": false,
+  "calibration_samples": 0,
+  "adopted": false,
+  "validation_totals": {
+    "retained": {
+      "images": 104,
+      "truth": 200,
+      "predictions": 155,
+      "matched": 145,
+      "unmatched": 10,
+      "matched_color_correct": 144
+    },
+    "trained": {
+      "images": 104,
+      "truth": 200,
+      "predictions": 164,
+      "matched": 148,
+      "unmatched": 16,
+      "matched_color_correct": 147
+    }
+  }
+}

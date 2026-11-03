@@ -1,0 +1,39 @@
+# MES50HP official user-key pin mapping. All keys are active low.
+# KEY1/K18 remains rst_board in the current project.
+# KEY8/H17 remains key_dehaze in the current project.
+
+define_attribute {p:key_scene_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_scene_n} {PAP_IO_LOC} {L15}
+define_attribute {p:key_scene_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_scene_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_scene_n} {PAP_IO_NONE} {TRUE}
+
+define_attribute {p:key_left_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_left_n} {PAP_IO_LOC} {J17}
+define_attribute {p:key_left_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_left_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_left_n} {PAP_IO_NONE} {TRUE}
+
+define_attribute {p:key_straight_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_straight_n} {PAP_IO_LOC} {K16}
+define_attribute {p:key_straight_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_straight_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_straight_n} {PAP_IO_NONE} {TRUE}
+
+define_attribute {p:key_right_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_right_n} {PAP_IO_LOC} {J16}
+define_attribute {p:key_right_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_right_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_right_n} {PAP_IO_NONE} {TRUE}
+
+define_attribute {p:key_drive_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_drive_n} {PAP_IO_LOC} {J19}
+define_attribute {p:key_drive_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_drive_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_drive_n} {PAP_IO_NONE} {TRUE}
+
+define_attribute {p:key_force_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:key_force_n} {PAP_IO_LOC} {H20}
+define_attribute {p:key_force_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:key_force_n} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:key_force_n} {PAP_IO_NONE} {TRUE}

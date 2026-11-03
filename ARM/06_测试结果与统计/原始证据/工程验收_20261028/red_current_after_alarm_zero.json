@@ -1,0 +1,77 @@
+{
+  "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_085453",
+  "state": "running",
+  "frames": 1737,
+  "key_state": 22,
+  "key_sequence": 99,
+  "controls": {
+    "mode": "boundary",
+    "lane_id": "right_virtual_lane",
+    "movement": "right",
+    "requested_motion": "go",
+    "requested_turn": "right",
+    "forced": false
+  },
+  "decision": {
+    "simulation_only": true,
+    "hardware_command": null,
+    "hardware_command_sent": false,
+    "physical_lane_association_verified": false,
+    "action": "STOP",
+    "alarm": false,
+    "decision_valid": false,
+    "reason": "no_near_current_observed_path",
+    "green_confirmations": 0,
+    "scope": "PC virtual scenario only; physical road association is unverified",
+    "controls": {
+      "mode": "boundary",
+      "lane_id": "right_virtual_lane",
+      "movement": "right",
+      "requested_motion": "go",
+      "requested_turn": "right",
+      "forced": false
+    },
+    "hardware_motion_control_connected": false
+  },
+  "signal": {
+    "camera_id": "capture:/dev/video0:host-session",
+    "frame_id": 57716,
+    "captured_ms": 15803885.759272,
+    "image_identity": "8b62a4f04cd6267db164dbf9e69ec286dec8b4d4a222dcad0e2f8c67cbcae241",
+    "selected_state": "unknown",
+    "selected_valid": false,
+    "simulation_association_valid": false,
+    "physical_lane_association_verified": false,
+    "lane_id": "right_virtual_lane",
+    "movement": "right",
+    "reason": "signal_not_active",
+    "head_id": null,
+    "association_scope": "virtual_lane_only"
+  },
+  "uart_confirmed": true,
+  "feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 57716,
+    "epoch": 99,
+    "scene": 2,
+    "action": 1,
+    "alarm_code": 0,
+    "decision_valid": true,
+    "link_timeout": false,
+    "seen_extended": true,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  },
+  "status_age": 0.26757168769836426,
+  "free_bytes": 565534720,
+  "observer": {
+    "case": "red_stop",
+    "phase": "waiting_for_key",
+    "rows": 0,
+    "physical_epoch": null,
+    "updated_unix": 1793178254.954704,
+    "observer_read_only": true
+  }
+}

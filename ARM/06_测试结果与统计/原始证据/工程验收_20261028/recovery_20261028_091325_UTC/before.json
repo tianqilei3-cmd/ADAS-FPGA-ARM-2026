@@ -1,0 +1,127 @@
+{
+  "pid": 43956,
+  "boot_id": "8ef6af96-06a8-4703-a14c-05a1ac8afbf6",
+  "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_085453",
+  "status": {
+    "state": "running",
+    "frames": 3512,
+    "updated_unix": 1793178807.6521287,
+    "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_085453",
+    "detections_path": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_085453/detections.jsonl",
+    "key_sequence": 103,
+    "key_state": 0,
+    "controls": {
+      "mode": "signal",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "requested_motion": "stop",
+      "requested_turn": "none",
+      "forced": false
+    },
+    "decision": {
+      "simulation_only": true,
+      "hardware_command": null,
+      "hardware_command_sent": false,
+      "physical_lane_association_verified": false,
+      "action": "STOP",
+      "alarm": false,
+      "decision_valid": true,
+      "reason": "hazard:stop_key",
+      "green_confirmations": 0,
+      "scope": "PC virtual scenario only; physical road association is unverified",
+      "controls": {
+        "mode": "signal",
+        "lane_id": "straight_virtual_lane",
+        "movement": "straight",
+        "requested_motion": "stop",
+        "requested_turn": "none",
+        "forced": false
+      },
+      "own_lane_light_valid": true,
+      "motor_command_sent": false,
+      "source": "current_pixels_and_key_simulated_lane",
+      "selected_state": "red",
+      "hardware_motion_control_connected": false
+    },
+    "signal_selection": {
+      "camera_id": "capture:/dev/video0:host-session",
+      "frame_id": 59491,
+      "captured_ms": 16356286.143556999,
+      "image_identity": "7914212725527b7ab9c18a3889e6d4dae8a9e321f35d1a0aebba40475fb975d2",
+      "automatic_head_location": true,
+      "selected_valid": true,
+      "selection_origin": "current_red_vehicle_head_group_stop_only",
+      "selected_state": "red",
+      "simulation_association_valid": true,
+      "physical_lane_association_verified": false,
+      "association_scope": "stop_only_frontal_red_consensus_virtual_straight",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "reason": "current_red_consensus_stop_only",
+      "head_id": "capture:/dev/video0:host-session:red-stop:59491",
+      "vehicle_candidates": 2,
+      "matching_arrow_candidates": 0,
+      "duplicate_count": 0,
+      "stop_only": true,
+      "box": [
+        612.0,
+        307.0,
+        798.614501953125,
+        339.68389892578125
+      ],
+      "member_boxes": [
+        [
+          739.0576171875,
+          314.26177978515625,
+          798.614501953125,
+          339.68389892578125
+        ],
+        [
+          612.0,
+          307.0,
+          677.0,
+          331.0
+        ]
+      ],
+      "group_member_count": 2,
+      "forward_traffic_anchor": {
+        "class_id": 1,
+        "name": "vehicle",
+        "confidence": 0.7950648665428162,
+        "box": [
+          491.2181396484375,
+          314.139892578125,
+          1164.26806640625,
+          677.27978515625
+        ]
+      },
+      "round_supplement_used": false
+    },
+    "boundaries": null,
+    "feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 59491,
+      "epoch": 103,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 0,
+      "decision_valid": true,
+      "link_timeout": false,
+      "seen_extended": true,
+      "reject_reason": 0,
+      "build_tag": 41,
+      "capabilities": 127
+    },
+    "uart_confirmed": true,
+    "age_ms": 414.9342680011614,
+    "capture_pid": 44110,
+    "capture_recoveries": 0,
+    "lamp_profile": "capture_ft",
+    "road_profile": "int8",
+    "classifiers": "batch2",
+    "errors": []
+  },
+  "status_age": 0.017975568771362305,
+  "free_bytes": 655007744
+}

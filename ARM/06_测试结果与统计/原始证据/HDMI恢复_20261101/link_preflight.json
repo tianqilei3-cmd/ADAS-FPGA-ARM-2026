@@ -1,0 +1,121 @@
+{
+  "exit": 0,
+  "stdout": "{\"link_preflight_passed\": true, \"stages\": [{\"stage\": \"legacy_tiles\", \"seconds\": 5.41714705800041, \"valid_frames\": 24, \"settling_timeouts\": [], \"negotiated\": {\"event\": \"opened\", \"source\": \"/dev/video0\", \"requested\": {\"width\": 1280, \"height\": 720, \"fps\": 10, \"fourcc\": \"YUYV\"}, \"actual\": {\"width\": 1280.0, \"height\": 720.0, \"fps\": 10.0, \"fourcc\": 1448695129}, \"set_property_accepted\": [true, true, true, true, true], \"driver_buffer_bound_not_proven\": true, \"raw_YUYV_ROI\": true, \"capture_roi\": [0, 0, 0.5, 0.5], \"timestamp_clock\": \"userspace_decode_completion_not_sensor_timestamp\"}, \"last_quality\": {\"valid\": true, \"reason\": \"spatial_content_present\", \"preprocessing\": \"12_native_patches_median3_quality_only_model_pixels_unchanged\", \"robust_channel_range\": 82.0, \"salt_noise_fraction\": 0.032962962962962965, \"maximum_impulse_fraction\": 0.3, \"native_patch_count\": 12}}, {\"stage\": \"full_raw\", \"seconds\": 4.052209413000128, \"valid_frames\": 24, \"settling_timeouts\": [], \"negotiated\": {\"event\": \"opened\", \"source\": \"/dev/video0\", \"requested\": {\"width\": 1280, \"height\": 720, \"fps\": 10, \"fourcc\": \"YUYV\"}, \"actual\": {\"width\": 1280.0, \"height\": 720.0, \"fps\": 10.0, \"fourcc\": 1448695129}, \"set_property_accepted\": [true, true, true, true, true], \"driver_buffer_bound_not_proven\": true, \"raw_YUYV_ROI\": true, \"capture_roi\": [0, 0, 1, 1], \"timestamp_clock\": \"userspace_decode_completion_not_sensor_timestamp\"}, \"last_quality\": {\"valid\": true, \"reason\": \"spatial_content_present\", \"preprocessing\": \"12_native_patches_median3_quality_only_model_pixels_unchanged\", \"robust_channel_range\": 58.0, \"salt_noise_fraction\": 0.055185185185185184, \"maximum_impulse_fraction\": 0.3, \"native_patch_count\": 12}}], \"park_feedback\": {\"version\": 3, \"camera_id\": 0, \"frame_id\": 4568, \"epoch\": 1, \"scene\": 1, \"action\": 1, \"alarm_code\": 4, \"decision_valid\": false, \"link_timeout\": true, \"seen_extended\": true, \"reject_reason\": 0, \"build_tag\": 41, \"capabilities\": 127}, \"cold_power_cycle_proven_by_this_test\": false}\n",
+  "stderr": "",
+  "bootstrap_report": {
+    "link_preflight_passed": true,
+    "stages": [
+      {
+        "stage": "legacy_tiles",
+        "seconds": 5.41714705800041,
+        "valid_frames": 24,
+        "settling_timeouts": [],
+        "negotiated": {
+          "event": "opened",
+          "source": "/dev/video0",
+          "requested": {
+            "width": 1280,
+            "height": 720,
+            "fps": 10,
+            "fourcc": "YUYV"
+          },
+          "actual": {
+            "width": 1280.0,
+            "height": 720.0,
+            "fps": 10.0,
+            "fourcc": 1448695129
+          },
+          "set_property_accepted": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "driver_buffer_bound_not_proven": true,
+          "raw_YUYV_ROI": true,
+          "capture_roi": [
+            0,
+            0,
+            0.5,
+            0.5
+          ],
+          "timestamp_clock": "userspace_decode_completion_not_sensor_timestamp"
+        },
+        "last_quality": {
+          "valid": true,
+          "reason": "spatial_content_present",
+          "preprocessing": "12_native_patches_median3_quality_only_model_pixels_unchanged",
+          "robust_channel_range": 82.0,
+          "salt_noise_fraction": 0.032962962962962965,
+          "maximum_impulse_fraction": 0.3,
+          "native_patch_count": 12
+        }
+      },
+      {
+        "stage": "full_raw",
+        "seconds": 4.052209413000128,
+        "valid_frames": 24,
+        "settling_timeouts": [],
+        "negotiated": {
+          "event": "opened",
+          "source": "/dev/video0",
+          "requested": {
+            "width": 1280,
+            "height": 720,
+            "fps": 10,
+            "fourcc": "YUYV"
+          },
+          "actual": {
+            "width": 1280.0,
+            "height": 720.0,
+            "fps": 10.0,
+            "fourcc": 1448695129
+          },
+          "set_property_accepted": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "driver_buffer_bound_not_proven": true,
+          "raw_YUYV_ROI": true,
+          "capture_roi": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "timestamp_clock": "userspace_decode_completion_not_sensor_timestamp"
+        },
+        "last_quality": {
+          "valid": true,
+          "reason": "spatial_content_present",
+          "preprocessing": "12_native_patches_median3_quality_only_model_pixels_unchanged",
+          "robust_channel_range": 58.0,
+          "salt_noise_fraction": 0.055185185185185184,
+          "maximum_impulse_fraction": 0.3,
+          "native_patch_count": 12
+        }
+      }
+    ],
+    "park_feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 4568,
+      "epoch": 1,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 4,
+      "decision_valid": false,
+      "link_timeout": true,
+      "seen_extended": true,
+      "reject_reason": 0,
+      "build_tag": 41,
+      "capabilities": 127
+    },
+    "cold_power_cycle_proven_by_this_test": false
+  },
+  "report_age_s": 0.28635740280151367
+}

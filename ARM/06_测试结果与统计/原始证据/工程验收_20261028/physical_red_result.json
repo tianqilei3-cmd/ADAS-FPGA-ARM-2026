@@ -1,0 +1,25 @@
+{
+  "case": "red_stop",
+  "frames": 90,
+  "successes": 89,
+  "ratio": 0.9888888888888889,
+  "passed": true,
+  "unsafe": [],
+  "collector_read_only": true,
+  "physical_lane_association_verified": false,
+  "manual_LED_buzzer_verification": false,
+  "folder": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_085727_UTC",
+  "physical_epoch": 101,
+  "interruption": null,
+  "failed_checks": {
+    "key_unchanged": 1,
+    "arm_valid": 1,
+    "feedback_valid": 1,
+    "epoch_ack": 1
+  },
+  "human_observation": {
+    "answer": "第二行go，顶部STOP、ALARM 0，UART正常",
+    "screen_confirmed": true,
+    "LED_buzzer_individually_confirmed": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "state": "completed",
+  "pid": 20584,
+  "epochs_completed": 12,
+  "updates": 912,
+  "started_unix": 1793124266.3205378,
+  "batches_per_epoch": 76,
+  "trainable_parameters": 1738956,
+  "elapsed_seconds": 405.7810000000027,
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\trial\\weights\\last.pt",
+  "weights_sha256": "8838410563c74e6cf07c9fc931a49230f6fe9fe5bce85e11672f743435fdd5ca",
+  "adopted": false
+}

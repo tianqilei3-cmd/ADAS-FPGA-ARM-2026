@@ -1,0 +1,31 @@
+{
+  "time_unix": 1793540054.83626,
+  "status_age_s": 28.580211400985718,
+  "status": {
+    "state": "stopped",
+    "frames": 1160,
+    "updated_unix": 1793540026.2560503,
+    "errors": []
+  },
+  "running": [],
+  "free_MiB": 561.80859375,
+  "pc_source_status": {
+    "pid": 4632,
+    "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113343.mp4",
+    "source_fps": 30.0,
+    "display": "\\\\.\\DISPLAY1",
+    "primary_screen_used": true,
+    "width": 2560,
+    "height": 1600,
+    "frequency": 120,
+    "display_mode_changed": false,
+    "frames": 13410,
+    "loops": 20,
+    "maximum_duration_s": 21600,
+    "perception_labels_supplied": false,
+    "source_frame": 309,
+    "state": "playing",
+    "updated_unix": 1793540054.2943196
+  },
+  "pc_source_age_s": 0.1800060272216797
+}

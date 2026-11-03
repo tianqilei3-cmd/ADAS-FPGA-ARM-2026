@@ -1,0 +1,33 @@
+{
+  "pid": 26580,
+  "video": "D:\\BaiduNetdiskDownload\\紫光同创杯赛题三参考素材\\video_20260929_113421.mp4",
+  "source_fps": 30.0,
+  "external_display": "\\\\.\\DISPLAY2",
+  "x": 2560,
+  "y": 0,
+  "width": 1920,
+  "height": 1080,
+  "frequency": 60,
+  "original_mode": {
+    "device": "\\\\.\\DISPLAY2",
+    "x": 2560,
+    "y": 0,
+    "width": 1920,
+    "height": 1080,
+    "frequency": 60
+  },
+  "display_mode_reconfigured": false,
+  "frames": 32040,
+  "loops": 395,
+  "state": "stopped",
+  "start_frame": 180,
+  "end_frame_exclusive": 261,
+  "display_sleep_inhibited_while_playing": true,
+  "source_frame": 224,
+  "observed_display_mode": {
+    "width": 1920,
+    "height": 1080,
+    "frequency": 60
+  },
+  "updated_unix": 1793179947.3395658
+}

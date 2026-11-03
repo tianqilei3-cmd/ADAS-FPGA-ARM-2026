@@ -1,0 +1,106 @@
+[
+  {
+    "file": "HDMI恢复/01_当前实时边界检测_含过期提示.jpg",
+    "original_path": "runs/restore_hdmi_live_20261101/live_screen_light.jpg",
+    "date": "2026-11-01",
+    "scope": "0x29 实时HDMI",
+    "note": "香橙派真实桌面截图，保留displayed image expired提示，不能当显示时效已通过",
+    "sha256": "d537b871601246b749a365f4d6b22d4d3c7055d0ce2ffe0ca118e29ac0ffbd7c"
+  },
+  {
+    "file": "HDMI恢复/02_当前实时检测原屏.png",
+    "original_path": "runs/restore_hdmi_live_20261101/live_screen.png",
+    "date": "2026-11-01",
+    "scope": "0x29 实时HDMI",
+    "note": "显示道路目标和边界推理；有过期提示，和短测流水线数据分开解释",
+    "sha256": "bfe98830e0e23faaf2133c03d1a90d896413e650432b23798a7b4427bc36e15f"
+  },
+  {
+    "file": "绿行/01_已确认绿行历史演示.jpg",
+    "original_path": "runs/basic_finish70_20261028/frozen_signal_20261028/green_confirmed_preview.jpg",
+    "date": "2026-10-28",
+    "scope": "0x29 HDMI 远程驾驶测试",
+    "note": "原图明示REMOTE TEST DRIVER；用于说明图像检测与FPGA回包，不能当实体KEY6截图",
+    "sha256": "7000120b85af9e7ab78a06f9e18dcd96941b05a5794ee79b0deb7278f3bba68a"
+  },
+  {
+    "file": "绿行/02_实测输入帧.png",
+    "original_path": "runs/basic_finish70_20261028/recovered_bundle_20261028/evidence/controlled_signal/source_audit/green_go/000015_processed.png",
+    "date": "2026-10-28",
+    "scope": "0x29 控制场景",
+    "note": "实际输入画面，未叠加决策；实体按键65/90另见独立JSONL",
+    "sha256": "e2da9143fb1138dd37b1dd3546483401efbc4738b7ae62de3f13c16feb9da5c9"
+  },
+  {
+    "file": "红停/01_红灯实际输入帧.png",
+    "original_path": "runs/basic_finish70_20261028/recovered_bundle_20261028/evidence/controlled_signal/source_audit/red_stop/000001_processed.png",
+    "date": "2026-10-28",
+    "scope": "0x29 控制场景",
+    "note": "红灯源画面，不能单靠输入图证明停车；89/90及人工确认另附",
+    "sha256": "4ae48a02dee33e17ea03808c2b3b122ee6fd68496857ec60394eee5e63015ee0"
+  },
+  {
+    "file": "强行红灯/01_强行场景实际输入帧.png",
+    "original_path": "runs/basic_finish70_20261028/recovered_bundle_20261028/evidence/controlled_signal/source_audit/forced_red/000001_processed.png",
+    "date": "2026-10-28",
+    "scope": "0x29 控制场景",
+    "note": "对应强行红灯场景输入；未找到该实体KEY7批次原屏截图，88/90、回包和人答复为主要证据",
+    "sha256": "426ebfe378f490e29207fdb9df764cf4a11d446f34be12f691918ab1c1fefc20"
+  },
+  {
+    "file": "停车/01_停车历史演示.jpg",
+    "original_path": "runs/basic_finish70_20261028/recovered_signal_20261028/live_preview.jpg",
+    "date": "2026-10-28",
+    "scope": "0x29 HDMI 远程驾驶测试",
+    "note": "显示STOP和UART确认；原图标REMOTE TEST DRIVER，实体停车90/90另附",
+    "sha256": "4b9181a6d0ae89328c75d1838ed40d8f5626839e9d0fd8d1a6eb8fe5690edab4"
+  },
+  {
+    "file": "旧版变道示例/left_dashed.jpg",
+    "original_path": "runs/basic_finish70_20261027/lane_keys/accepted_previews/left_dashed.jpg",
+    "date": "2026-10-27",
+    "scope": "0x27 远程驾驶测试",
+    "note": "旧版本左虚线示例；不得转记为当前0x29已完成变道回归",
+    "sha256": "bbcf2396f1ce1895633378e31ad435cb192276bfed33d868e47cccf012e8891a"
+  },
+  {
+    "file": "旧版变道示例/forced_left_solid.jpg",
+    "original_path": "runs/basic_finish70_20261027/lane_keys/accepted_previews/forced_left_solid.jpg",
+    "date": "2026-10-27",
+    "scope": "0x27 远程驾驶测试",
+    "note": "旧版本强行实线报警示例，非当前版本通过证明",
+    "sha256": "e16c813f60b97b96f760ff89629c8dfbf0a5b1260863fa2de8baaeedf037d850"
+  },
+  {
+    "file": "旧版变道示例/right_dashed.jpg",
+    "original_path": "runs/basic_finish70_20261027/lane_keys/accepted_previews/right_dashed.jpg",
+    "date": "2026-10-27",
+    "scope": "0x27 远程驾驶测试",
+    "note": "旧版本右虚线示例",
+    "sha256": "54fcc0de321ff0efaea9a638644025a24b0eae5cdb812cd5d1ac6989387b502e"
+  },
+  {
+    "file": "本地回放历史/01_文件回放_非HDMI.png",
+    "original_path": "runs/resume_stable_demo_20261101/screen_after_cache.png",
+    "date": "2026-11-01",
+    "scope": "ARM本地文件推理",
+    "note": "明确标注LOCAL FILE INFERENCE；该图不证明HDMI输入，KEY6联动有单独人答复",
+    "sha256": "ff2c05d5fa0a1470a35f02e52600d0684cb3190fe0f4a7a5adadd61f8acf21dc"
+  },
+  {
+    "file": "PC道路验证/01_BDD样例.jpg",
+    "original_path": "runs/adas/bdd100k_4class_stage42/report/examples/b1cd1e94-549d0bfe.jpg",
+    "date": "2026-10-07",
+    "scope": "PC离线识别",
+    "note": "PC验证可视化，不是香橙派性能或两板联动截图",
+    "sha256": "c589dabbb186187bbc1f989b1edcb761127e6131a0f658ffa6bf0919c8d0ea11"
+  },
+  {
+    "file": "PC导航验证/01_导航开发复核页.jpg",
+    "original_path": "runs/navigation_primary_locator_20261018/v3_label_corrected/val_review_20261018_213049_344043/page_01.jpg",
+    "date": "2026-10-18",
+    "scope": "PC开发复核",
+    "note": "已知来源导航复核页；不代表导航已在ARM统一程序运行",
+    "sha256": "da1bdaf39e3f63bbb14c47ba04b601e3dccb23e3b250b43d170714aba2df8606"
+  }
+]

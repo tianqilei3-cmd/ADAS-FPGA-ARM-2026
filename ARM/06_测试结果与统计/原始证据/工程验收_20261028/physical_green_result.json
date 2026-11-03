@@ -1,0 +1,29 @@
+{
+  "case": "green_go",
+  "status": "PASS_INTERNAL_FUNCTIONAL_GATE",
+  "frames": 90,
+  "successes": 65,
+  "ratio": 0.7222222222222222,
+  "physical_epoch": 82,
+  "physical_state": 16,
+  "simulated_flag_clear": true,
+  "unsafe": [],
+  "evidence": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_084737_UTC",
+  "observations_sha256": "be7f868e5b3a6ff98190ad4cfe9d3720d4d0d7b72f5f944f4061d0bbd740c2b8",
+  "failed_check_counts": {
+    "arm_valid": 25,
+    "arm_action": 25,
+    "fpga_action": 25,
+    "light": 5
+  },
+  "decision_reasons": {
+    "confirming_current_green": 20,
+    "confirmed_green_in_virtual_direction_scenario": 65,
+    "round_or_unknown_direction_requires_approach_association": 5
+  },
+  "human_observation": {
+    "answer": "已按KEY6，看到GO且显示正常",
+    "screen_GO_seen": true,
+    "individual_LED_state_explicitly_confirmed": false
+  }
+}

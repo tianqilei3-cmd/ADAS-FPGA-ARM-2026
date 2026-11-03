@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "own_absolute_script_stopped": true,
+  "own_relative_script_stopped": true,
+  "unrelated_process_preserved": true,
+  "test_scope": "Only three subprocesses created in a private /tmp fixture; no real runtime, NPU, camera or UART used",
+  "stop_output": "{\"stop_requested\": [4353, 4354], \"own_runtime_stopped\": true, \"unrelated_processes_terminated\": false, \"hardware_feedback_queried\": false}"
+}

@@ -1,0 +1,213 @@
+{
+  "name": "signal_stop",
+  "state": 0,
+  "receipt": {
+    "uid": "4432554692834c899dafe49a22bd8be5",
+    "state": 0,
+    "acknowledged": true,
+    "transaction": {
+      "command": 20,
+      "sent": true,
+      "acknowledged": true,
+      "tx_started_monotonic": 17087.274553053,
+      "ack_observed_monotonic": 17087.282329397,
+      "reply_hex": "55 14 69",
+      "reply_reads": [
+        {
+          "observed_monotonic": 17087.282329397,
+          "hex": "55 14 69"
+        }
+      ],
+      "reply_commands": [
+        20
+      ],
+      "unexpected_before_tx_hex": "",
+      "invalid_reply_bytes": 0,
+      "partial_reply_hex": "",
+      "reason": "confirmed",
+      "exchange_ms": 7.881633999204496
+    },
+    "immediate_gate_feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 62340,
+      "epoch": 115,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 6,
+      "decision_valid": false,
+      "link_timeout": true,
+      "seen_extended": true,
+      "reject_reason": 2,
+      "build_tag": 41,
+      "capabilities": 127
+    }
+  },
+  "status": {
+    "state": "running",
+    "frames": 1,
+    "updated_unix": 1793179540.3381793,
+    "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_092532",
+    "detections_path": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_092532/detections.jsonl",
+    "key_sequence": 117,
+    "key_state": 64,
+    "controls": {
+      "mode": "signal",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "requested_motion": "stop",
+      "requested_turn": "none",
+      "forced": false
+    },
+    "decision": {
+      "simulation_only": true,
+      "hardware_command": null,
+      "hardware_command_sent": false,
+      "physical_lane_association_verified": false,
+      "action": "STOP",
+      "alarm": false,
+      "decision_valid": true,
+      "reason": "hazard:stop_key",
+      "green_confirmations": 0,
+      "scope": "PC virtual scenario only; physical road association is unverified",
+      "controls": {
+        "mode": "signal",
+        "lane_id": "straight_virtual_lane",
+        "movement": "straight",
+        "requested_motion": "stop",
+        "requested_turn": "none",
+        "forced": false
+      },
+      "own_lane_light_valid": true,
+      "motor_command_sent": false,
+      "source": "current_pixels_and_key_simulated_lane",
+      "selected_state": "green",
+      "hardware_motion_control_connected": false
+    },
+    "signal_selection": {
+      "camera_id": "capture:/dev/video0:host-session",
+      "frame_id": 62341,
+      "captured_ms": 17089165.694336,
+      "image_identity": "42c0811b1053590d1a64f9d6e2024cd68d21716c65fe4b06818205c1345e80a7",
+      "automatic_head_location": true,
+      "selected_valid": true,
+      "selection_origin": "current_filled_round_emitters_frontal_group_and_traffic_context",
+      "selected_state": "green",
+      "simulation_association_valid": true,
+      "physical_lane_association_verified": false,
+      "association_scope": "experimental_round_group_and_forward_traffic_for_virtual_straight",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "reason": "current_round_group_virtual_straight_hypothesis",
+      "head_id": "capture:/dev/video0:host-session:current_group:1",
+      "vehicle_candidates": 2,
+      "matching_arrow_candidates": 0,
+      "duplicate_count": 0,
+      "round_supplement_used": true,
+      "round_evidence": [
+        {
+          "box": [
+            581,
+            364,
+            638,
+            386
+          ],
+          "color": "green",
+          "shape_supported": true,
+          "valid": true,
+          "reason": "one_current_filled_round_color_component",
+          "center": [
+            623.876923076923,
+            373.9
+          ],
+          "radius": 6.3721089363098145,
+          "area": 130,
+          "circularity": 0.8885539414711172,
+          "disk_fill": 0.8762204986745182
+        },
+        {
+          "box": [
+            715,
+            360,
+            771,
+            382
+          ],
+          "color": "green",
+          "shape_supported": true,
+          "valid": true,
+          "reason": "one_current_filled_round_color_component",
+          "center": [
+            757.2857142857143,
+            370.5
+          ],
+          "radius": 6.346576690673828,
+          "area": 126,
+          "circularity": 0.9328753516456718,
+          "disk_fill": 0.855605796313311
+        }
+      ],
+      "round_reason": "current_round_group_virtual_straight_hypothesis",
+      "box": [
+        581.0,
+        360.0,
+        771.0,
+        386.0
+      ],
+      "member_boxes": [
+        [
+          581.0,
+          364.0,
+          638.0,
+          386.0
+        ],
+        [
+          715.0,
+          360.0,
+          771.0,
+          382.0
+        ]
+      ],
+      "group_member_count": 2,
+      "forward_traffic_anchor": {
+        "class_id": 1,
+        "name": "vehicle",
+        "confidence": 0.8270645141601562,
+        "box": [
+          580.718505859375,
+          500.43408203125,
+          678.561279296875,
+          587.4569091796875
+        ]
+      },
+      "prior_policy_head_id": "capture:/dev/video0:host-session:round_group:1",
+      "continuity_corroborated": false,
+      "continuity_motion": [],
+      "continuity_maximum_gap_ms": 500.0,
+      "continuity_scope": "identity_only_all_lights_and_colors_from_current_frame"
+    },
+    "boundaries": null,
+    "feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 62341,
+      "epoch": 117,
+      "scene": 1,
+      "action": 1,
+      "alarm_code": 0,
+      "decision_valid": true,
+      "link_timeout": false,
+      "seen_extended": true,
+      "reject_reason": 0,
+      "build_tag": 41,
+      "capabilities": 127
+    },
+    "uart_confirmed": true,
+    "age_ms": 221.4038320016698,
+    "capture_pid": 48958,
+    "capture_recoveries": 0,
+    "lamp_profile": "capture_ft",
+    "road_profile": "int8",
+    "classifiers": "batch2",
+    "errors": []
+  }
+}

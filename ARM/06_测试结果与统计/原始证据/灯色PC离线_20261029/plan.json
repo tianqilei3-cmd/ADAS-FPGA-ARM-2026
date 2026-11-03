@@ -1,0 +1,28 @@
+{
+  "task": "signal",
+  "epochs": 8,
+  "batch": 4,
+  "nbs": 4,
+  "freeze": 10,
+  "freeze_backbone_batchnorm": true,
+  "workers": 0,
+  "cache": false,
+  "threads": 4,
+  "shape": [
+    256,
+    640
+  ],
+  "lr0": 5e-05,
+  "seed": 20261029,
+  "initial": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\lamp_capture_aligned\\trial\\weights\\last.pt",
+  "initial_sha256": "8838410563c74e6cf07c9fc931a49230f6fe9fe5bce85e11672f743435fdd5ca",
+  "dataset_sha256": "d13111d52ec04bcbfbebabedb37700acf68f1915b86dc7e211527db1b2f9fd74",
+  "code_sha256": "839f7dadf300ce8cc91887561dbc18bce8cb2982c577a7106515cd85f742abb2",
+  "checkpoint_selection": "Fixed final epoch; validation does not select the candidate",
+  "confidence": 0.25,
+  "min_iou": 0.5,
+  "board_access": false,
+  "automatic_deployment": false,
+  "adoption_gate": "Clean P/R cannot regress, stress F1 cannot regress; signal also requires no increased red-as-green and improved green recall; navigation requires strictly improved stress F1. Hardware closed-loop must be tested separately.",
+  "training_reference": "https://docs.ultralytics.com/modes/train/"
+}

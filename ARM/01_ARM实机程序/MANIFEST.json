@@ -1,0 +1,499 @@
+{
+  "schema": "arm_complete_runtime_delivery_20261101",
+  "created": "2026-11-01T20:01:09.744741+08:00",
+  "models": 15,
+  "frozen_source_files": 64,
+  "runtime_manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+  "requires_yolo_on_teammate_PC": false,
+  "current_board_environment_required": true,
+  "navigation_integrated_on_board": false,
+  "new_training_models_adopted": false,
+  "whole_system_accepted": false,
+  "files": [
+    {
+      "path": "INSTALL_ON_ORANGEPI.sh",
+      "bytes": 161,
+      "sha256": "b0239f465e8f859903974a7e72d9039b94ee50bcf67f32d38d71603cb052a95e"
+    },
+    {
+      "path": "launcher/adas_launcher.py",
+      "bytes": 8991,
+      "sha256": "89ea5b5a13e1896eb1c441e425b481cc3bb11e11837d64fd755b9cd649d9ee2b"
+    },
+    {
+      "path": "launcher/install_shortcuts.py",
+      "bytes": 5871,
+      "sha256": "aa4f2d26ce4cef38b1c2af1b434d9f45d53e7ac52696c7ab96b6b9762e4a0848"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "README_给队友.md",
+      "bytes": 5997,
+      "sha256": "12591f63b6744d8c815699dc3801dc8c244789940e6fd694d8103819968d5494"
+    },
+    {
+      "path": "reference/10月28日工程验收记录.md",
+      "bytes": 6193,
+      "sha256": "5cf43a8ba015a7acd73d7b3b8b27d937f1684f44028e403827b0ab52a5d4941b"
+    },
+    {
+      "path": "reference/10月29日补训结果.md",
+      "bytes": 3757,
+      "sha256": "0e1b3feba3caf83f825f672ec19aba615eea46824847ca72dcea690aed5dcdf0"
+    },
+    {
+      "path": "reference/backup_result.json",
+      "bytes": 396,
+      "sha256": "37de12f4d7966bddf0906af4a58c53ddb8f348409e8e1cdf04d249f34cf39c2e"
+    },
+    {
+      "path": "reference/desktop_control_tests.json",
+      "bytes": 431,
+      "sha256": "9788050e114716715eef8a9dc0e82d87a8fa40624d7eda2528a6d59dd4850b53"
+    },
+    {
+      "path": "reference/desktop_diagnosis.json",
+      "bytes": 1029,
+      "sha256": "7f065218e358ff3a492935da7e12a508d48496731f0f2ee4a635ed6b01c96e51"
+    },
+    {
+      "path": "reference/desktop_installation.json",
+      "bytes": 1183,
+      "sha256": "9f1cb855c01e9649c2ae67f7bfe4dd10bbe45a0e24685b94cfa242a6fa91d12b"
+    },
+    {
+      "path": "reference/FPGA_0x29_test_ddr.sbit",
+      "bytes": 2101696,
+      "sha256": "84b4c9fd406f27e21aacd5959509004993b22e1d801c9e4f29f9db09e4ee6f06"
+    },
+    {
+      "path": "reference/FPGA待办与协作.md",
+      "bytes": 2543,
+      "sha256": "e4e7fed4fd58b1a2ba45442d191a6c31f384cec15afb061639ab9287d84da4c3"
+    },
+    {
+      "path": "reference/frozen_release.json",
+      "bytes": 3286,
+      "sha256": "7dea274da4fb832162f2ff925e0b10e1d46cb68316458d945147e31165713904"
+    },
+    {
+      "path": "runtime/ack_protocol.py",
+      "bytes": 3955,
+      "sha256": "49e2e6714dc85e60ea1e458a55580a0682b68c14a179e1f2063c996c0c481f6a"
+    },
+    {
+      "path": "runtime/arm_scene_a04.py",
+      "bytes": 3749,
+      "sha256": "913551931a407997ccbd0a03d04fefb1473d278356026f81783fa8c66fd93904"
+    },
+    {
+      "path": "runtime/basic70_wire.py",
+      "bytes": 5110,
+      "sha256": "e86c85833c173ff81c8c88aba7c16c1d076d52c99307340a2b37e77f8c0cab12"
+    },
+    {
+      "path": "runtime/batched_signal_attributes.py",
+      "bytes": 2575,
+      "sha256": "da387b1c3ba92f94d0950126db0bde4f2fd57103c3cdcef25170153cdf0bd5d0"
+    },
+    {
+      "path": "runtime/boundary_cpu_worker.py",
+      "bytes": 2841,
+      "sha256": "f1e106742fda9bbbe0321662c99704cd2a369abf850b1d548f58bdc6a8448a5e"
+    },
+    {
+      "path": "runtime/boundary_policy.py",
+      "bytes": 3557,
+      "sha256": "9082072f69eed9b22a1b54b492daf7f7e4cbd80f31ce513473adfec1696f1b8a"
+    },
+    {
+      "path": "runtime/boundary_runtime.py",
+      "bytes": 2127,
+      "sha256": "414fbe1f1c448cbdfbccc920044253f774ef6010021586f8488d70d516131c04"
+    },
+    {
+      "path": "runtime/boundary_softmax.py",
+      "bytes": 537,
+      "sha256": "e4fc5695901d9725cfafbe2a408696c32e74b3ad2f5215b1485912259833e941"
+    },
+    {
+      "path": "runtime/capture_quality.py",
+      "bytes": 2674,
+      "sha256": "e7745c57992c0760f740fdf619c18ae518a76b349172a8a7f2aa0cc9f1eca9ef"
+    },
+    {
+      "path": "runtime/compact_boundary_post.py",
+      "bytes": 6029,
+      "sha256": "63d7429183a9fd93f697f909980694a76ebaffabb73fee9bc967059c24637817"
+    },
+    {
+      "path": "runtime/competition_scene_logic.py",
+      "bytes": 9136,
+      "sha256": "4b0573cc97f20f9b4ebd3cb1bcb326dfcb0c5f10008ee34c6cd70746293e5d2b"
+    },
+    {
+      "path": "runtime/content_guard.py",
+      "bytes": 800,
+      "sha256": "35b70dee26e0953d7c0c13c0593e0be60c3cf3569dc13bdeec0ec2a1981ee346"
+    },
+    {
+      "path": "runtime/current_lamp_housing.py",
+      "bytes": 4909,
+      "sha256": "016f97da70a8c2f2b4185b5b7e3f1af0ff638f117a8e9e9f4ae708a6e79126e3"
+    },
+    {
+      "path": "runtime/fast_types.py",
+      "bytes": 1222,
+      "sha256": "aa5cfda97c17fb92791d1e765a06baf4e3b2995cacea168c511ba09beeeb2af7"
+    },
+    {
+      "path": "runtime/geometry_cpu_worker.py",
+      "bytes": 2372,
+      "sha256": "f1b086d1527372712f48b5c6ee979429cab84a33a76de6abc09bac4837d6cd27"
+    },
+    {
+      "path": "runtime/geometry_lamp_proposals.py",
+      "bytes": 9709,
+      "sha256": "2ca4009d9eac8de4f379f47f5b51b2cdf03f31a028f220c13afec12fff6f98cf"
+    },
+    {
+      "path": "runtime/head_continuity.py",
+      "bytes": 6420,
+      "sha256": "786d39368676ec444536c9e2676abe740f70d76a11f478b3c85d1804a945765f"
+    },
+    {
+      "path": "runtime/immutable_identity.py",
+      "bytes": 1170,
+      "sha256": "7af8a188aabcbbbf3bf0d2ec21c1c38ad42dcacee64dd222949f775da4425563"
+    },
+    {
+      "path": "runtime/lamp_attrs_portable.py",
+      "bytes": 4007,
+      "sha256": "ab917b34f8cca3ca0f4dc0b413a0a6ac310d98f8d5248a1a7f6e3150a58d61b2"
+    },
+    {
+      "path": "runtime/lamp_attrs_preprocess.py",
+      "bytes": 3834,
+      "sha256": "1fcea12fdfcef87407de5bf7da9c797f633e302f97f0906798aef1154ac28694"
+    },
+    {
+      "path": "runtime/lamp_cpu_worker.py",
+      "bytes": 3602,
+      "sha256": "0943f246cafbf9fc1b50a5b17bdb6c0b0e6dcf2b3127065b3cbe5163a30ee27f"
+    },
+    {
+      "path": "runtime/lane_boundary_instances.py",
+      "bytes": 11962,
+      "sha256": "b9663f4f5b814bc16566228c4e7045de2b570800aff885ff9183bc2260375798"
+    },
+    {
+      "path": "runtime/lane_boundary_instances_v2.py",
+      "bytes": 6554,
+      "sha256": "890bc76d2461c24f5e8e96b5cb0ead6c3b8e6c1f98b05d0bb46cc96f068587d1"
+    },
+    {
+      "path": "runtime/lane_boundary_postprocess.py",
+      "bytes": 2896,
+      "sha256": "68f985ff40f56fdf2c0ab18da9917ad5278110c9085242601ac9f1b5bd5bd91a"
+    },
+    {
+      "path": "runtime/lane_boundary_segments_v3.py",
+      "bytes": 5609,
+      "sha256": "4ec6a63b815bd9bf900ef0903b6b2b0c361eb4329ee99ce62ec5ccc027c4a5b2"
+    },
+    {
+      "path": "runtime/lane_boundary_wide_recovery.py",
+      "bytes": 10472,
+      "sha256": "09fb7b0f7cac76a09e655d3237fec598b77724c8a8dc71c85f7f761b2e52672f"
+    },
+    {
+      "path": "runtime/lane_observed_dashed_geometry.py",
+      "bytes": 10730,
+      "sha256": "a5400359d706c9292a2828969e68dbe1eb559d89cb62311ba8a65163441b1cb1"
+    },
+    {
+      "path": "runtime/lane_observed_yellow_geometry.py",
+      "bytes": 7393,
+      "sha256": "9c4137b919597071f8cd7ae028d263f6eaa177871351be4be9028fd693a6a9c9"
+    },
+    {
+      "path": "runtime/lane_observed_yellow_pairs.py",
+      "bytes": 8480,
+      "sha256": "2a9856754e797a222470f563fcb9fcefbe2cffc60e20f2c97b1f9ebe25d695a3"
+    },
+    {
+      "path": "runtime/lane_support.py",
+      "bytes": 5376,
+      "sha256": "35b6fc88a436892e17ba011d99af7566a5b305432ac6c78ab07d447a41c66ed0"
+    },
+    {
+      "path": "runtime/latest_live_capture_20261027.py",
+      "bytes": 10688,
+      "sha256": "4d42c5daf386c7ea28c3edb6dfcb135d5e24c2294dc35ba30ead97274e08f3c1"
+    },
+    {
+      "path": "runtime/light_metadata.json",
+      "bytes": 1440,
+      "sha256": "1334335f8c8492b6b07e8a2ed4e99ac8f03d4f91f29a5f87dccb545e46e4882e"
+    },
+    {
+      "path": "runtime/light_pipeline.py",
+      "bytes": 2851,
+      "sha256": "01731383c7e0a92e1906a0900a928fec240b9ee41292c53170d39fc1a2c8389a"
+    },
+    {
+      "path": "runtime/light_roi_common.py",
+      "bytes": 3478,
+      "sha256": "23bfdeaed62ade34cba442460b4cf50afeeef85200a27ff54152f31b19ce4eea"
+    },
+    {
+      "path": "runtime/manifest.json",
+      "bytes": 14742,
+      "sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd"
+    },
+    {
+      "path": "runtime/models/boundary_fp.rknn",
+      "bytes": 3153335,
+      "sha256": "f06c1c572746eb4bdc2cd250f60db94befc407e409c422e1a34a05abb467313e"
+    },
+    {
+      "path": "runtime/models/color_guard.onnx",
+      "bytes": 5794713,
+      "sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5"
+    },
+    {
+      "path": "runtime/models/color_guard_batch2_fp.rknn",
+      "bytes": 3382895,
+      "sha256": "83fef24d4776d8fceeb4cbd15576b5bdf131e463e15ba410f9b7781aaf87282c"
+    },
+    {
+      "path": "runtime/models/color_guard_batch3_fp.rknn",
+      "bytes": 3427951,
+      "sha256": "a2ff9fe9b4ba7aa6ee43e24599f0e00f24c10ee77f730c04fe43c995e8f8c719"
+    },
+    {
+      "path": "runtime/models/color_guard_fp.rknn",
+      "bytes": 3320623,
+      "sha256": "b3bf458b23eb8b0d0db43761a7ae8eccff7a59d1e361657320b0d4391834fe65"
+    },
+    {
+      "path": "runtime/models/lamp_aligned_fp_heads.rknn",
+      "bytes": 7177331,
+      "sha256": "bc84fd31dcccf697e2d1aa591c7c4c768f6613f07f66cf92f7e9bee5f54f8ed2"
+    },
+    {
+      "path": "runtime/models/lamp_attributes.onnx",
+      "bytes": 8867553,
+      "sha256": "973ab188ba6ea5b377959b57d292e3e306f6806c2067f507e3c0b6275aa23873"
+    },
+    {
+      "path": "runtime/models/lamp_rect_fp_heads.rknn",
+      "bytes": 7177331,
+      "sha256": "d899336585315e7a7019e9d8880333c1c4f006a759e8cd391de74900f01dd694"
+    },
+    {
+      "path": "runtime/models/lamp_types_batch2_fp.rknn",
+      "bytes": 4160528,
+      "sha256": "2749808a815839656270de190e22694b41d3b194a1751e41809ff0a7921f7742"
+    },
+    {
+      "path": "runtime/models/lamp_types_batch3_fp.rknn",
+      "bytes": 4210960,
+      "sha256": "206ad6945ffdc17ca91a2b2716a67655148c0af80cffa006dfa023ff30fe34b5"
+    },
+    {
+      "path": "runtime/models/lamp_types_fp.rknn",
+      "bytes": 4083536,
+      "sha256": "bf2660a3aa1ae21014e8ff0047e7bc9735a2bf8eb062d5e21ebbf6c3657f0bae"
+    },
+    {
+      "path": "runtime/models/lamp_types_whole.onnx",
+      "bytes": 7188441,
+      "sha256": "de39d4af833fcceb8284f8f6dd9488b11b46becc40db51626701ee99a180a5cd"
+    },
+    {
+      "path": "runtime/models/road_heads_fp.rknn",
+      "bytes": 7330933,
+      "sha256": "48b42c24319da47124e1f2899c84ada45bf2db0ceb3acae2efc82a2b326d5efd"
+    },
+    {
+      "path": "runtime/models/road_int8_heads.rknn",
+      "bytes": 4268304,
+      "sha256": "b38383d6755acd05a743c628c58d222e5434ee0a178ad13bae93c74ad7a43bc2"
+    },
+    {
+      "path": "runtime/models/road_rect_fp.rknn",
+      "bytes": 7213365,
+      "sha256": "2db828d4bd489873a84be52cf6dd93f04750c96b6fc084bcfe45802a439344b0"
+    },
+    {
+      "path": "runtime/npu_signal_attributes.py",
+      "bytes": 2393,
+      "sha256": "6c3c3ea477b5708d0b6375d2014aa80cb3f4e3903eb46bbaa9458216bfdc7387"
+    },
+    {
+      "path": "runtime/physical_keys.py",
+      "bytes": 2056,
+      "sha256": "63ed9688f50c00f6ab892cf2f705b8fabaedccbe87eb0b6472249a1b37960955"
+    },
+    {
+      "path": "runtime/preparation.json",
+      "bytes": 228,
+      "sha256": "fc0aed22522fc11164fff45a2fab38cc5f2dc2ec62154d96f5a645d5d236975e"
+    },
+    {
+      "path": "runtime/road_hazard_guard.py",
+      "bytes": 10920,
+      "sha256": "a8d3efcbf3202ccfbe5fada8b6ed77e145f87dba43d5d162fcdedbf146aa9740"
+    },
+    {
+      "path": "runtime/row_boundary_post.py",
+      "bytes": 3962,
+      "sha256": "698a1b7c5d72edb76627a5081cd020ee759868af9afca2146e7dc459506f14aa"
+    },
+    {
+      "path": "runtime/run_lane_demo.py",
+      "bytes": 45,
+      "sha256": "5e3a28faf384cd801ccdb6ee17d3dff6c0b3a103b94dd20174c407b08f7e5e1d"
+    },
+    {
+      "path": "runtime/run_unified_demo.py",
+      "bytes": 23935,
+      "sha256": "1f6babd687f4aff0d505fbc455562eb4d8a10bb0c161910d4a0df06fc0c5a1b4"
+    },
+    {
+      "path": "runtime/signal_engine.py",
+      "bytes": 15700,
+      "sha256": "ebad97278819b60f14fcf7b6a9e496a3054032aa37d92ad868b339af108d0198"
+    },
+    {
+      "path": "runtime/signal_s3_policy.py",
+      "bytes": 21829,
+      "sha256": "3621113c83f679ceedfc8d8bb157b35ba9904601c477193ad2540e9095c99094"
+    },
+    {
+      "path": "runtime/start_recovered_signal_on_board_20261028.py",
+      "bytes": 3338,
+      "sha256": "987c615172378032b5ce0e565b0bf66829b341b78c5b7ac55c3196ad02adc1fc"
+    },
+    {
+      "path": "runtime/START_SIGNAL.sh",
+      "bytes": 189,
+      "sha256": "61357e52b15117122d86ff788ad2155f65773159e86650921d687b3a9f829eb8"
+    },
+    {
+      "path": "runtime/transport_age_guard.py",
+      "bytes": 839,
+      "sha256": "83ccfdd30f3d89c065405300c9cb66dfb0b943fac726a46598213e550c420d51"
+    },
+    {
+      "path": "runtime/uart_basic70_confirmed.py",
+      "bytes": 5913,
+      "sha256": "a70dfc8c8d4e66c41c3365e23047cac8f0d686ffa4a529a98840449df51d84f4"
+    },
+    {
+      "path": "runtime/uart_confirmed.py",
+      "bytes": 4297,
+      "sha256": "fb2b41a781682552103a6af7d2da5c26a55dc9043ee8a33081759327a84654d8"
+    },
+    {
+      "path": "runtime/uart_v2.py",
+      "bytes": 2126,
+      "sha256": "a94668cdcb5664013126bee0399814f71a56e90d2858b3b201c088c52883f476"
+    },
+    {
+      "path": "runtime/unified_policy.py",
+      "bytes": 2792,
+      "sha256": "0780994e85a7ca372a8c7b3eaa8b25e27291fe5a73f747185c6576c010c9698c"
+    },
+    {
+      "path": "runtime/verify_boundary_cpu.py",
+      "bytes": 1369,
+      "sha256": "a131e6db926c761754dedf0e8f08da6b68978a94b65df3872651faef448aae64"
+    },
+    {
+      "path": "runtime/verify_boundary_softmax.py",
+      "bytes": 2255,
+      "sha256": "454d19055b7c77e1800f85cb4a068d613e487c0332faf501c7c1609a5e8d38af"
+    },
+    {
+      "path": "runtime/verify_capture_quality.py",
+      "bytes": 1526,
+      "sha256": "0fff9039c9f0800326cc37b493189cde3415c7978fbd5b06a1b702a3e15d422a"
+    },
+    {
+      "path": "runtime/verify_compact_boundary.py",
+      "bytes": 2918,
+      "sha256": "062bec2a8fc866a39b570736a215aa9c8dcfd0b2d8cd2f7ae13cb1a25739b9b3"
+    },
+    {
+      "path": "runtime/verify_current_housing.py",
+      "bytes": 1486,
+      "sha256": "278faf2a4e1b0c74cb1983da08762b301801e694447cd46b6ca42d16abfd68a7"
+    },
+    {
+      "path": "runtime/verify_geometry_proposals.py",
+      "bytes": 2712,
+      "sha256": "68ad6f3cf732dcd179048c4e74546c463aff84cb4707743a683aea4f32cabed9"
+    },
+    {
+      "path": "runtime/verify_geometry_worker.py",
+      "bytes": 1358,
+      "sha256": "95b576d07b5e2009288689ccb38adc47ad907c9694e9769dae6040e47a27f644"
+    },
+    {
+      "path": "runtime/verify_immutable_identity.py",
+      "bytes": 2440,
+      "sha256": "f633ed0b30d225c34c3379af632bcf68c09c8f2ef51ed97138f475e9f90db9f7"
+    },
+    {
+      "path": "runtime/verify_lamp_cpu_protocol.py",
+      "bytes": 1021,
+      "sha256": "c06588b847b46a69470f57dcac24257ee494d395642027934c70c20f30051fa8"
+    },
+    {
+      "path": "runtime/verify_lane_keys.py",
+      "bytes": 5136,
+      "sha256": "482ec90ab7df2246d4049a9ea80e1054305b63e88141c302bb7e036e1b97239b"
+    },
+    {
+      "path": "runtime/verify_patch_quality.py",
+      "bytes": 1074,
+      "sha256": "6a5d1dcac3782bd02b23a7afc258a0014a2c6443e05f9092809e3753235d6256"
+    },
+    {
+      "path": "runtime/verify_row_boundary.py",
+      "bytes": 2423,
+      "sha256": "51d9c8a33053e375e467536906f5a9b85c35d1ffde27c816a9ac93f165c47e87"
+    },
+    {
+      "path": "runtime/verify_sparse_road.py",
+      "bytes": 1799,
+      "sha256": "01b5de1aea56af894666ada720bac16a8cf91767cf80b2a2c91150b0fc889068"
+    },
+    {
+      "path": "runtime/verify_transport_age.py",
+      "bytes": 1248,
+      "sha256": "f7efb2513255f2abaa17466c0129ba9711ff2c615faa7ba1d228112bf84c6a19"
+    },
+    {
+      "path": "runtime/verify_unified_policy.py",
+      "bytes": 5047,
+      "sha256": "5df8cec94b36186eaa53955abb55ecb15c6933f9117209c315348a4a886eff0c"
+    },
+    {
+      "path": "runtime/vision_common.py",
+      "bytes": 8308,
+      "sha256": "337031ef3e50abd7130ec65cc6f7c2c32e86322551c114c2f3fc8bfa29489486"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 1911,
+      "sha256": "ce73b44dfb6d8f8769afbb2162d76793ddcb38d398a98b5d4e11a3b04b2b75e3"
+    }
+  ]
+}

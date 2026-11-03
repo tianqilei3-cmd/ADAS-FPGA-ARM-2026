@@ -1,0 +1,18 @@
+{
+  "created_china": "2026-10-28T17:10:00.558808+08:00",
+  "scope": "Supplementary alarm-clear check, frozen before new physical KEY6 sample; original stop scoring remains unchanged",
+  "case": "physical_stop_after_forced_red",
+  "required_frames": 90,
+  "minimum_ratio": 0.7,
+  "maximum_unsafe": 0,
+  "checks": [
+    "original physical_stop checks",
+    "decision.alarm is false",
+    "feedback.alarm_code equals0",
+    "controls.forced is false"
+  ],
+  "previous_state": 48,
+  "target_state": 0,
+  "actual_physical_source_required": true,
+  "profile": 41
+}

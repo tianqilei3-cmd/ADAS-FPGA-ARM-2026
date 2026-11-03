@@ -1,0 +1,33 @@
+{
+  "case": "forced_red",
+  "frames": 90,
+  "successes": 88,
+  "ratio": 0.9777777777777777,
+  "passed": true,
+  "unsafe": [],
+  "collector_read_only": true,
+  "physical_lane_association_verified": false,
+  "manual_LED_buzzer_verification": false,
+  "folder": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_090840_UTC",
+  "physical_epoch": 102,
+  "interruption": null,
+  "failed_checks": {
+    "key_unchanged": 1,
+    "arm_valid": 2,
+    "feedback_valid": 2,
+    "alarm": 2,
+    "epoch_ack": 2,
+    "fresh": 1,
+    "identity": 1
+  },
+  "alarm_code_counts": {
+    "0": 1,
+    "2": 88,
+    "4": 1
+  },
+  "human_observation": {
+    "answer": "force=1，STOP、ALARM 1，UART正常",
+    "screen_confirmed": true,
+    "LED_buzzer_individually_confirmed": false
+  }
+}

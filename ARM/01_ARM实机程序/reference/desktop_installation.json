@@ -1,0 +1,39 @@
+{
+  "installed": true,
+  "restored_runtime": false,
+  "runtime": {
+    "verified": true,
+    "files": 64,
+    "models": 15,
+    "manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+    "runtime": "/home/orangepi/adas2026/signal_recovered_20261028"
+  },
+  "shortcuts": [
+    {
+      "path": "/home/orangepi/Desktop/ADAS_start.desktop",
+      "executable": true,
+      "desktop_syntax_valid": true,
+      "trusted": true,
+      "trust_note": null
+    },
+    {
+      "path": "/home/orangepi/Desktop/ADAS_stop.desktop",
+      "executable": true,
+      "desktop_syntax_valid": true,
+      "trusted": true,
+      "trust_note": null
+    },
+    {
+      "path": "/home/orangepi/Desktop/ADAS_check.desktop",
+      "executable": true,
+      "desktop_syntax_valid": true,
+      "trusted": true,
+      "trust_note": null
+    }
+  ],
+  "helper": "/home/orangepi/.local/share/adas2026/desktop_20261101/adas_launcher.py",
+  "helper_sha256": "89ea5b5a13e1896eb1c441e425b481cc3bb11e11837d64fd755b9cd649d9ee2b",
+  "started_demo": false,
+  "runtime_source_or_models_changed": false,
+  "created": "2026-11-01T11:52:06.927481+00:00"
+}

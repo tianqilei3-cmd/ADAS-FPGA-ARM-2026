@@ -1,0 +1,14 @@
+{
+  "pid": 9422,
+  "log": "/home/orangepi/adas2026/signal_recovered_20261028/launch_hdmi_live_20261101_132655.log",
+  "runtime": "/home/orangepi/adas2026/signal_recovered_20261028",
+  "verified": {
+    "verified": true,
+    "files": 64,
+    "models": 15,
+    "manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+    "runtime": "/home/orangepi/adas2026/signal_recovered_20261028"
+  },
+  "requested_source": "/dev/video0",
+  "file_fallback_allowed": false
+}

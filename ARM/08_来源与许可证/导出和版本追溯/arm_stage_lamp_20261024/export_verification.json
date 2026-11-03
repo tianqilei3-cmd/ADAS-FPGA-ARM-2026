@@ -1,0 +1,20 @@
+{
+  "samples": 60,
+  "max_logit_error": 2.193450927734375e-05,
+  "all_discrete_decisions_equal": true,
+  "dynamic_batches_checked": [
+    1,
+    3,
+    8
+  ],
+  "model": "D:\\deeplearning\\ultralytics-8.3.163\\arm_lamp_attrs_20261024\\models\\lamp_attributes.onnx",
+  "source_checkpoints_unchanged": true,
+  "board_verified": false,
+  "source_hashes": {
+    "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\signal_attributes_consensus_20fc4d9bebcd\\weights\\best.pt": "b55b10e57cef0b2e090932824d2733da499d13956621175325f41115cc99a1ad",
+    "D:\\deeplearning\\ultralytics-8.3.163\\runs\\signal_spatial_tail_20261022\\types\\best.pt": "e54fb5467854d47a0323c196b7e1d7cb804ae7e48163023a27f027927ba51d76",
+    "D:\\deeplearning\\ultralytics-8.3.163\\runs\\signal_spatial_tail_20261022\\direction_residual\\best.pt": "3e0d4c5a240d122674117dfe51a9b16fa9a2d37bc3cedf0841c5cde4720b516f",
+    "D:\\deeplearning\\ultralytics-8.3.163\\runs\\signal_type_direction_repair_20261022\\direction\\best.pt": "b8700e2b2a7bf7ef3af992df2a80a363b1b62ef85c18de3b7add0be1a82e95d2",
+    "D:\\deeplearning\\ultralytics-8.3.163\\runs\\signal_hard_examples_20261022\\control_guard\\selected_types.pt": "eb58a54a5b4de0540395ec764c915ae37736ea8cbf9f0a1e5c381f5339fa5019"
+  }
+}

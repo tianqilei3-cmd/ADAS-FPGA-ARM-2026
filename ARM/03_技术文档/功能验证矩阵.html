@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>功能验证矩阵</title><style>body{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;line-height:1.8;max-width:1100px;margin:36px auto;padding:0 28px;color:#16232d;background:#fff}h1{font-size:30px}h2{margin-top:38px}table{border-collapse:collapse;width:100%;margin:20px 0;font-size:14px}th,td{border:1px solid #cad3db;padding:10px 12px;text-align:left;vertical-align:top}th{background:#eaf0f5}tr:nth-child(even){background:#f8fafc}code{font-family:Consolas,monospace;word-break:break-word;background:#f0f3f6;padding:1px 4px}pre{white-space:pre-wrap;background:#f0f3f6;padding:20px;line-height:1.55}pre code{padding:0}img{max-width:100%;height:auto}a{color:#145b8e}@media print{body{max-width:none;margin:0;padding:0;font-size:11pt}h1,h2,h3{break-after:avoid}tr,img,pre{break-inside:avoid}a{color:inherit;text-decoration:none}}</style><body><h1>功能验证矩阵</h1>
+<p>证据冻结到2026年11月1日；本次仅整理资料，不进行新实测。</p>
+<table>
+<tr><th>功能</th><th>验证层级</th><th>范围及限制</th><th>证据索引</th></tr>
+<tr><td>HDMI→MS2130→ARM实时推理→显示</td><td>实板视频链已验证</td><td>2026-11-01用户接受；1160帧后停止；显示过期提示仍待优化</td><td>HDMI恢复_20261101</td></tr>
+<tr><td>实体KEY6绿行/停车/红停</td><td>ARM+FPGA已联动</td><td>控制直行片段、虚拟车道；每项连续90帧</td><td>工程验收_20261028及实体按键_20261028</td></tr>
+<tr><td>实体KEY7强行红灯报警和停车清警</td><td>ARM+FPGA已联动</td><td>ARM判定、带epoch的FPGA回包及人工屏幕确认；LED4为综合灯</td><td>physical_forced_red_result.json等</td></tr>
+<tr><td>人工辅助冷恢复</td><td>两板断电恢复已验证</td><td>需重下SRAM、重播PC视频并启动ARM；不是无人值守自启</td><td>cold_*记录及首次失败记录</td></tr>
+<tr><td>车道虚实线与转道</td><td>旧版本联板示例；当前仅部分运行证据</td><td>0x27受控转道示例不能转为0x29完整验收；11月1日boundary能推理回包</td><td>旧版变道示例及HDMI恢复记录</td></tr>
+<tr><td>车辆/两轮车/行人检测</td><td>ARM真实输入推理和UART已运行</td><td>不等于各危险场景均已统计验收；检测精度有独立PC报告</td><td>实时画面、road PC指标</td></tr>
+<tr><td>道路模型INT8转换一致性</td><td>ARM单独推理测试</td><td>与原模型输出对照，不是人工真值准确率或FPGA功能验收</td><td>road_int8/native_parity.json</td></tr>
+<tr><td>灯型/方向ONNX导出一致性</td><td>PC数值检查；运行模型被ARM调用</td><td>60个已知样本图，不能代替灯头关联真值测试</td><td>export_verification.json</td></tr>
+<tr><td>导航卡片和方向</td><td>仅PC测试</td><td>6个验证来源帧组、4个卡片真值；当前ARM导航字段固定0，未接入统一程序</td><td>导航PC离线_20261029</td></tr>
+<tr><td>纯图像自动真实本车道—灯头关联</td><td>未达到原目标；未按成品交付</td><td>当前为按键选择虚拟车道和图像候选灯规则，不是实路几何归属保证</td><td>runtime策略及历史说明</td></tr>
+<tr><td>物理车辆执行机构</td><td>未接入/未验证</td><td>无电机或舵机，STOP/GO为逻辑结果及板上指示</td><td>hardware_motion_control_connected=False</td></tr>
+<tr><td>FPGA完整时序及端到端延迟</td><td>未通过/待测</td><td>0x29有时序违例；没有从曝光/HDMI源到实际显示的同步测量</td><td>工程验收standard.json E09/E10</td></tr>
+</table>
+<p>“实板联动”指真实板卡处理及串口确认，场景可能仍使用按键设定的虚拟驾驶意图；“ARM单独”是板上离线推理或数值对照；“PC测试”不能算香橙派成果。内部70%是团队阶段门槛，不是赛题官方统一合格线。阶段功能通过不能平均抵消FPGA时序或端到端工程项目的缺失。</p></body></html>

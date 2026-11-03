@@ -1,0 +1,101 @@
+{
+  "records": [
+    {
+      "image": "113343_0.png",
+      "max_logit_error": 0.07941532135009766,
+      "pixel_agreement": 0.9998982747395834,
+      "foreground_agreement": 0.9952061361457335,
+      "milliseconds": 101.75705098663457
+    },
+    {
+      "image": "113343_218.png",
+      "max_logit_error": 0.08779537677764893,
+      "pixel_agreement": 0.9998508029513888,
+      "foreground_agreement": 0.9938340807174888,
+      "milliseconds": 101.14455799339339
+    },
+    {
+      "image": "113343_436.png",
+      "max_logit_error": 0.12784802913665771,
+      "pixel_agreement": 0.9999796549479166,
+      "foreground_agreement": 0.9973544973544973,
+      "milliseconds": 99.27645299467258
+    },
+    {
+      "image": "113343_654.png",
+      "max_logit_error": 0.10180044174194336,
+      "pixel_agreement": 1.0,
+      "foreground_agreement": 1.0,
+      "milliseconds": 96.94372699595988
+    },
+    {
+      "image": "113539_318.png",
+      "max_logit_error": 0.09622186422348022,
+      "pixel_agreement": 0.9998575846354166,
+      "foreground_agreement": 0.9920634920634921,
+      "milliseconds": 99.06820399919525
+    },
+    {
+      "image": "113539_354.png",
+      "max_logit_error": 0.0738382339477539,
+      "pixel_agreement": 0.99993896484375,
+      "foreground_agreement": 0.9967637540453075,
+      "milliseconds": 96.91310199559666
+    },
+    {
+      "image": "113539_600.png",
+      "max_logit_error": 0.07914543151855469,
+      "pixel_agreement": 0.9999796549479166,
+      "foreground_agreement": 0.9933774834437086,
+      "milliseconds": 99.63257299386896
+    },
+    {
+      "image": "113539_1170.png",
+      "max_logit_error": 0.08339214324951172,
+      "pixel_agreement": 0.9999186197916666,
+      "foreground_agreement": 0.994780339277947,
+      "milliseconds": 96.86352001153864
+    }
+  ],
+  "actual_keys": {
+    "state": 0,
+    "sequence": 0,
+    "scene_index": 0,
+    "supported": true,
+    "controls": {
+      "mode": "signal",
+      "lane_id": "straight_virtual_lane",
+      "movement": "straight",
+      "requested_motion": "stop",
+      "requested_turn": "none",
+      "forced": false
+    },
+    "query": {
+      "command": 3,
+      "sent": true,
+      "acknowledged": true,
+      "tx_started_monotonic": 261484.29840001,
+      "ack_observed_monotonic": 261484.299704038,
+      "reply_hex": "55 03 02 00 00 5a",
+      "reply_reads": [
+        {
+          "observed_monotonic": 261484.299704038,
+          "hex": "55 03 02 00 00 5a"
+        }
+      ],
+      "reply_commands": [
+        3
+      ],
+      "unexpected_before_tx_hex": "",
+      "invalid_reply_bytes": 0,
+      "partial_reply_hex": "",
+      "reason": "confirmed",
+      "exchange_ms": 1.3681939744856209
+    }
+  },
+  "mean_ms": 98.94989849635749,
+  "mean_foreground_agreement": 0.9954224728810218,
+  "scope": "eight development images conversion consistency, not physical lane or maneuver acceptance",
+  "eligible_for_bounded_real_test": true,
+  "accepted": false
+}

@@ -1,0 +1,20 @@
+{
+  "stop_exit": 0,
+  "stdout": "{\"stop_requested\": [7886], \"own_runtime_stopped\": true, \"unrelated_processes_terminated\": false, \"hardware_feedback_queried\": false}\n",
+  "stderr": "",
+  "running": [],
+  "video0": {
+    "exists": true,
+    "accessible": true
+  },
+  "fuser": {
+    "code": 1,
+    "out": "",
+    "err": ""
+  },
+  "v4l2-ctl": {
+    "code": 0,
+    "out": "Driver Info:\n\tDriver name      : uvcvideo\n\tCard type        : USB3.0 MS2130: USB3.0 MS2130\n\tBus info         : usb-xhci-hcd.4.auto-1\n\tDriver version   : 5.10.160\n\tCapabilities     : 0x84a00001\n\t\tVideo Capture\n\t\tMetadata Capture\n\t\tStreaming\n\t\tExtended Pix Format\n\t\tDevice Capabilities\n\tDevice Caps      : 0x04200001\n\t\tVideo Capture\n\t\tStreaming\n\t\tExtended Pix Format\nMedia Driver Info:\n\tDriver name      : uvcvideo\n\tModel            : USB3.0 MS2130: USB3.0 MS2130\n\tSerial           : 20210623\n\tBus info         : usb-xhci-hcd.4.auto-1\n\tMedia version    : 5.10.160\n\tHardware revision: 0x00003100 (12544)\n\tDriver version   : 5.10.160\nInterface Info:\n\tID               : 0x03000002\n\tType             : V4L Video\nEntity Info:\n\tID               : 0x00000001 (1)\n\tName             : USB3.0 MS2130: USB3.0 MS2130\n\tFunction         : V4L2 I/O\n\tFlags            : default\n\tPad 0x01000007   : 0: Sink\n\t  Link 0x0200000d: from remote pad 0x100000a of entity 'Processing 2' (Video Pixel Formatter): Data, Enabled, Immutable\nPriority: 2\nVideo input : 0 (Camera 1: ok)\nFormat Video Capture:\n\tWidth/Height      : 1920/1080\n\tPixel Format      : 'MJPG' (Motion-JPEG)\n\tField             : None\n\tBytes per Line    : 0\n\tSize Image        : 4147200\n\tColorspace        : sRGB\n\tTransfer Function : Rec. 709\n\tYCbCr/HSV Encoding: ITU-R 601\n\tQuantization      : Default (maps to Full Range)\n\tFlags             : \nCrop Capability Video Capture:\n\tBounds      : Left 0, Top 0, Width 1920, Height 1080\n\tDefault     : Left 0, Top 0, Width 1920, Height 1080\n\tPixel Aspect: 1/1\nSelection Video Capture: crop_default, Left 0, Top 0, Width 1920, Height 1080, Flags: \nSelection Video Capture: crop_bounds, Left 0, Top 0, Width 1920, Height 1080, Flags: \nStreaming Parameters Video Capture:\n\tCapabilities     : timeperframe\n\tFrames per second: 30.000 (30/1)\n\tRead buffers     : 0\n                     brightness 0x00980900 (int)    : min=0 max=100 step=1 default=50 value=50\n                       contrast 0x00980901 (int)    : min=0 max=100 step=1 default=50 value=50\n                     saturation 0x00980902 (int)    : min=0 max=100 step=1 default=50 value=50\n                            hue 0x00980903 (int)    : min=0 max=100 step=1 default=50 value=50\n",
+    "err": ""
+  }
+}

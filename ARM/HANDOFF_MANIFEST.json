@@ -1,0 +1,3309 @@
+{
+  "schema": "ARM_final_handoff_20261102_v1",
+  "created": "2026-11-02T14:39:06.473109+08:00",
+  "demo_baseline": "signal_recovered_20261028",
+  "latest_live_recovery": "2026-11-01",
+  "models": 15,
+  "frozen_source_files": 64,
+  "full_competition_accepted": false,
+  "physical_ego_lane_association_verified": false,
+  "credential_scan_passed": true,
+  "runtime_local_imports_complete": true,
+  "files": [
+    {
+      "path": "01_ARM实机程序/INSTALL_ON_ORANGEPI.sh",
+      "bytes": 161,
+      "sha256": "b0239f465e8f859903974a7e72d9039b94ee50bcf67f32d38d71603cb052a95e"
+    },
+    {
+      "path": "01_ARM实机程序/launcher/adas_launcher.py",
+      "bytes": 8991,
+      "sha256": "89ea5b5a13e1896eb1c441e425b481cc3bb11e11837d64fd755b9cd649d9ee2b"
+    },
+    {
+      "path": "01_ARM实机程序/launcher/install_shortcuts.py",
+      "bytes": 5871,
+      "sha256": "aa4f2d26ce4cef38b1c2af1b434d9f45d53e7ac52696c7ab96b6b9762e4a0848"
+    },
+    {
+      "path": "01_ARM实机程序/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "01_ARM实机程序/MANIFEST.json",
+      "bytes": 17072,
+      "sha256": "89badbcdb74562ec0855cf6cdbbc3798fa5a9353dd5b0e0997795badbca9e3f9"
+    },
+    {
+      "path": "01_ARM实机程序/README_给队友.md",
+      "bytes": 5997,
+      "sha256": "12591f63b6744d8c815699dc3801dc8c244789940e6fd694d8103819968d5494"
+    },
+    {
+      "path": "01_ARM实机程序/reference/10月28日工程验收记录.md",
+      "bytes": 6193,
+      "sha256": "5cf43a8ba015a7acd73d7b3b8b27d937f1684f44028e403827b0ab52a5d4941b"
+    },
+    {
+      "path": "01_ARM实机程序/reference/10月29日补训结果.md",
+      "bytes": 3757,
+      "sha256": "0e1b3feba3caf83f825f672ec19aba615eea46824847ca72dcea690aed5dcdf0"
+    },
+    {
+      "path": "01_ARM实机程序/reference/backup_result.json",
+      "bytes": 396,
+      "sha256": "37de12f4d7966bddf0906af4a58c53ddb8f348409e8e1cdf04d249f34cf39c2e"
+    },
+    {
+      "path": "01_ARM实机程序/reference/desktop_control_tests.json",
+      "bytes": 431,
+      "sha256": "9788050e114716715eef8a9dc0e82d87a8fa40624d7eda2528a6d59dd4850b53"
+    },
+    {
+      "path": "01_ARM实机程序/reference/desktop_diagnosis.json",
+      "bytes": 1029,
+      "sha256": "7f065218e358ff3a492935da7e12a508d48496731f0f2ee4a635ed6b01c96e51"
+    },
+    {
+      "path": "01_ARM实机程序/reference/desktop_installation.json",
+      "bytes": 1183,
+      "sha256": "9f1cb855c01e9649c2ae67f7bfe4dd10bbe45a0e24685b94cfa242a6fa91d12b"
+    },
+    {
+      "path": "01_ARM实机程序/reference/FPGA_0x29_test_ddr.sbit",
+      "bytes": 2101696,
+      "sha256": "84b4c9fd406f27e21aacd5959509004993b22e1d801c9e4f29f9db09e4ee6f06"
+    },
+    {
+      "path": "01_ARM实机程序/reference/FPGA待办与协作.md",
+      "bytes": 2543,
+      "sha256": "e4e7fed4fd58b1a2ba45442d191a6c31f384cec15afb061639ab9287d84da4c3"
+    },
+    {
+      "path": "01_ARM实机程序/reference/frozen_release.json",
+      "bytes": 3286,
+      "sha256": "7dea274da4fb832162f2ff925e0b10e1d46cb68316458d945147e31165713904"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/ack_protocol.py",
+      "bytes": 3955,
+      "sha256": "49e2e6714dc85e60ea1e458a55580a0682b68c14a179e1f2063c996c0c481f6a"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/arm_scene_a04.py",
+      "bytes": 3749,
+      "sha256": "913551931a407997ccbd0a03d04fefb1473d278356026f81783fa8c66fd93904"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/basic70_wire.py",
+      "bytes": 5110,
+      "sha256": "e86c85833c173ff81c8c88aba7c16c1d076d52c99307340a2b37e77f8c0cab12"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/batched_signal_attributes.py",
+      "bytes": 2575,
+      "sha256": "da387b1c3ba92f94d0950126db0bde4f2fd57103c3cdcef25170153cdf0bd5d0"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/boundary_cpu_worker.py",
+      "bytes": 2841,
+      "sha256": "f1e106742fda9bbbe0321662c99704cd2a369abf850b1d548f58bdc6a8448a5e"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/boundary_policy.py",
+      "bytes": 3557,
+      "sha256": "9082072f69eed9b22a1b54b492daf7f7e4cbd80f31ce513473adfec1696f1b8a"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/boundary_runtime.py",
+      "bytes": 2127,
+      "sha256": "414fbe1f1c448cbdfbccc920044253f774ef6010021586f8488d70d516131c04"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/boundary_softmax.py",
+      "bytes": 537,
+      "sha256": "e4fc5695901d9725cfafbe2a408696c32e74b3ad2f5215b1485912259833e941"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/capture_quality.py",
+      "bytes": 2674,
+      "sha256": "e7745c57992c0760f740fdf619c18ae518a76b349172a8a7f2aa0cc9f1eca9ef"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/compact_boundary_post.py",
+      "bytes": 6029,
+      "sha256": "63d7429183a9fd93f697f909980694a76ebaffabb73fee9bc967059c24637817"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/competition_scene_logic.py",
+      "bytes": 9136,
+      "sha256": "4b0573cc97f20f9b4ebd3cb1bcb326dfcb0c5f10008ee34c6cd70746293e5d2b"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/content_guard.py",
+      "bytes": 800,
+      "sha256": "35b70dee26e0953d7c0c13c0593e0be60c3cf3569dc13bdeec0ec2a1981ee346"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/current_lamp_housing.py",
+      "bytes": 4909,
+      "sha256": "016f97da70a8c2f2b4185b5b7e3f1af0ff638f117a8e9e9f4ae708a6e79126e3"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/fast_types.py",
+      "bytes": 1222,
+      "sha256": "aa5cfda97c17fb92791d1e765a06baf4e3b2995cacea168c511ba09beeeb2af7"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/geometry_cpu_worker.py",
+      "bytes": 2372,
+      "sha256": "f1b086d1527372712f48b5c6ee979429cab84a33a76de6abc09bac4837d6cd27"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/geometry_lamp_proposals.py",
+      "bytes": 9709,
+      "sha256": "2ca4009d9eac8de4f379f47f5b51b2cdf03f31a028f220c13afec12fff6f98cf"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/head_continuity.py",
+      "bytes": 6420,
+      "sha256": "786d39368676ec444536c9e2676abe740f70d76a11f478b3c85d1804a945765f"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/immutable_identity.py",
+      "bytes": 1170,
+      "sha256": "7af8a188aabcbbbf3bf0d2ec21c1c38ad42dcacee64dd222949f775da4425563"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lamp_attrs_portable.py",
+      "bytes": 4007,
+      "sha256": "ab917b34f8cca3ca0f4dc0b413a0a6ac310d98f8d5248a1a7f6e3150a58d61b2"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lamp_attrs_preprocess.py",
+      "bytes": 3834,
+      "sha256": "1fcea12fdfcef87407de5bf7da9c797f633e302f97f0906798aef1154ac28694"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lamp_cpu_worker.py",
+      "bytes": 3602,
+      "sha256": "0943f246cafbf9fc1b50a5b17bdb6c0b0e6dcf2b3127065b3cbe5163a30ee27f"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_boundary_instances.py",
+      "bytes": 11962,
+      "sha256": "b9663f4f5b814bc16566228c4e7045de2b570800aff885ff9183bc2260375798"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_boundary_instances_v2.py",
+      "bytes": 6554,
+      "sha256": "890bc76d2461c24f5e8e96b5cb0ead6c3b8e6c1f98b05d0bb46cc96f068587d1"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_boundary_postprocess.py",
+      "bytes": 2896,
+      "sha256": "68f985ff40f56fdf2c0ab18da9917ad5278110c9085242601ac9f1b5bd5bd91a"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_boundary_segments_v3.py",
+      "bytes": 5609,
+      "sha256": "4ec6a63b815bd9bf900ef0903b6b2b0c361eb4329ee99ce62ec5ccc027c4a5b2"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_boundary_wide_recovery.py",
+      "bytes": 10472,
+      "sha256": "09fb7b0f7cac76a09e655d3237fec598b77724c8a8dc71c85f7f761b2e52672f"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_observed_dashed_geometry.py",
+      "bytes": 10730,
+      "sha256": "a5400359d706c9292a2828969e68dbe1eb559d89cb62311ba8a65163441b1cb1"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_observed_yellow_geometry.py",
+      "bytes": 7393,
+      "sha256": "9c4137b919597071f8cd7ae028d263f6eaa177871351be4be9028fd693a6a9c9"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_observed_yellow_pairs.py",
+      "bytes": 8480,
+      "sha256": "2a9856754e797a222470f563fcb9fcefbe2cffc60e20f2c97b1f9ebe25d695a3"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/lane_support.py",
+      "bytes": 5376,
+      "sha256": "35b6fc88a436892e17ba011d99af7566a5b305432ac6c78ab07d447a41c66ed0"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/latest_live_capture_20261027.py",
+      "bytes": 10688,
+      "sha256": "4d42c5daf386c7ea28c3edb6dfcb135d5e24c2294dc35ba30ead97274e08f3c1"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/light_metadata.json",
+      "bytes": 1440,
+      "sha256": "1334335f8c8492b6b07e8a2ed4e99ac8f03d4f91f29a5f87dccb545e46e4882e"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/light_pipeline.py",
+      "bytes": 2851,
+      "sha256": "01731383c7e0a92e1906a0900a928fec240b9ee41292c53170d39fc1a2c8389a"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/light_roi_common.py",
+      "bytes": 3478,
+      "sha256": "23bfdeaed62ade34cba442460b4cf50afeeef85200a27ff54152f31b19ce4eea"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/manifest.json",
+      "bytes": 14742,
+      "sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/boundary_fp.rknn",
+      "bytes": 3153335,
+      "sha256": "f06c1c572746eb4bdc2cd250f60db94befc407e409c422e1a34a05abb467313e"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/color_guard.onnx",
+      "bytes": 5794713,
+      "sha256": "7c0ec26b046ea74211bd58feefb16c3bab04b54976d9d26fbcfdf2c7a19a6ce5"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/color_guard_batch2_fp.rknn",
+      "bytes": 3382895,
+      "sha256": "83fef24d4776d8fceeb4cbd15576b5bdf131e463e15ba410f9b7781aaf87282c"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/color_guard_batch3_fp.rknn",
+      "bytes": 3427951,
+      "sha256": "a2ff9fe9b4ba7aa6ee43e24599f0e00f24c10ee77f730c04fe43c995e8f8c719"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/color_guard_fp.rknn",
+      "bytes": 3320623,
+      "sha256": "b3bf458b23eb8b0d0db43761a7ae8eccff7a59d1e361657320b0d4391834fe65"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_aligned_fp_heads.rknn",
+      "bytes": 7177331,
+      "sha256": "bc84fd31dcccf697e2d1aa591c7c4c768f6613f07f66cf92f7e9bee5f54f8ed2"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_attributes.onnx",
+      "bytes": 8867553,
+      "sha256": "973ab188ba6ea5b377959b57d292e3e306f6806c2067f507e3c0b6275aa23873"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_rect_fp_heads.rknn",
+      "bytes": 7177331,
+      "sha256": "d899336585315e7a7019e9d8880333c1c4f006a759e8cd391de74900f01dd694"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_types_batch2_fp.rknn",
+      "bytes": 4160528,
+      "sha256": "2749808a815839656270de190e22694b41d3b194a1751e41809ff0a7921f7742"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_types_batch3_fp.rknn",
+      "bytes": 4210960,
+      "sha256": "206ad6945ffdc17ca91a2b2716a67655148c0af80cffa006dfa023ff30fe34b5"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_types_fp.rknn",
+      "bytes": 4083536,
+      "sha256": "bf2660a3aa1ae21014e8ff0047e7bc9735a2bf8eb062d5e21ebbf6c3657f0bae"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/lamp_types_whole.onnx",
+      "bytes": 7188441,
+      "sha256": "de39d4af833fcceb8284f8f6dd9488b11b46becc40db51626701ee99a180a5cd"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/road_heads_fp.rknn",
+      "bytes": 7330933,
+      "sha256": "48b42c24319da47124e1f2899c84ada45bf2db0ceb3acae2efc82a2b326d5efd"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/road_int8_heads.rknn",
+      "bytes": 4268304,
+      "sha256": "b38383d6755acd05a743c628c58d222e5434ee0a178ad13bae93c74ad7a43bc2"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/models/road_rect_fp.rknn",
+      "bytes": 7213365,
+      "sha256": "2db828d4bd489873a84be52cf6dd93f04750c96b6fc084bcfe45802a439344b0"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/npu_signal_attributes.py",
+      "bytes": 2393,
+      "sha256": "6c3c3ea477b5708d0b6375d2014aa80cb3f4e3903eb46bbaa9458216bfdc7387"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/physical_keys.py",
+      "bytes": 2056,
+      "sha256": "63ed9688f50c00f6ab892cf2f705b8fabaedccbe87eb0b6472249a1b37960955"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/preparation.json",
+      "bytes": 228,
+      "sha256": "fc0aed22522fc11164fff45a2fab38cc5f2dc2ec62154d96f5a645d5d236975e"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/road_hazard_guard.py",
+      "bytes": 10920,
+      "sha256": "a8d3efcbf3202ccfbe5fada8b6ed77e145f87dba43d5d162fcdedbf146aa9740"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/row_boundary_post.py",
+      "bytes": 3962,
+      "sha256": "698a1b7c5d72edb76627a5081cd020ee759868af9afca2146e7dc459506f14aa"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/run_lane_demo.py",
+      "bytes": 45,
+      "sha256": "5e3a28faf384cd801ccdb6ee17d3dff6c0b3a103b94dd20174c407b08f7e5e1d"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/run_unified_demo.py",
+      "bytes": 23935,
+      "sha256": "1f6babd687f4aff0d505fbc455562eb4d8a10bb0c161910d4a0df06fc0c5a1b4"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/signal_engine.py",
+      "bytes": 15700,
+      "sha256": "ebad97278819b60f14fcf7b6a9e496a3054032aa37d92ad868b339af108d0198"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/signal_s3_policy.py",
+      "bytes": 21829,
+      "sha256": "3621113c83f679ceedfc8d8bb157b35ba9904601c477193ad2540e9095c99094"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/start_recovered_signal_on_board_20261028.py",
+      "bytes": 3338,
+      "sha256": "987c615172378032b5ce0e565b0bf66829b341b78c5b7ac55c3196ad02adc1fc"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/START_SIGNAL.sh",
+      "bytes": 189,
+      "sha256": "61357e52b15117122d86ff788ad2155f65773159e86650921d687b3a9f829eb8"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/transport_age_guard.py",
+      "bytes": 839,
+      "sha256": "83ccfdd30f3d89c065405300c9cb66dfb0b943fac726a46598213e550c420d51"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/uart_basic70_confirmed.py",
+      "bytes": 5913,
+      "sha256": "a70dfc8c8d4e66c41c3365e23047cac8f0d686ffa4a529a98840449df51d84f4"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/uart_confirmed.py",
+      "bytes": 4297,
+      "sha256": "fb2b41a781682552103a6af7d2da5c26a55dc9043ee8a33081759327a84654d8"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/uart_v2.py",
+      "bytes": 2126,
+      "sha256": "a94668cdcb5664013126bee0399814f71a56e90d2858b3b201c088c52883f476"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/unified_policy.py",
+      "bytes": 2792,
+      "sha256": "0780994e85a7ca372a8c7b3eaa8b25e27291fe5a73f747185c6576c010c9698c"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_boundary_cpu.py",
+      "bytes": 1369,
+      "sha256": "a131e6db926c761754dedf0e8f08da6b68978a94b65df3872651faef448aae64"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_boundary_softmax.py",
+      "bytes": 2255,
+      "sha256": "454d19055b7c77e1800f85cb4a068d613e487c0332faf501c7c1609a5e8d38af"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_capture_quality.py",
+      "bytes": 1526,
+      "sha256": "0fff9039c9f0800326cc37b493189cde3415c7978fbd5b06a1b702a3e15d422a"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_compact_boundary.py",
+      "bytes": 2918,
+      "sha256": "062bec2a8fc866a39b570736a215aa9c8dcfd0b2d8cd2f7ae13cb1a25739b9b3"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_current_housing.py",
+      "bytes": 1486,
+      "sha256": "278faf2a4e1b0c74cb1983da08762b301801e694447cd46b6ca42d16abfd68a7"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_geometry_proposals.py",
+      "bytes": 2712,
+      "sha256": "68ad6f3cf732dcd179048c4e74546c463aff84cb4707743a683aea4f32cabed9"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_geometry_worker.py",
+      "bytes": 1358,
+      "sha256": "95b576d07b5e2009288689ccb38adc47ad907c9694e9769dae6040e47a27f644"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_immutable_identity.py",
+      "bytes": 2440,
+      "sha256": "f633ed0b30d225c34c3379af632bcf68c09c8f2ef51ed97138f475e9f90db9f7"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_lamp_cpu_protocol.py",
+      "bytes": 1021,
+      "sha256": "c06588b847b46a69470f57dcac24257ee494d395642027934c70c20f30051fa8"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_lane_keys.py",
+      "bytes": 5136,
+      "sha256": "482ec90ab7df2246d4049a9ea80e1054305b63e88141c302bb7e036e1b97239b"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_patch_quality.py",
+      "bytes": 1074,
+      "sha256": "6a5d1dcac3782bd02b23a7afc258a0014a2c6443e05f9092809e3753235d6256"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_row_boundary.py",
+      "bytes": 2423,
+      "sha256": "51d9c8a33053e375e467536906f5a9b85c35d1ffde27c816a9ac93f165c47e87"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_sparse_road.py",
+      "bytes": 1799,
+      "sha256": "01b5de1aea56af894666ada720bac16a8cf91767cf80b2a2c91150b0fc889068"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_transport_age.py",
+      "bytes": 1248,
+      "sha256": "f7efb2513255f2abaa17466c0129ba9711ff2c615faa7ba1d228112bf84c6a19"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/verify_unified_policy.py",
+      "bytes": 5047,
+      "sha256": "5df8cec94b36186eaa53955abb55ecb15c6933f9117209c315348a4a886eff0c"
+    },
+    {
+      "path": "01_ARM实机程序/runtime/vision_common.py",
+      "bytes": 8308,
+      "sha256": "337031ef3e50abd7130ec65cc6f7c2c32e86322551c114c2f3fc8bfa29489486"
+    },
+    {
+      "path": "01_ARM实机程序/verify_package.py",
+      "bytes": 1911,
+      "sha256": "ce73b44dfb6d8f8769afbb2162d76793ddcb38d398a98b5d4e11a3b04b2b75e3"
+    },
+    {
+      "path": "01_ARM实机程序/配置阅读提示.md",
+      "bytes": 1074,
+      "sha256": "9d39e79edb86bee7378441789f12cd1954b026e53b75ce0d09c663f3aa4064a7"
+    },
+    {
+      "path": "02_电脑视频源/play_official_hdmi_source_20261101.py",
+      "bytes": 5132,
+      "sha256": "73f30c5ca9b51c7458ec6fa7eff5df2c0045da19d9505f7c6482f3466a2b81e4"
+    },
+    {
+      "path": "02_电脑视频源/play_official_video_to_fpga_20261027.py",
+      "bytes": 7769,
+      "sha256": "945011982d3f8498fb3a990017fe83b565486bacbe85bbf086fc49d284c6e883"
+    },
+    {
+      "path": "02_电脑视频源/示例输入/video_20260929_113343.mp4",
+      "bytes": 27676111,
+      "sha256": "f7526618d6754c02a63c8349550c3d1892823c4baf77b5b89ff261854791bdc4"
+    },
+    {
+      "path": "03_技术文档/ARM技术说明_供合并比赛报告.html",
+      "bytes": 10745,
+      "sha256": "1bc7a765fc725e9acd1ce591accc767e2f7825e0c36546b948c426755b6cd3af"
+    },
+    {
+      "path": "03_技术文档/ARM技术说明_供合并比赛报告.md",
+      "bytes": 10557,
+      "sha256": "65b78b45da2cd44b7877bb9aae5219f9d4ddb2e30aa3d6ec4aa72245a8332b3d"
+    },
+    {
+      "path": "03_技术文档/功能验证矩阵.csv",
+      "bytes": 2048,
+      "sha256": "77aeced978b1dc1e987bf670e867dbfe5e562e85cef67054b57da09b47f36425"
+    },
+    {
+      "path": "03_技术文档/功能验证矩阵.html",
+      "bytes": 4034,
+      "sha256": "45d9f75c716e721462d3c8310c9b340960cfc3455b776c8752a9cc304ed963ac"
+    },
+    {
+      "path": "03_技术文档/功能验证矩阵.md",
+      "bytes": 2682,
+      "sha256": "29f84a7d8df32e9a31dafde04d7af48ce68d4b2fe4fc1ee20fb0de617b47f682"
+    },
+    {
+      "path": "03_技术文档/队友合并清单.html",
+      "bytes": 1632,
+      "sha256": "818fa3fb1188b02634c31440e17c7b189f7978c4027833e33f5130649c8aa6fb"
+    },
+    {
+      "path": "03_技术文档/队友合并清单.md",
+      "bytes": 1463,
+      "sha256": "1c8cbae50b1e858bf082cff33e6748cc475fb310d14170e149f3b9e81ea06a30"
+    },
+    {
+      "path": "04_模块图与数据流/ARM模块图.mmd",
+      "bytes": 471,
+      "sha256": "0cfae508a4cd74fa310cb8b5230700c6ed6c245230b7062b0fc3bf4fed39924c"
+    },
+    {
+      "path": "04_模块图与数据流/ARM模块图.png",
+      "bytes": 177641,
+      "sha256": "d004ffd74401b95e19dc423e2c257cf6060772e30c9669eab69a63275c114639"
+    },
+    {
+      "path": "04_模块图与数据流/ARM模块图.svg",
+      "bytes": 5880,
+      "sha256": "a94d60f22ecbfcb47bcc4f665fa8a2064aa558bc29bf6834520ab11d6c1912a7"
+    },
+    {
+      "path": "04_模块图与数据流/数据流.mmd",
+      "bytes": 370,
+      "sha256": "7e7eea0aa53af187a0fae1e6138638298da0210a043946f55b1686a246b55735"
+    },
+    {
+      "path": "04_模块图与数据流/视频与检测结果数据流.png",
+      "bytes": 201426,
+      "sha256": "874727c8986fc8f5bd0ca41260d1fa0a04f36f20f2c515f000faa31f6146d570"
+    },
+    {
+      "path": "04_模块图与数据流/视频与检测结果数据流.svg",
+      "bytes": 7153,
+      "sha256": "09d328b1ee993e5f823ff875dcf4d3afa8ff5daad0b74680b045df9d36919693"
+    },
+    {
+      "path": "05_通信协议与真实日志/对应FPGA接口摘录/adas_basic70_control.v",
+      "bytes": 6949,
+      "sha256": "6641fde524b093a5eac871d9dd3df028014fec1ea8bb58835a4f9f8d3233213b"
+    },
+    {
+      "path": "05_通信协议与真实日志/对应FPGA接口摘录/adas_key_control.v",
+      "bytes": 5776,
+      "sha256": "a11ef2c3cceda01b58f2d729e02278b152c341bfa2ebb60eb7669e92b1d1d1c3"
+    },
+    {
+      "path": "05_通信协议与真实日志/对应FPGA接口摘录/adas_key_epoch_gate.v",
+      "bytes": 684,
+      "sha256": "5ecfad6a697c8f94d053e75adc142b70bfb18254f9bb84ea8c3b8efa58e0a0a8"
+    },
+    {
+      "path": "05_通信协议与真实日志/真实收发日志.txt",
+      "bytes": 814,
+      "sha256": "e45c6ab2b1af936c664080881de85bd67771ac932d54bce0b2cf8e99523bd13c"
+    },
+    {
+      "path": "05_通信协议与真实日志/真实收发记录_摘自HDMI实机.json",
+      "bytes": 4719,
+      "sha256": "fd41a927238b20e9171a8d8ccb880f2ae20376560ad5e10a16b5618b24ddd61c"
+    },
+    {
+      "path": "05_通信协议与真实日志/通信协议_当前0x29基线.html",
+      "bytes": 8689,
+      "sha256": "3ce6f14eb3d69c3293e68957d7d52b9b0297fd5545daeebaa6f30396912efba5"
+    },
+    {
+      "path": "05_通信协议与真实日志/通信协议_当前0x29基线.md",
+      "bytes": 6497,
+      "sha256": "fa3626e67733683c254837c3908a4c421aa9488f1b2df1d1b3c940187756cb55"
+    },
+    {
+      "path": "06_测试结果与统计/recompute_metrics.py",
+      "bytes": 6492,
+      "sha256": "d180e8154f6425d81667b75505efaf47037df2dbd8b854fa31e0f189ef09d2d7"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/final_state.json",
+      "bytes": 848,
+      "sha256": "754117ddd41f63cf72e7a7839f3629982633d958c392ed819adcc733942b840f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/initial_audit.json",
+      "bytes": 6451,
+      "sha256": "dbcd39c79b3d9a9e270ce91e992f633b7c73a67441a6ac4f5c80a703f622645f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/light_screen_check.json",
+      "bytes": 4044,
+      "sha256": "a7f2ef22e78a3b14a5524af5343b91730a13293048b967f9087d54552b945b82"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/link_preflight.json",
+      "bytes": 5476,
+      "sha256": "9038c25ebfe569019c6feb5ac6f1ee3ddfab818acc91ebfb79eed792e3c7a51b"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/live_check.json",
+      "bytes": 550336,
+      "sha256": "6d1e40a746da3d4be381d623d24547f78ec03348f5d14fd65978b9950f199125"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/live_launch.json",
+      "bytes": 502,
+      "sha256": "a2cbad06ae22d51c33cac2d20cc434e34fc11ce4315308519797787b4b22b70f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/marker_probe.json",
+      "bytes": 91,
+      "sha256": "f1696e5aadbdc43d1208a8e9174a4fe92d567e5921490665e5bf660163144142"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/steady_check.json",
+      "bytes": 1807821,
+      "sha256": "378bccd106e89cd3842bbfd0c20c43845015befd220acabd8df211b58b9bce89"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/stop_local_and_devices.json",
+      "bytes": 2753,
+      "sha256": "9147a690093d90188feb2a51214ab193a2f00d60cb5cf147d6bb5c3434e5d329"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/HDMI恢复_20261101/user_acceptance.json",
+      "bytes": 342,
+      "sha256": "de486481aca53e1d9b28e8900f85d7b7807291ff2075db97844a9c860d999b72"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_083930_UTC/observations.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_083930_UTC/standard.json",
+      "bytes": 7357,
+      "sha256": "f7b464368635e42e8e698535b22ff95f438fed18cc0657cd8ed16fd7328a81a4"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_083930_UTC/summary.json",
+      "bytes": 419,
+      "sha256": "3601d8d0bd0b7f17016cea0cde7fc8cff17d5249c4e4836304f53eb1de33ee91"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_084737_UTC/observations.jsonl",
+      "bytes": 1385857,
+      "sha256": "be7f868e5b3a6ff98190ad4cfe9d3720d4d0d7b72f5f944f4061d0bbd740c2b8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_084737_UTC/standard.json",
+      "bytes": 8400,
+      "sha256": "379b93d2b07de039e7e5fe70c2a80c2bff02fb380e723642a5a2a26c8230f568"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_084737_UTC/summary.json",
+      "bytes": 433,
+      "sha256": "26c38883ba5680f7607e31678167015f22c471cae19945ccade1be7dfc4045fe"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085102_UTC/observations.jsonl",
+      "bytes": 1375349,
+      "sha256": "134aa1756226792b3b9b259edc7c5a9de03bd76fa3d4e6f1e87dff2e2d2402b2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085102_UTC/standard.json",
+      "bytes": 6446,
+      "sha256": "e4ae8be75dbc83fd37b3c1a8d247e95013d1eb4f388e06da2f6c10b47f99cc7d"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085102_UTC/summary.json",
+      "bytes": 423,
+      "sha256": "674e3aeeb1cdacf6f72a564024218f57094180bc1dae3ae07acccfd442515827"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085727_UTC/observations.jsonl",
+      "bytes": 1190011,
+      "sha256": "a5f5b204c0454eb6a64fd6d4d5daff132bcab5d2f1c112f8f32c371cbddcbcaa"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085727_UTC/standard.json",
+      "bytes": 5348,
+      "sha256": "93d8852b6a69249bb7a6550f004a35b5549f913e250019826012199bc53d5f9f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085727_UTC/summary.json",
+      "bytes": 434,
+      "sha256": "3d0d6253811c922ba544463bde60ef1630be68754ae492b7bac951fa6298b19d"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_090840_UTC/observations.jsonl",
+      "bytes": 1189440,
+      "sha256": "34ebafc735635cadfe05e2b6078a0a13490d09bd642f1989a6df1a5adb311f3a"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_090840_UTC/standard.json",
+      "bytes": 5591,
+      "sha256": "90492616a3b309ddb7ed883708a44589c53bc3d05aa60a3b4248d32ade74e88a"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_090840_UTC/summary.json",
+      "bytes": 436,
+      "sha256": "01682a792901fca136d484cc4f31e530b7cf3deec57182bb6696dc8c188c1e02"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_091018_UTC/observations.jsonl",
+      "bytes": 1174110,
+      "sha256": "730530d5450c49ba70eb2b395414f4e06b00674669668b42841b685cebe1a07f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_091018_UTC/standard.json",
+      "bytes": 4494,
+      "sha256": "7fabbbda8e7054bb3f06238372bd74a5474f50c137468f8b59f6f33b373751c6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_091018_UTC/summary.json",
+      "bytes": 439,
+      "sha256": "2ca2f059f95289e2dad3dbe1fe34bb80be1e033e4652612d1bca882b3e4b2c13"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_094032_UTC/observations.jsonl",
+      "bytes": 1385683,
+      "sha256": "7a994fa546774c2b1199e7cf84cee16fbfa6c82e606057187f6a2410142bcc19"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_094032_UTC/standard.json",
+      "bytes": 7149,
+      "sha256": "b1844d7c792d5380e80ff74d058ffcb1f7257f5aa2a89ca66bb23fbde104b396"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_094032_UTC/summary.json",
+      "bytes": 432,
+      "sha256": "d444d0a0b71c87d4b1d68802bce13ad2502d4fe1c3f46cc23f3d917fc149b7b4"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/导航PC离线_20261029/comparison.json",
+      "bytes": 2242,
+      "sha256": "84130bd7269a2b8a992cc941763d78de95d30586a2e20a54b8f3f52d87c7d17c"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/导航PC离线_20261029/evaluation_baseline.json",
+      "bytes": 14080,
+      "sha256": "ed3b3d016e625669a92c929630a5c6361c050baafa4efba1e2551a0edca1af55"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/导航PC离线_20261029/evaluation_candidate.json",
+      "bytes": 14072,
+      "sha256": "0ddc99e50e1f60e69c625c45b49e9248978ec1ac864f27428c3d6d5ed4ada0fe"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/导航PC离线_20261029/plan.json",
+      "bytes": 1145,
+      "sha256": "256189d89e6113ec7882933de439140e1173a4fe95a1e71d1bf01ad582a53b76"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/导航PC离线_20261029/status.json",
+      "bytes": 3422,
+      "sha256": "e12b314e7feaeb7271baf76a190fded40fa15a874fd70f31ca6d248c19027649"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/after_functional_and_recovery.json",
+      "bytes": 1715,
+      "sha256": "4cf813debfff8d9e556519c07271848778b6204f4d8396c68e1d5dcc6bf6ef4f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/alarm_clear_rule_v1.json",
+      "bytes": 575,
+      "sha256": "d4e8218f439cfa0fcf0de1d14524a345390a50fa9ab9d7ebd406d35b869d3773"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/baseline.json",
+      "bytes": 6600,
+      "sha256": "ad47e3b965f861257269c6e92747d3a93ab5364463dbb46922a4ac49682279b6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/before_cold_power.json",
+      "bytes": 5354,
+      "sha256": "649a36691e62c24b0ebe93bd984153bc8f51b35387e835fd6c8f64d857d7128b"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/before_force_housekeeping_plan.json",
+      "bytes": 1046,
+      "sha256": "8f6116851a160b59f83031bddb8286e27f39ace8494dc28d1d08a4fa54aaebf7"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/closed_log_archive_before_force.json",
+      "bytes": 1086,
+      "sha256": "f38b8a32d9f16442b05547951aad046c274e0c4a8d5fb0693a4179ad1e6eee40"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_boot_comparison.json",
+      "bytes": 589,
+      "sha256": "45c4ccda00b3f59bbb7481754474e02149551fca8a41c67265ba47f7c07366e3"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_driver_park.json",
+      "bytes": 6220,
+      "sha256": "d6b5522f1a07b1f8caf0284b625122f0fa4d83d4d50030ab8c3d94fe35b2f044"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_gui_launch.json",
+      "bytes": 565,
+      "sha256": "070b13417aa5b47e252d30c8ab4771f697d5e9192676fbb271903694360893fc"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_input_preflight_attempt1_failed.json",
+      "bytes": 375,
+      "sha256": "faba8a9474450483e68c02c68ed8715dfa6f4b92d9a1422bb02e0197a97cf860"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_input_preflight_attempt2.json",
+      "bytes": 5914,
+      "sha256": "ff15ee1092afb53c94e42cf5da5b3f4781635ae11f7a6dc4a7fbe93baa2208f8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight/readonly_scan.log",
+      "bytes": 144,
+      "sha256": "b77e6ce50330a9aec29d3e5bec4a31da95875a1345d9d2fe21eaa82f43264f06"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight/readonly_scan.tcl",
+      "bytes": 127,
+      "sha256": "00c324e0e4748e5a7f67a06da503d623e6c11ad803b0cf0f1318cdcc18ffa2d6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/configuration_tcl.log",
+      "bytes": 219,
+      "sha256": "420e302b246ee3996dc154570b288689083c6c1420a74b0b71d5c0f48c0200a8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/jtag_server.log",
+      "bytes": 847,
+      "sha256": "ec6c7bf397a3924ca4b14edefe695d9c4ffb9b78b07be556bbfe6168351175e2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/log/js.log",
+      "bytes": 1070,
+      "sha256": "2960d8b5d27d41781cff5aa3fc008d476f8ef9faa40749be85a26e4acd4e620d"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/log/jtagserver.log",
+      "bytes": 13901,
+      "sha256": "9b6a4c147616ee9c10a65fca0dd1d34381c38cf96ec5ba2f8d87c497bfb7159f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/readonly_scan.log",
+      "bytes": 970,
+      "sha256": "3968479e97b6201a259efb082aa01d7d4f64cab2fdd6222810885710a4c79613"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_jtag_preflight_absolute/readonly_scan.tcl",
+      "bytes": 127,
+      "sha256": "00c324e0e4748e5a7f67a06da503d623e6c11ad803b0cf0f1318cdcc18ffa2d6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_park_observations.jsonl",
+      "bytes": 455874,
+      "sha256": "a0b357f2208f7a8be6c1f3fa6e9d00a6686569bba64ac464b88cf2ecb81a2d08"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_park_smoke_result.json",
+      "bytes": 655,
+      "sha256": "d504a9e60ec5dbac81b9501a4ece404f8b41a62f3a5c8f4bda823a8daae4267b"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_park_smoke_rule_v1.json",
+      "bytes": 293,
+      "sha256": "4f10f375e7da8cc86b0c8e75544d87a36f011f26609ed9d8e95b402614b209a6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_physical_green_result.json",
+      "bytes": 565,
+      "sha256": "2ab2748a2da573b92c4a8d1fedd4064bf1bfe7d6739966297e4e13d5a2529ed7"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_power_human_observation.json",
+      "bytes": 366,
+      "sha256": "027604ee7fa82c32fa8c4a12f6caae20ad286323aeaf1861e08374462ae39503"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_readiness_live_check.json",
+      "bytes": 315,
+      "sha256": "8d22439f2e6b947d64c267f92c129c30be0d231d8c4a6df48fa209906caec1a2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_restore_rule.json",
+      "bytes": 343,
+      "sha256": "9996b3f94afb5ee93b7b27e694a7c63f221181d3121ff9f2389c2439b8b3d156"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_running_snapshot.json",
+      "bytes": 5292,
+      "sha256": "771dcec733bcf627668cd15c597488f1450f3f5321bbf344cf9a6db96c2e91fe"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_source_restart.json",
+      "bytes": 1064,
+      "sha256": "1d0347ff8002012eec0274d35ec9e3c77a75adc84a2adc9bbbaa9c5b04be741b"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_source_was_stopped.json",
+      "bytes": 789,
+      "sha256": "d7919723d48096c820d3e8abec02e762c4e4c0940665248fde1de12362a73bfc"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/configuration_tcl.log",
+      "bytes": 605,
+      "sha256": "6e793b5f163702d96094ff2c0fd2b98b927c0e42906834476e387e6584f92945"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/readonly_scan.log",
+      "bytes": 970,
+      "sha256": "9c430e1c3f4d5fe5b53f7355190c5dacbba6cf2a670b3ad1f8b6e72f15ac0a78"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/readonly_scan.tcl",
+      "bytes": 127,
+      "sha256": "00c324e0e4748e5a7f67a06da503d623e6c11ad803b0cf0f1318cdcc18ffa2d6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/result.json",
+      "bytes": 494,
+      "sha256": "adf615f8a5e7fbac66def592768b534fde9e9ef24ab151a8c2a1635500663c39"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/rollback_preserved_0x29.log",
+      "bytes": 3436,
+      "sha256": "619f93c8498fcfdcf11e2035c7bcaf71aaf47c5ba098013b1dcaf5f90fe3429a"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore/rollback_preserved_0x29.tcl",
+      "bytes": 312,
+      "sha256": "b56b84f586d21dd765a72d85c95d0ac6d10de24c4e25bb0b63cd024ed7fa2349"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/cold_sram_restore_result.json",
+      "bytes": 494,
+      "sha256": "adf615f8a5e7fbac66def592768b534fde9e9ef24ab151a8c2a1635500663c39"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/current_physical_step.json",
+      "bytes": 280,
+      "sha256": "c87368143ca3b1ef8f58c42a33a598b150b503f17957996ed210a72f427f7773"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/delivered_documents.json",
+      "bytes": 466,
+      "sha256": "a8053022c13f4040ce44a259728bb93a4d07613f9439287f58ab1b490cb8c0d9"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/final_closed_log_archive.json",
+      "bytes": 2006,
+      "sha256": "923175508fef843cef621cbda886750c9144078eb49fed4cedf8bc2beaea488d"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/final_engineering_park.json",
+      "bytes": 6217,
+      "sha256": "e0dab8312cd15779cf0111ff287335f5232b9e88c13653fd5d81acd4b724685a"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/final_runtime_snapshot.json",
+      "bytes": 1606,
+      "sha256": "c3f733a858ab071ba6a6ee8a7e577814e51520009bcfb44611929c2d8bbff908"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/forced_red_human_snapshot.json",
+      "bytes": 1755,
+      "sha256": "6e101cb3b63eac585da7c0c332f87f5846145b9d664ccde73f86a3d1909dd897"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/initial_park.json",
+      "bytes": 7228,
+      "sha256": "3387fd53e075be9dca6301e1a74b4bdc7aae445315ffd34665f6fbc6a16ef84a"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/input_feedback_snapshot.json",
+      "bytes": 1957,
+      "sha256": "297b2b8c4d5051dd005a50bbf8fcf67816d6ee8fc285e3d987611584f953da9d"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/jtag_readonly/configuration_tcl.log",
+      "bytes": 219,
+      "sha256": "367886b7f37f39a0a81aeb2a1f7bcc823ba853a3927468b0ec57ebcbe965b632"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/jtag_readonly/readonly_scan.log",
+      "bytes": 970,
+      "sha256": "c39d9ce3f2c93fb0fbbeef066f94938fb9e85d659a30a5db37cf16a27832c886"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/jtag_readonly/readonly_scan.tcl",
+      "bytes": 127,
+      "sha256": "00c324e0e4748e5a7f67a06da503d623e6c11ad803b0cf0f1318cdcc18ffa2d6"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/jtag_readonly.json",
+      "bytes": 131,
+      "sha256": "142a51399edd078e5e88aa99dc338181d85d03418b2fe4ef33c0645f6b3a22e8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/initial_park.json",
+      "bytes": 6838,
+      "sha256": "87385e1b3175958252ecde924a23877d665a6997cc57be66e0adb4671cdd5b16"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/restored_launch.json",
+      "bytes": 566,
+      "sha256": "9f299aa8fd3a5d160ba86600d9de6a997f5c7b2ccb619597842e522c218b0c14"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/restored_park.json",
+      "bytes": 6223,
+      "sha256": "c35dc03e1814c7b46478df2ee013950e72d474863f3a4455660b051c49d8db84"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/result.json",
+      "bytes": 89362,
+      "sha256": "93ced19004cad15324e9f505931a9e851d749a909b154dbc2a7c7e7731d2c1ef"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/rule.json",
+      "bytes": 460,
+      "sha256": "350440c1e4c60a7c03cd4bc0b5ee832d0241431aa4eca575658bf5eb04b98b3e"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/lease_20261028_092520_UTC/stopped.json",
+      "bytes": 36,
+      "sha256": "065f3caf52d74aada15342a0271ba499bee585e3575d06e309315eee914c175c"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_alarm_clear_result.json",
+      "bytes": 1407,
+      "sha256": "951b972ebaf9ce8c3c464a091c3ea7fba4d8e50cfbb2b18d5e92d5dae14df0fc"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_alarm_clear_scores.json",
+      "bytes": 18727,
+      "sha256": "e6e378a3925ad028f8da1d661edbc02f1fbf47d7210af2de3304306e4ffe5161"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_forced_red_result.json",
+      "bytes": 848,
+      "sha256": "38ff531099b6568d45e7a1b197cacaf2ff0f698a92ed339c09db7e25128d05b4"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_green_result.json",
+      "bytes": 949,
+      "sha256": "6c03ea31ff46f5e62a401f1bd6972e098fbe94ebc22e626868a8e1c5ba4a9395"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_red_result.json",
+      "bytes": 731,
+      "sha256": "5bf67d7ce883477acdd1fb3d37ce51a5e6ee88127153f48da90da7b173281ab8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_stop_result.json",
+      "bytes": 493,
+      "sha256": "f6fcae586bd5605f06665e03ceccb4f369109b27cf616a9ddd1a7ad9ff9dc313"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/physical_wait_attempt1.json",
+      "bytes": 304,
+      "sha256": "984e2ebbd6840702e32ed99c014b1b43bdef0619f7aeb9fca901f8063b06565f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/after_warm.json",
+      "bytes": 5346,
+      "sha256": "b103ff3627e80cce5e33a6aadfe9fdf5dd89ea0dfdebc9ebc100f42292b82203"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/before.json",
+      "bytes": 3943,
+      "sha256": "8aa0f504f9614403bf235a8e55259314df14e52396937560f602bfbe64c525d9"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/capture_fault_result.json",
+      "bytes": 263,
+      "sha256": "28ab26e9c212c7097f39f37230d4bdbacb8fd5a0f5cd007696b982648d3a8e5f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/final_park.json",
+      "bytes": 6838,
+      "sha256": "4f44423655360bbfbe08a68504f215241547d2274b206418f7bcfaa61721bb5f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/launch.json",
+      "bytes": 566,
+      "sha256": "a49c85800a86b8af1dd99339a408201ba8616246fbe98350002312d6dbc23462"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/park_after_warm.json",
+      "bytes": 6245,
+      "sha256": "3f6e0eaadb5a2b6e4b6ee5dc8f6371efdded2bdfe2aed883504bef2c7492cbb8"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/park_before_source_change.json",
+      "bytes": 4758,
+      "sha256": "e6da9127a29ee4976248bc0f8d8092f61f7f371c212abbc587d5dbefbbbe4668"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/rule.json",
+      "bytes": 447,
+      "sha256": "930dc8f3e964bfdefab9c647818290ed732f8f1e7ee105261ad42acd39f620c4"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/source_command.json",
+      "bytes": 1105,
+      "sha256": "766f3047c2b63ebd4181736dd8a2eea1c38df2d97c7eb1f41ad803da2040303f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/stopped.json",
+      "bytes": 36,
+      "sha256": "acbf10ad9ce026ccd9f7b0c523d5af98a8608fc688012dd8909f97434433420e"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/summary.json",
+      "bytes": 326,
+      "sha256": "bc6c7b82d506a933d2ded8108dc3c6a2becb4a60f8ca50a2820491b7cc662005"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/warm_preflight.json",
+      "bytes": 5865,
+      "sha256": "ccf7667f9d5f997c46d85466c1febe694e07b12eea254d9dd075fcf0460341d2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/recovery_20261028_091325_UTC/warm_summary.json",
+      "bytes": 59,
+      "sha256": "5d563e190b66849350cc1c376197284ed8438d032517fac6ea33a6eff6e5ab80"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_current_after_alarm_zero.json",
+      "bytes": 2205,
+      "sha256": "0d40e251dbf76ce98dd9dfa62d7759688e872b04b0aef1eb1d7186d55ba7b6f2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_initial_park.json",
+      "bytes": 4751,
+      "sha256": "28c3b29e39bd31fffaa9bfb760fe4c6d7192d33761d6e6846eb4c32184ad19d0"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_launch.json",
+      "bytes": 566,
+      "sha256": "59cf5bc4b082f694f8f41845747b06f21512eb01939b05d3571d35a3e8ac57f0"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_link_preflight.json",
+      "bytes": 2972,
+      "sha256": "159b916b07d0ccb31b735f7f35403b7f2eef066a2ef30c9460fef3af6aabf86c"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_operator_alarm_zero.json",
+      "bytes": 191,
+      "sha256": "675849625e0ea123bc52262afbf06ae6b242cdd301530208c6bb042b592dc0f2"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_operator_question_state.json",
+      "bytes": 1653,
+      "sha256": "a39fe5ed4650c08b9126540283aac36c8cf1f1a5d25117478ae9a128dcae8da7"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_reset_after_wrong_scene.json",
+      "bytes": 4823,
+      "sha256": "e16794f49588f38375a817f70631727b3f49e42e2d128b71b5371fa153ceab74"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_screen_preview.jpg",
+      "bytes": 333668,
+      "sha256": "620804bfc1b47137281e5a7f05c60e8659766efe9a614c7da837bf8962d69011"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/red_source.json",
+      "bytes": 667,
+      "sha256": "584e08ed594d0e503fcaa5ca35bc4dd5da75ec2f2a9dd45681bd5f071717ab9f"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/工程验收_20261028/standard.json",
+      "bytes": 3719,
+      "sha256": "020ed85892ca29a96bd5a142832af299968d7c28998b00b54bd82b3217eac33e"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/灯色PC离线_20261029/comparison.json",
+      "bytes": 2658,
+      "sha256": "6fb8543b267d277166008b437da70e0768cbc5b130c39a1af84178d25b6db2e0"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/灯色PC离线_20261029/evaluation_baseline.json",
+      "bytes": 332328,
+      "sha256": "de6fa36eda7101a756f99f620d37817c34fb18cea710feba49bd919931345637"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/灯色PC离线_20261029/evaluation_candidate.json",
+      "bytes": 334339,
+      "sha256": "f8f7ea905b534d01f9c7579a02396b6a98c10a67b7dd6b05e3d89f6920700a88"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/灯色PC离线_20261029/plan.json",
+      "bytes": 1158,
+      "sha256": "854f31d452633a8de5a50e71023d749c1f061caa2c9ff6173c39e99a8cf7a082"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/灯色PC离线_20261029/status.json",
+      "bytes": 3881,
+      "sha256": "89df20b1c8221f3955fdb58f1e0898c3b1f6c65c895bee06c024920a0f136348"
+    },
+    {
+      "path": "06_测试结果与统计/原始证据/道路检测PC离线/metrics.json",
+      "bytes": 4572,
+      "sha256": "b5ffec30730f99e9bfdae099ffb7bcc741bd4993b6b9bfa87d91bbc36427142b"
+    },
+    {
+      "path": "06_测试结果与统计/实体用例成绩.csv",
+      "bytes": 1704,
+      "sha256": "8ac86f5d42578271ecb1825e71c3c0677baa349f7bce337f5817660d8518881b"
+    },
+    {
+      "path": "06_测试结果与统计/指标复算结果.json",
+      "bytes": 4467,
+      "sha256": "803339e47b4baeadeb12a9aa9acb571b9c7780d43a945e17bff34a087063902a"
+    },
+    {
+      "path": "06_测试结果与统计/测试指标与统计方法.html",
+      "bytes": 6216,
+      "sha256": "5752cea235299f81854c159f0e7b42c6180eefb6af7a46287a6652ce4d04634a"
+    },
+    {
+      "path": "06_测试结果与统计/测试指标与统计方法.md",
+      "bytes": 4680,
+      "sha256": "8489993f09d7ff4277fa0c9adea22a0491656eca3d356702254b2879ac568999"
+    },
+    {
+      "path": "07_场景证据/HDMI恢复/01_当前实时边界检测_含过期提示.jpg",
+      "bytes": 218523,
+      "sha256": "d537b871601246b749a365f4d6b22d4d3c7055d0ce2ffe0ca118e29ac0ffbd7c"
+    },
+    {
+      "path": "07_场景证据/HDMI恢复/02_当前实时检测原屏.png",
+      "bytes": 1650841,
+      "sha256": "bfe98830e0e23faaf2133c03d1a90d896413e650432b23798a7b4427bc36e15f"
+    },
+    {
+      "path": "07_场景证据/PC导航验证/01_导航开发复核页.jpg",
+      "bytes": 498958,
+      "sha256": "da1bdaf39e3f63bbb14c47ba04b601e3dccb23e3b250b43d170714aba2df8606"
+    },
+    {
+      "path": "07_场景证据/PC道路验证/01_BDD样例.jpg",
+      "bytes": 327255,
+      "sha256": "c589dabbb186187bbc1f989b1edcb761127e6131a0f658ffa6bf0919c8d0ea11"
+    },
+    {
+      "path": "07_场景证据/README_逐图说明.html",
+      "bytes": 4184,
+      "sha256": "78ae7741b7d5a42e138ea3190ebe84c8e52e76cca99ec8f93a4db52677251ac2"
+    },
+    {
+      "path": "07_场景证据/README_逐图说明.md",
+      "bytes": 2785,
+      "sha256": "08b1c2ca4a5a725fd58bd2e8a50f07600f1cd54ca64056b7fa6599041e8f3269"
+    },
+    {
+      "path": "07_场景证据/停车/01_停车历史演示.jpg",
+      "bytes": 371395,
+      "sha256": "4b9181a6d0ae89328c75d1838ed40d8f5626839e9d0fd8d1a6eb8fe5690edab4"
+    },
+    {
+      "path": "07_场景证据/图片索引.json",
+      "bytes": 5442,
+      "sha256": "db2cca4b51114b47d67ea991921f4252f552f7e23e8a823a06474e7e73e01b52"
+    },
+    {
+      "path": "07_场景证据/强行红灯/01_强行场景实际输入帧.png",
+      "bytes": 1740641,
+      "sha256": "426ebfe378f490e29207fdb9df764cf4a11d446f34be12f691918ab1c1fefc20"
+    },
+    {
+      "path": "07_场景证据/旧版变道示例/forced_left_solid.jpg",
+      "bytes": 49019,
+      "sha256": "e16c813f60b97b96f760ff89629c8dfbf0a5b1260863fa2de8baaeedf037d850"
+    },
+    {
+      "path": "07_场景证据/旧版变道示例/left_dashed.jpg",
+      "bytes": 46236,
+      "sha256": "bbcf2396f1ce1895633378e31ad435cb192276bfed33d868e47cccf012e8891a"
+    },
+    {
+      "path": "07_场景证据/旧版变道示例/right_dashed.jpg",
+      "bytes": 46366,
+      "sha256": "54fcc0de321ff0efaea9a638644025a24b0eae5cdb812cd5d1ac6989387b502e"
+    },
+    {
+      "path": "07_场景证据/本地回放历史/01_文件回放_非HDMI.png",
+      "bytes": 1909318,
+      "sha256": "ff2c05d5fa0a1470a35f02e52600d0684cb3190fe0f4a7a5adadd61f8acf21dc"
+    },
+    {
+      "path": "07_场景证据/红停/01_红灯实际输入帧.png",
+      "bytes": 1736600,
+      "sha256": "4ae48a02dee33e17ea03808c2b3b122ee6fd68496857ec60394eee5e63015ee0"
+    },
+    {
+      "path": "07_场景证据/绿行/01_已确认绿行历史演示.jpg",
+      "bytes": 378255,
+      "sha256": "7000120b85af9e7ab78a06f9e18dcd96941b05a5794ee79b0deb7278f3bba68a"
+    },
+    {
+      "path": "07_场景证据/绿行/02_实测输入帧.png",
+      "bytes": 1724945,
+      "sha256": "e2da9143fb1138dd37b1dd3546483401efbc4738b7ae62de3f13c16feb9da5c9"
+    },
+    {
+      "path": "08_来源与许可证/全部运行模型清单.csv",
+      "bytes": 3703,
+      "sha256": "5b8d45df2ec26fdd354de0983e262dab1189a031f53f09890daf61f94e285b8f"
+    },
+    {
+      "path": "08_来源与许可证/全部运行模型清单.json",
+      "bytes": 5511,
+      "sha256": "9e27312129dfee96369938e50d2eaf0db3929fd09e4cf04d60ed08b295896dff"
+    },
+    {
+      "path": "08_来源与许可证/历史说明/ARM端进度与FPGA协作_AI交接文档_2026-10-10.md",
+      "bytes": 21316,
+      "sha256": "9685ef316c3f11e7af5b9f412a8bf3ca22b979d0efefccad2aacbc1c4203a87f"
+    },
+    {
+      "path": "08_来源与许可证/历史说明/ARM运行交接与快捷方式_2026-11-01.md",
+      "bytes": 5997,
+      "sha256": "12591f63b6744d8c815699dc3801dc8c244789940e6fd694d8103819968d5494"
+    },
+    {
+      "path": "08_来源与许可证/历史说明/HDMI实时采集恢复记录_2026-11-01.md",
+      "bytes": 6008,
+      "sha256": "ecce4cbe2e5b1d5907933464c6adc5b877367887502f78391449de051673c574"
+    },
+    {
+      "path": "08_来源与许可证/历史说明/红绿灯与导航模型补训结果_2026-10-29.md",
+      "bytes": 3757,
+      "sha256": "0e1b3feba3caf83f825f672ec19aba615eea46824847ca72dcea690aed5dcdf0"
+    },
+    {
+      "path": "08_来源与许可证/历史说明/训练数据集交接文档_2026-10-06.md",
+      "bytes": 15908,
+      "sha256": "823d6bb2ac212008ce0268b383c13e724076c5abddd17ca5e9d12e2ffb58f7d7"
+    },
+    {
+      "path": "08_来源与许可证/复制文件来源与SHA256.json",
+      "bytes": 186773,
+      "sha256": "0e3e95a76c6962f1c2fb71c298f579b4e011d7744a329faa09d02ff56065e24d"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/arm_stage_lamp_20261024/export_verification.json",
+      "bytes": 1269,
+      "sha256": "4580ccf86b2b832b39e5040641a6ae55c5ebcc3cb6d640db06ed3fbd47b8e081"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261027/lane_keys/model/conversion.json",
+      "bytes": 293,
+      "sha256": "e08f913f1a00ead90c7d0d7d83b635096a5a9ed8fa783b71d473c6ada958ff1b"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261027/lane_keys/model/export.json",
+      "bytes": 722,
+      "sha256": "c20c0bcd50f872377f95efe7e7bffc62fd9d69d71d307d041b230605d060c2a0"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261027/lane_keys/model/native_parity.json",
+      "bytes": 3047,
+      "sha256": "025cf9663527c897fe751d8384c77f48e8967f99b972c90a107b568dce9de2fe"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/batch2_classifiers/conversion.json",
+      "bytes": 848,
+      "sha256": "7563450ecf05778fcb4644801a649c4ab4876493f7113c0c080ee5466d3d0c47"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/lamp_capture_aligned/export/conversion.json",
+      "bytes": 278,
+      "sha256": "37d0de969b6bf103d7f5cbac4f9ebc51ab0a4d58ce9f721e1da11bac98f7cf09"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/lamp_capture_aligned/export/export.json",
+      "bytes": 1036,
+      "sha256": "056921f219649b5b2647f066742d983d1716e392a399a543cfe05f84d4447577"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/lamp_capture_aligned/plan.json",
+      "bytes": 543,
+      "sha256": "aac454e2f22828c422d1324ea348b417927e474198f6f1528fdcbc336077020f"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/lamp_capture_aligned/status.json",
+      "bytes": 478,
+      "sha256": "a6ed2f6451ed234692cf54966e8ed30c4fc07ee740c7b428d9c6e6dcfd792ee4"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/lamp_capture_aligned/validation.json",
+      "bytes": 193468,
+      "sha256": "5be025c89689cd33c5c255eadc209328599a6d5fe6c283b41d9924d29908d005"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/road_int8/conversion.json",
+      "bytes": 316,
+      "sha256": "f13858a02a73cf63af7d0e2a6dabfa69858de936a526f0aa25203409bc1f5fc3"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/road_int8/export.json",
+      "bytes": 389,
+      "sha256": "c407fb8c0e8eea5daf077a9cf1b7f3e810bb3fb6813f4a5f01ec9d5ee39a151d"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/road_int8/native_parity.json",
+      "bytes": 243859,
+      "sha256": "adc2b0f362b5f86110bca90da327215f3c8e99cb1334897255e6599fb4285ab5"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/basic_finish70_20261028/road_sparse_heads/export.json",
+      "bytes": 642,
+      "sha256": "349eb058c8c5b1e53593d7e81b40f4b34f3f04023e1f0af702e3fabca922d2ae"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/color_guard_export_manifest.json",
+      "bytes": 7530,
+      "sha256": "3f202c9bdffc53fea1fe361ad31cf5a1f4428fa831e6cb6bc627dbee9cdd2682"
+    },
+    {
+      "path": "08_来源与许可证/导出和版本追溯/lane_segmentation_20261017/pc_geometry_candidate.json",
+      "bytes": 2369,
+      "sha256": "ef44a38134b97183df340df4f2234cfdb01a31c1ec3da36b4d4b696ee838233e"
+    },
+    {
+      "path": "08_来源与许可证/数据划分记录/datasets/adas/prepared/official_light_annotation_v1/manifest.json",
+      "bytes": 182902,
+      "sha256": "def5d4a160f9ad2195e3efc5665f0360188f5fafbf8f1871aaa31ac21ceb762a"
+    },
+    {
+      "path": "08_来源与许可证/数据划分记录/runs/arm_signal_navigation_20261029/navigation/dataset_manifest.json",
+      "bytes": 505193,
+      "sha256": "38bba9ceb04b800d2e1388f460963bd7a54e1044d717ce42cfdd6b7a1b79e97a"
+    },
+    {
+      "path": "08_来源与许可证/数据划分记录/runs/arm_signal_navigation_20261029/signal/dataset_manifest.json",
+      "bytes": 606442,
+      "sha256": "d13111d52ec04bcbfbebabedb37700acf68f1915b86dc7e211527db1b2f9fd74"
+    },
+    {
+      "path": "08_来源与许可证/数据划分记录/runs/basic_finish70_20261028/lamp_capture_aligned/dataset_manifest.json",
+      "bytes": 285020,
+      "sha256": "d425a45d000e5b314570ee8b2653853f79832259102fb1b9bfb9068b80a112d7"
+    },
+    {
+      "path": "08_来源与许可证/数据权重与第三方来源.html",
+      "bytes": 7819,
+      "sha256": "c00726437b2d697318033e07e844bbd59cf566cb709ddfc9e0cacc08b7e3c5e1"
+    },
+    {
+      "path": "08_来源与许可证/数据权重与第三方来源.md",
+      "bytes": 7638,
+      "sha256": "f29ac956122ee4fd9e82f045141a2f106f7c833908ddb86344f3f9d6e64418c0"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/numpy_本机依赖_LICENSE.txt",
+      "bytes": 1616,
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/onnxruntime_本机依赖_LICENSE.txt",
+      "bytes": 1094,
+      "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/opencv-python_本机依赖_LICENSE.txt",
+      "bytes": 1090,
+      "sha256": "edef0fac1eb08d29d34563f724742e078da2513e196133a12c6ad9ff01e26107"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/PyYAML_本机依赖_LICENSE.txt",
+      "bytes": 1101,
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/torch_本机依赖_LICENSE.txt",
+      "bytes": 523467,
+      "sha256": "f226b225fdff2e19dee06ffac7fff8b5c92f4e1a5914421526d0d4b2fbcef9b2"
+    },
+    {
+      "path": "08_来源与许可证/许可证原文/Ultralytics_AGPL-3.0.txt",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "09_训练与转换参考/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "09_训练与转换参考/pyproject.toml",
+      "bytes": 7891,
+      "sha256": "43b8d812426ac26fc74121d0a5ee60186e4aaeb826551c0476d00965430f1e0a"
+    },
+    {
+      "path": "09_训练与转换参考/README.md",
+      "bytes": 33185,
+      "sha256": "57fbe40e46b7599834a6d1e6254d3e6469b8812c559e62886751f4d7b52302ec"
+    },
+    {
+      "path": "09_训练与转换参考/README.zh-CN.md",
+      "bytes": 32993,
+      "sha256": "15faec76a6c2f58c0b6b41ea34ae954bdd294f04e5c62aa8cae905d52f12b1bf"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/__init__.py",
+      "bytes": 730,
+      "sha256": "e8edf85fc0906fa3b42dd431b806f5a7f2b5e828a6647add3cdd53ef92ad4fc0"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/__init__.py",
+      "bytes": 39602,
+      "sha256": "548a4f1c89a18dbd172c9aae199ac6fcb04665c86d3ad0525d1ec7613615d865"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/african-wildlife.yaml",
+      "bytes": 918,
+      "sha256": "48b4b22003a0f4a6f1d2537b540a4f0cb1a300bd9129d62fcc6d44ac066dc217"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/Argoverse.yaml",
+      "bytes": 3263,
+      "sha256": "d269b6d2f241671c4b42d73f6773a9eb352398990834b8bbd213ba6b0ebb2f07"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/brain-tumor.yaml",
+      "bytes": 844,
+      "sha256": "49624e8851af25fc5ee281b11b7e4fc39357b01c4c758584c395259114abd248"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/carparts-seg.yaml",
+      "bytes": 1256,
+      "sha256": "962b874de40e6b3b4d306afced0b69d0ff3e8775404d2001f4531f04e43ead3a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco-pose.yaml",
+      "bytes": 1624,
+      "sha256": "8ffca782000e13568da631b8d901cc0d3ad888f89cf12d1c9db3475ea987eef6"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco.yaml",
+      "bytes": 2607,
+      "sha256": "1393a503090993385123604520f9d4134567cdd40d0c586fd9ccc3552e7cd814"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco128-seg.yaml",
+      "bytes": 1983,
+      "sha256": "d383dfafb44f809336845fcba58603db320fa82c8e276b165b6dc73b6a97a042"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco128.yaml",
+      "bytes": 1966,
+      "sha256": "84d1e3c44ab9ee546970d62e377757ee87248e1810bbb49d8977a97060298dd5"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco8-grayscale.yaml",
+      "bytes": 1962,
+      "sha256": "61f00945b336c16777ee9d4997bace3a8c623c7deb591a3999d76352f25c1718"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco8-multispectral.yaml",
+      "bytes": 2064,
+      "sha256": "29a71ade46aaf3e8b0b4139d9af25a11323e2730cdca329b93b4925161949cee"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco8-pose.yaml",
+      "bytes": 1010,
+      "sha256": "e12ff445234d2bf71ccf5431a7bc1d3b4f918f1c3086575346919a8509f3230f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco8-seg.yaml",
+      "bytes": 1914,
+      "sha256": "f15e7dfc048bb538378ec5ed574de8a54e13470c85cb67ec35451247bf75701d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/coco8.yaml",
+      "bytes": 1889,
+      "sha256": "68f79f383eb7bf1d4427806175eba64ab615a09221dae33221be814eb10593af"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/crack-seg.yaml",
+      "bytes": 840,
+      "sha256": "f339100f87807968e4c454101924cdbf195ad5bd3656ea3c02598b63b3d9be31"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/dog-pose.yaml",
+      "bytes": 895,
+      "sha256": "0a3bcfbbccbf2816457179fc24e69e0f38b536455881ddcce3255acce498513d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/dota8-multispectral.yaml",
+      "bytes": 1217,
+      "sha256": "003f4b18857415d9c72c90ac733534e9220e20760eca0af9a306faf5b8be364d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/dota8.yaml",
+      "bytes": 1061,
+      "sha256": "7159aa03c498548638469e72d2820f7f0d528b601930f303ac5695f194549c62"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/DOTAv1.5.yaml",
+      "bytes": 1212,
+      "sha256": "693dd52a09153d369a4518e7a4712121b800354fb2b7b56c16301fe79eb6c2a0"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/DOTAv1.yaml",
+      "bytes": 1182,
+      "sha256": "61d7fcfe145f6646853049032b0ddab349ac555e0a3c3d49b858d53180ea20c4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/GlobalWheat2020.yaml",
+      "bytes": 2145,
+      "sha256": "24feb3939191d9fb9f18616638caf9ec49d18fb90a87df9f22e22791d9973255"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/hand-keypoints.yaml",
+      "bytes": 977,
+      "sha256": "c3f1b906650ab9615bd3209b4ce7968c6873f1902a01878dec4099a4edfb8778"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/HomeObjects-3K.yaml",
+      "bytes": 978,
+      "sha256": "0a0a24bf7c3e83acf52a743900bb92f6a4d3c01ce037bbd6ae842e21a8c9219a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/ImageNet.yaml",
+      "bytes": 42531,
+      "sha256": "d73722f055b06e417034794091f0d49d6ca838aac5be4117cf554da55022cc18"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/lvis.yaml",
+      "bytes": 29704,
+      "sha256": "ebd13bcd1150c6a771e93ec686b2d547c5e866d7f1e29c11ec8de4a1bc66cf63"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/medical-pills.yaml",
+      "bytes": 836,
+      "sha256": "d42b4d155b5cd8b9a8d568ecb21fe1cc07afa3f9af90cb901a82c3183ee2d92d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/Objects365.yaml",
+      "bytes": 9355,
+      "sha256": "11f84dc2c60ca830977379197e892f9382d8ab54190ca97e6697e879c3fb68e1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/open-images-v7.yaml",
+      "bytes": 12120,
+      "sha256": "19b945badaf6ee56375b687d1b22bccd4aaae6cbed17511e101a0fe646e7779a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/package-seg.yaml",
+      "bytes": 852,
+      "sha256": "809666c573739af3d4e0ad9c9a43d1e382e9e9a196ffd278105718aa0ad2e13e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/signature.yaml",
+      "bytes": 777,
+      "sha256": "baa3d28fa5c220b28e9889f4d465ca2d766aa28b99bcac7bb4ebac7c5e212f97"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/SKU-110K.yaml",
+      "bytes": 2546,
+      "sha256": "38150209116be945eba7a2e45d949703dd9d49809ce8cac33ffd2b96698baef2"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/tiger-pose.yaml",
+      "bytes": 913,
+      "sha256": "d1ffd0e3978e7b195af7e9ca1bc483ce22b600265c343f30459a5708a3b788ef"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/VisDrone.yaml",
+      "bytes": 3282,
+      "sha256": "8880316bd1770b11b5f1ddd216bc2a33cffc1c5cce6f110cdf2ca159a43cb1a4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/VOC.yaml",
+      "bytes": 3788,
+      "sha256": "cd59022e88fa11b666f207fc70e83c41b108a6c37a5baa2b78a996d9ccd359e1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/datasets/xView.yaml",
+      "bytes": 5341,
+      "sha256": "e3a67e4da6405c75ccf393e8496788f66869bbffd10794ceb4f01fa3471b0053"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/default.yaml",
+      "bytes": 8307,
+      "sha256": "a051ba96524ef8fcb91fe711f6ab3eec589e25a9aba032f0a5bae48667d138e3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11-cls-resnet18.yaml",
+      "bytes": 524,
+      "sha256": "d58729f6a32bc296fcaeaedcaa1b7743ed6030dd11f3b537e679b68ff8ac76ba"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11-cls.yaml",
+      "bytes": 1412,
+      "sha256": "d7b97919d37e56cb782ef69fb0adbeaba2e2f555fd52551c4f90a50ad8a4c1e1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11-obb.yaml",
+      "bytes": 2034,
+      "sha256": "dccfdcd3a07ecbc75ae2dba71d5c5043e88550d2ca51fa1fa82653a671f91445"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11-pose.yaml",
+      "bytes": 2128,
+      "sha256": "fcdead2303f57b7722feaf3bdc1edcaa0ce502d8f37fe5f99c566a7a5e718de4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11-seg.yaml",
+      "bytes": 2045,
+      "sha256": "74628efbc4d94d81ee74fa9021da75d4c073b5012f8c287f4f5582154c44cffb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yolo11.yaml",
+      "bytes": 2012,
+      "sha256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yoloe-11-seg.yaml",
+      "bytes": 1977,
+      "sha256": "fc9b4ca0dc86badc04f79afdc29ea406a1a6bde1da08a8a8e0de08893f2c58b8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/11/yoloe-11.yaml",
+      "bytes": 1963,
+      "sha256": "7ee6650baf516ec00fc01c4c9e14c12c20903adca1fd496f5742ac0836f5bd9f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/12/yolo12-cls.yaml",
+      "bytes": 1405,
+      "sha256": "04bbf9efc66e53e40ac7a1933565fa95776eb737ffd2b1a146b0b71eba7168d3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/12/yolo12-obb.yaml",
+      "bytes": 1975,
+      "sha256": "24cbe21403a60db5b468c37364daa2b293f4c315b0de6b4a9f6894c1e75fe163"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/12/yolo12-pose.yaml",
+      "bytes": 2074,
+      "sha256": "32bf718d87252d0cf162132a8c82904dd893beda99bc45c1b5c9400c582068c0"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/12/yolo12-seg.yaml",
+      "bytes": 1984,
+      "sha256": "441145cf86fde43ba97e0d1f9aa0a46788b56736a2fd0c89ac8e98da82eca1c3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/12/yolo12.yaml",
+      "bytes": 1953,
+      "sha256": "65e03c2eeca62573cd8d9e719319191e4724b4368a0f35016f629cde008b0b5c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/README.md",
+      "bytes": 5372,
+      "sha256": "da59166bbff30040cf81dcccf5b6486768b5dfe495458d6d5531ef060518c255"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/rt-detr/rtdetr-l.yaml",
+      "bytes": 2041,
+      "sha256": "fe31aee2ba2d0679a34b6f4c912bcfc7fe1d3535a4bbaf227bcf8122f7ffa7a4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/rt-detr/rtdetr-resnet101.yaml",
+      "bytes": 1678,
+      "sha256": "0465a9eb5a252a4803fc2ce291e55282559f6addcbf610c82ba283923c339717"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/rt-detr/rtdetr-resnet50.yaml",
+      "bytes": 1676,
+      "sha256": "86b466a0bdb0f9172177ba1b11c4983dec83346df64315dfb5b447ff8bd57994"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/rt-detr/rtdetr-x.yaml",
+      "bytes": 2248,
+      "sha256": "b1f3b8915ce919a6d45f76786c7a3ae731f3e79092fe6403faa013cbf6b99b52"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10b.yaml",
+      "bytes": 1507,
+      "sha256": "fef4f0cf88875b60de5fbc891aad290f9308da6f306e15b6556a512e10679917"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10l.yaml",
+      "bytes": 1507,
+      "sha256": "5b35454c02cdb5f09ebee32e8ec8c3cc7893522b391d8deb4a71264388b4f9d0"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10m.yaml",
+      "bytes": 1498,
+      "sha256": "bfdf8a30df017ae2ff9504be0b7801b80cfeedcf437b3a8973151a1072cabb63"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10n.yaml",
+      "bytes": 1493,
+      "sha256": "0ffa1d1aa45b952d88f04db71dc871923ab5f5135eb7f4010068b556f0f40e5e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10s.yaml",
+      "bytes": 1502,
+      "sha256": "9851931e39525369eaea31b01063c360a9bfe276e5bc211f403f038d28dc4932"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v10/yolov10x.yaml",
+      "bytes": 1510,
+      "sha256": "67006292a358b3ae9888904b1d0fb85547be481ae1ce4b130f6b2733d2332f7d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v3/yolov3-spp.yaml",
+      "bytes": 1625,
+      "sha256": "86c33eca1756bfef17956b9a48e56a14970751567e1668c7e108e403d0872595"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v3/yolov3-tiny.yaml",
+      "bytes": 1331,
+      "sha256": "fc3b4430904e4eb892693500dc0c392efc205f2737bfff3ebae0a9838e5c5324"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v3/yolov3.yaml",
+      "bytes": 1612,
+      "sha256": "16fb78fcf4f02c1a51c37478bf8550fb53c88a88e9a05643d6eb93672494612c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v5/yolov5-p6.yaml",
+      "bytes": 1994,
+      "sha256": "54a116ca492cca44a5cefbb2ee27f8c85a3d5a56e50b785da9c37127d6f01de9"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v5/yolov5.yaml",
+      "bytes": 1626,
+      "sha256": "403f1d45ee5ee72b39db05cf2af3499fadb61ffde25f48cfcc4ff6fbed9d671d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v6/yolov6.yaml",
+      "bytes": 1813,
+      "sha256": "36b471abf13ac979cc66a25c2d7ac83d9b63f1ea80c45c52033e0c0c519cc048"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yoloe-v8-seg.yaml",
+      "bytes": 1853,
+      "sha256": "f8579ae962415ad7949eee959b23a665407021480602ae338530abdfdea4a73c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yoloe-v8.yaml",
+      "bytes": 1852,
+      "sha256": "bd063bb80973f0e7325e6a19ccb26db97672a2115a084e2962e6b5b41ff5b9dd"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-cls-resnet101.yaml",
+      "bytes": 994,
+      "sha256": "d09689a2cddd62b0ebcb2fca762cdf2d970651ac1a36d1478dc2f619924dce60"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-cls-resnet50.yaml",
+      "bytes": 992,
+      "sha256": "0ef147e2fc29caa3d990b73fcd8e0a70241b7c01e3f4b52fde70232b1e1f7e8c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-cls.yaml",
+      "bytes": 1019,
+      "sha256": "1b9d269f0f82d125ab669665e70ce8bf576e81d8d930ceb34f7d2de5c42b7094"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+      "bytes": 2481,
+      "sha256": "d050553605d6804a189960eba10ca3e49707522d2282917807867d728a911357"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+      "bytes": 2557,
+      "sha256": "034fe2028c3131a9ecf95148c86b755f214054f64990c6bb137b9b545052d4c8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-ghost.yaml",
+      "bytes": 2180,
+      "sha256": "49730834874a6953ccf13ddf906fd08de6e7573f95f836c57f31e65fdab02ca8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-obb.yaml",
+      "bytes": 2008,
+      "sha256": "92c36599acca5f15a006dc10e451b2e612b28e5c5c6f803592b78bffd9ad1190"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-p2.yaml",
+      "bytes": 1825,
+      "sha256": "f1097b05e6a0b04de0ca8b390f443abbe123219fd7275ad22572a9186dfb305f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-p6.yaml",
+      "bytes": 2363,
+      "sha256": "4ea22c6bc80d116d382a674bc710bdaea85decf087954aa4ce8883c673138a8d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-pose-p6.yaml",
+      "bytes": 2037,
+      "sha256": "c066b105b7fdd87afa1375a4f2f79f759480df03a871977815c91200464a58d4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-pose.yaml",
+      "bytes": 1676,
+      "sha256": "2ddcdb8885649d940c2d8076c33087aae97736295f2a9e27c7949d68642c17ab"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-rtdetr.yaml",
+      "bytes": 2034,
+      "sha256": "11446877e41204b8a333bf5abf8238dce6e844559b2ca985686551c886b0d96a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-seg-p6.yaml",
+      "bytes": 1955,
+      "sha256": "6a71163c8f0b77ccdc083bdb1d00b1f05320d8f47ab090a3a082bba5cb65f118"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-seg.yaml",
+      "bytes": 1587,
+      "sha256": "8457a23855704d5e33bf4f08ae64c8bb325c519998918ed2222da8577db67ba5"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-world.yaml",
+      "bytes": 2157,
+      "sha256": "8d6a58a21f85d53880363e3a8a341d50fbdfd1f59c61b9e8147fb452fe0dceeb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8-worldv2.yaml",
+      "bytes": 2103,
+      "sha256": "302a8dd903b87e801cac5ac321319ca49ddfb1b4a03eb13e73958e878152f75c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v8/yolov8.yaml",
+      "bytes": 1977,
+      "sha256": "405a3c302eb6096103a99af4d82c1d2d8b2bbff469a228c55aac944b2c19672a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9c-seg.yaml",
+      "bytes": 1447,
+      "sha256": "5011e843f709576ca9eab3331d7469e3ab8101498a22b6e07778e21013d1bea2"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9c.yaml",
+      "bytes": 1426,
+      "sha256": "c7592eb3fda641d53d5776468345dd139593514de3f1fc067b53aedf1d9a5f92"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9e-seg.yaml",
+      "bytes": 2377,
+      "sha256": "595a54e631e0a14b823158abbe69ff49c3a61fd775332555217f17018f3bf3b7"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9e.yaml",
+      "bytes": 2355,
+      "sha256": "3a5af63e5003a640fa3754e257200910cce4ac0ed26cdba5d6739a505f024b7f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9m.yaml",
+      "bytes": 1411,
+      "sha256": "59c290df146c0b524c800e361f1e31cebe05666b44e81df02afaa1950c64ab0f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9s.yaml",
+      "bytes": 1391,
+      "sha256": "8ffbf725668fb62b8cf1a289b75e59ff81cf442a075a7fc6e99d3bb7c099ca39"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/models/v9/yolov9t.yaml",
+      "bytes": 1375,
+      "sha256": "43c1a949713b7ee9a1b898908386b64a4b92fd49a75eaa7e7a86715bf0b4bc4a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/trackers/botsort.yaml",
+      "bytes": 1215,
+      "sha256": "4e945a2b9907ffe41b8c243b7a4338b3fee3f08f2d8b7abc1eced60f3e2b1300"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/cfg/trackers/bytetrack.yaml",
+      "bytes": 886,
+      "sha256": "eaefad899964d7a12a13090d5da32bcdae8f0109968ffca982fdba2c60ad3c38"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/__init__.py",
+      "bytes": 644,
+      "sha256": "9c05da2f5a6e09cef3fcd8f340d9499e16d5853f4595adaeec3b2aa3bab57407"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/annotator.py",
+      "bytes": 3030,
+      "sha256": "b8081decafb2b9dc62c1d36a1f3d2e6df160e49b1f36569ee1c83176f08ccae6"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/augment.py",
+      "bytes": 129493,
+      "sha256": "7a5327204b9b4f5cb0847d2d6e9a4b6d65b8744b37fa7e6f9e6f14f13cec0c4c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/base.py",
+      "bytes": 19688,
+      "sha256": "99172e7a12b5b6136ebb34062fa0f501a664a1def5a0745d613a1dff37506508"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/build.py",
+      "bytes": 11153,
+      "sha256": "d7780fc422486518e070d87bcdbcda9c282dc8aebfa19334868f4a4211dc33a7"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/converter.py",
+      "bytes": 27134,
+      "sha256": "744c44955d2f59de04983b59685302d1c94498b76344321d1625dfd353d4bd00"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/dataset.py",
+      "bytes": 36463,
+      "sha256": "d158f37221a5786185fd73797c49d2ddce544f4af9df71cc990f437c443f940e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/loaders.py",
+      "bytes": 31657,
+      "sha256": "91318ed4ff879eda50934efc8b5012c9761c903c7d67b3deee8d586de3dc8c2e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/split.py",
+      "bytes": 5109,
+      "sha256": "17a3bbddb01b1128fbd05419cea93275741e5e03d71871a20b4e9be4c90b1e34"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/split_dota.py",
+      "bytes": 12893,
+      "sha256": "aebfa52e94d455a159320815fdf51865d15520993fcdb6d23a9801fd0a79d3f3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/data/utils.py",
+      "bytes": 36711,
+      "sha256": "2805928b4a6acc26c6d502fd95b960784cb3d764282ed4f1f9ff8b366278f57c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/__init__.py",
+      "bytes": 70,
+      "sha256": "966e8c72415808f4dba88a17ef0d2cfdd6b176335e05e296e835e9a6fd7e4143"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/exporter.py",
+      "bytes": 73261,
+      "sha256": "e92705b3f7d39bd907b843b80b40c0e095e1c455335b4986f6aa8349e6362646"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/model.py",
+      "bytes": 53453,
+      "sha256": "1662f088ab88b55360a325e102f7ac5270f751e1c1cc25731870eba81f09e26b"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/predictor.py",
+      "bytes": 22520,
+      "sha256": "c7197591d0332ab37c63fe4c4397fddae14f79e46ad6660e97a84d973a4f8f2f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/results.py",
+      "bytes": 71999,
+      "sha256": "acb425b6d9203ee762574bb477a5f2e6128aaf5c774892f5ceb5c0e56e6fc3b6"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/trainer.py",
+      "bytes": 39785,
+      "sha256": "dbc15ea804af411c4268af7a4970ccf817cf263ab2e4a3625a17fcbfa1974ee8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/tuner.py",
+      "bytes": 12825,
+      "sha256": "b1f43cff2ce02cd70694acb3f5bdaf033ca0806657890cdd679b4ab2dcaa8c73"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/engine/validator.py",
+      "bytes": 16671,
+      "sha256": "a9fb4952899be00fbaad24e1b524f74dc7046dcff34e6ce8bc2041092a589b79"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/hub/__init__.py",
+      "bytes": 6599,
+      "sha256": "ba53ed71e23786ab9dd379afaa85dc70169ad5ee27bde6300bd71d772b81525a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/hub/auth.py",
+      "bytes": 6271,
+      "sha256": "e6e30fcd9b7c68ef98b27116003cdcd6a054b7d737d114c87eb1a8e52593aefe"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/hub/google/__init__.py",
+      "bytes": 8443,
+      "sha256": "6499d2eaceb0565efdda9f61e5a5269bd2b60e2d43ac79939356845097535e1b"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/hub/session.py",
+      "bytes": 18518,
+      "sha256": "51e51245b75c95204f2507e948d19e635de06f53b6061ce1d008fb717ba6e8fe"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/hub/utils.py",
+      "bytes": 10262,
+      "sha256": "e7ecb75814f953f2f466c71326b516bc6074d9063054017cd8e885aafbddd2c1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/__init__.py",
+      "bytes": 309,
+      "sha256": "0ea40515827821096a2036fad47d47cdc9d953b4ae1cdfb8ddbc3de3e97e6004"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/fastsam/__init__.py",
+      "bytes": 231,
+      "sha256": "1c627c10a94102c745f9ed9a23040b8d20c0148febd321d1d00d60ceba78bea1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/fastsam/model.py",
+      "bytes": 3439,
+      "sha256": "e006b3c2fded5182f1ab2a04c19d852e2667397c0b94511d49faa996d430c738"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/fastsam/predict.py",
+      "bytes": 8965,
+      "sha256": "1bea3c86cf16e579aa48de46dfbce2eaaf458251676526c3eaa1ffd4a2085f06"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/fastsam/utils.py",
+      "bytes": 884,
+      "sha256": "cae0970780958d1c7c9437fad433fc07aa8cc7b4d57fb0329d0bdd59111e15ca"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/fastsam/val.py",
+      "bytes": 2041,
+      "sha256": "a0bc41f2f04a4df893ede05b4f3be9aaaff1352bc33a319d3f527b7a01c6b020"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/nas/__init__.py",
+      "bytes": 207,
+      "sha256": "c326de1d9b805cc35e5cc8ca4db2b9e456665c9900e0af48a330de14cf4e07eb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/nas/model.py",
+      "bytes": 3873,
+      "sha256": "092b5f139c74f2e3c827ec18ffc3585665655a2a26e684c5f644fa8c828ce527"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/nas/predict.py",
+      "bytes": 2706,
+      "sha256": "278513ee7c22fe1eb7949ddafe061a73e5acf301588a781920dc4ca92a1a5f91"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/nas/val.py",
+      "bytes": 1548,
+      "sha256": "4144c4df3ba124b56a98319dda7ee249293b5fa8ca642471b9f16405bcb1618a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/rtdetr/__init__.py",
+      "bytes": 225,
+      "sha256": "fe310798e8c8fd03ff9d3dd72572e060743a6d71b810bf069ef9f5cbf79ebf58"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/rtdetr/model.py",
+      "bytes": 2182,
+      "sha256": "7b6bba9101186b04571863ba1db143135bb21dfb08aaf2a4e08a558e360de359"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/rtdetr/predict.py",
+      "bytes": 4197,
+      "sha256": "fe393d664216d2034b507632442cff9fd5201a7313b539056773f39a46f28e0c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/rtdetr/train.py",
+      "bytes": 3766,
+      "sha256": "e850379c311c1f5762150f0acb4c44369f5c38e6004c7c54e9fe36cfd9e932fb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/rtdetr/val.py",
+      "bytes": 9495,
+      "sha256": "306cc758c7d50f1f4a3e068ad3d9efb877d7450e856a0a7313234ed51ffc5e9f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/__init__.py",
+      "bytes": 266,
+      "sha256": "891ec1d3aac01278b6d5ea6d83c9f8acb38fd19fea57dcbd3cbf8bf779f8ffbb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/amg.py",
+      "bytes": 11783,
+      "sha256": "22972e21f0b9281462178b1daec3e5d5e716109cbbe5ac68d721b6debe4116cc"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/build.py",
+      "bytes": 12629,
+      "sha256": "27a9fefd03982daeb78e57446668517bd0f722cfc0244f31c992d48f37d1c936"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/model.py",
+      "bytes": 7243,
+      "sha256": "13d6935bb5069774e49066d5159ebf141256adbde4c89fefb83e93d58093d0cd"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/__init__.py",
+      "bytes": 70,
+      "sha256": "966e8c72415808f4dba88a17ef0d2cfdd6b176335e05e296e835e9a6fd7e4143"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/blocks.py",
+      "bytes": 45951,
+      "sha256": "6307a2b83ccc74171fcedfdcc9eeb3797c760126e4d379384ea63ec4c8351b04"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/decoders.py",
+      "bytes": 25609,
+      "sha256": "fb57e104ee3b840fb70b3914f8fce408ae0db22fd527f087e90f52323c9d3782"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/encoders.py",
+      "bytes": 37392,
+      "sha256": "7f571d19d990ff756decc2b131534882f12f626551f25335b95a1c367aeb62b5"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/memory_attention.py",
+      "bytes": 13539,
+      "sha256": "50d51b57217c9ba34876118ebd30306ff952eb1fc769df0493738fe4926a7105"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/sam.py",
+      "bytes": 55684,
+      "sha256": "2d43661fed6214f2e797bab32de2e946a81cf36fdbf3128d0accc3a36ef6aeb3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/tiny_encoder.py",
+      "bytes": 42241,
+      "sha256": "966508799f7edccf82dd898906cd775bab7ffddcde265a0e974a8547d2e5f1ec"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/transformer.py",
+      "bytes": 14747,
+      "sha256": "74872ad54c824582214cf79eb55a5d8d172a47f6ff6b9024918a3e2f70aaea11"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/modules/utils.py",
+      "bytes": 16021,
+      "sha256": "d2ac410a1e2d4f35cd4f5d3e06229ba87e900e3ce19262f3d8e8951bb8107f0c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/sam/predict.py",
+      "bytes": 82979,
+      "sha256": "d9d83a2fc5ff23846a4c701e1fcc379b6a2315cce4a65c755aeff2b70cc00204"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/utils/__init__.py",
+      "bytes": 70,
+      "sha256": "966e8c72415808f4dba88a17ef0d2cfdd6b176335e05e296e835e9a6fd7e4143"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/utils/loss.py",
+      "bytes": 21254,
+      "sha256": "13eeb54df2cf734e0875e2fa2251438adc83a0f8eefa8bf4a2e595fdc358e0a8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/utils/ops.py",
+      "bytes": 15253,
+      "sha256": "3ebefb9fc5d6db9494131e17ddb06f5dc5486d17493e869726e1b429659ac114"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/__init__.py",
+      "bytes": 307,
+      "sha256": "a2bd23e71bdc334bac325b054d884d00e71052b8bbade0f4703f494796fbcc39"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/classify/__init__.py",
+      "bytes": 383,
+      "sha256": "f7ef8755a34e7c8d4aeeb9ffad1a9c94bf055009e97de06b46a11021a430db13"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/classify/predict.py",
+      "bytes": 4149,
+      "sha256": "16a002d985dedb96d1c1e74c6611772f0d306a863e6bad3130a10b8710293fd2"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/classify/train.py",
+      "bytes": 10244,
+      "sha256": "57e85ebdce97ef17a69e9cabbbce0e7d3440efb78d9e4552304cf5ebf394be8e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/classify/val.py",
+      "bytes": 10036,
+      "sha256": "61a90fc4155909df392a9e3014ac7c287e89245894ee79054b7afdfd94b01513"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/detect/__init__.py",
+      "bytes": 257,
+      "sha256": "18846c2d847e913e09271ee5878659005181663d1a79ba24b94d00ec96e30d50"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/detect/predict.py",
+      "bytes": 5387,
+      "sha256": "c9252c7487fc770d346f35a17313758d9c0b58a3d14f633bf8ded334bde8e33a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/detect/train.py",
+      "bytes": 9907,
+      "sha256": "1e5682a0727a6364e90975d669b311640a4062a06f8ee33f6102545792580afc"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/detect/val.py",
+      "bytes": 20485,
+      "sha256": "a80dc9ab824367eb12032d09310733da772684ba8b454ba084c3582d9d5889f1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/model.py",
+      "bytes": 18752,
+      "sha256": "c4af937ba0f43c6637be959083e1d3dd3c0fd1bccfb345df52377f2ffb555d1b"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/obb/__init__.py",
+      "bytes": 221,
+      "sha256": "b509a91bcc151ec6a35a465d983e9c8c6a21278922eb88925d04fc258fddc9da"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/obb/predict.py",
+      "bytes": 2888,
+      "sha256": "e2bd5e4a577a4cd26593d246e7a7be0d7ea83cbf2e041aa2bb3b72069c569471"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/obb/train.py",
+      "bytes": 3921,
+      "sha256": "6e760500cbabed4bdbc390dcd3df92da07bb074e62197faddfb2ac81cd1e7fa8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/obb/val.py",
+      "bytes": 14844,
+      "sha256": "9d3f3694a5dec14c376e05f8e4cb34e39af37189f60358fc8370f18a0d9cf855"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/pose/__init__.py",
+      "bytes": 227,
+      "sha256": "eb7c66b8764b37357c23be878555c0ab87f65b429393c3a2f5e2fe636d382f24"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/pose/predict.py",
+      "bytes": 3743,
+      "sha256": "3340bb65f557c7841782ffacce39da5d810f6acefa64b18080334d875186d2f2"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/pose/train.py",
+      "bytes": 5457,
+      "sha256": "1b2bcd9c33c9dd416affdd0737cfc527475bc11930dc925356990c147d2f0b4a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/pose/val.py",
+      "bytes": 13994,
+      "sha256": "69b0259779564fa211c281ce14db20019c8d42d4ed3c15c7ab45acce9bbda791"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/segment/__init__.py",
+      "bytes": 275,
+      "sha256": "dc84e1859d7096463d16f9969bd704fb9f99c84e85d4583302d43a8ce385cf3c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/segment/predict.py",
+      "bytes": 5377,
+      "sha256": "aa5a6b402667e3f6e98e9234f14d0c53d43dff58291ebc3fecc5f0b571359756"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/segment/train.py",
+      "bytes": 3802,
+      "sha256": "5eb3e45d488dbb526f867f220dec3f45a2cb8d9037ba7eb9acaf901fd9ad348c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/segment/val.py",
+      "bytes": 12328,
+      "sha256": "027bd8d0eec7843e71676044d9aaed2d30155b848d9876d5a29049b1845c9a4f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/world/__init__.py",
+      "bytes": 131,
+      "sha256": "9e587c23ab7c84c1b3fef660f104a5b145b547ed9e2af9fd0865283cf4041a10"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/world/train.py",
+      "bytes": 7845,
+      "sha256": "c012a7482f93beb2963354dac6ac28d775dcc061f0c005f3358575b66a9c3a97"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/world/train_world.py",
+      "bytes": 9306,
+      "sha256": "38b4b5a1f0d27cc06c106d3b3e310caeebdb697ccd116b34ec5a4fa301d57dfb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/yoloe/__init__.py",
+      "bytes": 760,
+      "sha256": "e922f2b5d26dc2edfba9ec1fec2a1b1bb0bb5a5d66fb1b4d76f09711ab1f3c31"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/yoloe/predict.py",
+      "bytes": 7041,
+      "sha256": "4c0713e9f8966d5fa339ec2ef61c7fb21188d7454b17fea848f7fb8df6ad056a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/yoloe/train.py",
+      "bytes": 14086,
+      "sha256": "5d8a506129d20fcbe2ffd5528ff4b9a08b0d504aa6ddeebabcf4fcacd148fc76"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/yoloe/train_seg.py",
+      "bytes": 4956,
+      "sha256": "68257b33ca103af383167538a6265d261ded22b049600cd97d1551c75bd1831a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/models/yolo/yoloe/val.py",
+      "bytes": 9769,
+      "sha256": "c9e6cf931c0a2adfff718d3965b875617838fc12b3ce97037370afdc52794800"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/__init__.py",
+      "bytes": 615,
+      "sha256": "ae3a1c8980fd968fcaf9dfb5b3a4db7569253cb8d37041e4ece22544326cb481"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/autobackend.py",
+      "bytes": 41532,
+      "sha256": "9fed800f35f763631113c9c715e56f14224524ff6b09b92435b72e7cf676e1d1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/__init__.py",
+      "bytes": 3158,
+      "sha256": "da76345faf59e430f9496b7abf70944d96b98174b30bd4d0af755356a8721a1a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/activation.py",
+      "bytes": 2233,
+      "sha256": "ef925c20c1f60aef464c2d947f9e6bff960ba7172b5d00da5687864348655005"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/block.py",
+      "bytes": 70652,
+      "sha256": "25f3a358481435fc050adf8fd9ac2181ae01ec65de0e590a5612c1a7ba00f84b"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/conv.py",
+      "bytes": 21445,
+      "sha256": "78cfedd21430bc41f8ae5949b9ca9130dabb2288a91236d36bf10b44ebb8b9bb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/head.py",
+      "bytes": 53505,
+      "sha256": "cd35c55dce3a9633dd3f79a3807ec1df2d9b3c88ef6d53ed813bbfad0095f31a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/transformer.py",
+      "bytes": 31415,
+      "sha256": "3d6e7eea0cce3f7feb67fb80926c6f238da75396e4ae06e02ca0b2e4f0b9a71e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/modules/utils.py",
+      "bytes": 6092,
+      "sha256": "ae7f324ce6d91a4428a95ce36d958b6878b2b69a46e1f7e330c1382f0eb48253"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/tasks.py",
+      "bytes": 72653,
+      "sha256": "8d1523627d71cff2c46bfcf1e94a5bd14a57bf2d0171ad68e4711cec50918303"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/nn/text_model.py",
+      "bytes": 15282,
+      "sha256": "718c03fb47a5e15793a0304fe223c53901aac8441ab493811eb57238d2f72bfb"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/__init__.py",
+      "bytes": 1209,
+      "sha256": "66878041abd32e9f1a0a59e167db5b97a971cbce86c687f21af6564f1d9a5a42"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/ai_gym.py",
+      "bytes": 5217,
+      "sha256": "c307d3a97ec6de66579de3308a26c47d86d561a245fc9517dd241db1d414bc13"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/analytics.py",
+      "bytes": 12802,
+      "sha256": "687c0a8d2116ff7cb8ecbaf3ba025b3c1dd54064c340221be60a223eec679ab7"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/config.py",
+      "bytes": 5404,
+      "sha256": "09ebcbf25cde49b892000039d7809389db82836fd6874e0fd11681fe49b025af"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/distance_calculation.py",
+      "bytes": 5939,
+      "sha256": "af4e7fb9fc5bd8ca70dc4217f17df63c85a587dad83000f2a4685520fa19615e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/heatmap.py",
+      "bytes": 5515,
+      "sha256": "841251fd9dcbbbd25cbc2684c2777eb8dfd61225cad7814345779d81a23ca2a5"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/instance_segmentation.py",
+      "bytes": 3795,
+      "sha256": "aac21092fb91d54af66dd12c08224fd8810ed47cf6974c1f476294068db8ef11"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/object_blurrer.py",
+      "bytes": 3998,
+      "sha256": "c076dfaee761ea58bf2400dcf9d4c7186308f0653e32f7aca13bd5957e98b987"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/object_counter.py",
+      "bytes": 9433,
+      "sha256": "71c2ae721ad590d13c003e04bc0aed97a2c255fe38da34cec9cebfeed1ae6b9a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/object_cropper.py",
+      "bytes": 3525,
+      "sha256": "992de24ff0a0a9fa86f6574cfc0339a6dab96df605c93c9c3d06390f1c4c9520"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/parking_management.py",
+      "bytes": 13613,
+      "sha256": "21f3d49f5e5a7a5c73e9864da3d598915125e483954b0f150f43aba4ab44c4f1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/queue_management.py",
+      "bytes": 4393,
+      "sha256": "bb4545cd1a9ad0ec48598ef15c8b6c5c49b4ef70b39101858615c6fba54add22"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/region_counter.py",
+      "bytes": 5916,
+      "sha256": "9e6b42a2ad6c1485361f1e20288998345ed87f96290031f0ba3c714060ef7f5b"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/security_alarm.py",
+      "bytes": 6351,
+      "sha256": "53a1536e0ddcb6128b7d678bba7b0584e26f07a1869b06030f16772b4182c7e4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/similarity_search.py",
+      "bytes": 9496,
+      "sha256": "1fd30f7fc17902f55f99bf619e783416b20e4db2d4fc8f829151c6a42f35084d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/solutions.py",
+      "bytes": 37318,
+      "sha256": "2ada12512c4ce2cf938b9100cd3db5a48b6ebfbd2a948387eb29893fde4697e1"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/speed_estimation.py",
+      "bytes": 5878,
+      "sha256": "72183fb41b8a170dc49c58affe86cd0da5172c0a3e172a710bb82c0de07f5542"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/streamlit_inference.py",
+      "bytes": 10501,
+      "sha256": "4aa2fe631537442c422ac707d806144e49899278a557d8c209ca3ab9faac164e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/trackzone.py",
+      "bytes": 3941,
+      "sha256": "9084bde2b35f2f7c953c0b526e75bc17e68b3315e8c10b6c7ca341fa32decf3f"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/solutions/vision_eye.py",
+      "bytes": 3008,
+      "sha256": "9e521d5e17cce44c09878bea561cf70043a81d72042cca35386f02af5b4c411c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/__init__.py",
+      "bytes": 255,
+      "sha256": "665bbf220e68b27ee1a9c87f83905efdee29c1952479e4d089eb090a2d291462"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/basetrack.py",
+      "bytes": 4384,
+      "sha256": "fac9011456adce024500f37d16b9b5bb587f443520dd63a5c46e9e1d0c69d86c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/bot_sort.py",
+      "bytes": 12134,
+      "sha256": "9273f9a28d4b0b8e4badab68f0ba5c63f8f8281a234053f59714ff349c61114a"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/byte_tracker.py",
+      "bytes": 21633,
+      "sha256": "08d4b5d153863ed5d71229a2d1368ef3c4c021c381828f002c5f47efd88afee4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/README.md",
+      "bytes": 14774,
+      "sha256": "267361464d603f2dd2d11ed7e86c55fb95cb4fe7a1d7ea69999e42820943ca48"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/track.py",
+      "bytes": 4757,
+      "sha256": "307332743b7f31f5dd8fa9da3b694bb843c5e3aa5951b0e6cf94aab6bd7cf89e"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/utils/__init__.py",
+      "bytes": 70,
+      "sha256": "966e8c72415808f4dba88a17ef0d2cfdd6b176335e05e296e835e9a6fd7e4143"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/utils/gmc.py",
+      "bytes": 14032,
+      "sha256": "f48bc27f932105863da69547ca4374dbfa01587984f7c47c11a60529aca4755d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/utils/kalman_filter.py",
+      "bytes": 21619,
+      "sha256": "3cf98cd25c0131d4ff846a23bdf2e852c05414c04130d440c4a6cc7106b7c09d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/trackers/utils/matching.py",
+      "bytes": 7160,
+      "sha256": "b9262dcb0aa2d6513fb8d375170b8114fc8849f0d05c732ef0ae4a1faf67ad12"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/__init__.py",
+      "bytes": 59401,
+      "sha256": "db15f0fcf7404872a402e3aedde69284956a8ac42d16417c9f0e45c8cb835024"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/autobatch.py",
+      "bytes": 5119,
+      "sha256": "df79bc6208202c8865b43a8c5d9e4e13e146b364221eb976f8b7e0635988e1cc"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/autodevice.py",
+      "bytes": 8855,
+      "sha256": "02f81716df1cd4283889c2a1d076e1873f149954365a3c9f75f91e6f60bccdc9"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/benchmarks.py",
+      "bytes": 31041,
+      "sha256": "1a5b11e92bc3dea96eb368558fb4aa48d12bb1e8c1948c4ed18ee131cfdc587c"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/__init__.py",
+      "bytes": 242,
+      "sha256": "8732fadd171ee9591984fe0b7229bd2ca8da762c5a406f3a9caa8f864ec8912d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/base.py",
+      "bytes": 6821,
+      "sha256": "389eb3e006150ad5cefb0e8f483462c28d537364587acf81cf0293b2bf60fe1d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/clearml.py",
+      "bytes": 6031,
+      "sha256": "dbf22ff9a2450faa0096ad8dde139fd4e84243b6803296b9b41912b35664aee4"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/comet.py",
+      "bytes": 23924,
+      "sha256": "570223a44a980df732bc0333046d5701b732cba968e3974d4115659cef159928"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/dvc.py",
+      "bytes": 7511,
+      "sha256": "355d035cc4350794a4e5f9a1eb44055069227eb033fafc22b79aa175fb32a977"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/hub.py",
+      "bytes": 4177,
+      "sha256": "d519868826a88351a84f26bd380c8610b6d0d8b9395f711687b4583319ecd2ca"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/mlflow.py",
+      "bytes": 5344,
+      "sha256": "e8af08e738a3d72ab74d45bd73904140da9dcf3dc85ee8108f02a804ebd5e9a8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/neptune.py",
+      "bytes": 4612,
+      "sha256": "8fca5e72695cb0cf051b32ca5a8070e7152c8b9b7c1391eec58ed3479526fcef"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/raytune.py",
+      "bytes": 1283,
+      "sha256": "4ba06ad7aa100d0f014209d9cc0d3324718dfc106bf2200cfd6b46a0b8847308"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/tensorboard.py",
+      "bytes": 5281,
+      "sha256": "3033c15bb6837acfbae8e13a62a2975efa80fc4a1c8f310c1d618cfbccfdbd44"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/callbacks/wb.py",
+      "bytes": 7521,
+      "sha256": "4e6ffe691af608ddf6309918f6dca5a4c04991bd34efe31244d490eeb0c9e505"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/checks.py",
+      "bytes": 34707,
+      "sha256": "9a40e5fc14cb6728df8586c55521bac589b1841dacef0b10eb6ba09e1b29a8e7"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/dist.py",
+      "bytes": 4170,
+      "sha256": "03d9431ad19e7d38d256f552dfcc3ce8639d6ed2f33410d9b8318ad0c4f83d12"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/downloads.py",
+      "bytes": 22080,
+      "sha256": "601eab2647111907e49548d9aa2f5d3a44e265a0d2a9b906c991057192d09207"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/errors.py",
+      "bytes": 1584,
+      "sha256": "5d3f51bbb8afa018287cae8f967ca2806a1aec599fe67121c87b670fef134572"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/export.py",
+      "bytes": 10008,
+      "sha256": "d201bf199351a8770e4496e342aff53171077375047f33c07693a5d97e55a037"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/files.py",
+      "bytes": 8238,
+      "sha256": "6426cb1a57a21747fe3ea61f6b1305016a29f3cc3b535869ade1d797c6f6928d"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/instance.py",
+      "bytes": 18550,
+      "sha256": "b3deddf865d248296ebbe332d8314b02e6dd93f85fe3806e550e8e091381acc7"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/loss.py",
+      "bytes": 39799,
+      "sha256": "7db39673722ed103898966e2fa65d603dfb5a2d4d895e86d994b08ee8b3bc9d3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/metrics.py",
+      "bytes": 62225,
+      "sha256": "de742ccf7ac09bc9fae62aa2911cd4df43dddb1db4158eb46655ab08cbf96589"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/ops.py",
+      "bytes": 34545,
+      "sha256": "26487cd2e8f28b45c343036a094632a261fc350d78e401fd7683144bc56df061"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/patches.py",
+      "bytes": 6517,
+      "sha256": "b4102c368fd1ca814b2fd380cd5b899aea032d42483ee4cc072058c9b9461b50"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/plotting.py",
+      "bytes": 47171,
+      "sha256": "2cefa247e93551ec15e6fb78c570d4222add98d1197697e242f2f2216a8834f8"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/tal.py",
+      "bytes": 20924,
+      "sha256": "6976b03a7867f278bae6d256216f8f62a5abfd346f96d6c7063ad3a3ba3a9434"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/torch_utils.py",
+      "bytes": 39233,
+      "sha256": "0fbe8fbe6c3938a87ebdde1a26438c3b47522db3395b31abec799db39e213c49"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/triton.py",
+      "bytes": 5410,
+      "sha256": "33ba9ee11ced8800c125011640a68842ca7de0444527ff3f0d41c347a4d710e3"
+    },
+    {
+      "path": "09_训练与转换参考/ultralytics/utils/tuner.py",
+      "bytes": 6826,
+      "sha256": "6c7af4f45cfed3eb747a2e79817e70261fa86f288042889c3fb1d454cd88f2a0"
+    },
+    {
+      "path": "09_训练与转换参考/源码/benchmark_sequential_capture_pycharm.py",
+      "bytes": 4394,
+      "sha256": "65c4cf658af1373391eb837a75634a090a7132ee7a4d70a23f4e2887a2a48333"
+    },
+    {
+      "path": "09_训练与转换参考/源码/cache_visual_lane_relations_pycharm.py",
+      "bytes": 5958,
+      "sha256": "34fe48b97272ce23afd7d16c6e75189ecca0e0360de32b7ea4596ed041f0045d"
+    },
+    {
+      "path": "09_训练与转换参考/源码/calibrate_corrected_signal_guard_pycharm.py",
+      "bytes": 8402,
+      "sha256": "4eb155660dd8b75f119c717bb6b69b564fab7a729c43faa7f839158d88c5aaf2"
+    },
+    {
+      "path": "09_训练与转换参考/源码/check_physical_signal_keys_20261028.py",
+      "bytes": 9645,
+      "sha256": "c204a2713070554c68a63344ded8643619791e08428a9331c12ff92871ed3b19"
+    },
+    {
+      "path": "09_训练与转换参考/源码/competition_scene_logic.py",
+      "bytes": 9136,
+      "sha256": "4b0573cc97f20f9b4ebd3cb1bcb326dfcb0c5f10008ee34c6cd70746293e5d2b"
+    },
+    {
+      "path": "09_训练与转换参考/源码/convert_lamp_aligned_20261028.py",
+      "bytes": 2714,
+      "sha256": "5ed204728b361d1b7d4d56d6535ffa4bfb0020770f5e21a9e49bf1926cceca65"
+    },
+    {
+      "path": "09_训练与转换参考/源码/convert_lane_board_20261027.py",
+      "bytes": 2664,
+      "sha256": "8613001c741f9298f883bfc55564291d723e6c09abe65f6022373b7ac2116df4"
+    },
+    {
+      "path": "09_训练与转换参考/源码/convert_road_heads_20261028.py",
+      "bytes": 2631,
+      "sha256": "09865f5edbc9348f488c369d5b0bfbaa73c6a092ddde3f0a24eb7424d4231ee9"
+    },
+    {
+      "path": "09_训练与转换参考/源码/convert_signal_classifiers_npu_20261027.py",
+      "bytes": 3428,
+      "sha256": "e9e4c8dca9713053201fe0e1365ef470d1241f9dd6a4f38a91c917c26f51eb22"
+    },
+    {
+      "path": "09_训练与转换参考/源码/deploy_arm_a06_20261027.py",
+      "bytes": 8773,
+      "sha256": "efa60cb5b4c57d6e79a0b33aded659e7884fa93d19572d8e2507bb42d76368f8"
+    },
+    {
+      "path": "09_训练与转换参考/源码/deploy_lane_keys_20261027.py",
+      "bytes": 6147,
+      "sha256": "4c5c71731cfe99c2b0ef1f7455de1740ef1024abd4ae5954bd5b419e73890aae"
+    },
+    {
+      "path": "09_训练与转换参考/源码/deploy_unified_arm_20261028.py",
+      "bytes": 13009,
+      "sha256": "f083b85429fdccb8730cc8808fa4e8a0e6b8caa9f0a4ab2a49093ad92a8876b4"
+    },
+    {
+      "path": "09_训练与转换参考/源码/evaluate_export_lamp_aligned_20261028.py",
+      "bytes": 4823,
+      "sha256": "015a4f64d0bdbc5f3e8f49133a9653e9697a455ef88e891c4b7c917d75248533"
+    },
+    {
+      "path": "09_训练与转换参考/源码/expanded_relation_data.py",
+      "bytes": 5841,
+      "sha256": "fe7084a6fd03a039382dad97573f3b740378827042dd5feea0077d4c68f52c0c"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_arm_lamp_attrs_20261024.py",
+      "bytes": 9134,
+      "sha256": "579afd506d74f2c93260ef60788bf979956097b14499824b19e586b653b08569"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_fast_signal_types_20261027.py",
+      "bytes": 2936,
+      "sha256": "00715722a55fa37f5f0e5b25c59a3adf95bb3a5c7f9915998ad437bf5edd8a53"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_lane_board_20261027.py",
+      "bytes": 2852,
+      "sha256": "d85c31655ddfd585efef33336a5923ad7f00933eea0c3f2f8d81410092c5be7d"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_road_heads_20261028.py",
+      "bytes": 2456,
+      "sha256": "375c1bbe77c69753e6ee708f19d367d1e99043ee61ab2a3255b7813f816cdc26"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_signal_int8_heads_20261027.py",
+      "bytes": 3182,
+      "sha256": "2c69a85088a75c1b4e45e93f07322dac4e5c7fa6b99b1d32605707f6a6743e02"
+    },
+    {
+      "path": "09_训练与转换参考/源码/export_signal_rect_models_20261027.py",
+      "bytes": 1603,
+      "sha256": "992e063888550d35ebe20dc89e1d07bfe57ea2d5897d6cf170c0208b170a5e04"
+    },
+    {
+      "path": "09_训练与转换参考/源码/lane_boundary_segmentation.py",
+      "bytes": 6976,
+      "sha256": "2f3435286007438c7e56d83d48bf0a4a5c1f4e297d1300576111e7d0eb992b36"
+    },
+    {
+      "path": "09_训练与转换参考/源码/light_roi_common.py",
+      "bytes": 3478,
+      "sha256": "23bfdeaed62ade34cba442460b4cf50afeeef85200a27ff54152f31b19ce4eea"
+    },
+    {
+      "path": "09_训练与转换参考/源码/mytrain.py",
+      "bytes": 5329,
+      "sha256": "ce9283e4479fcb59861f5c4c87a2f1594cc44d68a63d693e58f7186cdbf15653"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_card_runtime.py",
+      "bytes": 5515,
+      "sha256": "c929212c576f85ce884ea46cd8940e6ff3ff06bcc4589b28e80fd598d2331e29"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_distance_ocr.py",
+      "bytes": 9630,
+      "sha256": "1e12e025a83d4aba887be9739f16829b4b5f552470422a4ddaf5cc1366c070a3"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_hog_classifier.py",
+      "bytes": 2886,
+      "sha256": "eaebf89733f4a288f75fc120ece413f22dc85597c2f332bd228ff46aa120d9d3"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_icon_common.py",
+      "bytes": 2360,
+      "sha256": "7affef57fa0474fda30b7452b193f5f159c43941e4ad18e0113d3f45ac7d3311"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_primary_locator.py",
+      "bytes": 8441,
+      "sha256": "0916ab9fce6d12d3e86ad88e5cabcb468774972858d6e8b94f3395ae32be239e"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_temporal_ocr.py",
+      "bytes": 10742,
+      "sha256": "cfd684e4698fa069903f6daf462e9a1cd1741116d5ef88f2acdce92c5b92ef53"
+    },
+    {
+      "path": "09_训练与转换参考/源码/navigation_textline_runtime.py",
+      "bytes": 5867,
+      "sha256": "0ce8e19f4e41dd99299f86254ba80321df19bf2a81a3d09ec5a0bf92fe982a98"
+    },
+    {
+      "path": "09_训练与转换参考/源码/official_light_config.py",
+      "bytes": 1036,
+      "sha256": "04effdbef6dfff0602748c8ad7ddade7b2d90619ae6738c80a762f91c99dc4ec"
+    },
+    {
+      "path": "09_训练与转换参考/源码/official_light_tiles.py",
+      "bytes": 7738,
+      "sha256": "61b408ccbdccf71207b46d8db519fba6ebaa36dbbfea7c2d1b6ccae6a0b93648"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_batch2_classifiers_20261028.py",
+      "bytes": 1264,
+      "sha256": "67310fdf61328060dcb84704c78b30d01432544816353d4979fe448d0ba3ec4a"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_batched_classifiers_20261028.py",
+      "bytes": 2311,
+      "sha256": "3f3d7a659abd33c1e6bac647feffb5b703dbf022ffb4956149993d6dcdf9d5a1"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_bdd100k.py",
+      "bytes": 8079,
+      "sha256": "75eaa8bfd636882918e0e5bb1b788308b32f26409bec17ee7687eecdb4897e3f"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_corrected_signal_training_pycharm.py",
+      "bytes": 10173,
+      "sha256": "fb663560e740cbe678773cc8699b1e81780c194e12bb0d76032883a3503cb7b7"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_domestic_direction_pycharm.py",
+      "bytes": 14994,
+      "sha256": "67c51fd21780865d877b1aeac4b995e2c964c6eccce38cc33130a2ac42d6b6e6"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_lane_boundary_segmentation.py",
+      "bytes": 7022,
+      "sha256": "902ec3cf0b177575493442ebeeeb7b27b212b34d5a4c219fbbc842a8d0ee5e5b"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_light_roi_color.py",
+      "bytes": 5614,
+      "sha256": "5c0b13f5062976ccdbc07858c7b0993f065a456d095f4acc0b9f38afad7b39f1"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_road_int8_20261028.py",
+      "bytes": 5232,
+      "sha256": "012dba8d787579d10c04fdd811a80607ec374d64912fb120348a735d7f232159"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_s2tld.py",
+      "bytes": 7718,
+      "sha256": "9f4846bc95ff6ee02d5f1be71b0269d9ea2ca5c2507bc7f72d81385d83a895af"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_signal_hard_examples_pycharm.py",
+      "bytes": 6495,
+      "sha256": "ef3b36591fce0562ddc6dbd3e320038604b5d157397d04acfe5aea886383165c"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_signal_spatial_tail_pycharm.py",
+      "bytes": 8074,
+      "sha256": "e7652419f4e964d12ddd70c7a1e36be9d3d8c4dd9854a4cfcae36944bcf0aa40"
+    },
+    {
+      "path": "09_训练与转换参考/源码/prepare_type_direction_repair_pycharm.py",
+      "bytes": 7189,
+      "sha256": "0d92c7c932f46d52f51fef4985f2fc6804b2805356ea97436c391a76af09894c"
+    },
+    {
+      "path": "09_训练与转换参考/源码/report_adas.py",
+      "bytes": 7047,
+      "sha256": "af8779632efda777e4ccc931a2f04c5ba17dfaed87f7e0b60503b0af2bc10386"
+    },
+    {
+      "path": "09_训练与转换参考/源码/request_lane_driver_test_20261027.py",
+      "bytes": 1728,
+      "sha256": "dbd5278f8f841161c428dca5b8bb85e784011d9f835b687344bffd292524e514"
+    },
+    {
+      "path": "09_训练与转换参考/源码/request_unified_driver_20261028.py",
+      "bytes": 1885,
+      "sha256": "733f2704037331bd440fa8449d74b8ceab859f3a824496dc47469f49704ff5a4"
+    },
+    {
+      "path": "09_训练与转换参考/源码/review_navigation_temporal_pycharm.py",
+      "bytes": 9424,
+      "sha256": "cd9c365958ca89b9fb188cc2e3b05d49b56e42aa8db3a294825cd421f369a225"
+    },
+    {
+      "path": "09_训练与转换参考/源码/run_lane_real_acceptance_20261027.py",
+      "bytes": 8021,
+      "sha256": "a3e2b5c4affc9d506831c51191b9c1b1e460c17625c26ebc03aac16dc7174f70"
+    },
+    {
+      "path": "09_训练与转换参考/源码/run_unified_acceptance_20261028.py",
+      "bytes": 10150,
+      "sha256": "ad695e6154d207193ab5d052d723da8e036a3c62bcb004939194bd980a7b6455"
+    },
+    {
+      "path": "09_训练与转换参考/源码/sequential_file_capture.py",
+      "bytes": 3407,
+      "sha256": "a3429d681a5c9d1463440b01c44f6be9324e39e6ac66bd49387c76ab76d510a2"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_approach_relevance.py",
+      "bytes": 4191,
+      "sha256": "d185b6f819043b1c829330954072dc4958bbf57f24c26a7d3483d53f61fb32ba"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_attribute_consensus.py",
+      "bytes": 5560,
+      "sha256": "329c8bce13391fcc7004bc46ee3a91eb071f5d4e32432ce1103ae6123c878b95"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_attribute_model.py",
+      "bytes": 4229,
+      "sha256": "36b2e3ca340923739c0c272a44e48f3a43c588bc79f26bd0acbd8453b7f1b452"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_corrected_regions.py",
+      "bytes": 3408,
+      "sha256": "1651498708c0b2124102fd5ad5c1b7e04b39a8809c9f63c7733a4cb1df4161b4"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_direction_residual_tail.py",
+      "bytes": 2107,
+      "sha256": "ec90d9eacdc4adb9966c221da25dd4e6eda1c2b39b9f5755d3230a218eb814ae"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_dual_view_residual.py",
+      "bytes": 4912,
+      "sha256": "3146e7bd6b8fd21c3910dd833fc7204e7d94d9f0030a4fe1652d011d1d4667ef"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_emission_guard.py",
+      "bytes": 1388,
+      "sha256": "2d30c17b7c14e83d69db51e230f51095bd1fa9cb528f64708e5d543ddc5d8bde"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_lane_topology_data.py",
+      "bytes": 6545,
+      "sha256": "a9fd3fe77540242a99a5e5637f88c7f564d828306ed4f026d4b44058d3cb3a94"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_scene_adapter.py",
+      "bytes": 8027,
+      "sha256": "2e0c61c80b1bca0c0b2c85a60e2970cce715edcf5d17d799c0894e8696f9bb09"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_spatial_tail.py",
+      "bytes": 5642,
+      "sha256": "1362a92d825f82db441c578a69b1dfb9db5077bd6920f81d32fd113e04d6eb2d"
+    },
+    {
+      "path": "09_训练与转换参考/源码/signal_type_direction_repair.py",
+      "bytes": 5010,
+      "sha256": "f5613254271b695e50d90250e4d514411ea8be6b0ac57efe79e03d4d2979dfcb"
+    },
+    {
+      "path": "09_训练与转换参考/源码/summarize_signal_navigation_20261029.py",
+      "bytes": 7287,
+      "sha256": "296153e757920726696d242ff0c39732266b4046fb9c01a375bbbcaab79f7ecd"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_bdd100k_pycharm.py",
+      "bytes": 2821,
+      "sha256": "1f3ede0a48323113e3f6047765a2356ae653e53727f513ae6185f4a87c4c63be"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_corrected_signal_regions_pycharm.py",
+      "bytes": 15329,
+      "sha256": "2a827b254d6106a4674340f6d277d4ddcda8cf59c97df18437b4576509afca02"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_lamp_capture_aligned_20261028.py",
+      "bytes": 7759,
+      "sha256": "81dccd9a5efe6ebd0429cd72e4533d870b210695a670e86d3404c61ef9d38eca"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_lane_boundary_segmentation_pycharm.py",
+      "bytes": 11464,
+      "sha256": "0e3269ba30298ee8c64dcb41b453bc4692ad395b8c1708a7b93b00e0323f6d76"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_light_roi_color.py",
+      "bytes": 15964,
+      "sha256": "f554045dcb67932f2b7bdf5e8c4fed647cbce9ffb2f609151a0b54236d2f97f8"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_official_lights.py",
+      "bytes": 13037,
+      "sha256": "c7ce95f1ac045431cc56006521de0773d5f4cf97d1c2e370e22fdbf00448d262"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_s2tld_pycharm.py",
+      "bytes": 5450,
+      "sha256": "f8158ec2f2b0e3ef7d3a47e8087d22f10015935bd3d7322e11da4d8a05d963e7"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_signal_navigation_20261029.py",
+      "bytes": 22987,
+      "sha256": "839f7dadf300ce8cc91887561dbc18bce8cb2982c577a7106515cd85f742abb2"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_type_direction_repair_pycharm.py",
+      "bytes": 14769,
+      "sha256": "0743da5342d0dd03906e1225f3a53b2fb1f6f3eeaa89cd5b00497b7e6b92ebe4"
+    },
+    {
+      "path": "09_训练与转换参考/源码/train_visual_lane_relations_pycharm.py",
+      "bytes": 14242,
+      "sha256": "e35c154ae296876b227bd5ff3fd78d2aa2f75cc19a0359d3efbf2ac5d806709f"
+    },
+    {
+      "path": "09_训练与转换参考/源码/training_memory_monitor.py",
+      "bytes": 2256,
+      "sha256": "d75eb09569a4ea2ff89bb235b668eb583449a7d95fbb324cc9adb3bb9ef7fa23"
+    },
+    {
+      "path": "09_训练与转换参考/源码/visual_lane_relation_evaluation.py",
+      "bytes": 4810,
+      "sha256": "3cfc76a4acfce022bfed68e370a3271ddef8678c6d31bb90a28d2df1c6c48e3a"
+    },
+    {
+      "path": "09_训练与转换参考/源码/visual_lane_relation_features.py",
+      "bytes": 8311,
+      "sha256": "4744a2061c4422892ab5d2b2ebc866c2424d891ebaa0898e378c8f27eddab3a8"
+    },
+    {
+      "path": "09_训练与转换参考/源码/visual_lane_relation_model.py",
+      "bytes": 5127,
+      "sha256": "d2e378e40067cf95f7463901abca9fcf512998771cc3523398d06413df65001c"
+    },
+    {
+      "path": "09_训练与转换参考/源码/write_engineering_acceptance_report_20261028.py",
+      "bytes": 9466,
+      "sha256": "c62e03acd53709c12068b1965806df7bba9834d65a4ba207f6efbc044fa39c2a"
+    },
+    {
+      "path": "09_训练与转换参考/源码依赖索引.json",
+      "bytes": 3353,
+      "sha256": "653c5498df2ae33f1c9708325328ca39f0bfa8a90202191fd09f0036e9a6ca76"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/adas/bdd100k_4class_stage42/weights/best.pt",
+      "bytes": 6222115,
+      "sha256": "a9af921e423563bcd8c61246eed8bb991784cda091c0da761a57b8b282104ad1"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/adas/lane_boundary_seg_f721cc098f9b/weights/best.pt",
+      "bytes": 5796330,
+      "sha256": "3e868134bbf94281381fbad0497236ba493b522f08dfeef0b21a74bf4e111fac"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/adas/s2tld_official_tiles_stage2/weights/deployment_best.pt",
+      "bytes": 6210979,
+      "sha256": "7f9527c605df7fe8594e6e986e1015fe5e8b11977757006c322f2c9692ea5a81"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/adas/signal_attributes_consensus_20fc4d9bebcd/weights/best.pt",
+      "bytes": 5873104,
+      "sha256": "b55b10e57cef0b2e090932824d2733da499d13956621175325f41115cc99a1ad"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/adas/signal_emission_guard_20261017_172936_118725/weights/best.pt",
+      "bytes": 5850960,
+      "sha256": "4c51451b57ac5177525d1b4a1053e440885f4bc6fa431349246ed370862c6a3b"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/basic_finish70_20261028/lamp_capture_aligned/trial/weights/last.pt",
+      "bytes": 6213283,
+      "sha256": "8838410563c74e6cf07c9fc931a49230f6fe9fe5bce85e11672f743435fdd5ca"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/signal_hard_examples_20261022/control_guard/selected_types.pt",
+      "bytes": 138552,
+      "sha256": "eb58a54a5b4de0540395ec764c915ae37736ea8cbf9f0a1e5c381f5339fa5019"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/signal_spatial_tail_20261022/direction_residual/best.pt",
+      "bytes": 1696748,
+      "sha256": "3e0d4c5a240d122674117dfe51a9b16fa9a2d37bc3cedf0841c5cde4720b516f"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/signal_spatial_tail_20261022/types/best.pt",
+      "bytes": 1385344,
+      "sha256": "e54fb5467854d47a0323c196b7e1d7cb804ae7e48163023a27f027927ba51d76"
+    },
+    {
+      "path": "09_训练与转换参考/源训练权重/signal_type_direction_repair_20261022/direction/best.pt",
+      "bytes": 27864,
+      "sha256": "b8700e2b2a7bf7ef3af992df2a80a363b1b62ef85c18de3b7add0be1a82e95d2"
+    },
+    {
+      "path": "10_整理与校验工具/arm_final_handoff_content_20261102.py",
+      "bytes": 69040,
+      "sha256": "496bddb8e446ea760f7e82cd77d285b25e06a86bacd0143157849329000137e6"
+    },
+    {
+      "path": "10_整理与校验工具/build_arm_final_handoff_20261102.py",
+      "bytes": 15395,
+      "sha256": "557f470e71f737a9146c3856135d8d5f50b9f3977606f3458f52cb08c54f5ce6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 5171,
+      "sha256": "410b8bd17d7f540ee6a62f683a0cce4a66f1ec43fa618386e59978d7d909bc2e"
+    },
+    {
+      "path": "README_从开机到运行.html",
+      "bytes": 9199,
+      "sha256": "421a120367678bfcae2c87d8f272f5a3d489263dd7d75d2dbd1bc58d8c9c4a87"
+    },
+    {
+      "path": "README_从开机到运行.md",
+      "bytes": 7651,
+      "sha256": "41b703f5e7140e98c14524b500dc4ec194a5da0fae23ec38f4bc49f94fd2ac26"
+    },
+    {
+      "path": "README_先看.html",
+      "bytes": 4060,
+      "sha256": "24377f8d9966c8379c2d93e340d4f3f3a1a6944cc24241161f36e8b527b50a6a"
+    },
+    {
+      "path": "README_先看.md",
+      "bytes": 3896,
+      "sha256": "c854308b49dff839753167fc2f1a6b2dffdfbc00b430f2ecfca1e98943135e16"
+    },
+    {
+      "path": "verify_arm_final_handoff.py",
+      "bytes": 2512,
+      "sha256": "0b6bb19fb394d43f005d2ecf42dad981fe60370d81263231c448dc1a200552ab"
+    }
+  ]
+}

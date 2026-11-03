@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1120" viewBox="0 0 1640 1120">
+<rect width="100%" height="100%" fill="white"/>
+<text x="50" y="73" font-family="Microsoft YaHei,sans-serif" font-size="38" fill="#132b40">ARM 软件模块与当前实际执行路径</text>
+<rect x="390" y="130" width="860" height="140" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="410" y="174" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">真实UVC输入与帧身份</text>
+<text x="410" y="207" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">LatestCaptureReader / 有界最新帧 / 图像质量与哈希</text>
+<text x="410" y="244" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">/dev/video0 · 1280×720 YUYV · 协商10 FPS</text>
+<rect x="40" y="365" width="490" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="60" y="409" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">道路目标 NPU</text>
+<text x="60" y="442" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">384×640 INT8四类检测</text>
+<text x="60" y="479" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">CPU解码与NMS / 每帧运行</text>
+<polyline points="820,270 820,315 285,315 285,365" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="291.9594485457797,350.5928463623572 285,365 278.0405514542203,350.5928463623572" fill="#557991"/>
+<rect x="575" y="365" width="490" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="595" y="409" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">信号场景 NPU 与 CPU</text>
+<text x="595" y="442" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">矩形灯、颜色门控、灯型与方向</text>
+<text x="595" y="479" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">灯组关联和连续绿灯确认</text>
+<polyline points="820,270 820,315 820,315 820,365" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="826.9594485457797,350.5928463623572 820,365 813.0405514542203,350.5928463623572" fill="#557991"/>
+<rect x="1110" y="365" width="490" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="1130" y="409" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">边界场景 NPU 与 CPU</text>
+<text x="1130" y="442" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">512×288 类型边界网络</text>
+<text x="1130" y="479" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">虚实线实例与图像中心左右边界</text>
+<polyline points="820,270 820,315 1355,315 1355,365" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1361.9594485457797,350.5928463623572 1355,365 1348.0405514542203,350.5928463623572" fill="#557991"/>
+<rect x="390" y="620" width="860" height="155" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="410" y="664" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">统一场景与风险仲裁</text>
+<text x="410" y="697" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">实体按键state/epoch · 当前图像 · 时效 · STOP/GO/报警</text>
+<text x="410" y="734" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">虚拟车道；未知/过期保守停车；导航尚未接入</text>
+<polyline points="285,515 285,565 820,565 820,620" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="826.9594485457797,605.5928463623571 820,620 813.0405514542203,605.5928463623571" fill="#557991"/>
+<polyline points="820,515 820,565 820,565 820,620" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="826.9594485457797,605.5928463623571 820,620 813.0405514542203,605.5928463623571" fill="#557991"/>
+<polyline points="1355,515 1355,565 820,565 820,620" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="826.9594485457797,605.5928463623571 820,620 813.0405514542203,605.5928463623571" fill="#557991"/>
+<rect x="90" y="900" width="650" height="130" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="110" y="944" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">USB-UART结果通道</text>
+<text x="110" y="977" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">V3上下文 + 最多1个检测框/帧</text>
+<text x="110" y="1014" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">查询FPGA相机/帧号/epoch/动作确认</text>
+<rect x="900" y="900" width="650" height="130" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="920" y="944" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">香橙派本机显示</text>
+<text x="920" y="977" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">绘制道路、边界、决策和UART状态</text>
+<text x="920" y="1014" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">画面过期提示保留；不是FPGA全部OSD验收</text>
+<polyline points="650,775 650,835 415,835 415,900" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="421.9594485457797,885.5928463623571 415,900 408.0405514542203,885.5928463623571" fill="#557991"/>
+<polyline points="990,775 990,835 1225,835 1225,900" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1231.9594485457797,885.5928463623571 1225,900 1218.0405514542203,885.5928463623571" fill="#557991"/>
+<text x="50" y="1083" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#20384c">模型与配置按冻结SHA锁定；PC导航和未采用候选不计入当前ARM入口。</text>
+</svg>

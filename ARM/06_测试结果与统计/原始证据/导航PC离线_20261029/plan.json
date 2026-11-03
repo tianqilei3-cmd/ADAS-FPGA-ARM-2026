@@ -1,0 +1,28 @@
+{
+  "task": "navigation",
+  "epochs": 8,
+  "batch": 4,
+  "nbs": 4,
+  "freeze": 10,
+  "freeze_backbone_batchnorm": true,
+  "workers": 0,
+  "cache": false,
+  "threads": 4,
+  "shape": [
+    288,
+    512
+  ],
+  "lr0": 0.0001,
+  "seed": 20261029,
+  "initial": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\navigation_card_af981433c999\\weights\\best.pt",
+  "initial_sha256": "713f936d9d1f37fff76a3618210efc7b3457bd3a66d53abc9a319bc95291364c",
+  "dataset_sha256": "38bba9ceb04b800d2e1388f460963bd7a54e1044d717ce42cfdd6b7a1b79e97a",
+  "code_sha256": "839f7dadf300ce8cc91887561dbc18bce8cb2982c577a7106515cd85f742abb2",
+  "checkpoint_selection": "Fixed final epoch; validation does not select the candidate",
+  "confidence": 0.25,
+  "min_iou": 0.5,
+  "board_access": false,
+  "automatic_deployment": false,
+  "adoption_gate": "Clean P/R cannot regress, stress F1 cannot regress; signal also requires no increased red-as-green and improved green recall; navigation requires strictly improved stress F1. Hardware closed-loop must be tested separately.",
+  "training_reference": "https://docs.ultralytics.com/modes/train/"
+}

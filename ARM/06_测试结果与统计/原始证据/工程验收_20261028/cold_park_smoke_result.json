@@ -1,0 +1,22 @@
+{
+  "frames": 30,
+  "successes": 30,
+  "passed": true,
+  "unsafe": [],
+  "rule": {
+    "scope": "Assisted cold restore parked smoke; separate from physical drive proof",
+    "required_frames": 30,
+    "minimum_ratio": 1,
+    "maximum_unsafe": 0,
+    "profile": 41,
+    "require_frame_and_epoch_identity": true,
+    "require_capture_valid": true,
+    "maximum_decoded_age_ms": 500
+  },
+  "boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "pid": 4075,
+  "session": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_093848",
+  "cold_restore_assisted": true,
+  "unattended_boot_tested": false,
+  "failed_checks": []
+}

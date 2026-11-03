@@ -1,0 +1,14 @@
+{
+  "case": "green_go",
+  "frames": 0,
+  "successes": 0,
+  "ratio": 0.0,
+  "passed": false,
+  "unsafe": [],
+  "collector_read_only": true,
+  "physical_lane_association_verified": false,
+  "manual_LED_buzzer_verification": false,
+  "folder": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\physical_signal_keys\\20261028_083930_UTC",
+  "physical_epoch": null,
+  "interruption": null
+}

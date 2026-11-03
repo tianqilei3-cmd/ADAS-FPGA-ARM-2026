@@ -1,0 +1,8 @@
+{
+  "warm_passed": true,
+  "capture_fault_passed": true,
+  "cold_power_cycle_tested": false,
+  "independent_serial_silence_tested": false,
+  "whole_engineering_passed": false,
+  "folder": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\engineering_acceptance_20261028\\20261028_083842_UTC\\recovery_20261028_091325_UTC"
+}

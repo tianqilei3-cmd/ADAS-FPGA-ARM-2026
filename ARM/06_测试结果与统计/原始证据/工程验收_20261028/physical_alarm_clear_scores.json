@@ -1,0 +1,902 @@
+[
+  {
+    "sequence": 2992,
+    "checks": {
+      "original_stop": false,
+      "alarm_cleared": false,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": false
+    },
+    "passed": false
+  },
+  {
+    "sequence": 2993,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2994,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2995,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2996,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2997,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2998,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 2999,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3000,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3001,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3002,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3003,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3004,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3005,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3006,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3007,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3008,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3009,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3010,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3011,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3012,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3013,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3014,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3015,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3016,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3017,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3018,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3019,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3020,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3021,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3022,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3023,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3024,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3025,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3026,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3027,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3028,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3029,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3030,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3031,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3032,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3033,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3034,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3035,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3036,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3037,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3038,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3039,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3040,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3041,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3042,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3043,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3044,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3045,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3046,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3047,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3048,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3049,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3050,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3051,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3052,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3053,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3054,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3055,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3056,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3057,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3058,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3059,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3060,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3061,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3062,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3063,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3064,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3065,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3066,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3067,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3068,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3069,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3070,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3071,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3072,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3073,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3074,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3075,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3076,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3077,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3078,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3079,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3080,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  },
+  {
+    "sequence": 3081,
+    "checks": {
+      "original_stop": true,
+      "alarm_cleared": true,
+      "feedback_alarm_cleared": true,
+      "forced_cleared": true
+    },
+    "passed": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "D:\\anacade\\envs\\yolo\\python.exe",
+    "-X",
+    "utf8",
+    "-u",
+    "set_signal_video_source_20261027.py",
+    "--clip",
+    "113421",
+    "--start",
+    "180",
+    "--end",
+    "261",
+    "--refresh",
+    "60"
+  ],
+  "returncode": 0,
+  "stdout": "{\"pid\": 12296, \"video\": \"D:\\\\BaiduNetdiskDownload\\\\紫光同创杯赛题三参考素材\\\\video_20260929_113421.mp4\", \"source_fps\": 30.0, \"external_display\": \"\\\\\\\\.\\\\DISPLAY2\", \"x\": 2560, \"y\": 0, \"width\": 1920, \"height\": 1080, \"frequency\": 60, \"original_mode\": {\"device\": \"\\\\\\\\.\\\\DISPLAY2\", \"x\": 2560, \"y\": 0, \"width\": 1920, \"height\": 1080, \"frequency\": 30}, \"display_mode_reconfigured\": true, \"frames\": 30, \"loops\": 0, \"state\": \"playing\", \"start_frame\": 180, \"end_frame_exclusive\": 261, \"display_sleep_inhibited_while_playing\": true, \"source_frame\": 209, \"observed_display_mode\": {\"width\": 1920, \"height\": 1080, \"frequency\": 60}, \"updated_unix\": 1793180311.619679}\n",
+  "stderr": ""
+}

@@ -1,0 +1,9 @@
+{
+  "archive": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\basic_finish70_20261028\\road_int8\\inputs.tar.gz",
+  "archive_sha256": "386071980f89c9756d4028b0e8582ec64d1aa42045a2662fda91096cf2e8bcbb",
+  "onnx_sha256": "eeaf7c3f3698436ff533ecfcfe9c3dceb245701e00bb1f283d26609f3eeed9e9",
+  "calibration_samples": 128,
+  "new_weights": false,
+  "quantized": true,
+  "adopted": false
+}

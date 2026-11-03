@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1120" viewBox="0 0 1640 1120">
+<rect width="100%" height="100%" fill="white"/>
+<text x="50" y="73" font-family="Microsoft YaHei,sans-serif" font-size="38" fill="#132b40">视频与检测结果到 FPGA 的两条独立数据流</text>
+<rect x="40" y="160" width="380" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="60" y="204" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">电脑视频源</text>
+<text x="60" y="237" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">官方参考视频循环播放</text>
+<text x="60" y="274" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">HDMI输出；不承担ARM推理</text>
+<rect x="570" y="160" width="470" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="590" y="204" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">盘古 FPGA 视频侧</text>
+<text x="590" y="237" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">HDMI IN → 视频链 → HDMI OUT</text>
+<text x="590" y="274" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">当前0x29固件；不传UART图像</text>
+<rect x="1190" y="160" width="410" height="150" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="1210" y="204" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">MS2130采集卡</text>
+<text x="1210" y="237" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">HDMI输入 → UVC USB3</text>
+<text x="1210" y="274" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">接香橙派USB3口</text>
+<polyline points="420,235 570,235" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="555.5928463623571,228.04055145422032 570,235 555.5928463623571,241.95944854577968" fill="#557991"/>
+<text x="450" y="221" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">HDMI</text>
+<polyline points="1040,235 1190,235" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1175.5928463623572,228.04055145422032 1190,235 1175.5928463623572,241.95944854577968" fill="#557991"/>
+<text x="1070" y="221" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">HDMI</text>
+<rect x="1190" y="490" width="410" height="165" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="1210" y="534" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">香橙派 ARM</text>
+<text x="1210" y="567" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">USB采集 → NPU/CPU识别</text>
+<text x="1210" y="604" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">本地决策与显示 / 独立串口</text>
+<text x="1210" y="641" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">原始图像不经UART回传</text>
+<polyline points="1395,310 1395,490" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1401.9594485457797,475.5928463623572 1395,490 1388.0405514542203,475.5928463623572" fill="#557991"/>
+<text x="1420" y="406" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">USB3 UVC</text>
+<rect x="570" y="490" width="440" height="165" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="590" y="534" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">盘古 FPGA 控制侧</text>
+<text x="590" y="567" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">实体KEY → 驾驶state/epoch</text>
+<text x="590" y="604" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">接收视觉结果、时效/重放保护</text>
+<text x="590" y="641" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">回传实际动作、报警及身份</text>
+<polyline points="1190,540 1010,540" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1024.4071536376428,546.9594485457797 1010,540 1024.4071536376428,533.0405514542203" fill="#557991"/>
+<text x="1040" y="521" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">UART结果</text>
+<polyline points="1010,620 1190,620" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1175.5928463623572,613.0405514542203 1190,620 1175.5928463623572,626.9594485457797" fill="#557991"/>
+<text x="1040" y="656" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">按键/状态</text>
+<rect x="40" y="490" width="380" height="165" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="60" y="534" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">板上指示</text>
+<text x="60" y="567" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">LED4 = 停车或报警综合灯</text>
+<text x="60" y="604" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">不等同独立蜂鸣器证明</text>
+<text x="60" y="641" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">无实际电机/舵机接入</text>
+<polyline points="570,565 420,565" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="434.4071536376428,571.9594485457797 420,565 434.4071536376428,558.0405514542203" fill="#557991"/>
+<text x="440" y="551" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">逻辑指示</text>
+<rect x="1110" y="860" width="490" height="140" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="1130" y="904" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">独立显示器</text>
+<text x="1130" y="937" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">接香橙派HDMI输出</text>
+<text x="1130" y="974" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">显示ARM推理窗口与UART状态</text>
+<polyline points="1355,655 1355,860" fill="none" stroke="#557991" stroke-width="4"/>
+<polygon points="1361.9594485457797,845.5928463623571 1355,860 1348.0405514542203,845.5928463623571" fill="#557991"/>
+<text x="1380" y="771" font-family="Microsoft YaHei,sans-serif" font-size="21" fill="#557991">香橙派HDMI</text>
+<rect x="40" y="860" width="970" height="140" rx="16" fill="#edf4fa" stroke="#54768e" stroke-width="2"/>
+<text x="60" y="904" font-family="Microsoft YaHei,sans-serif" font-size="26" fill="#20384c">辅助链路与边界</text>
+<text x="60" y="937" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">电脑 → USB Cable II → FPGA JTAG，只用于配置；CP2102另接香橙派</text>
+<text x="60" y="974" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#20384c">默认实机入口不读取PC文件作为推理输入；按键提供意图，不提供灯色答案</text>
+<text x="50" y="1073" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#20384c">检测结果ACK与画面OSD可见性分开验收；传感器到显示器端到端延迟尚未实测。</text>
+</svg>

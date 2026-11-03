@@ -1,0 +1,44 @@
+{
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_seg_f721cc098f9b\\weights\\best.pt",
+  "sha256": "3e868134bbf94281381fbad0497236ba493b522f08dfeef0b21a74bf4e111fac",
+  "initialization": "D:\\deeplearning\\ultralytics-8.3.163\\yolov8n-seg.pt",
+  "architecture": "frozen_yolov8n_encoder_FPN32_v1",
+  "names": [
+    "background",
+    "solid_boundary",
+    "dashed_boundary"
+  ],
+  "size": [
+    512,
+    288
+  ],
+  "selected_for_offline_geometry": true,
+  "selected_for_control": false,
+  "ego_lane_association_verified": false,
+  "board_deployed": false,
+  "video_runs": {
+    "video_20260929_113343": {
+      "run": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230406_722861",
+      "results": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230406_722861\\results.json",
+      "summary": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230406_722861\\summary.json",
+      "video": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230406_722861\\preview.mp4"
+    },
+    "video_20260929_113539": {
+      "run": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230439_978919",
+      "results": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230439_978919\\results.json",
+      "summary": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230439_978919\\summary.json",
+      "video": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\lane_boundary_video_20261017_230439_978919\\preview.mp4"
+    }
+  },
+  "position_evaluation": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\lane_segmentation_expansion_20261017\\position_evaluation.json",
+  "report": "D:\\deeplearning\\ultralytics-8.3.163\\车道边界扩数据训练对比_2026-10-17.md",
+  "purpose": "typed_boundary_corridors",
+  "known_limits": [
+    "mixed_style_near_yellow_transverse_bars",
+    "missing_some_solid_boundaries",
+    "no_global_official_false_positive_measurement",
+    "ego_lane_mapping_not_verified"
+  ],
+  "latest_expansion_comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\lane_segmentation_expansion_20261017\\comparison.json",
+  "expansion_promoted_for_offline_geometry": true
+}

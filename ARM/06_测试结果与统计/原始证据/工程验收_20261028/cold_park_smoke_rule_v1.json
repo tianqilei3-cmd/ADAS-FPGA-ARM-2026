@@ -1,0 +1,10 @@
+{
+  "scope": "Assisted cold restore parked smoke; separate from physical drive proof",
+  "required_frames": 30,
+  "minimum_ratio": 1,
+  "maximum_unsafe": 0,
+  "profile": 41,
+  "require_frame_and_epoch_identity": true,
+  "require_capture_valid": true,
+  "maximum_decoded_age_ms": 500
+}

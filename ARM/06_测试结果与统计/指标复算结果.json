@@ -1,0 +1,126 @@
+{
+  "physical_cases": [
+    {
+      "case": "实体KEY6绿行",
+      "frames": 90,
+      "successes": 65,
+      "ratio": 0.7222222222222222,
+      "unsafe_frames": 0,
+      "observations_sha256": "be7f868e5b3a6ff98190ad4cfe9d3720d4d0d7b72f5f944f4061d0bbd740c2b8",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_084737_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    },
+    {
+      "case": "实体KEY6停车",
+      "frames": 90,
+      "successes": 90,
+      "ratio": 1.0,
+      "unsafe_frames": 0,
+      "observations_sha256": "134aa1756226792b3b9b259edc7c5a9de03bd76fa3d4e6f1e87dff2e2d2402b2",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085102_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    },
+    {
+      "case": "实体KEY6红停",
+      "frames": 90,
+      "successes": 89,
+      "ratio": 0.9888888888888889,
+      "unsafe_frames": 0,
+      "observations_sha256": "a5f5b204c0454eb6a64fd6d4d5daff132bcab5d2f1c112f8f32c371cbddcbcaa",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_085727_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    },
+    {
+      "case": "实体KEY7强行红灯报警",
+      "frames": 90,
+      "successes": 88,
+      "ratio": 0.9777777777777777,
+      "unsafe_frames": 0,
+      "observations_sha256": "34ebafc735635cadfe05e2b6078a0a13490d09bd642f1989a6df1a5adb311f3a",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_090840_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    },
+    {
+      "case": "实体KEY6停车清除报警",
+      "frames": 90,
+      "successes": 89,
+      "ratio": 0.9888888888888889,
+      "unsafe_frames": 0,
+      "observations_sha256": "730530d5450c49ba70eb2b395414f4e06b00674669668b42841b685cebe1a07f",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_091018_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    },
+    {
+      "case": "辅助冷恢复后实体KEY6绿行",
+      "frames": 90,
+      "successes": 66,
+      "ratio": 0.7333333333333333,
+      "unsafe_frames": 0,
+      "observations_sha256": "7a994fa546774c2b1199e7cf84cee16fbfa6c82e606057187f6a2410142bcc19",
+      "path": "06_测试结果与统计/原始证据/实体按键_20261028/20261028_094032_UTC/observations.jsonl",
+      "criterion": "all checks per frame; first transition/failures retained"
+    }
+  ],
+  "current_hdmi_short_test": {
+    "frames": 76,
+    "elapsed_seconds": 24.980369806289673,
+    "inference_pipeline_fps": 3.0423889073437325,
+    "rows": 76,
+    "state_acknowledged": 76,
+    "input_quality_valid": 76,
+    "final_age_ms": {
+      "mean": 373.0122142894863,
+      "median": 370.918670500032,
+      "p95": 471.0623110004235,
+      "minimum": 310.95457500032353,
+      "maximum": 495.7705739998346
+    },
+    "profile_mean_ms": {
+      "capture_decode_age_ms": 60.89462717106567,
+      "quality_ms": 25.36931413152687,
+      "road_ms": 56.793180052624706,
+      "boundary_model_ms": 163.21364352637303,
+      "boundary_post_ms": 57.44995998688146,
+      "uart_ms": 18.273535671070068,
+      "render_ms": 9.978667736827687,
+      "final_age_ms": 373.0122142894863
+    },
+    "capture_recoveries": 0,
+    "source_modes": [
+      "live_capture"
+    ],
+    "scene_modes": [
+      "boundary"
+    ],
+    "sensor_to_display_latency_measured": false,
+    "freshness_clock": "userspace decode completion"
+  },
+  "lamp_PC_baseline": [
+    {
+      "view": "clean",
+      "tp": 148,
+      "fp": 16,
+      "fn": 52,
+      "precision": 0.9024390243902439,
+      "recall": 0.74,
+      "f1": 0.8131868131868132,
+      "truth": 200,
+      "green_tp": 75,
+      "green_truth": 96
+    },
+    {
+      "view": "capture_hard",
+      "tp": 145,
+      "fp": 19,
+      "fn": 55,
+      "precision": 0.8841463414634146,
+      "recall": 0.725,
+      "f1": 0.7967032967032966,
+      "truth": 200,
+      "green_tp": 77,
+      "green_truth": 96
+    }
+  ],
+  "independent_samples_claimed": false,
+  "model_training_or_hardware_access_performed": false
+}

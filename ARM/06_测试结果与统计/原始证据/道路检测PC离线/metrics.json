@@ -1,0 +1,113 @@
+{
+  "created": "2026-10-07T04:16:41.388333+08:00",
+  "weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\weights\\best.pt",
+  "training_epochs": 20,
+  "training_imgsz": 640,
+  "initial_weights": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage3\\weights\\best.pt",
+  "validation": {
+    "data": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\data.yaml",
+    "image_count": 1000,
+    "imgsz": 640,
+    "conf": 0.001,
+    "iou": 0.7
+  },
+  "overall": {
+    "metrics/precision(B)": 0.42881526466831554,
+    "metrics/recall(B)": 0.33282060387018514,
+    "metrics/mAP50(B)": 0.3265497613860622,
+    "metrics/mAP50-95(B)": 0.1574168163948976,
+    "fitness": 0.17433011089401407
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "traffic_light",
+      "chinese_name": "交通灯",
+      "instances": 2817,
+      "precision": 0.4979913445515085,
+      "recall": 0.24192491426058402,
+      "AP50": 0.2555488359988779,
+      "AP50_95": 0.08316750205506822
+    },
+    {
+      "class_id": 1,
+      "name": "vehicle",
+      "chinese_name": "车辆",
+      "instances": 10669,
+      "precision": 0.537483001943817,
+      "recall": 0.6311744305933077,
+      "AP50": 0.6286938928143733,
+      "AP50_95": 0.3716386817053966
+    },
+    {
+      "class_id": 2,
+      "name": "two_wheeler",
+      "chinese_name": "两轮车",
+      "instances": 111,
+      "precision": 0.160536793606572,
+      "recall": 0.10810810810810811,
+      "AP50": 0.06569334739976822,
+      "AP50_95": 0.023407240095248492
+    },
+    {
+      "class_id": 3,
+      "name": "person",
+      "chinese_name": "行人",
+      "instances": 1334,
+      "precision": 0.5192499185713645,
+      "recall": 0.35007496251874065,
+      "AP50": 0.35626296933122936,
+      "AP50_95": 0.1514538417238771
+    }
+  ],
+  "speed_ms_per_image": {
+    "preprocess": 0.3347125000655069,
+    "inference": 36.77087840013701,
+    "loss": 0.0005171999800950289,
+    "postprocess": 0.739660799918056
+  },
+  "limitations": [
+    "小规模验证集，不能代表比赛或实路部署效果。",
+    "精确率与召回率由验证程序选择置信度工作点，mAP 不是图片识别正确率。",
+    "CPU 验证耗时不是开发板或 FPGA 的实时性能。",
+    "不包含灯色/方向、车道线、斑马线和交通锥。"
+  ],
+  "examples": [
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1cd1e94-549d0bfe.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1cd1e94-549d0bfe.jpg",
+      "detections": 7,
+      "confidence": 0.25
+    },
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1d0a191-5490450b.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1d0a191-5490450b.jpg",
+      "detections": 9,
+      "confidence": 0.25
+    },
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1ceb32e-813f84b2.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1ceb32e-813f84b2.jpg",
+      "detections": 3,
+      "confidence": 0.25
+    },
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1d22449-117aa773.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1d22449-117aa773.jpg",
+      "detections": 7,
+      "confidence": 0.25
+    },
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1d59b1f-a38aec79.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1d59b1f-a38aec79.jpg",
+      "detections": 2,
+      "confidence": 0.25
+    },
+    {
+      "source": "D:\\deeplearning\\ultralytics-8.3.163\\datasets\\adas\\prepared\\bdd100k_4class_5000_1000\\images\\val\\b1d7b3ac-995f9d8a.jpg",
+      "comparison": "D:\\deeplearning\\ultralytics-8.3.163\\runs\\adas\\bdd100k_4class_stage42\\report\\examples\\b1d7b3ac-995f9d8a.jpg",
+      "detections": 5,
+      "confidence": 0.25
+    }
+  ]
+}

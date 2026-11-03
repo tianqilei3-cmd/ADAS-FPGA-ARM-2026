@@ -1,0 +1,8 @@
+{
+  "case": "functional_and_assisted_cold_sequence_finished",
+  "observer_exec_session": null,
+  "runtime_pid": 4075,
+  "driver": "signal_stop",
+  "next_action": "FPGA full timing remediation and other scene/end-to-end measurements",
+  "overall_engineering_passed": false
+}

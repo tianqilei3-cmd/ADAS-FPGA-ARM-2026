@@ -1,0 +1,200 @@
+{
+  "boot_id": "77a7ee75-4fd1-4bf0-82bd-0f33f20be0ad",
+  "verified_files": [
+    "ack_protocol.py",
+    "arm_scene_a04.py",
+    "basic70_wire.py",
+    "batched_signal_attributes.py",
+    "boundary_cpu_worker.py",
+    "boundary_policy.py",
+    "boundary_runtime.py",
+    "boundary_softmax.py",
+    "capture_quality.py",
+    "compact_boundary_post.py",
+    "competition_scene_logic.py",
+    "content_guard.py",
+    "current_lamp_housing.py",
+    "fast_types.py",
+    "geometry_cpu_worker.py",
+    "geometry_lamp_proposals.py",
+    "head_continuity.py",
+    "immutable_identity.py",
+    "lamp_attrs_portable.py",
+    "lamp_attrs_preprocess.py",
+    "lamp_cpu_worker.py",
+    "lane_boundary_instances.py",
+    "lane_boundary_instances_v2.py",
+    "lane_boundary_postprocess.py",
+    "lane_boundary_segments_v3.py",
+    "lane_boundary_wide_recovery.py",
+    "lane_observed_dashed_geometry.py",
+    "lane_observed_yellow_geometry.py",
+    "lane_observed_yellow_pairs.py",
+    "lane_support.py",
+    "latest_live_capture_20261027.py",
+    "light_metadata.json",
+    "light_pipeline.py",
+    "light_roi_common.py",
+    "npu_signal_attributes.py",
+    "physical_keys.py",
+    "preparation.json",
+    "road_hazard_guard.py",
+    "row_boundary_post.py",
+    "run_lane_demo.py",
+    "run_unified_demo.py",
+    "signal_engine.py",
+    "signal_s3_policy.py",
+    "transport_age_guard.py",
+    "uart_basic70_confirmed.py",
+    "uart_confirmed.py",
+    "uart_v2.py",
+    "unified_policy.py",
+    "verify_boundary_cpu.py",
+    "verify_boundary_softmax.py",
+    "verify_capture_quality.py",
+    "verify_compact_boundary.py",
+    "verify_current_housing.py",
+    "verify_geometry_proposals.py",
+    "verify_geometry_worker.py",
+    "verify_immutable_identity.py",
+    "verify_lamp_cpu_protocol.py",
+    "verify_lane_keys.py",
+    "verify_patch_quality.py",
+    "verify_row_boundary.py",
+    "verify_sparse_road.py",
+    "verify_transport_age.py",
+    "verify_unified_policy.py",
+    "vision_common.py",
+    "models/boundary_fp.rknn",
+    "models/road_rect_fp.rknn",
+    "models/lamp_attributes.onnx",
+    "models/color_guard_fp.rknn",
+    "models/lamp_types_fp.rknn",
+    "models/lamp_rect_fp_heads.rknn",
+    "models/lamp_aligned_fp_heads.rknn",
+    "models/road_heads_fp.rknn",
+    "models/road_int8_heads.rknn",
+    "models/color_guard.onnx",
+    "models/lamp_types_whole.onnx",
+    "models/color_guard_batch3_fp.rknn",
+    "models/lamp_types_batch3_fp.rknn",
+    "models/color_guard_batch2_fp.rknn",
+    "models/lamp_types_batch2_fp.rknn"
+  ],
+  "manifest_sha256": "09c4795d9457f6aff117643234edb6c7fcdd12395a5d7268ec11c32aba0005dd",
+  "preflight": {
+    "link_preflight_passed": true,
+    "stages": [
+      {
+        "stage": "legacy_tiles",
+        "seconds": 5.144904699999984,
+        "valid_frames": 24,
+        "settling_timeouts": [],
+        "negotiated": {
+          "event": "opened",
+          "source": "/dev/video0",
+          "requested": {
+            "width": 1280,
+            "height": 720,
+            "fps": 10,
+            "fourcc": "YUYV"
+          },
+          "actual": {
+            "width": 1280.0,
+            "height": 720.0,
+            "fps": 10.0,
+            "fourcc": 1448695129
+          },
+          "set_property_accepted": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "driver_buffer_bound_not_proven": true,
+          "raw_YUYV_ROI": true,
+          "capture_roi": [
+            0,
+            0,
+            0.5,
+            0.5
+          ],
+          "timestamp_clock": "userspace_decode_completion_not_sensor_timestamp"
+        },
+        "last_quality": {
+          "valid": true,
+          "reason": "spatial_content_present",
+          "preprocessing": "12_native_patches_median3_quality_only_model_pixels_unchanged",
+          "robust_channel_range": 90.0,
+          "salt_noise_fraction": 0.005925925925925926,
+          "maximum_impulse_fraction": 0.3,
+          "native_patch_count": 12
+        }
+      },
+      {
+        "stage": "full_raw",
+        "seconds": 4.07036453500001,
+        "valid_frames": 24,
+        "settling_timeouts": [],
+        "negotiated": {
+          "event": "opened",
+          "source": "/dev/video0",
+          "requested": {
+            "width": 1280,
+            "height": 720,
+            "fps": 10,
+            "fourcc": "YUYV"
+          },
+          "actual": {
+            "width": 1280.0,
+            "height": 720.0,
+            "fps": 10.0,
+            "fourcc": 1448695129
+          },
+          "set_property_accepted": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "driver_buffer_bound_not_proven": true,
+          "raw_YUYV_ROI": true,
+          "capture_roi": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "timestamp_clock": "userspace_decode_completion_not_sensor_timestamp"
+        },
+        "last_quality": {
+          "valid": true,
+          "reason": "spatial_content_present",
+          "preprocessing": "12_native_patches_median3_quality_only_model_pixels_unchanged",
+          "robust_channel_range": 179.3,
+          "salt_noise_fraction": 0.001851851851851852,
+          "maximum_impulse_fraction": 0.3,
+          "native_patch_count": 12
+        }
+      }
+    ],
+    "park_feedback": {
+      "version": 3,
+      "camera_id": 0,
+      "frame_id": 0,
+      "epoch": 0,
+      "scene": 0,
+      "action": 1,
+      "alarm_code": 0,
+      "decision_valid": false,
+      "link_timeout": false,
+      "seen_extended": false,
+      "reject_reason": 0,
+      "build_tag": 41,
+      "capabilities": 127
+    },
+    "cold_power_cycle_proven_by_this_test": false
+  }
+}

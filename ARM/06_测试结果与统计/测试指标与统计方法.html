@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>性能指标与统计方法</title><style>body{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;line-height:1.8;max-width:1100px;margin:36px auto;padding:0 28px;color:#16232d;background:#fff}h1{font-size:30px}h2{margin-top:38px}table{border-collapse:collapse;width:100%;margin:20px 0;font-size:14px}th,td{border:1px solid #cad3db;padding:10px 12px;text-align:left;vertical-align:top}th{background:#eaf0f5}tr:nth-child(even){background:#f8fafc}code{font-family:Consolas,monospace;word-break:break-word;background:#f0f3f6;padding:1px 4px}pre{white-space:pre-wrap;background:#f0f3f6;padding:20px;line-height:1.55}pre code{padding:0}img{max-width:100%;height:auto}a{color:#145b8e}@media print{body{max-width:none;margin:0;padding:0;font-size:11pt}h1,h2,h3{break-after:avoid}tr,img,pre{break-inside:avoid}a{color:inherit;text-decoration:none}}</style><body><h1>性能指标与统计方法</h1>
+<p>数据冻结到2026年11月1日，11月2日仅依据随包原始记录复算。全流程不连接串口、采集卡或运行神经网络。</p>
+<h2>分辨率与帧率</h2>
+<table>
+<tr><th>项目</th><th>数值</th><th>统计口径</th></tr>
+<tr><td>UVC采集</td><td>1280×720、YUYV、协商10 FPS</td><td>驱动协商结果；未作为独立硬件帧率计数</td></tr>
+<tr><td>道路网络输入</td><td>NCHW 1×3×384×640</td><td>实际导出网络形状</td></tr>
+<tr><td>矩形灯网络输入</td><td>NCHW 1×3×256×640</td><td>capture_ft矩形头</td></tr>
+<tr><td>类型边界输入</td><td>宽512×高288</td><td>转换导出记录</td></tr>
+<tr><td>颜色/灯型批分类</td><td>batch2、128×128</td><td>固定批量NPU模型</td></tr>
+<tr><td>显示画布</td><td>1280×720</td><td>GUI内部绘图尺寸，不是显示器物理时序</td></tr>
+<tr><td>协议框坐标</td><td>1920×1080</td><td>按当前输入宽高缩放到协议画布</td></tr>
+<tr><td>最新短测吞吐</td><td>3.0424 帧/秒</td><td>76个完成结果 / 24.980370秒，boundary场景</td></tr>
+</table>
+<p>11月1日电脑逻辑显示为2560×1600/120Hz，只有一个活动主屏；新播放器没有改显示模式。计时标记证明画面到达采集端，但没有测量实际HDMI电气时序，因此不把电脑逻辑数字填写为FPGA已通过的输入时序。10月28日工程记录另有1920×1080/60Hz源设置，两次实验分开记录。</p>
+<h2>时延</h2>
+<p>从用户态解码完成的单调时钟 <code>decoded_at</code> 到结果准备/绘制前后的 <code>final_age_ms</code>：均值373.012 ms、中位数370.919 ms、P95 471.062 ms、最小310.955 ms、最大495.771 ms。P95采用升序第ceil(0.95N)个样本，不做插值。</p>
+<p>这里包含已记录的图像年龄及处理开销，不含已知的传感器曝光、完整HDMI传输、采集卡缓存、显示扫描时延。没有同步硬件标记，不给出端到端延迟。摄像源帧号也未与FPGA像素帧号完成硬件对应证明。</p>
+<p>分项均值见 <code>指标复算结果.json</code> 的profile_mean_ms。若模块有重叠执行，分项不能随意求和作为另一项端到端测量。</p>
+<h2>短测通信与图像有效率</h2>
+<p>76/76次状态发送收到当前身份的确认；76/76帧通过输入质量检查，采集重连0。输入质量检查是空间内容和噪声门槛，不是真值识别正确率。ACK比例也不是目标检测精度。</p>
+<h2>实体闭环功能</h2>
+<table>
+<tr><th>实体功能用例</th><th>成功帧/总帧</th><th>比例</th><th>错误放行记录</th></tr>
+<tr><td>实体KEY6绿行</td><td>65/90</td><td>72.22%</td><td>0</td></tr>
+<tr><td>实体KEY6停车</td><td>90/90</td><td>100.00%</td><td>0</td></tr>
+<tr><td>实体KEY6红停</td><td>89/90</td><td>98.89%</td><td>0</td></tr>
+<tr><td>实体KEY7强行红灯报警</td><td>88/90</td><td>97.78%</td><td>0</td></tr>
+<tr><td>实体KEY6停车清除报警</td><td>89/90</td><td>98.89%</td><td>0</td></tr>
+<tr><td>辅助冷恢复后实体KEY6绿行</td><td>66/90</td><td>73.33%</td><td>0</td></tr>
+</table>
+<p>每项取按键转换后的连续90帧，首帧转换和未确认均保留。成功需要全部检查通过；功能分母为固定90，而非只计算接受输出的帧数。报警清除还要求ARM报警false、FPGA alarm_code=0及forced=false。没有剔除失败帧，没有将某项70%门槛当成官方统一合格线。</p>
+<p>同一视频连续帧有相关性；这些比例仅描述固定片段。错误放行是评分器定义的违规集合为空，不能推导未知道路的误放行风险为零。</p>
+<h2>灯色检测与道路检测</h2>
+<p>灯色检测原阈值conf=0.25、NMS IoU=0.7、真值匹配IoU=0.5。一对一匹配后P=TP/(TP+FP)、R=TP/(TP+FN)、F1=2TP/(2TP+FP+FN)。clean为TP148、FP16、FN52；退化为TP145、FP19、FN55。原验证104个裁剪图、200个真值；图像存在同视频及增强相关，不能按104个独立路口计数。</p>
+<p>道路模型历史PC验证为1000张BDD图，conf扫描低阈值0.001，NMS IoU0.7；P/R按Ultralytics验证程序选取工作点，mAP50和mAP50–95是PR曲线下面积，不能当逐图正确率。P42.88%、R33.28%、mAP50 32.65%、mAP50–95 15.74%。该报告属于导出前源模型，INT8版本另有输出一致性检查，未做同规模重新标注的部署精度评估。</p>
+<p>导航卡片4个真值4个正确检出来自极小、相关的PC验证集，未在ARM统一入口联调。正文不把它写成导航100%泛化识别。</p>
+<h2>资源与缺测项</h2>
+<p>1280×720×2字节×10帧×8=147.456 Mb/s，仅为YUYV名义像素负载。115200、8N1理论每方向上限11520字节/秒，不代表实测有效吞吐。整机功耗、全部进程与NPU内存峰值、独立硬件帧率、曝光到屏幕延迟未完成测量。</p>
+<h2>复算命令</h2>
+<p>在本包根目录：</p>
+<pre><code>
+python3 06_测试结果与统计/recompute_metrics.py
+
+</code></pre>
+<p>脚本读取原始JSON/JSONL，重新检查图像、按键、FPGA身份与动作并复算比例、FPS、帧龄和P/R；预期计数不一致会报错。仅需Python标准库。另保留原评分器源码便于检查检查项定义。</p></body></html>

@@ -1,0 +1,17 @@
+{
+  "scope": "Synthetic context packets testing FPGA lease only; no image/physical-key claim",
+  "profile": 41,
+  "age_units": [
+    0,
+    40,
+    80
+  ],
+  "age_unit_ms": 5,
+  "lease_ms": 500,
+  "query_does_not_renew_lease": true,
+  "expiration_early_tolerance_ms": 25,
+  "expiration_late_tolerance_ms": 50,
+  "requires_stop_timeout_invalid": true,
+  "requires_replay_and_expired_context_rejection": true,
+  "source_or_model_changed": false
+}

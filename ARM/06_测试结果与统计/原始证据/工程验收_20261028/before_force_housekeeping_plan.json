@@ -1,0 +1,42 @@
+{
+  "state": "running",
+  "key_state": 16,
+  "key_sequence": 101,
+  "controls": {
+    "mode": "signal",
+    "lane_id": "straight_virtual_lane",
+    "movement": "straight",
+    "requested_motion": "go",
+    "requested_turn": "none",
+    "forced": false
+  },
+  "feedback": {
+    "version": 3,
+    "camera_id": 0,
+    "frame_id": 58392,
+    "epoch": 101,
+    "scene": 1,
+    "action": 1,
+    "alarm_code": 0,
+    "decision_valid": true,
+    "link_timeout": false,
+    "seen_extended": true,
+    "reject_reason": 0,
+    "build_tag": 41,
+    "capabilities": 127
+  },
+  "uart": true,
+  "free_bytes": 557543424,
+  "candidates": [
+    {
+      "path": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0002.jsonl",
+      "bytes": 67120451,
+      "mtime_ns": 1793169935950080957
+    },
+    {
+      "path": "/home/orangepi/adas2026/signal_recovered_20261028/results/20261028_055016/detections_0003.jsonl",
+      "bytes": 67122399,
+      "mtime_ns": 1793171033868462268
+    }
+  ]
+}
